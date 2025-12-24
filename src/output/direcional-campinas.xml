@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imoveis>
+  <imovel>
+    <titulo>Cores da Mata Mangará</titulo>
+    <status>Em obras</status>
+    <localizacao>
+      <bairro>Santa Genebra</bairro>
+      <cidade>Campinas</cidade>
+      <estado>SP</estado>
+    </localizacao>
+    <imagem_principal>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Guarita-CoresdaMataMangara.jpg</imagem_principal>
+    <galeria>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaAdulto-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaKids-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/fachada-cores-da-mata.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Guarita-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/meio-2dorm-46m.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Guarita-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaAdulto-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaKids-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/fachada-cores-da-mata.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-SalaodeFestas-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Churrasqueira-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-ApoioChurrasqueira-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-EspacoGourmet-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-SportBar-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Lounge-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Garden-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Fachada-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Living01-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Living02-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Lavanderia-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-MiniMarket-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Coworking-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Quadra-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Playground-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Academia-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Fitness-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PetPlace-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Bicicletario-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-CarShare-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-AereaLazer-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Fotoinsercao-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Guarita-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaAdulto-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaKids-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/fachada-cores-da-mata.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-SalaodeFestas-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Churrasqueira-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-ApoioChurrasqueira-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-EspacoGourmet-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-SportBar-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Lounge-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Garden-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Fachada-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Living01-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Living02-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Lavanderia-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-MiniMarket-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Coworking-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Quadra-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Playground-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Academia-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Fitness-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PetPlace-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Bicicletario-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-CarShare-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-AereaLazer-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Fotoinsercao-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/meio-2dorm-46m.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Planta-ApartamentoTipoMeioPCD-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/garden_meio-2dorm-46m.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/ponta-2dorm-45m.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/garden_ponta-2dorm-45m.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Planta-Implantacao-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/meio-2dorm-46m.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Planta-ApartamentoTipoMeioPCD-CoresdaMataMangara.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/garden_meio-2dorm-46m.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/ponta-2dorm-45m.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/garden_ponta-2dorm-45m.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2025/04/Planta-Implantacao-CoresdaMataMangara.jpg</imagem>
+    </galeria>
+    <tipologias>
+      <tipologia>45m²</tipologia>
+    </tipologias>
+    <dormitorios>
+      <dormitorio>1 e 2 Quartos</dormitorio>
+    </dormitorios>
+    <diferenciais>
+      <diferencial>Lazer Completo</diferencial>
+      <diferencial>Espaço Gourmet</diferencial>
+      <diferencial>Espaço Fitness</diferencial>
+      <diferencial>Localização Privilegiada</diferencial>
+      <diferencial>Suíte</diferencial>
+      <diferencial>Qualidade de Vida</diferencial>
+      <diferencial>Piscina</diferencial>
+      <diferencial>Varanda</diferencial>
+      <diferencial>Espaço Kids</diferencial>
+      <diferencial>Ótimo Investimento</diferencial>
+    </diferenciais>
+    <url_origem>https://www.direcional.com.br/empreendimentos/cores-da-mata-mangara/</url_origem>
+  </imovel>
+  <imovel>
+    <titulo>Rise Condomínio Clube</titulo>
+    <status>Em Obras</status>
+    <localizacao>
+      <bairro>Região do Parque Prado</bairro>
+      <cidade>Campinas</cidade>
+      <estado>SP</estado>
+    </localizacao>
+    <imagem_principal>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Guarita-RiseCondominioClube.jpg</imagem_principal>
+    <galeria>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Piscina-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Living-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Guarita-RiseCondominioClube.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Planta-ApartamentoPCD-RiseCondominioClube.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Guarita-RiseCondominioClube.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Piscina-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Living-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-LoungeExterno-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Churrasqueira-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-SalaodeFestas-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-SportBar-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-SaladeJogos-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Coworking-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-MiniMercado-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Brinquedoteca-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Playground-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Playbaby-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-PetPlace-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Academia-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Pilates-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-CarWash-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-FotoInsercao-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Guarita-RiseCondominioClube.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Piscina-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Living-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-LoungeExterno-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Churrasqueira-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-SalaodeFestas-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-SportBar-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-SaladeJogos-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Coworking-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-MiniMercado-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Brinquedoteca-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Playground-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Playbaby-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-PetPlace-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Academia-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Pilates-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-CarWash-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-FotoInsercao-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Planta-ApartamentoPCD-RiseCondominioClube.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Planta-ApartamentoTipoMeio-RiseCondominioClube.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Planta-ApartamentoTipoPonta-RiseCondominioClube.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Planta-Masterplan-RiseParquePrado.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Planta-ApartamentoPCD-RiseCondominioClube.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Planta-ApartamentoTipoMeio-RiseCondominioClube.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Planta-ApartamentoTipoPonta-RiseCondominioClube.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2024/08/Planta-Masterplan-RiseParquePrado.jpg</imagem>
+    </galeria>
+    <tipologias>
+      <tipologia>43,73m²</tipologia>
+    </tipologias>
+    <dormitorios>
+      <dormitorio>2 Quartos</dormitorio>
+    </dormitorios>
+    <diferenciais>
+      <diferencial>Lazer Completo</diferencial>
+      <diferencial>Varanda</diferencial>
+      <diferencial>Condomínio Fechado</diferencial>
+      <diferencial>Comércios no local</diferencial>
+      <diferencial>Qualidade de Vida</diferencial>
+      <diferencial>Espaço Fitness</diferencial>
+      <diferencial>Condições de Pagamento Facilitadas</diferencial>
+      <diferencial>Piscina</diferencial>
+    </diferenciais>
+    <url_origem>https://www.direcional.com.br/empreendimentos/rise-condominio-clube/</url_origem>
+  </imovel>
+  <imovel>
+    <titulo>Seleto Amoreiras: apartamento nas Amoreiras, Campinas</titulo>
+    <status>Obras avançadas</status>
+    <localizacao>
+      <bairro>Vila Palácios</bairro>
+      <cidade>Campinas</cidade>
+      <estado>SP</estado>
+    </localizacao>
+    <imagem_principal>https://www.direcional.com.br/wp-content/uploads/2023/07/Portaria_SeletoAmoreiras.jpg</imagem_principal>
+    <galeria>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/piscina-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-2-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/Portaria_SeletoAmoreiras.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/Portaria_SeletoAmoreiras.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/piscina-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-2-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/salao-de-festas-Breve-Lancamento-Amoreira-Direcional-tura-2q-meio-2pav-be-up-riva.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/bicicletario-Breve-Lancamento-Amoreira-Direcional.png</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/bricolagem-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/playground-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/pet-place-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/fitness-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/quadra-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/praca-2-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/praca-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/redario-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/garden-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/Apto-sala-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/Apto-varanda-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/car-washie-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/fachada-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/Portaria_SeletoAmoreiras.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/piscina-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-2-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/salao-de-festas-Breve-Lancamento-Amoreira-Direcional-tura-2q-meio-2pav-be-up-riva.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/bicicletario-Breve-Lancamento-Amoreira-Direcional.png</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/bricolagem-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/playground-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/pet-place-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/fitness-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/quadra-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/praca-2-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/praca-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/redario-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/garden-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/Apto-sala-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/Apto-varanda-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/car-washie-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2023/07/fachada-Breve-Lancamento-Amoreira-Direcional.jpg</imagem>
+    </galeria>
+    <diferenciais>
+      <diferencial>Lazer Completo</diferencial>
+      <diferencial>Opções na Planta</diferencial>
+      <diferencial>Localização Privilegiada</diferencial>
+      <diferencial>Varanda</diferencial>
+      <diferencial>Condomínio Fechado</diferencial>
+      <diferencial>Acabamento Diferenciado</diferencial>
+      <diferencial>Segurança 24 h</diferencial>
+      <diferencial>Comércios no local</diferencial>
+      <diferencial>Qualidade de Vida</diferencial>
+      <diferencial>Número de Vagas na Garagem</diferencial>
+      <diferencial>Utilize seu FGTS</diferencial>
+      <diferencial>Condições de Pagamento Facilitadas</diferencial>
+      <diferencial>Diversas opções de transporte público</diferencial>
+      <diferencial>Piscina</diferencial>
+    </diferenciais>
+    <url_origem>https://www.direcional.com.br/empreendimentos/seleto-amoreiras/</url_origem>
+  </imovel>
+  <imovel>
+    <titulo>Reserva Antonieta</titulo>
+    <status>Obras Avançadas</status>
+    <localizacao>
+      <bairro>Chácara Antonieta</bairro>
+      <cidade>Limeira</cidade>
+      <estado>SP</estado>
+    </localizacao>
+    <imagem_principal>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Fachada-ReservaAntonieta.jpg</imagem_principal>
+    <galeria>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/PISCINA-ADULTO-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Living-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/GUARITA-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Fachada-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-MEIO-5167-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Fachada-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/PISCINA-ADULTO-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Living-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/GUARITA-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/BICICLETARIO-COM-BIKESHARING-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/CHURRASQUEIRA-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Coworking-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/ESPACO-GOURMET-3-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-EspacoGourmet02-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-EspacoGourmet03-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/PISCINAS-ADULTO-E-INFANTIL-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-MiniMercado-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/PLAYGROUND-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/ACADEMIA-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Fachada-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/PISCINA-ADULTO-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Living-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/GUARITA-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/BICICLETARIO-COM-BIKESHARING-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/CHURRASQUEIRA-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Coworking-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/ESPACO-GOURMET-3-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-EspacoGourmet02-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-EspacoGourmet03-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/PISCINAS-ADULTO-E-INFANTIL-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-MiniMercado-ReservaAntonieta.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/PLAYGROUND-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/ACADEMIA-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-MEIO-5167-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-MEIO-5069-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-MEIO-GARDEN-7566-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-MEIO-GARDEN-5079-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-PNE-5069-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-PONTA-4779-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-PONTA-GARDEN-8190-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-PONTA-GARDEN-7601-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/IMPLANTACAO-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-MEIO-5167-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-MEIO-5069-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-MEIO-GARDEN-7566-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-MEIO-GARDEN-5079-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-PNE-5069-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-PONTA-4779-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-PONTA-GARDEN-8190-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/APARTAMENTO-PONTA-GARDEN-7601-m²-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+      <imagem>https://www.direcional.com.br/wp-content/uploads/2021/09/IMPLANTACAO-RESERVA-ANTONIETA-DIRECIONAL.jpg</imagem>
+    </galeria>
+    <tipologias>
+      <tipologia>47,79m²</tipologia>
+      <tipologia>51,67m²</tipologia>
+    </tipologias>
+    <dormitorios>
+      <dormitorio>1 e 2 Quartos</dormitorio>
+    </dormitorios>
+    <diferenciais>
+      <diferencial>Ao lado da Unicamp</diferencial>
+      <diferencial>Coworking</diferencial>
+      <diferencial>Mini Mercado</diferencial>
+      <diferencial>Bike Sharing</diferencial>
+      <diferencial>Piscina Adulto e Infantil</diferencial>
+      <diferencial>Varanda com Ponto Elétrico</diferencial>
+      <diferencial>Lazer Completo</diferencial>
+      <diferencial>Apenas Duas Torres</diferencial>
+      <diferencial>Previsão de Wi-Fi nas Áreas Comuns</diferencial>
+    </diferenciais>
+    <url_origem>https://www.direcional.com.br/empreendimentos/reserva-antonieta/</url_origem>
+  </imovel>
+</imoveis>
