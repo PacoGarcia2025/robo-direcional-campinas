@@ -1,0 +1,37 @@
+name: Robo Direcional Campinas
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-robo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar codigo do repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Instalar Playwright
+        run: npx playwright install --with-deps
+
+      - name: Executar robo
+        run: node src/index.js
+
+      - name: Commit e push automatico
+        run: |
+          git config user.name "robo-direcional"
+          git config user.email "robo@github.com"
+          git add src/output/*.json src/output/*.xml
+          git commit -m "Atualizacao automatica Direcional" || echo "Sem alteracoes"
+          git push
+
