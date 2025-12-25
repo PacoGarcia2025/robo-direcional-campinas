@@ -1,7 +1,7 @@
 // src/index.js
 import runDirecional from "./robots/direcional.js";
 import enrichDirecional from "./enrich/index.js";
-import { generateXml } from "./generateXml.js";
+import generateXml from "./generateXml.js";
 
 async function main() {
   try {
