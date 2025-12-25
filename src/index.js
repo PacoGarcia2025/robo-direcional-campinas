@@ -1,32 +1,37 @@
-// ===============================
-// ARQUIVO: src/index.js
-// PIPELINE FINAL – SEM node-fetch
-// ===============================
-
+// src/index.js
 import runDirecional from "./robots/direcional.js";
-import enrich from "./enrich/index.js";
-import { refineImages } from "./images/index.js";
-import generateXml from "./generateXml.js";
-import { execSync } from "child_process";
+import { enrichDirecional } from "./enrich/index.js";
+import { generateXml } from "./generateXml.js";
 
-const RAW = "src/output/direcional-campinas.json";
-const ENRICHED = "src/output/direcional-enriched.json";
-const IMAGES = "src/output/direcional-images.json";
-const XML = "src/output/direcional-campinas.xml";
+async function main() {
+  try {
+    console.log("🚀 Iniciando Robô Direcional Campinas");
 
-async function run() {
-  await runDirecional();
-  await enrich(RAW, ENRICHED);
-  await refineImages(ENRICHED, IMAGES);
-  generateXml(IMAGES, XML);
+    // 1️⃣ Extração (Playwright)
+    const baseData = await runDirecional();
 
-  execSync("git add .", { stdio: "inherit" });
-  execSync('git commit -m "Direcional Campinas - atualização automática"', {
-    stdio: "inherit"
-  });
-  execSync("git push", { stdio: "inherit" });
+    if (!baseData || baseData.length === 0) {
+      console.log("⚠️ Nenhum empreendimento encontrado.");
+      return;
+    }
 
-  console.log("PIPELINE EXECUTADO COM SUCESSO");
+    // 2️⃣ Enriquecimento
+    const enriched = enrichDirecional();
+
+    if (!enriched || enriched.length === 0) {
+      console.log("⚠️ Nenhum dado enriquecido.");
+      return;
+    }
+
+    // 3️⃣ Geração do XML
+    generateXml(enriched);
+
+    console.log("✅ Robô finalizado com sucesso");
+    process.exit(0);
+  } catch (err) {
+    console.error("❌ Erro fatal no robô:", err);
+    process.exit(1);
+  }
 }
 
-run();
+await main();
