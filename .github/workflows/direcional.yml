@@ -21,6 +21,9 @@ jobs:
       - name: 📦 Instalar dependências
         run: npm install
 
+      - name: 🌐 Instalar navegadores do Playwright
+        run: npx playwright install --with-deps
+
       - name: 🤖 Rodar robô
         run: node src/index.js
 
