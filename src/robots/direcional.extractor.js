@@ -1,169 +1,82 @@
-// ============================================
-// DIRECIONAL – EXTRACTOR COMPLETO (DEFINITIVO)
-// ============================================
+// =====================================
+// DIRECIONAL – EXTRACTOR COM LIMPEZA
+// =====================================
 
 export async function extractDirecional(page, url) {
   console.log("Extraindo:", url);
 
-  await page.goto(url, {
-    waitUntil: "networkidle",
-    timeout: 60000,
-  });
+  await page.goto(url, { waitUntil: "networkidle", timeout: 60000 });
 
   const data = await page.evaluate(() => {
-    const text = sel =>
+    // =========================
+    // FUNÇÃO AUXILIAR
+    // =========================
+    const getText = sel =>
       document.querySelector(sel)?.innerText.trim() || "";
 
-    // -------------------------
-    // TÍTULO
-    // -------------------------
-    const title = document.querySelector("h1")?.innerText.trim() || "";
+    // =========================
+    // FILTRO DE IMAGENS REAIS
+    // =========================
+    const images = Array.from(document.querySelectorAll("img"))
+      .map(img => img.getAttribute("src") || img.getAttribute("data-src"))
+      .filter(src => {
+        if (!src) return false;
+        if (!src.startsWith("http")) return false;
 
-    // -------------------------
-    // LOCALIZAÇÃO
-    // -------------------------
-    let city = "";
-    let state = "";
-    let rawLocation = "";
+        const blocked = [
+          "button",
+          "background",
+          "icon",
+          "logo",
+          "vector",
+          "svg",
+          "whats",
+          "simul",
+          "placeholder",
+          "loading",
+        ];
 
-    const addressEl = document.querySelector(
-      "#card-simulacao-empreendimento a[href='#maps']"
-    );
+        if (blocked.some(word => src.toLowerCase().includes(word))) {
+          return false;
+        }
 
-    if (addressEl) {
-      rawLocation = addressEl.innerText.trim();
-      const parts = rawLocation.split(",");
-      const cityState = parts[parts.length - 1] || "";
-      const [c, s] = cityState.split("-").map(v => v?.trim());
-      city = c || "";
-      state = s || "";
-    }
+        // só imagens reais do WordPress
+        return src.includes("/wp-content/uploads/");
+      });
 
-    // -------------------------
-    // STATUS DA OBRA
-    // -------------------------
+    // remove duplicadas
+    const uniqueImages = [...new Set(images)];
+
+    // =========================
+    // STATUS (CARD FIXO)
+    // =========================
     const fixedCardText =
       document.querySelector("#card-simulacao-empreendimento li")
         ?.innerText.trim() || "";
 
-    // -------------------------
-    // DESCRIÇÃO (SOBRE O EMPREENDIMENTO)
-    // -------------------------
-    const description =
-      document.querySelector(".about-us .text p")?.innerText.trim() || "";
+    // =========================
+    // LOCALIZAÇÃO
+    // =========================
+    const rawLocation = getText("#card-simulacao-empreendimento .adress a");
 
-    // -------------------------
-    // TIPOGRAFIAS (m²)
-    // -------------------------
-    const tipologias = new Set();
+    let city = "";
+    let state = "";
 
-    document.querySelectorAll("li span").forEach(span => {
-      const txt = span.innerText;
-      if (txt && txt.includes("m²")) {
-        txt.split("|").forEach(v => {
-          const clean = v.replace(",", ".").replace(/[^0-9.]/g, "").trim();
-          if (clean) tipologias.add(`${clean} m²`);
-        });
-      }
-    });
-
-    // -------------------------
-    // DORMITÓRIOS
-    // -------------------------
-    const dormitorios = new Set();
-
-    document.querySelectorAll("li span").forEach(span => {
-      const txt = span.innerText;
-      if (txt && txt.toLowerCase().includes("quarto")) {
-        txt
-          .replace(/[^0-9 e]/gi, "")
-          .split("e")
-          .forEach(n => {
-            const num = n.trim();
-            if (num) dormitorios.add(num);
-          });
-      }
-    });
-
-    // -------------------------
-    // DIFERENCIAIS DO CONDOMÍNIO
-    // -------------------------
-    const diferenciaisEmpreendimento = new Set();
-
-    document
-      .querySelectorAll("h2")
-      .forEach(h2 => {
-        if (h2.innerText.includes("Diferenciais do Condomínio")) {
-          h2
-            .closest("div")
-            ?.querySelectorAll(".card-single h3")
-            .forEach(h3 => {
-              if (h3.innerText) {
-                diferenciaisEmpreendimento.add(h3.innerText.trim());
-              }
-            });
-        }
-      });
-
-    // -------------------------
-    // DIFERENCIAIS DA UNIDADE (heurística)
-    // -------------------------
-    const diferenciaisUnidade = new Set();
-
-    const unitKeywords = [
-      "varanda",
-      "suíte",
-      "ar-condicionado",
-      "opções na planta",
-      "elevador",
-    ];
-
-    document.querySelectorAll("span, p, h3").forEach(el => {
-      const txt = el.innerText?.toLowerCase() || "";
-      unitKeywords.forEach(k => {
-        if (txt.includes(k)) {
-          diferenciaisUnidade.add(k);
-        }
-      });
-    });
-
-    // -------------------------
-    // IMAGENS (FILTRADAS)
-    // -------------------------
-    const images = new Set();
-
-    document.querySelectorAll("img").forEach(img => {
-      const src =
-        img.getAttribute("data-src") ||
-        img.getAttribute("src") ||
-        "";
-
-      if (
-        src.startsWith("http") &&
-        !src.includes("icon") &&
-        !src.includes("logo") &&
-        !src.includes("vector") &&
-        !src.includes("base64") &&
-        !src.includes("theme")
-      ) {
-        images.add(src);
-      }
-    });
+    if (rawLocation.includes("-")) {
+      const parts = rawLocation.split("-");
+      state = parts.pop()?.trim();
+      city = parts.pop()?.split(",")?.pop()?.trim() || "";
+    }
 
     return {
-      title,
+      title: document.querySelector("h1")?.innerText.trim() || "",
       location: {
         raw: rawLocation,
         city,
         state,
       },
+      images: uniqueImages,
       fixedCardText,
-      description,
-      dormitorios: Array.from(dormitorios),
-      tipologias: Array.from(tipologias),
-      diferenciais_unidade: Array.from(diferenciaisUnidade),
-      diferenciais_empreendimento: Array.from(diferenciaisEmpreendimento),
-      images: Array.from(images),
     };
   });
 
