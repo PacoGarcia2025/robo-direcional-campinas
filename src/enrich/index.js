@@ -1,17 +1,24 @@
-// ===============================
-// ARQUIVO: src/enrich/index.js
-// ENRIQUECIMENTO PADRÃO
-// ===============================
-
+// src/enrich/index.js
 import fs from "fs";
+import { resolveStatus } from "./statusRules.js";
 
-export default async function enrich(inputPath, outputPath) {
-  const data = JSON.parse(fs.readFileSync(inputPath, "utf-8"));
+const INPUT = "src/output/direcional-campinas.json";
+const OUTPUT = "src/output/direcional-enriched.json";
 
-  for (const item of data) {
-    item.status = "Lançamento";
-    item.updatedAt = new Date().toISOString();
-  }
+export default function enrichDirecional() {
+  const base = JSON.parse(fs.readFileSync(INPUT, "utf-8"));
 
-  fs.writeFileSync(outputPath, JSON.stringify(data, null, 2));
+  const enriched = base.map(item => ({
+    ...item,
+    status: resolveStatus({
+      fixedCardText: item.fixedCardText,
+      statusTimeline: item.statusTimeline,
+      title: item.title,
+    }),
+  }));
+
+  fs.writeFileSync(OUTPUT, JSON.stringify(enriched, null, 2));
+  console.log("Arquivo enriquecido salvo em:", OUTPUT);
+
+  return enriched;
 }
