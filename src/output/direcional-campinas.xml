@@ -1,3 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <empreendimentos>
+  <empreendimento>
+    <id>cores-da-mata-mangara</id>
+    <titulo><![CDATA[Cores da Mata Mangará]]></titulo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status>Em Obras</status>
+    <fotos>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Guarita-CoresdaMataMangara.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaAdulto-CoresdaMataMangara.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaKids-CoresdaMataMangara.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/04/fachada-cores-da-mata.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Opcoes-na-Planta.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Quartos.webp</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/11/Vector-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/building_blue_daf7815a.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/building_blue_daf7815a.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Gourmet-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Fitness.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Localizacao-Privilegiada-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Suite.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Qualidade-de-Vida.png</foto>
+      <foto>https://www.direcional.com.br/empreendimentos/cores-da-mata-mangara/</foto>
+      <foto>https://www.direcional.com.br/empreendimentos/cores-da-mata-mangara/</foto>
+      <foto>https://www.direcional.com.br/empreendimentos/cores-da-mata-mangara/</foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>rise-condominio-clube</id>
+    <titulo><![CDATA[Rise Condomínio Clube]]></titulo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status>Em Obras</status>
+    <fotos>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Guarita-RiseCondominioClube.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Piscina-RiseParquePrado.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Fachada-RiseParquePrado.webp</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Living-RiseParquePrado.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2024/08/391.36_LOGO_V1C.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/building_blue_daf7815a.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/building_blue_daf7815a.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Varanda-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Condominio-Fechado-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Comercios-no-local.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Qualidade-de-Vida.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Fitness.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Condicoes-de-Pagamento-Facilitadas.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Piscina-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/proximities_blue_ce672a83.png</foto>
+      <foto>https://www.direcional.com.br/empreendimentos/rise-condominio-clube/</foto>
+      <foto>https://www.direcional.com.br/empreendimentos/rise-condominio-clube/</foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>seleto-amoreiras</id>
+    <titulo><![CDATA[Seleto Amoreiras: apartamento nas Amoreiras, Campinas]]></titulo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status>Obras Avançadas</status>
+    <fotos>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/07/Portaria_SeletoAmoreiras.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/07/piscina-Breve-Lancamento-Amoreira-Direcional.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-Breve-Lancamento-Amoreira-Direcional.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-2-Breve-Lancamento-Amoreira-Direcional.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/07/LOGO-SELETO_COR-BORDO-002.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/11/Vector-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/star_blue_fd670e10.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2021/09/porcentagem.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2021/06/Renda-Familiar.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/building_blue_daf7815a.png</foto>
+      <foto>https://www.direcional.com.br/empreendimentos/seleto-amoreiras/</foto>
+      <foto>https://www.direcional.com.br/empreendimentos/seleto-amoreiras/</foto>
+      <foto>https://www.direcional.com.br/empreendimentos/seleto-amoreiras/</foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>reserva-antonieta</id>
+    <titulo><![CDATA[Reserva Antonieta]]></titulo>
+    <cidade>Limeira</cidade>
+    <estado>SP</estado>
+    <status>Obras Avançadas</status>
+    <fotos>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Fachada-ReservaAntonieta.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2021/09/PISCINA-ADULTO-RESERVA-ANTONIETA-DIRECIONAL.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Living-ReservaAntonieta.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2021/09/GUARITA-RESERVA-ANTONIETA-DIRECIONAL.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2021/09/LOGO-ANTONIETA-01-Ana-Clara-Miranda.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2023/11/Vector-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/star_blue_fd670e10.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2021/06/parcelas.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/building_blue_daf7815a.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png</foto>
+      <foto>https://www.direcional.com.br/empreendimentos/reserva-antonieta/</foto>
+      <foto>https://www.direcional.com.br/empreendimentos/reserva-antonieta/</foto>
+    </fotos>
+  </empreendimento>
 </empreendimentos>
