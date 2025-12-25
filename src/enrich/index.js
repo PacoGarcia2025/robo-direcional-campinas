@@ -1,4 +1,8 @@
-// src/enrich/index.js
+// ===============================
+// ARQUIVO: src/enrich/index.js
+// ENRIQUECIMENTO DOS DADOS
+// ===============================
+
 import fs from "fs";
 import { resolveStatus } from "./statusRules.js";
 
@@ -6,6 +10,11 @@ const INPUT = "src/output/direcional-campinas.json";
 const OUTPUT = "src/output/direcional-enriched.json";
 
 export default function enrichDirecional() {
+  if (!fs.existsSync(INPUT)) {
+    console.log("❌ Arquivo base não encontrado:", INPUT);
+    return [];
+  }
+
   const base = JSON.parse(fs.readFileSync(INPUT, "utf-8"));
 
   if (!base || base.length === 0) {
@@ -22,7 +31,7 @@ export default function enrichDirecional() {
   }));
 
   fs.writeFileSync(OUTPUT, JSON.stringify(enriched, null, 2));
-  console.log("📄 Arquivo enriquecido salvo:", OUTPUT);
+  console.log("📄 Arquivo enriquecido gerado:", OUTPUT);
 
   return enriched;
 }
