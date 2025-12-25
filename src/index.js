@@ -1,6 +1,6 @@
 // ===============================
 // ARQUIVO: src/index.js
-// CONTROLE PRINCIPAL DO ROBÔ
+// ORQUESTRADOR PRINCIPAL
 // ===============================
 
 import runDirecional from "./robots/direcional.js";
@@ -10,32 +10,19 @@ import generateXml from "./generateXml.js";
 async function main() {
   console.log("🚀 Iniciando Robô Direcional Campinas");
 
-  // 1️⃣ Executa coleta
-  const baseData = await runDirecional();
+  // 1. Scraper → JSON base
+  await runDirecional();
 
-  if (!baseData || baseData.length === 0) {
-    console.log("⚠️ Nenhum empreendimento coletado. Abortando.");
-    return;
-  }
+  // 2. Enriquecimento → JSON final
+  enrichDirecional();
 
-  // 2️⃣ Enriquecimento (gera direcional-enriched.json)
-  const enriched = enrichDirecional();
-
-  if (!enriched || enriched.length === 0) {
-    console.log("⚠️ Nenhum dado enriquecido. Abortando XML.");
-    return;
-  }
-
-  // 3️⃣ Geração do XML (a partir do arquivo enriquecido)
+  // 3. Geração do XML (IMPORTANTE)
   generateXml(
     "src/output/direcional-enriched.json",
     "src/output/direcional-campinas.xml"
   );
 
-  console.log("✅ Robô finalizado com sucesso");
+  console.log("✅ Processo finalizado com sucesso");
 }
 
-main().catch(err => {
-  console.error("❌ Erro fatal no robô:", err);
-  process.exit(1);
-});
+main();
