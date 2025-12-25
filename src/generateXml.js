@@ -1,46 +1,39 @@
 // ===============================
 // ARQUIVO: src/generateXml.js
-// GERAÇÃO DO XML PARA X09
+// XML FINAL PARA X09
 // ===============================
 
 import fs from "fs";
 
 export default function generateXml(inputPath, outputPath) {
-  if (!fs.existsSync(inputPath)) {
-    console.log("❌ Arquivo de entrada não encontrado:", inputPath);
-    return;
-  }
-
   const data = JSON.parse(fs.readFileSync(inputPath, "utf-8"));
 
-  if (!data || data.length === 0) {
-    console.log("⚠️ Nenhum dado para gerar XML.");
-    return;
-  }
-
-  let xml = "<imoveis>\n";
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  xml += `<empreendimentos>\n`;
 
   for (const item of data) {
-    xml += `  <imovel>
-    <id>${item.id}</id>
-    <titulo>${item.title}</titulo>
-    <tipo>Apartamento</tipo>
-    <cidade>${item.location.city}</cidade>
-    <estado>${item.location.state}</estado>
-    <status>${item.status}</status>
-`;
+    xml += `  <empreendimento>\n`;
+    xml += `    <id>${item.id}</id>\n`;
+    xml += `    <titulo><![CDATA[${item.title}]]></titulo>\n`;
+    xml += `    <cidade>${item.location.city}</cidade>\n`;
+    xml += `    <estado>${item.location.state}</estado>\n`;
+    xml += `    <status>${item.status || item.fixedCardText || ""}</status>\n`;
 
-    for (const img of item.images || []) {
-      if (img.startsWith("http")) {
-        xml += `    <foto>${img}</foto>\n`;
+    if (item.images && item.images.length) {
+      xml += `    <fotos>\n`;
+      for (const img of item.images.slice(0, 20)) {
+        if (img.startsWith("http")) {
+          xml += `      <foto>${img}</foto>\n`;
+        }
       }
+      xml += `    </fotos>\n`;
     }
 
-    xml += "  </imovel>\n";
+    xml += `  </empreendimento>\n`;
   }
 
-  xml += "</imoveis>";
+  xml += `</empreendimentos>`;
 
-  fs.writeFileSync(outputPath, xml);
-  console.log("📄 XML gerado com sucesso:", outputPath);
+  fs.writeFileSync(outputPath, xml, "utf-8");
+  console.log("📄 XML gerado em:", outputPath);
 }
