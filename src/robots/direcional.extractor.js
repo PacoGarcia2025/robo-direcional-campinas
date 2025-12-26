@@ -1,6 +1,6 @@
 // ===============================
 // ARQUIVO: src/robots/direcional.extractor.js
-// SCRAPER DIRECIONAL – VERSÃO ESTÁVEL
+// SCRAPER DIRECIONAL – VERSÃO CONSOLIDADA
 // ===============================
 
 import { chromium } from "playwright";
@@ -12,109 +12,172 @@ export default async function extractDirecional() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  console.log("🚀 Iniciando Robô Direcional Campinas");
+  console.log("🚀 Iniciando Robô Direcional");
+
   await page.goto(START_URL, { waitUntil: "networkidle" });
 
-  // 1️⃣ Coleta links dos empreendimentos
+  // ===============================
+  // 1️⃣ COLETA LINKS DOS EMPREENDIMENTOS
+  // ===============================
   const links = await page.evaluate(() => {
     return Array.from(
       document.querySelectorAll('a[href*="/empreendimentos/"]')
     )
-      .map((a) => a.href)
-      .filter((href) => href.split("/empreendimentos/")[1]?.length > 3);
+      .map((a) => a.href.split("#")[0])
+      .filter(
+        (href) =>
+          href.includes("/empreendimentos/") &&
+          href.split("/empreendimentos/")[1]?.length > 3
+      );
   });
 
   const uniqueLinks = [...new Set(links)];
-
   const empreendimentos = [];
 
-  // 2️⃣ Visita cada empreendimento
+  // ===============================
+  // 2️⃣ VISITA CADA EMPREENDIMENTO
+  // ===============================
   for (const url of uniqueLinks) {
     try {
       await page.goto(url, { waitUntil: "networkidle" });
 
       const data = await page.evaluate(() => {
         // ===============================
-        // TÍTULO
+        // NOME DO EMPREENDIMENTO
         // ===============================
         const title =
-          document.querySelector("h1")?.innerText?.trim() || null;
+          document.querySelector("h1")?.innerText.trim() || null;
+
+        // ===============================
+        // CIDADE E ESTADO (BREADCRUMB)
+        // ===============================
+        let city = null;
+        let state = null;
+
+        document
+          .querySelectorAll(".breadcrumbs-empreendimento a")
+          .forEach((a) => {
+            const href = a.getAttribute("href") || "";
+            const text = a.innerText.trim();
+
+            if (href.includes("estado=") && text.length === 2) {
+              state = text;
+            }
+
+            if (href.includes("cidade=")) {
+              city = text;
+            }
+          });
 
         // ===============================
         // STATUS
         // ===============================
-        const status =
-          document.querySelector(".list-inline-item")?.innerText?.trim() ||
-          null;
+        let status = null;
+        document
+          .querySelectorAll(
+            "ul.pt-3 li.list-inline-item"
+          )
+          .forEach((li) => {
+            const text = li.innerText.trim();
+            if (
+              text.includes("Lançamento") ||
+              text.includes("Obras") ||
+              text.includes("Pronto")
+            ) {
+              status = text;
+            }
+          });
 
         // ===============================
-        // LOCALIZAÇÃO
+        // TIPOLOGIAS (ÁREA + DORMITÓRIOS)
         // ===============================
-        const locationRaw =
-          document.querySelector(".adress a")?.innerText || "";
+        const areas = [];
+        const dormitorios = [];
 
-        // ===============================
-        // TIPOLOGIAS / UNIDADES
-        // ===============================
-        const unidades = [];
         document
           .querySelectorAll("ul.pl-3 li span")
           .forEach((el) => {
             const text = el.innerText;
 
-            if (text.includes("m²") && text.match(/\d/)) {
-              const areas = text
+            if (text.includes("m²")) {
+              text
                 .replace(/\s/g, "")
                 .split("|")
-                .map((a) => a.replace("m²", "").replace(",", "."));
-
-              areas.forEach((area) => {
-                unidades.push({
-                  area: Number(area),
+                .forEach((a) => {
+                  const val = a
+                    .replace("m²", "")
+                    .replace(",", ".");
+                  if (!isNaN(val)) areas.push(Number(val));
                 });
-              });
             }
 
             if (text.toLowerCase().includes("quarto")) {
-              const dorms = text.match(/\d+/);
-              if (dorms) {
-                unidades.forEach((u) => (u.dormitorios = Number(dorms[0])));
+              const nums = text.match(/\d+/g);
+              if (nums) {
+                nums.forEach((n) =>
+                  dormitorios.push(Number(n))
+                );
               }
             }
           });
 
+        const unidades = [];
+        areas.forEach((area) => {
+          dormitorios.forEach((d) => {
+            unidades.push({
+              area,
+              dormitorios: d,
+            });
+          });
+        });
+
         // ===============================
-        // DIFERENCIAIS DO EMPREENDIMENTO
+        // DIFERENCIAIS
         // ===============================
         const diferenciais = Array.from(
           document.querySelectorAll(
-            ".card-single h3"
+            "ul.pt-3 li.list-inline-item"
           )
-        ).map((el) => el.innerText.trim());
+        )
+          .map((li) => li.innerText.trim())
+          .filter(
+            (txt) =>
+              txt &&
+              !txt.toLowerCase().includes("lançamento") &&
+              !txt.toLowerCase().includes("obras")
+          );
 
         // ===============================
-        // IMAGENS (LIMPEZA AQUI)
+        // IMAGENS (COLETA BRUTA)
         // ===============================
         const imagens = Array.from(
           document.querySelectorAll("img")
         )
-          .map((img) => img.src)
-          .filter((src) =>
-            src &&
-            (
-              src.includes("Perspectiva") ||
-              src.includes("fachada") ||
-              src.includes("Piscina") ||
-              src.includes("Living") ||
-              src.includes("Quartos") ||
-              src.includes("Planta")
-            )
-          );
+          .map((img) => ({
+            src: img.src,
+            w: Number(img.getAttribute("data-eio-rwidth") || 0),
+            h: Number(img.getAttribute("data-eio-rheight") || 0),
+          }))
+          .filter(
+            (img) =>
+              img.src &&
+              img.src.startsWith("http") &&
+              img.w >= 300 &&
+              img.h >= 300 &&
+              !img.src.match(
+                /(icon|icons|logo|sheet_|basil_|share|sprite|favicon)/i
+              ) &&
+              !img.src.match(
+                /(Opcoes-na-Planta|Quartos\.webp)/i
+              )
+          )
+          .map((img) => img.src);
 
         return {
           title,
+          city,
+          state,
           status,
-          locationRaw,
           unidades,
           diferenciais,
           imagens,
@@ -123,35 +186,21 @@ export default async function extractDirecional() {
 
       if (!data.title) continue;
 
-      // ===============================
-      // NORMALIZAÇÃO FINAL
-      // ===============================
-      const id = url
-        .replace(/\/$/, "")
-        .split("/")
-        .pop();
+      const id = url.replace(/\/$/, "").split("/").pop();
 
-      const empreendimento = {
+      empreendimentos.push({
         id,
         url,
         title: data.title,
-        city: data.locationRaw.includes("Campinas")
-          ? "Campinas"
-          : data.locationRaw.includes("Limeira")
-          ? "Limeira"
-          : null,
-        state: "SP",
+        city: data.city,
+        state: data.state,
         status: data.status,
-        unidades: data.unidades.filter(
-          (u) => u.area && u.dormitorios
-        ),
+        unidades: data.unidades,
         diferenciais_empreendimento: data.diferenciais,
-        imagens: [...new Set(data.imagens)],
-      };
-
-      empreendimentos.push(empreendimento);
+        imagens: [...new Set(data.imagens)].slice(0, 10),
+      });
     } catch (err) {
-      console.error("❌ Erro ao processar:", url, err.message);
+      console.error("❌ Erro:", url, err.message);
     }
   }
 
