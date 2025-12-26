@@ -1,6 +1,6 @@
 // ===============================
 // ARQUIVO: src/robots/direcional.extractor.js
-// SCRAPER DIRECIONAL – PADRÃO X09
+// SCRAPER DIRECIONAL – PADRÃO X09 (COM FICHA TÉCNICA)
 // ===============================
 
 import { chromium } from "playwright";
@@ -137,6 +137,42 @@ export default async function extractDirecional() {
           );
 
         // ===============================
+        // FICHA TÉCNICA
+        // ===============================
+        const ficha_tecnica = {};
+
+        document
+          .querySelectorAll("h2")
+          .forEach((h2) => {
+            if (h2.innerText.trim() === "Ficha Técnica") {
+              const container = h2.closest(".container");
+              if (!container) return;
+
+              container
+                .querySelectorAll("li p")
+                .forEach((p) => {
+                  const strong = p.querySelector("strong");
+                  if (!strong) return;
+
+                  const label = strong.innerText
+                    .replace(":", "")
+                    .trim()
+                    .toLowerCase()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w]/g, "");
+
+                  const value = p.innerText
+                    .replace(strong.innerText, "")
+                    .trim();
+
+                  if (label && value) {
+                    ficha_tecnica[label] = value;
+                  }
+                });
+            }
+          });
+
+        // ===============================
         // IMAGENS (BRUTAS)
         // ===============================
         const imagens = Array.from(document.querySelectorAll("img")).map(
@@ -154,6 +190,7 @@ export default async function extractDirecional() {
           status,
           unidades,
           diferenciais,
+          ficha_tecnica,
           imagens,
         };
       });
@@ -162,7 +199,6 @@ export default async function extractDirecional() {
 
       const id = url.replace(/\/$/, "").split("/").pop();
 
-      // 🔹 AQUI entra o processador padrão x09
       const imagensProcessadas = processImages(data.imagens, {
         min: 3,
         max: 10,
@@ -177,8 +213,8 @@ export default async function extractDirecional() {
         status: data.status,
         unidades: data.unidades,
         diferenciais_empreendimento: data.diferenciais,
+        ficha_tecnica: data.ficha_tecnica,
         imagens: imagensProcessadas,
-        ficha_tecnica: {}, // preparado para o próximo passo
       });
     } catch (err) {
       console.error("❌ Erro:", url, err.message);
