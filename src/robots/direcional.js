@@ -1,24 +1,24 @@
-import puppeteer from "puppeteer";
+import { chromium } from "playwright";
 
 const BASE_URL = "https://www.direcional.com.br/empreendimentos/";
 
 export default async function runDirecional() {
-  const browser = await puppeteer.launch({
-    headless: "new",
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+  const browser = await chromium.launch({
+    headless: true,
+    args: ["--no-sandbox"]
   });
 
   const page = await browser.newPage();
-  await page.goto(BASE_URL, { waitUntil: "networkidle2" });
+  await page.goto(BASE_URL, { waitUntil: "networkidle" });
 
-  // pega links dos empreendimentos
+  // 🔗 links únicos de empreendimentos
   const links = await page.$$eval(
-    'a[href*="/empreendimentos/"]',
+    'a[href^="https://www.direcional.com.br/empreendimentos/"]',
     els =>
       [...new Set(
         els
           .map(a => a.href)
-          .filter(h => h.includes("/empreendimentos/") && !h.endsWith("/empreendimentos/"))
+          .filter(h => h.split("/").length > 5)
       )]
   );
 
@@ -26,53 +26,47 @@ export default async function runDirecional() {
 
   for (const link of links) {
     const p = await browser.newPage();
-    await p.goto(link, { waitUntil: "networkidle2" });
+    await p.goto(link, { waitUntil: "networkidle" });
 
     const data = await p.evaluate(() => {
-      const getText = sel =>
+      const text = sel =>
         document.querySelector(sel)?.innerText.trim() || "";
 
       const slug = location.pathname.split("/").filter(Boolean).pop();
 
-      // 📌 TÍTULO
-      const titulo = getText("h1");
+      // 🏷️ título
+      const titulo = text("h1");
 
-      // 📌 STATUS
+      // 🟡 status
       const status =
         document.querySelector(".main-details__info-list li")?.innerText.trim() || "";
 
-      // 📌 CIDADE / ESTADO (breadcrumbs)
-      const breadcrumbs = [...document.querySelectorAll(".breadcrumb a")].map(a =>
+      // 📍 cidade / estado
+      const crumbs = [...document.querySelectorAll(".breadcrumb a")].map(a =>
         a.innerText.trim()
       );
+      const estado = crumbs.find(c => c.length === 2) || "";
+      const cidade = crumbs.filter(c => c !== estado).pop() || "";
 
-      const estado = breadcrumbs.find(b => b.length === 2) || "";
-      const cidade = breadcrumbs.filter(b => b !== estado).pop() || "";
+      // ⭐ diferenciais do condomínio
+      const diferenciais = [...document.querySelectorAll(".card-single h3")]
+        .map(el => el.innerText.trim());
 
-      // 📌 DIFERENCIAIS DO CONDOMÍNIO
-      const diferenciais = [
-        ...document.querySelectorAll(
-          '.card-single h3'
-        )
-      ].map(el => el.innerText.trim());
-
-      // 📌 DORMITÓRIOS
+      // 🛏️ dormitórios
       let dormitorios = null;
       const dormText = [...document.querySelectorAll("ul li span")]
-        .map(el => el.innerText)
+        .map(s => s.innerText)
         .find(t => t.includes("Quarto"));
 
-      if (dormText) {
-        if (dormText.includes("2")) dormitorios = 2;
-        else if (dormText.includes("1")) dormitorios = 1;
-      }
+      if (dormText?.includes("2")) dormitorios = 2;
+      else if (dormText?.includes("1")) dormitorios = 1;
 
-      // 📌 ÁREAS
+      // 📐 áreas
       let areaMin = null;
       let areaMax = null;
 
       const areaText = [...document.querySelectorAll("ul li span")]
-        .map(el => el.innerText)
+        .map(s => s.innerText)
         .find(t => t.includes("m²"));
 
       if (areaText) {
@@ -87,27 +81,25 @@ export default async function runDirecional() {
         }
       }
 
-      // 📌 IMAGENS (SOMENTE FOTOS REAIS)
-      const fotos = [
-        ...document.querySelectorAll(
-          '.section-dinamic-modal-photos img[data-src]'
-        )
-      ]
+      // 🖼️ imagens limpas
+      const fotos = [...document.querySelectorAll(
+        ".section-dinamic-modal-photos img[data-src]"
+      )]
         .map(img => img.getAttribute("data-src"))
         .filter(src =>
           src &&
           src.startsWith("https://www.direcional.com.br/wp-content/uploads/") &&
-          !src.includes("Icon") &&
-          !src.includes("play") &&
-          !src.includes("button")
+          !src.toLowerCase().includes("icon") &&
+          !src.toLowerCase().includes("button") &&
+          !src.toLowerCase().includes("play")
         );
 
       return {
         id: slug,
         titulo,
+        status,
         cidade,
         estado,
-        status,
         unidades: dormitorios
           ? [{ dormitorios, area_min: areaMin, area_max: areaMax }]
           : [],
