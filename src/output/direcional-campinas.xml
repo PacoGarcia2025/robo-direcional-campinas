@@ -2,162 +2,215 @@
 <empreendimentos>
   <empreendimento>
     <id>breve-lancamento-betania</id>
-    <titulo><![CDATA[Pronto Para Morar
-
-              Em Obras
-
-              Lançamento
-
-              Breve Lançamento
-
-              Obras Avançadas
-            
-
-            <img src="https://www.direcional.com.br/wp-content/uploads/2025/12/Copia-de-Direcional-MG-Header-Priori-Residence-Banner-Site-Breve-Lancamento-V2_Thumbnail-Mobile-2-700x500_b.png" alt="Breve Lançamento Betânia" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
-    <cidade>Campinas</cidade>
+    <titulo><![CDATA[Breve Lançamento Betânia]]></titulo>
+    <cidade></cidade>
     <estado>SP</estado>
     <status>Lançamento</status>
-    <fotos>
-    </fotos>
+    <diferenciais_empreendimento>
+      <item><![CDATA[Varanda]]></item>
+      <item><![CDATA[Lazer Completo]]></item>
+    </diferenciais_empreendimento>
   </empreendimento>
   <empreendimento>
     <id>breve-lancamento-nova-iguacu</id>
-    <titulo><![CDATA[Pronto Para Morar
-
-              Em Obras
-
-              Lançamento
-
-              Breve Lançamento
-
-              Obras Avançadas
-            
-
-            <img src="https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-RJ-Site-UNIQ-Breve-Lancamento-v2_Thumbnail-700x500_b.png" alt="Breve Lançamento Nova Iguaçu" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
-    <cidade>Campinas</cidade>
+    <titulo><![CDATA[Breve Lançamento Nova Iguaçu]]></titulo>
+    <cidade></cidade>
     <estado>SP</estado>
     <status>Lançamento</status>
+    <unidades>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>36.85</area>
+      </unidade>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>71.19</area>
+      </unidade>
+    </unidades>
+    <diferenciais_empreendimento>
+      <item><![CDATA[Lazer Completo]]></item>
+      <item><![CDATA[Qualidade de Vida]]></item>
+      <item><![CDATA[Portaria 24h]]></item>
+      <item><![CDATA[Opções na Planta]]></item>
+      <item><![CDATA[Piscina]]></item>
+      <item><![CDATA[Condomínio Fechado]]></item>
+    </diferenciais_empreendimento>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Opcoes-na-Planta.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Quartos.webp</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Opcoes-na-Planta-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Piscina-1.png</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>breve-lancamento-em-sao-lourenco</id>
-    <titulo><![CDATA[Pronto Para Morar
-
-              Em Obras
-
-              Lançamento
-
-              Breve Lançamento
-
-              Obras Avançadas
-            
-
-            <img src="https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-PE-Site-Viva-Vida-Primavera-Breve-Lancamento_Thumbnail-700x500_b.png" alt="Breve lançamento em São Lourenço " class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
-    <cidade>Campinas</cidade>
+    <titulo><![CDATA[Breve lançamento em São Lourenço]]></titulo>
+    <cidade></cidade>
     <estado>SP</estado>
     <status>Lançamento</status>
+    <unidades>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>36.24</area>
+      </unidade>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>48.62</area>
+      </unidade>
+    </unidades>
+    <diferenciais_empreendimento>
+      <item><![CDATA[Condições de Pagamento Facilitadas]]></item>
+      <item><![CDATA[Espaço Fitness]]></item>
+      <item><![CDATA[Lazer Completo]]></item>
+      <item><![CDATA[Qualidade de Vida]]></item>
+      <item><![CDATA[Portaria 24h]]></item>
+      <item><![CDATA[Segurança 24h]]></item>
+      <item><![CDATA[Espaço Kids]]></item>
+      <item><![CDATA[Estacionamento para Bicicletas]]></item>
+      <item><![CDATA[Piscina]]></item>
+      <item><![CDATA[Espaço Verde e Natureza]]></item>
+      <item><![CDATA[Condomínio Fechado]]></item>
+      <item><![CDATA[Quadra Poliesportiva]]></item>
+    </diferenciais_empreendimento>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Opcoes-na-Planta.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Quartos.webp</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Piscina-1.png</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>breve-lacamento-barra-olimpica</id>
-    <titulo><![CDATA[Pronto Para Morar
-
-              Em Obras
-
-              Lançamento
-
-              Breve Lançamento
-
-              Obras Avançadas
-            
-
-            <img src="https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-RJ-Site-Inn-Barra-Olimpica-Headers-e-Thumbnail_v3_Header-Mobile2766184-2-700x500_b.jpg" alt="Breve Lançamento Barra Olímpica" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
-    <cidade>Campinas</cidade>
+    <titulo><![CDATA[Breve Lançamento Barra Olímpica]]></titulo>
+    <cidade></cidade>
     <estado>SP</estado>
     <status>Lançamento</status>
+    <unidades>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>41.37</area>
+      </unidade>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>56.39</area>
+      </unidade>
+    </unidades>
+    <diferenciais_empreendimento>
+      <item><![CDATA[Condições de Pagamento Facilitadas]]></item>
+      <item><![CDATA[Espaço Fitness]]></item>
+      <item><![CDATA[Portaria 24 Horas]]></item>
+      <item><![CDATA[Tomadas para Carros Elétricos]]></item>
+      <item><![CDATA[Qualidade de Vida]]></item>
+      <item><![CDATA[Opções na Planta]]></item>
+      <item><![CDATA[Piscina]]></item>
+      <item><![CDATA[Acabamento Diferenciado]]></item>
+      <item><![CDATA[Segurança 24 HR]]></item>
+    </diferenciais_empreendimento>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Opcoes-na-Planta.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Quartos.webp</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Opcoes-na-Planta-1.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Piscina-1.png</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>total-ville-conviver-condominio-2</id>
-    <titulo><![CDATA[Pronto Para Morar
-
-                          Em Obras
-
-                          Lançamento
-
-                          Breve Lançamento
-
-                          Obras Avançadas
-                        
-
-                        <img src="https://www.direcional.com.br/wp-content/uploads/2025/12/piscina-700x500_b.jpg" alt="Total Ville Conviver &amp;#8211; Condomínio 2" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
-    <cidade>Campinas</cidade>
+    <titulo><![CDATA[Total Ville Conviver – Condomínio 2]]></titulo>
+    <cidade></cidade>
     <estado>SP</estado>
-    <status>Lançamento</status>
+    <status>Em Obras</status>
+    <unidades>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>45</area>
+      </unidade>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>48</area>
+      </unidade>
+    </unidades>
+    <diferenciais_empreendimento>
+      <item><![CDATA[Lazer Completo]]></item>
+      <item><![CDATA[Condomínio Fechado]]></item>
+      <item><![CDATA[Localização Privilegiada]]></item>
+    </diferenciais_empreendimento>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Opcoes-na-Planta.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Quartos.webp</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>arbore-residencial</id>
-    <titulo><![CDATA[Pronto Para Morar
-
-                          Em Obras
-
-                          Lançamento
-
-                          Breve Lançamento
-
-                          Obras Avançadas
-                        
-
-                        <img src="https://www.direcional.com.br/wp-content/uploads/2025/12/guarita-arbore-residencial-direcional-700x500_b.jpg" alt="Árbore Residencial" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
-    <cidade>Campinas</cidade>
+    <titulo><![CDATA[Árbore Residencial]]></titulo>
+    <cidade></cidade>
     <estado>SP</estado>
-    <status>Lançamento</status>
+    <status>Em Obras</status>
+    <unidades>
+      <unidade>
+        <dormitorios>2</dormitorios>
+        <area>52.78</area>
+      </unidade>
+      <unidade>
+        <dormitorios>2</dormitorios>
+        <area>67.16</area>
+      </unidade>
+    </unidades>
+    <diferenciais_empreendimento>
+      <item><![CDATA[Lazer Completo]]></item>
+      <item><![CDATA[Localização Privilegiada]]></item>
+      <item><![CDATA[Suíte]]></item>
+      <item><![CDATA[Varanda]]></item>
+    </diferenciais_empreendimento>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/fachada-arbore-residencial-direcional.jpg</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Opcoes-na-Planta.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Quartos.webp</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>breve-lancamento-em-paulista</id>
-    <titulo><![CDATA[Pronto Para Morar
-
-              Em Obras
-
-              Lançamento
-
-              Breve Lançamento
-
-              Obras Avançadas
-            
-
-            <img src="https://www.direcional.com.br/wp-content/uploads/2025/11/Direcional-PE-Site-Conquista-Paulista-Residence-Breve-Lancamento_Thumbnail-700x500_b.png" alt="Breve Lançamento em Paulista" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
-    <cidade>Campinas</cidade>
+    <titulo><![CDATA[Breve Lançamento em Paulista]]></titulo>
+    <cidade></cidade>
     <estado>SP</estado>
     <status>Lançamento</status>
+    <unidades>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>36.24</area>
+      </unidade>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>48.62</area>
+      </unidade>
+    </unidades>
+    <diferenciais_empreendimento>
+      <item><![CDATA[Lazer Completo]]></item>
+      <item><![CDATA[Localização Privilegiada]]></item>
+      <item><![CDATA[Portaria 24h]]></item>
+      <item><![CDATA[Espaço Fitness]]></item>
+      <item><![CDATA[Piscina]]></item>
+      <item><![CDATA[Espaço Kids]]></item>
+    </diferenciais_empreendimento>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Opcoes-na-Planta.png</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/01/Quartos.webp</foto>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2022/02/Piscina-1.png</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>parque-ville-lirio-azul</id>
-    <titulo><![CDATA[Pronto Para Morar
-
-                          Em Obras
-
-                          Lançamento
-
-                          Breve Lançamento
-
-                          Obras Avançadas
-                        
-
-                        <img src="https://www.direcional.com.br/wp-content/uploads/2025/11/guarita-parque-ville-lirio-azul-700x500_b.jpg" alt="Parque Ville Lírio Azul" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
-    <cidade>Campinas</cidade>
+    <titulo><![CDATA[Parque Ville Lírio Azul]]></titulo>
+    <cidade></cidade>
     <estado>SP</estado>
-    <status>Lançamento</status>
+    <status>Em Obras</status>
+    <diferenciais_empreendimento>
+      <item><![CDATA[Lazer Completo]]></item>
+      <item><![CDATA[Condomínio Fechado]]></item>
+      <item><![CDATA[Localização Privilegiada]]></item>
+      <item><![CDATA[Opções na Planta]]></item>
+      <item><![CDATA[Espaço Fitness]]></item>
+    </diferenciais_empreendimento>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/fachada-noturna-parque-ville-lirio-azul.jpg</foto>
     </fotos>
   </empreendimento>
 </empreendimentos>
