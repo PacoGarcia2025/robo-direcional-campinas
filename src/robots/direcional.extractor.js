@@ -1,9 +1,10 @@
 // ===============================
 // ARQUIVO: src/robots/direcional.extractor.js
-// SCRAPER DIRECIONAL – VERSÃO CONSOLIDADA
+// SCRAPER DIRECIONAL – PADRÃO X09
 // ===============================
 
 import { chromium } from "playwright";
+import { processImages } from "../images/index.js";
 
 const START_URL =
   "https://www.direcional.com.br/empreendimentos/?cidade=campinas";
@@ -17,7 +18,7 @@ export default async function extractDirecional() {
   await page.goto(START_URL, { waitUntil: "networkidle" });
 
   // ===============================
-  // 1️⃣ COLETA LINKS DOS EMPREENDIMENTOS
+  // 1️⃣ LINKS DOS EMPREENDIMENTOS
   // ===============================
   const links = await page.evaluate(() => {
     return Array.from(
@@ -43,13 +44,13 @@ export default async function extractDirecional() {
 
       const data = await page.evaluate(() => {
         // ===============================
-        // NOME DO EMPREENDIMENTO
+        // TÍTULO
         // ===============================
         const title =
           document.querySelector("h1")?.innerText.trim() || null;
 
         // ===============================
-        // CIDADE E ESTADO (BREADCRUMB)
+        // CIDADE / ESTADO (BREADCRUMB)
         // ===============================
         let city = null;
         let state = null;
@@ -63,7 +64,6 @@ export default async function extractDirecional() {
             if (href.includes("estado=") && text.length === 2) {
               state = text;
             }
-
             if (href.includes("cidade=")) {
               city = text;
             }
@@ -74,22 +74,20 @@ export default async function extractDirecional() {
         // ===============================
         let status = null;
         document
-          .querySelectorAll(
-            "ul.pt-3 li.list-inline-item"
-          )
+          .querySelectorAll("ul.pt-3 li.list-inline-item")
           .forEach((li) => {
-            const text = li.innerText.trim();
+            const t = li.innerText.trim();
             if (
-              text.includes("Lançamento") ||
-              text.includes("Obras") ||
-              text.includes("Pronto")
+              t.includes("Lançamento") ||
+              t.includes("Obras") ||
+              t.includes("Pronto")
             ) {
-              status = text;
+              status = t;
             }
           });
 
         // ===============================
-        // TIPOLOGIAS (ÁREA + DORMITÓRIOS)
+        // TIPOLOGIAS
         // ===============================
         const areas = [];
         const dormitorios = [];
@@ -113,21 +111,14 @@ export default async function extractDirecional() {
 
             if (text.toLowerCase().includes("quarto")) {
               const nums = text.match(/\d+/g);
-              if (nums) {
-                nums.forEach((n) =>
-                  dormitorios.push(Number(n))
-                );
-              }
+              if (nums) nums.forEach((n) => dormitorios.push(Number(n)));
             }
           });
 
         const unidades = [];
-        areas.forEach((area) => {
+        areas.forEach((a) => {
           dormitorios.forEach((d) => {
-            unidades.push({
-              area,
-              dormitorios: d,
-            });
+            unidades.push({ area: a, dormitorios: d });
           });
         });
 
@@ -135,43 +126,26 @@ export default async function extractDirecional() {
         // DIFERENCIAIS
         // ===============================
         const diferenciais = Array.from(
-          document.querySelectorAll(
-            "ul.pt-3 li.list-inline-item"
-          )
+          document.querySelectorAll("ul.pt-3 li.list-inline-item")
         )
           .map((li) => li.innerText.trim())
           .filter(
-            (txt) =>
-              txt &&
-              !txt.toLowerCase().includes("lançamento") &&
-              !txt.toLowerCase().includes("obras")
+            (t) =>
+              t &&
+              !t.toLowerCase().includes("lançamento") &&
+              !t.toLowerCase().includes("obras")
           );
 
         // ===============================
-        // IMAGENS (COLETA BRUTA)
+        // IMAGENS (BRUTAS)
         // ===============================
-        const imagens = Array.from(
-          document.querySelectorAll("img")
-        )
-          .map((img) => ({
+        const imagens = Array.from(document.querySelectorAll("img")).map(
+          (img) => ({
             src: img.src,
             w: Number(img.getAttribute("data-eio-rwidth") || 0),
             h: Number(img.getAttribute("data-eio-rheight") || 0),
-          }))
-          .filter(
-            (img) =>
-              img.src &&
-              img.src.startsWith("http") &&
-              img.w >= 300 &&
-              img.h >= 300 &&
-              !img.src.match(
-                /(icon|icons|logo|sheet_|basil_|share|sprite|favicon)/i
-              ) &&
-              !img.src.match(
-                /(Opcoes-na-Planta|Quartos\.webp)/i
-              )
-          )
-          .map((img) => img.src);
+          })
+        );
 
         return {
           title,
@@ -188,6 +162,12 @@ export default async function extractDirecional() {
 
       const id = url.replace(/\/$/, "").split("/").pop();
 
+      // 🔹 AQUI entra o processador padrão x09
+      const imagensProcessadas = processImages(data.imagens, {
+        min: 3,
+        max: 10,
+      });
+
       empreendimentos.push({
         id,
         url,
@@ -197,7 +177,8 @@ export default async function extractDirecional() {
         status: data.status,
         unidades: data.unidades,
         diferenciais_empreendimento: data.diferenciais,
-        imagens: [...new Set(data.imagens)].slice(0, 10),
+        imagens: imagensProcessadas,
+        ficha_tecnica: {}, // preparado para o próximo passo
       });
     } catch (err) {
       console.error("❌ Erro:", url, err.message);
