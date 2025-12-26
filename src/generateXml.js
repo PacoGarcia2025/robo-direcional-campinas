@@ -1,72 +1,47 @@
-// ===============================
-// ARQUIVO: src/generateXml.js
-// GERA XML FINAL PARA X09
-// ===============================
-
 import fs from "fs";
 
-export default function generateXml(
-  inputPath = "src/output/direcional-enriched.json",
-  outputPath = "src/output/direcional-campinas.xml"
-) {
-  const data = JSON.parse(fs.readFileSync(inputPath, "utf-8"));
+export default function generateXml(data, outputPath) {
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<empreendimentos>\n`;
 
-  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  xml += `<empreendimentos>\n`;
-
-  data.forEach((item) => {
+  for (const emp of data) {
     xml += `  <empreendimento>\n`;
-    xml += `    <id>${item.id}</id>\n`;
-    xml += `    <titulo><![CDATA[${item.title}]]></titulo>\n`;
-    xml += `    <cidade>${item.city || ""}</cidade>\n`;
-    xml += `    <estado>${item.state || ""}</estado>\n`;
-    xml += `    <status>${item.status || ""}</status>\n`;
+    xml += `    <id>${emp.id}</id>\n`;
+    xml += `    <titulo><![CDATA[${emp.titulo}]]></titulo>\n`;
+    xml += `    <cidade>${emp.cidade}</cidade>\n`;
+    xml += `    <estado>${emp.estado}</estado>\n`;
+    xml += `    <status>${emp.status}</status>\n`;
 
-    // ===============================
-    // UNIDADES / TIPOLOGIAS
-    // ===============================
-    if (item.unidades && item.unidades.length > 0) {
+    if (emp.unidades.length) {
       xml += `    <unidades>\n`;
-      item.unidades.forEach((u) => {
+      for (const u of emp.unidades) {
         xml += `      <unidade>\n`;
         xml += `        <dormitorios>${u.dormitorios}</dormitorios>\n`;
-        xml += `        <area>${u.area}</area>\n`;
+        if (u.area_min) xml += `        <area_min>${u.area_min}</area_min>\n`;
+        if (u.area_max) xml += `        <area_max>${u.area_max}</area_max>\n`;
         xml += `      </unidade>\n`;
-      });
+      }
       xml += `    </unidades>\n`;
     }
 
-    // ===============================
-    // DIFERENCIAIS DO EMPREENDIMENTO
-    // ===============================
-    if (
-      item.diferenciais_empreendimento &&
-      item.diferenciais_empreendimento.length > 0
-    ) {
+    if (emp.diferenciais.length) {
       xml += `    <diferenciais_empreendimento>\n`;
-      item.diferenciais_empreendimento.forEach((d) => {
-        xml += `      <item><![CDATA[${d}]]></item>\n`;
-      });
+      emp.diferenciais.forEach(d =>
+        xml += `      <item><![CDATA[${d}]]></item>\n`
+      );
       xml += `    </diferenciais_empreendimento>\n`;
     }
 
-    // ===============================
-    // IMAGENS
-    // ===============================
-    if (item.imagens && item.imagens.length > 0) {
+    if (emp.fotos.length) {
       xml += `    <fotos>\n`;
-      item.imagens.forEach((img) => {
-        xml += `      <foto>${img}</foto>\n`;
-      });
+      emp.fotos.forEach(f =>
+        xml += `      <foto>${f}</foto>\n`
+      );
       xml += `    </fotos>\n`;
     }
 
     xml += `  </empreendimento>\n`;
-  });
+  }
 
-  xml += `</empreendimentos>\n`;
-
+  xml += `</empreendimentos>`;
   fs.writeFileSync(outputPath, xml, "utf-8");
-
-  console.log("✅ XML gerado com sucesso:", outputPath);
 }
