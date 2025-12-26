@@ -1,3 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <empreendimentos>
+  <empreendimento>
+    <id>breve-lancamento-betania</id>
+    <titulo><![CDATA[Pronto Para Morar
+
+              Em Obras
+
+              Lançamento
+
+              Breve Lançamento
+
+              Obras Avançadas
+            
+
+            <img src="https://www.direcional.com.br/wp-content/uploads/2025/12/Copia-de-Direcional-MG-Header-Priori-Residence-Banner-Site-Breve-Lancamento-V2_Thumbnail-Mobile-2-700x500_b.png" alt="Breve Lançamento Betânia" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status>Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-nova-iguacu</id>
+    <titulo><![CDATA[Pronto Para Morar
+
+              Em Obras
+
+              Lançamento
+
+              Breve Lançamento
+
+              Obras Avançadas
+            
+
+            <img src="https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-RJ-Site-UNIQ-Breve-Lancamento-v2_Thumbnail-700x500_b.png" alt="Breve Lançamento Nova Iguaçu" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status>Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-em-sao-lourenco</id>
+    <titulo><![CDATA[Pronto Para Morar
+
+              Em Obras
+
+              Lançamento
+
+              Breve Lançamento
+
+              Obras Avançadas
+            
+
+            <img src="https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-PE-Site-Viva-Vida-Primavera-Breve-Lancamento_Thumbnail-700x500_b.png" alt="Breve lançamento em São Lourenço " class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status>Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lacamento-barra-olimpica</id>
+    <titulo><![CDATA[Pronto Para Morar
+
+              Em Obras
+
+              Lançamento
+
+              Breve Lançamento
+
+              Obras Avançadas
+            
+
+            <img src="https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-RJ-Site-Inn-Barra-Olimpica-Headers-e-Thumbnail_v3_Header-Mobile2766184-2-700x500_b.jpg" alt="Breve Lançamento Barra Olímpica" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status>Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>total-ville-conviver-condominio-2</id>
+    <titulo><![CDATA[Pronto Para Morar
+
+                          Em Obras
+
+                          Lançamento
+
+                          Breve Lançamento
+
+                          Obras Avançadas
+                        
+
+                        <img src="https://www.direcional.com.br/wp-content/uploads/2025/12/piscina-700x500_b.jpg" alt="Total Ville Conviver &amp;#8211; Condomínio 2" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status>Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>arbore-residencial</id>
+    <titulo><![CDATA[Pronto Para Morar
+
+                          Em Obras
+
+                          Lançamento
+
+                          Breve Lançamento
+
+                          Obras Avançadas
+                        
+
+                        <img src="https://www.direcional.com.br/wp-content/uploads/2025/12/guarita-arbore-residencial-direcional-700x500_b.jpg" alt="Árbore Residencial" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status>Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-em-paulista</id>
+    <titulo><![CDATA[Pronto Para Morar
+
+              Em Obras
+
+              Lançamento
+
+              Breve Lançamento
+
+              Obras Avançadas
+            
+
+            <img src="https://www.direcional.com.br/wp-content/uploads/2025/11/Direcional-PE-Site-Conquista-Paulista-Residence-Breve-Lancamento_Thumbnail-700x500_b.png" alt="Breve Lançamento em Paulista" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status>Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>parque-ville-lirio-azul</id>
+    <titulo><![CDATA[Pronto Para Morar
+
+                          Em Obras
+
+                          Lançamento
+
+                          Breve Lançamento
+
+                          Obras Avançadas
+                        
+
+                        <img src="https://www.direcional.com.br/wp-content/uploads/2025/11/guarita-parque-ville-lirio-azul-700x500_b.jpg" alt="Parque Ville Lírio Azul" class="w-100 img-card-empreendimento-new" data-eio="l">]]></titulo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status>Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
 </empreendimentos>
