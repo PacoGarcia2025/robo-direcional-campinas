@@ -1,41 +1,66 @@
-import fs from "fs";
+// ===============================
+// ARQUIVO: src/generateXml.js
+// GERADOR DE XML – PADRÃO X09
+// ===============================
 
-export default function generateXml(data, outputPath) {
+import fs from "fs";
+import path from "path";
+
+export default function generateXml(empreendimentos) {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<empreendimentos>\n`;
 
-  for (const emp of data) {
+  for (const emp of empreendimentos) {
     xml += `  <empreendimento>\n`;
     xml += `    <id>${emp.id}</id>\n`;
-    xml += `    <titulo><![CDATA[${emp.titulo}]]></titulo>\n`;
-    xml += `    <cidade>${emp.cidade}</cidade>\n`;
-    xml += `    <estado>${emp.estado}</estado>\n`;
-    xml += `    <status>${emp.status}</status>\n`;
+    xml += `    <titulo><![CDATA[${emp.title}]]></titulo>\n`;
+    xml += `    <cidade>${emp.city || ""}</cidade>\n`;
+    xml += `    <estado>${emp.state || ""}</estado>\n`;
+    xml += `    <status>${emp.status || ""}</status>\n`;
 
-    if (emp.unidades.length) {
+    // ===============================
+    // UNIDADES
+    // ===============================
+    if (emp.unidades?.length) {
       xml += `    <unidades>\n`;
-      for (const u of emp.unidades) {
+      emp.unidades.forEach((u) => {
         xml += `      <unidade>\n`;
+        xml += `        <area>${u.area}</area>\n`;
         xml += `        <dormitorios>${u.dormitorios}</dormitorios>\n`;
-        if (u.area_min) xml += `        <area_min>${u.area_min}</area_min>\n`;
-        if (u.area_max) xml += `        <area_max>${u.area_max}</area_max>\n`;
         xml += `      </unidade>\n`;
-      }
+      });
       xml += `    </unidades>\n`;
     }
 
-    if (emp.diferenciais.length) {
+    // ===============================
+    // DIFERENCIAIS
+    // ===============================
+    if (emp.diferenciais_empreendimento?.length) {
       xml += `    <diferenciais_empreendimento>\n`;
-      emp.diferenciais.forEach(d =>
-        xml += `      <item><![CDATA[${d}]]></item>\n`
-      );
+      emp.diferenciais_empreendimento.forEach((d) => {
+        xml += `      <item><![CDATA[${d}]]></item>\n`;
+      });
       xml += `    </diferenciais_empreendimento>\n`;
     }
 
-    if (emp.fotos.length) {
+    // ===============================
+    // FICHA TÉCNICA (ESTRUTURA PRONTA)
+    // ===============================
+    xml += `    <ficha_tecnica>\n`;
+    if (emp.ficha_tecnica) {
+      for (const [key, value] of Object.entries(emp.ficha_tecnica)) {
+        xml += `      <${key}><![CDATA[${value}]]></${key}>\n`;
+      }
+    }
+    xml += `    </ficha_tecnica>\n`;
+
+    // ===============================
+    // FOTOS
+    // ===============================
+    if (emp.imagens?.length) {
       xml += `    <fotos>\n`;
-      emp.fotos.forEach(f =>
-        xml += `      <foto>${f}</foto>\n`
-      );
+      emp.imagens.forEach((img) => {
+        xml += `      <foto>${img}</foto>\n`;
+      });
       xml += `    </fotos>\n`;
     }
 
@@ -43,5 +68,9 @@ export default function generateXml(data, outputPath) {
   }
 
   xml += `</empreendimentos>`;
-  fs.writeFileSync(outputPath, xml, "utf-8");
+
+  const outputPath = path.resolve("output/direcional.xml");
+  fs.writeFileSync(outputPath, xml, "utf8");
+
+  console.log("📦 XML gerado em:", outputPath);
 }
