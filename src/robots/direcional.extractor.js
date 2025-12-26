@@ -1,6 +1,6 @@
 // ===============================
 // ARQUIVO: src/robots/direcional.extractor.js
-// SCRAPER DIRECIONAL – PADRÃO X09 (COM FICHA TÉCNICA)
+// SCRAPER DIRECIONAL – ESTÁVEL (WAIT FIX)
 // ===============================
 
 import { chromium } from "playwright";
@@ -15,7 +15,7 @@ export default async function extractDirecional() {
 
   console.log("🚀 Iniciando Robô Direcional");
 
-  await page.goto(START_URL, { waitUntil: "networkidle" });
+  await page.goto(START_URL, { waitUntil: "domcontentloaded" });
 
   // ===============================
   // 1️⃣ LINKS DOS EMPREENDIMENTOS
@@ -40,7 +40,13 @@ export default async function extractDirecional() {
   // ===============================
   for (const url of uniqueLinks) {
     try {
-      await page.goto(url, { waitUntil: "networkidle" });
+      await page.goto(url, { waitUntil: "domcontentloaded" });
+
+      // 🔴 ESPERA EXPLÍCITA (ESSENCIAL)
+      await page.waitForSelector("h1", { timeout: 15000 });
+      await page.waitForSelector(".breadcrumbs-empreendimento", {
+        timeout: 15000,
+      });
 
       const data = await page.evaluate(() => {
         // ===============================
@@ -79,6 +85,7 @@ export default async function extractDirecional() {
             const t = li.innerText.trim();
             if (
               t.includes("Lançamento") ||
+              t.includes("Breve") ||
               t.includes("Obras") ||
               t.includes("Pronto")
             ) {
@@ -133,7 +140,7 @@ export default async function extractDirecional() {
             (t) =>
               t &&
               !t.toLowerCase().includes("lançamento") &&
-              !t.toLowerCase().includes("obras")
+              !t.toLowerCase().includes("breve")
           );
 
         // ===============================
@@ -154,7 +161,7 @@ export default async function extractDirecional() {
                   const strong = p.querySelector("strong");
                   if (!strong) return;
 
-                  const label = strong.innerText
+                  const key = strong.innerText
                     .replace(":", "")
                     .trim()
                     .toLowerCase()
@@ -165,15 +172,15 @@ export default async function extractDirecional() {
                     .replace(strong.innerText, "")
                     .trim();
 
-                  if (label && value) {
-                    ficha_tecnica[label] = value;
+                  if (key && value) {
+                    ficha_tecnica[key] = value;
                   }
                 });
             }
           });
 
         // ===============================
-        // IMAGENS (BRUTAS)
+        // IMAGENS
         // ===============================
         const imagens = Array.from(document.querySelectorAll("img")).map(
           (img) => ({
@@ -195,7 +202,10 @@ export default async function extractDirecional() {
         };
       });
 
-      if (!data.title) continue;
+      if (!data.title) {
+        console.warn("⚠️ Página sem título:", url);
+        continue;
+      }
 
       const id = url.replace(/\/$/, "").split("/").pop();
 
@@ -217,7 +227,7 @@ export default async function extractDirecional() {
         imagens: imagensProcessadas,
       });
     } catch (err) {
-      console.error("❌ Erro:", url, err.message);
+      console.error("❌ Erro ao processar:", url, err.message);
     }
   }
 
