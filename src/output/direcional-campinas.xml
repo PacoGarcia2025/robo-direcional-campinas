@@ -6,10 +6,27 @@
     <cidade>Campinas</cidade>
     <estado>SP</estado>
     <status>Em Obras</status>
+    <unidades>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>45</area>
+      </unidade>
+      <unidade>
+        <dormitorios>2</dormitorios>
+        <area>45</area>
+      </unidade>
+    </unidades>
     <diferenciais_empreendimento>
-      <item>piscina</item>
-      <item>espaco_gourmet</item>
-      <item>academia</item>
+      <item>Lazer Completo</item>
+      <item>Espaço Gourmet</item>
+      <item>Espaço Fitness</item>
+      <item>Localização Privilegiada</item>
+      <item>Suíte</item>
+      <item>Qualidade de Vida</item>
+      <item>Piscina</item>
+      <item>Varanda</item>
+      <item>Espaço Kids</item>
+      <item>Ótimo Investimento</item>
     </diferenciais_empreendimento>
     <fotos>
       <foto>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Guarita-CoresdaMataMangara.jpg</foto>
@@ -33,9 +50,14 @@
     <estado>SP</estado>
     <status>Em Obras</status>
     <diferenciais_empreendimento>
-      <item>piscina</item>
-      <item>condominio_fechado</item>
-      <item>academia</item>
+      <item>Lazer Completo</item>
+      <item>Varanda</item>
+      <item>Condomínio Fechado</item>
+      <item>Comércios no local</item>
+      <item>Qualidade de Vida</item>
+      <item>Espaço Fitness</item>
+      <item>Condições de Pagamento Facilitadas</item>
+      <item>Piscina</item>
     </diferenciais_empreendimento>
     <fotos>
       <foto>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Guarita-RiseCondominioClube.jpg</foto>
@@ -61,8 +83,20 @@
     <estado>SP</estado>
     <status>Obras Avançadas</status>
     <diferenciais_empreendimento>
-      <item>piscina</item>
-      <item>espaco_gourmet</item>
+      <item>Lazer Completo</item>
+      <item>Opções na Planta</item>
+      <item>Localização Privilegiada</item>
+      <item>Varanda</item>
+      <item>Condomínio Fechado</item>
+      <item>Acabamento Diferenciado</item>
+      <item>Segurança 24 h</item>
+      <item>Comércios no local</item>
+      <item>Qualidade de Vida</item>
+      <item>Número de Vagas na Garagem</item>
+      <item>Utilize seu FGTS</item>
+      <item>Condições de Pagamento Facilitadas</item>
+      <item>Diversas opções de transporte público</item>
+      <item>Piscina</item>
     </diferenciais_empreendimento>
     <fotos>
       <foto>https://www.direcional.com.br/wp-content/uploads/2023/07/Portaria_SeletoAmoreiras.jpg</foto>
@@ -80,8 +114,34 @@
     <cidade>Limeira</cidade>
     <estado>SP</estado>
     <status>Obras Avançadas</status>
+    <unidades>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>47.79</area>
+      </unidade>
+      <unidade>
+        <dormitorios>1</dormitorios>
+        <area>51.67</area>
+      </unidade>
+      <unidade>
+        <dormitorios>2</dormitorios>
+        <area>47.79</area>
+      </unidade>
+      <unidade>
+        <dormitorios>2</dormitorios>
+        <area>51.67</area>
+      </unidade>
+    </unidades>
     <diferenciais_empreendimento>
-      <item>piscina</item>
+      <item>Ao lado da Unicamp</item>
+      <item>Coworking</item>
+      <item>Mini Mercado</item>
+      <item>Bike Sharing</item>
+      <item>Piscina Adulto e Infantil</item>
+      <item>Varanda com Ponto Elétrico</item>
+      <item>Lazer Completo</item>
+      <item>Apenas Duas Torres</item>
+      <item>Previsão de Wi-Fi nas Áreas Comuns</item>
     </diferenciais_empreendimento>
     <fotos>
       <foto>https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png</foto>

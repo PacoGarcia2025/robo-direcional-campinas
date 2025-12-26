@@ -23,11 +23,27 @@
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Suite.png",
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Qualidade-de-Vida.png"
     ],
-    "unidades": [],
+    "unidades": [
+      {
+        "dormitorios": 1,
+        "area": "45"
+      },
+      {
+        "dormitorios": 2,
+        "area": "45"
+      }
+    ],
     "diferenciais": [
-      "piscina",
-      "espaco_gourmet",
-      "academia"
+      "Lazer Completo",
+      "Espaço Gourmet",
+      "Espaço Fitness",
+      "Localização Privilegiada",
+      "Suíte",
+      "Qualidade de Vida",
+      "Piscina",
+      "Varanda",
+      "Espaço Kids",
+      "Ótimo Investimento"
     ],
     "status": "Em Obras"
   },
@@ -59,9 +75,14 @@
     ],
     "unidades": [],
     "diferenciais": [
-      "piscina",
-      "condominio_fechado",
-      "academia"
+      "Lazer Completo",
+      "Varanda",
+      "Condomínio Fechado",
+      "Comércios no local",
+      "Qualidade de Vida",
+      "Espaço Fitness",
+      "Condições de Pagamento Facilitadas",
+      "Piscina"
     ],
     "status": "Em Obras"
   },
@@ -86,8 +107,20 @@
     ],
     "unidades": [],
     "diferenciais": [
-      "piscina",
-      "espaco_gourmet"
+      "Lazer Completo",
+      "Opções na Planta",
+      "Localização Privilegiada",
+      "Varanda",
+      "Condomínio Fechado",
+      "Acabamento Diferenciado",
+      "Segurança 24 h",
+      "Comércios no local",
+      "Qualidade de Vida",
+      "Número de Vagas na Garagem",
+      "Utilize seu FGTS",
+      "Condições de Pagamento Facilitadas",
+      "Diversas opções de transporte público",
+      "Piscina"
     ],
     "status": "Obras Avançadas"
   },
@@ -112,9 +145,34 @@
       "https://www.direcional.com.br/wp-content/uploads/2021/06/parcelas.png",
       "https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png"
     ],
-    "unidades": [],
+    "unidades": [
+      {
+        "dormitorios": 1,
+        "area": "47.79"
+      },
+      {
+        "dormitorios": 1,
+        "area": "51.67"
+      },
+      {
+        "dormitorios": 2,
+        "area": "47.79"
+      },
+      {
+        "dormitorios": 2,
+        "area": "51.67"
+      }
+    ],
     "diferenciais": [
-      "piscina"
+      "Ao lado da Unicamp",
+      "Coworking",
+      "Mini Mercado",
+      "Bike Sharing",
+      "Piscina Adulto e Infantil",
+      "Varanda com Ponto Elétrico",
+      "Lazer Completo",
+      "Apenas Duas Torres",
+      "Previsão de Wi-Fi nas Áreas Comuns"
     ],
     "status": "Obras Avançadas"
   }
