@@ -1,6 +1,6 @@
 // ===============================
 // ARQUIVO: src/generateXml.js
-// XML FINAL PARA X09
+// XML FINAL COMPLETO PARA X09
 // ===============================
 
 import fs from "fs";
@@ -8,32 +8,51 @@ import fs from "fs";
 export default function generateXml(inputPath, outputPath) {
   const data = JSON.parse(fs.readFileSync(inputPath, "utf-8"));
 
-  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  xml += `<empreendimentos>\n`;
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<empreendimentos>\n`;
 
-  for (const item of data) {
-    xml += `  <empreendimento>\n`;
-    xml += `    <id>${item.id}</id>\n`;
-    xml += `    <titulo><![CDATA[${item.title}]]></titulo>\n`;
-    xml += `    <cidade>${item.location.city}</cidade>\n`;
-    xml += `    <estado>${item.location.state}</estado>\n`;
-    xml += `    <status>${item.status || item.fixedCardText || ""}</status>\n`;
+  data.forEach(item => {
+    xml += `  <empreendimento>
+    <id>${item.id}</id>
+    <titulo><![CDATA[${item.title}]]></titulo>
+    <cidade>${item.location.city}</cidade>
+    <estado>${item.location.state}</estado>
+    <status>${item.status}</status>\n`;
 
-    if (item.images && item.images.length) {
-      xml += `    <fotos>\n`;
-      for (const img of item.images.slice(0, 20)) {
-        if (img.startsWith("http")) {
-          xml += `      <foto>${img}</foto>\n`;
-        }
-      }
-      xml += `    </fotos>\n`;
+    // UNIDADES
+    if (item.unidades?.length) {
+      xml += `    <unidades>\n`;
+      item.unidades.forEach(u => {
+        xml += `      <unidade>\n`;
+        if (u.dormitorios) xml += `        <dormitorios>${u.dormitorios}</dormitorios>\n`;
+        if (u.area) xml += `        <area>${u.area}</area>\n`;
+        if (u.suite) xml += `        <suite>true</suite>\n`;
+        if (u.varanda) xml += `        <varanda>true</varanda>\n`;
+        xml += `      </unidade>\n`;
+      });
+      xml += `    </unidades>\n`;
     }
 
+    // DIFERENCIAIS
+    if (item.diferenciais?.length) {
+      xml += `    <diferenciais_empreendimento>\n`;
+      item.diferenciais.forEach(d => {
+        xml += `      <item>${d}</item>\n`;
+      });
+      xml += `    </diferenciais_empreendimento>\n`;
+    }
+
+    // FOTOS
+    xml += `    <fotos>\n`;
+    item.images.slice(0, 20).forEach(img => {
+      xml += `      <foto>${img}</foto>\n`;
+    });
+    xml += `    </fotos>\n`;
+
     xml += `  </empreendimento>\n`;
-  }
+  });
 
   xml += `</empreendimentos>`;
 
-  fs.writeFileSync(outputPath, xml, "utf-8");
-  console.log("📄 XML gerado em:", outputPath);
+  fs.writeFileSync(outputPath, xml);
+  console.log("✔ XML completo gerado:", outputPath);
 }
