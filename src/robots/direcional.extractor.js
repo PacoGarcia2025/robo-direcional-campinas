@@ -1,6 +1,7 @@
 // =====================================
-// DIRECIONAL – EXTRACTOR PREMIUM (HTML)
-// MODELO A – UNIDADES ESTRUTURADAS
+// DIRECIONAL – EXTRACTOR DEFINITIVO
+// - Tipologias com vínculo correto (1↔1)
+// - Limpeza pesada de imagens
 // =====================================
 
 export async function extractDirecional(page, url) {
@@ -9,9 +10,6 @@ export async function extractDirecional(page, url) {
   await page.goto(url, { waitUntil: "networkidle", timeout: 60000 });
 
   const data = await page.evaluate(() => {
-    // =========================
-    // AUXILIARES
-    // =========================
     const text = sel =>
       document.querySelector(sel)?.innerText.trim() || "";
 
@@ -24,7 +22,6 @@ export async function extractDirecional(page, url) {
     // LOCALIZAÇÃO
     // =========================
     const rawLocation = text("#card-simulacao-empreendimento .adress a");
-
     let city = "";
     let state = "";
 
@@ -42,8 +39,48 @@ export async function extractDirecional(page, url) {
         ?.innerText.trim() || "";
 
     // =========================
-    // IMAGENS (JÁ LIMPAS)
+    // IMAGENS – FILTRO PROFISSIONAL
     // =========================
+    const allowedKeywords = [
+      "fachada",
+      "perspectiva",
+      "piscina",
+      "living",
+      "quarto",
+      "suite",
+      "cozinha",
+      "planta",
+      "guarita",
+      "lazer",
+      "varanda",
+      "gourmet",
+    ];
+
+    const blockedKeywords = [
+      "icon",
+      "icone",
+      "logo",
+      "vector",
+      "svg",
+      "selo",
+      "fgts",
+      "renda",
+      "parcelas",
+      "porcentagem",
+      "beneficio",
+      "texto",
+      "button",
+      "background",
+      "qualidade",
+      "vida",
+      "condicoes",
+      "pagamento",
+      "localizacao",
+      "investimento",
+      "whats",
+      "simul",
+    ];
+
     const images = Array.from(document.querySelectorAll("img"))
       .map(img => img.getAttribute("src") || img.getAttribute("data-src"))
       .filter(src => {
@@ -51,24 +88,18 @@ export async function extractDirecional(page, url) {
         if (!src.startsWith("http")) return false;
         if (!src.includes("/wp-content/uploads/")) return false;
 
-        const blocked = [
-          "button",
-          "background",
-          "icon",
-          "logo",
-          "vector",
-          "svg",
-          "whats",
-          "simul",
-        ];
+        const lower = src.toLowerCase();
 
-        return !blocked.some(w => src.toLowerCase().includes(w));
+        if (blockedKeywords.some(k => lower.includes(k))) return false;
+        if (!allowedKeywords.some(k => lower.includes(k))) return false;
+
+        return true;
       });
 
     const uniqueImages = [...new Set(images)];
 
     // =========================
-    // DORMITÓRIOS + TIPOLOGIAS
+    // DORMITÓRIOS & ÁREAS (TEXTO)
     // =========================
     const spans = Array.from(
       document.querySelectorAll("ul.pl-3 span")
@@ -78,14 +109,13 @@ export async function extractDirecional(page, url) {
     let areas = [];
 
     spans.forEach(txt => {
-      // 1 e 2 Quartos
-      const dormMatch = txt.match(/(\d+)\s*e\s*(\d+)\s*quartos/i);
-      if (dormMatch) {
-        dormitorios.push(Number(dormMatch[1]));
-        dormitorios.push(Number(dormMatch[2]));
+      const dorms = txt.match(/\d+\s*(?=quartos?)/gi);
+      if (dorms) {
+        dorms.forEach(d =>
+          dormitorios.push(Number(d.replace(/\D/g, "")))
+        );
       }
 
-      // 40,77m² | 50,79m²
       const areaMatches = txt.match(/\d{2,3}[,.]?\d*\s?m²/gi);
       if (areaMatches) {
         areaMatches.forEach(a => areas.push(a));
@@ -96,18 +126,20 @@ export async function extractDirecional(page, url) {
     areas = [...new Set(areas)];
 
     // =========================
-    // UNIDADES (MODELO A)
+    // UNIDADES – VÍNCULO 1↔1
     // =========================
     const unidades = [];
+    const max = Math.min(dormitorios.length, areas.length);
 
-    dormitorios.forEach(d => {
-      areas.forEach(a => {
-        unidades.push({
-          dormitorios: d,
-          area: a.replace("m²", "").replace(",", ".").trim(),
-        });
+    for (let i = 0; i < max; i++) {
+      unidades.push({
+        dormitorios: dormitorios[i],
+        area: areas[i]
+          .replace("m²", "")
+          .replace(",", ".")
+          .trim(),
       });
-    });
+    }
 
     // =========================
     // DIFERENCIAIS DO CONDOMÍNIO
