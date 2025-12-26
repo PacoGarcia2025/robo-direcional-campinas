@@ -8,6 +8,7 @@
       "city": "Campinas",
       "state": "SP"
     },
+    "fixedCardText": "Em obras",
     "images": [
       "https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Guarita-CoresdaMataMangara.jpg",
       "https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaAdulto-CoresdaMataMangara.jpg",
@@ -22,7 +23,28 @@
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Suite.png",
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Qualidade-de-Vida.png"
     ],
-    "fixedCardText": "Em obras"
+    "unidades": [
+      {
+        "dormitorios": 1,
+        "area": "45"
+      },
+      {
+        "dormitorios": 2,
+        "area": "45"
+      }
+    ],
+    "diferenciais": [
+      "Lazer Completo",
+      "Espaço Gourmet",
+      "Espaço Fitness",
+      "Localização Privilegiada",
+      "Suíte",
+      "Qualidade de Vida",
+      "Piscina",
+      "Varanda",
+      "Espaço Kids",
+      "Ótimo Investimento"
+    ]
   },
   {
     "id": "rise-condominio-clube",
@@ -33,6 +55,7 @@
       "city": "Campinas",
       "state": "SP"
     },
+    "fixedCardText": "Em Obras",
     "images": [
       "https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Guarita-RiseCondominioClube.jpg",
       "https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Piscina-RiseParquePrado.jpg",
@@ -49,7 +72,17 @@
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Condicoes-de-Pagamento-Facilitadas.png",
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Piscina-1.png"
     ],
-    "fixedCardText": "Em Obras"
+    "unidades": [],
+    "diferenciais": [
+      "Lazer Completo",
+      "Varanda",
+      "Condomínio Fechado",
+      "Comércios no local",
+      "Qualidade de Vida",
+      "Espaço Fitness",
+      "Condições de Pagamento Facilitadas",
+      "Piscina"
+    ]
   },
   {
     "id": "seleto-amoreiras",
@@ -60,6 +93,7 @@
       "city": "Campinas",
       "state": "SP"
     },
+    "fixedCardText": "Obras avançadas",
     "images": [
       "https://www.direcional.com.br/wp-content/uploads/2023/07/Portaria_SeletoAmoreiras.jpg",
       "https://www.direcional.com.br/wp-content/uploads/2023/07/piscina-Breve-Lancamento-Amoreira-Direcional.jpg",
@@ -69,7 +103,23 @@
       "https://www.direcional.com.br/wp-content/uploads/2021/09/porcentagem.png",
       "https://www.direcional.com.br/wp-content/uploads/2021/06/Renda-Familiar.png"
     ],
-    "fixedCardText": "Obras avançadas"
+    "unidades": [],
+    "diferenciais": [
+      "Lazer Completo",
+      "Opções na Planta",
+      "Localização Privilegiada",
+      "Varanda",
+      "Condomínio Fechado",
+      "Acabamento Diferenciado",
+      "Segurança 24 h",
+      "Comércios no local",
+      "Qualidade de Vida",
+      "Número de Vagas na Garagem",
+      "Utilize seu FGTS",
+      "Condições de Pagamento Facilitadas",
+      "Diversas opções de transporte público",
+      "Piscina"
+    ]
   },
   {
     "id": "reserva-antonieta",
@@ -80,6 +130,7 @@
       "city": "Limeira",
       "state": "SP"
     },
+    "fixedCardText": "Obras Avançadas",
     "images": [
       "https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png",
       "https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Fachada-ReservaAntonieta.jpg",
@@ -91,6 +142,34 @@
       "https://www.direcional.com.br/wp-content/uploads/2021/06/parcelas.png",
       "https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png"
     ],
-    "fixedCardText": "Obras Avançadas"
+    "unidades": [
+      {
+        "dormitorios": 1,
+        "area": "47.79"
+      },
+      {
+        "dormitorios": 1,
+        "area": "51.67"
+      },
+      {
+        "dormitorios": 2,
+        "area": "47.79"
+      },
+      {
+        "dormitorios": 2,
+        "area": "51.67"
+      }
+    ],
+    "diferenciais": [
+      "Ao lado da Unicamp",
+      "Coworking",
+      "Mini Mercado",
+      "Bike Sharing",
+      "Piscina Adulto e Infantil",
+      "Varanda com Ponto Elétrico",
+      "Lazer Completo",
+      "Apenas Duas Torres",
+      "Previsão de Wi-Fi nas Áreas Comuns"
+    ]
   }
 ]
