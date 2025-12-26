@@ -23,7 +23,13 @@
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Qualidade-de-Vida.png"
     ],
     "fixedCardText": "Em obras",
-    "status": "Em Obras"
+    "status": "Em Obras",
+    "unidades": [],
+    "diferenciais": [
+      "piscina",
+      "espaco_gourmet",
+      "academia"
+    ]
   },
   {
     "id": "rise-condominio-clube",
@@ -51,7 +57,13 @@
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Piscina-1.png"
     ],
     "fixedCardText": "Em Obras",
-    "status": "Em Obras"
+    "status": "Em Obras",
+    "unidades": [],
+    "diferenciais": [
+      "piscina",
+      "condominio_fechado",
+      "academia"
+    ]
   },
   {
     "id": "seleto-amoreiras",
@@ -72,7 +84,12 @@
       "https://www.direcional.com.br/wp-content/uploads/2021/06/Renda-Familiar.png"
     ],
     "fixedCardText": "Obras avançadas",
-    "status": "Obras Avançadas"
+    "status": "Obras Avançadas",
+    "unidades": [],
+    "diferenciais": [
+      "piscina",
+      "espaco_gourmet"
+    ]
   },
   {
     "id": "reserva-antonieta",
@@ -95,6 +112,10 @@
       "https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png"
     ],
     "fixedCardText": "Obras Avançadas",
-    "status": "Obras Avançadas"
+    "status": "Obras Avançadas",
+    "unidades": [],
+    "diferenciais": [
+      "piscina"
+    ]
   }
 ]

@@ -6,6 +6,11 @@
     <cidade>Campinas</cidade>
     <estado>SP</estado>
     <status>Em Obras</status>
+    <diferenciais_empreendimento>
+      <item>piscina</item>
+      <item>espaco_gourmet</item>
+      <item>academia</item>
+    </diferenciais_empreendimento>
     <fotos>
       <foto>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Guarita-CoresdaMataMangara.jpg</foto>
       <foto>https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaAdulto-CoresdaMataMangara.jpg</foto>
@@ -27,6 +32,11 @@
     <cidade>Campinas</cidade>
     <estado>SP</estado>
     <status>Em Obras</status>
+    <diferenciais_empreendimento>
+      <item>piscina</item>
+      <item>condominio_fechado</item>
+      <item>academia</item>
+    </diferenciais_empreendimento>
     <fotos>
       <foto>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Guarita-RiseCondominioClube.jpg</foto>
       <foto>https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Piscina-RiseParquePrado.jpg</foto>
@@ -50,6 +60,10 @@
     <cidade>Campinas</cidade>
     <estado>SP</estado>
     <status>Obras Avançadas</status>
+    <diferenciais_empreendimento>
+      <item>piscina</item>
+      <item>espaco_gourmet</item>
+    </diferenciais_empreendimento>
     <fotos>
       <foto>https://www.direcional.com.br/wp-content/uploads/2023/07/Portaria_SeletoAmoreiras.jpg</foto>
       <foto>https://www.direcional.com.br/wp-content/uploads/2023/07/piscina-Breve-Lancamento-Amoreira-Direcional.jpg</foto>
@@ -66,6 +80,9 @@
     <cidade>Limeira</cidade>
     <estado>SP</estado>
     <status>Obras Avançadas</status>
+    <diferenciais_empreendimento>
+      <item>piscina</item>
+    </diferenciais_empreendimento>
     <fotos>
       <foto>https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png</foto>
       <foto>https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Fachada-ReservaAntonieta.jpg</foto>
