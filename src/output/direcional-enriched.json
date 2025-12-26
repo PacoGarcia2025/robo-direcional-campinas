@@ -18,16 +18,9 @@
       "https://www.direcional.com.br/wp-content/uploads/2025/01/Quartos.webp",
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png",
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Gourmet-1.png",
-      "https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Fitness.png",
-      "https://www.direcional.com.br/wp-content/uploads/2022/02/Localizacao-Privilegiada-1.png",
-      "https://www.direcional.com.br/wp-content/uploads/2022/02/Suite.png",
-      "https://www.direcional.com.br/wp-content/uploads/2022/02/Qualidade-de-Vida.png"
+      "https://www.direcional.com.br/wp-content/uploads/2022/02/Suite.png"
     ],
     "unidades": [
-      {
-        "dormitorios": 1,
-        "area": "45"
-      },
       {
         "dormitorios": 2,
         "area": "45"
@@ -66,14 +59,14 @@
       "https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png",
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png",
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Varanda-1.png",
-      "https://www.direcional.com.br/wp-content/uploads/2022/02/Condominio-Fechado-1.png",
-      "https://www.direcional.com.br/wp-content/uploads/2022/02/Comercios-no-local.png",
-      "https://www.direcional.com.br/wp-content/uploads/2022/02/Qualidade-de-Vida.png",
-      "https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Fitness.png",
-      "https://www.direcional.com.br/wp-content/uploads/2022/02/Condicoes-de-Pagamento-Facilitadas.png",
       "https://www.direcional.com.br/wp-content/uploads/2022/02/Piscina-1.png"
     ],
-    "unidades": [],
+    "unidades": [
+      {
+        "dormitorios": 2,
+        "area": "43.73"
+      }
+    ],
     "diferenciais": [
       "Lazer Completo",
       "Varanda",
@@ -97,13 +90,9 @@
     },
     "fixedCardText": "Obras avançadas",
     "images": [
-      "https://www.direcional.com.br/wp-content/uploads/2023/07/Portaria_SeletoAmoreiras.jpg",
       "https://www.direcional.com.br/wp-content/uploads/2023/07/piscina-Breve-Lancamento-Amoreira-Direcional.jpg",
       "https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-Breve-Lancamento-Amoreira-Direcional.jpg",
-      "https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-2-Breve-Lancamento-Amoreira-Direcional.jpg",
-      "https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png",
-      "https://www.direcional.com.br/wp-content/uploads/2021/09/porcentagem.png",
-      "https://www.direcional.com.br/wp-content/uploads/2021/06/Renda-Familiar.png"
+      "https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-2-Breve-Lancamento-Amoreira-Direcional.jpg"
     ],
     "unidades": [],
     "diferenciais": [
@@ -135,32 +124,17 @@
     },
     "fixedCardText": "Obras Avançadas",
     "images": [
-      "https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png",
       "https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Fachada-ReservaAntonieta.jpg",
       "https://www.direcional.com.br/wp-content/uploads/2021/09/PISCINA-ADULTO-RESERVA-ANTONIETA-DIRECIONAL.jpg",
       "https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Living-ReservaAntonieta.jpg",
       "https://www.direcional.com.br/wp-content/uploads/2021/09/GUARITA-RESERVA-ANTONIETA-DIRECIONAL.jpg",
       "https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png",
-      "https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png",
-      "https://www.direcional.com.br/wp-content/uploads/2021/06/parcelas.png",
-      "https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png"
+      "https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png"
     ],
     "unidades": [
       {
-        "dormitorios": 1,
-        "area": "47.79"
-      },
-      {
-        "dormitorios": 1,
-        "area": "51.67"
-      },
-      {
         "dormitorios": 2,
         "area": "47.79"
-      },
-      {
-        "dormitorios": 2,
-        "area": "51.67"
       }
     ],
     "diferenciais": [
