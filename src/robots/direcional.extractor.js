@@ -1,185 +1,124 @@
-// =====================================
-// DIRECIONAL – EXTRACTOR DEFINITIVO
-// - Tipologias com vínculo correto (1↔1)
-// - Limpeza pesada de imagens
-// =====================================
+import { chromium } from "playwright";
 
-export async function extractDirecional(page, url) {
-  console.log("Extraindo:", url);
+export default async function extractDirecional() {
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage();
 
-  await page.goto(url, { waitUntil: "networkidle", timeout: 60000 });
+  await page.goto(
+    "https://www.direcional.com.br/empreendimentos/?cidade=campinas",
+    { waitUntil: "networkidle" }
+  );
 
-  const data = await page.evaluate(() => {
-    const text = sel =>
-      document.querySelector(sel)?.innerText.trim() || "";
+  const empreendimentos = await page.evaluate(() => {
+    const cards = Array.from(document.querySelectorAll("a.card-empreendimento"));
 
-    // =========================
-    // TÍTULO
-    // =========================
-    const title = document.querySelector("h1")?.innerText.trim() || "";
+    return cards.map(card => {
+      const url = card.href;
+      const id = url.split("/").filter(Boolean).pop();
 
-    // =========================
-    // LOCALIZAÇÃO
-    // =========================
-    const rawLocation = text("#card-simulacao-empreendimento .adress a");
-    let city = "";
-    let state = "";
+      const title =
+        card.querySelector("h2, h3, .card-title")?.innerText?.trim() || "";
 
-    if (rawLocation.includes("-")) {
-      const parts = rawLocation.split("-");
-      state = parts.pop()?.trim();
-      city = parts.pop()?.split(",")?.pop()?.trim() || "";
-    }
+      const locationRaw =
+        card.querySelector(".card-location")?.innerText?.trim() || "";
 
-    // =========================
-    // STATUS
-    // =========================
-    const fixedCardText =
-      document.querySelector("#card-simulacao-empreendimento li")
-        ?.innerText.trim() || "";
+      let city = "";
+      let state = "";
 
-    // =========================
-    // IMAGENS – FILTRO PROFISSIONAL
-    // =========================
-    const allowedKeywords = [
-      "fachada",
-      "perspectiva",
-      "piscina",
-      "living",
-      "quarto",
-      "suite",
-      "cozinha",
-      "planta",
-      "guarita",
-      "lazer",
-      "varanda",
-      "gourmet",
-    ];
-
-    const blockedKeywords = [
-      "icon",
-      "icone",
-      "logo",
-      "vector",
-      "svg",
-      "selo",
-      "fgts",
-      "renda",
-      "parcelas",
-      "porcentagem",
-      "beneficio",
-      "texto",
-      "button",
-      "background",
-      "qualidade",
-      "vida",
-      "condicoes",
-      "pagamento",
-      "localizacao",
-      "investimento",
-      "whats",
-      "simul",
-    ];
-
-    const images = Array.from(document.querySelectorAll("img"))
-  .filter(img => {
-    const src = img.getAttribute("src") || img.getAttribute("data-src");
-    if (!src) return false;
-    if (!src.includes("/wp-content/uploads/")) return false;
-
-    const w = img.naturalWidth || 0;
-    const h = img.naturalHeight || 0;
-
-    // elimina ícones e selos
-    if (w < 300 || h < 300) return false;
-
-    const lower = src.toLowerCase();
-    if (
-      lower.includes("icon") ||
-      lower.includes("icone") ||
-      lower.includes("selo") ||
-      lower.includes("logo") ||
-      lower.includes("vector")
-    ) {
-      return false;
-    }
-
-    return true;
-  })
-  .map(img => img.getAttribute("src") || img.getAttribute("data-src"));
-
-const uniqueImages = [...new Set(images)];
-
-
-    const uniqueImages = [...new Set(images)];
-
-    // =========================
-    // DORMITÓRIOS & ÁREAS (TEXTO)
-    // =========================
-    const spans = Array.from(
-      document.querySelectorAll("ul.pl-3 span")
-    ).map(s => s.innerText);
-
-    let dormitorios = [];
-    let areas = [];
-
-    spans.forEach(txt => {
-      const dorms = txt.match(/\d+\s*(?=quartos?)/gi);
-      if (dorms) {
-        dorms.forEach(d =>
-          dormitorios.push(Number(d.replace(/\D/g, "")))
-        );
+      if (locationRaw.includes("-")) {
+        const parts = locationRaw.split("-");
+        city = parts[0].trim();
+        state = parts[1].trim();
       }
 
-      const areaMatches = txt.match(/\d{2,3}[,.]?\d*\s?m²/gi);
-      if (areaMatches) {
-        areaMatches.forEach(a => areas.push(a));
-      }
+      return { id, url, title, city, state };
     });
-
-    dormitorios = [...new Set(dormitorios)];
-    areas = [...new Set(areas)];
-
-    // =========================
-    // UNIDADES – VÍNCULO 1↔1
-    // =========================
-    const unidades = [];
-    const max = Math.min(dormitorios.length, areas.length);
-
-    for (let i = 0; i < max; i++) {
-      unidades.push({
-        dormitorios: dormitorios[i],
-        area: areas[i]
-          .replace("m²", "")
-          .replace(",", ".")
-          .trim(),
-      });
-    }
-
-    // =========================
-    // DIFERENCIAIS DO CONDOMÍNIO
-    // =========================
-    const diferenciais = Array.from(
-      document.querySelectorAll(".card-single h3")
-    ).map(h3 => h3.innerText.trim());
-
-    return {
-      title,
-      location: {
-        raw: rawLocation,
-        city,
-        state,
-      },
-      fixedCardText,
-      images: uniqueImages,
-      unidades,
-      diferenciais,
-    };
   });
 
-  return {
-    id: url.split("/").filter(Boolean).pop(),
-    url,
-    ...data,
-  };
+  for (const emp of empreendimentos) {
+    await page.goto(emp.url, { waitUntil: "networkidle" });
+
+    const data = await page.evaluate(() => {
+      /* ========= STATUS ========= */
+      const status =
+        document.querySelector(".fixed-card-text")?.innerText?.trim() ||
+        document.querySelector(".status")?.innerText?.trim() ||
+        "";
+
+      /* ========= DIFERENCIAIS ========= */
+      const diferenciais = Array.from(
+        document.querySelectorAll(".benefits li, .diferenciais li")
+      ).map(li => li.innerText.trim());
+
+      /* ========= UNIDADES ========= */
+      const dormitorios = Array.from(
+        document.querySelectorAll("span")
+      )
+        .map(el => el.innerText)
+        .filter(t => /quarto/i.test(t))
+        .map(t => parseInt(t))
+        .filter(n => !isNaN(n));
+
+      const areas = Array.from(
+        document.querySelectorAll("span")
+      )
+        .map(el => el.innerText.replace(",", "."))
+        .filter(t => t.includes("m²"))
+        .map(t => parseFloat(t))
+        .filter(n => !isNaN(n));
+
+      const unidades = [];
+      const max = Math.min(dormitorios.length, areas.length);
+
+      for (let i = 0; i < max; i++) {
+        unidades.push({
+          dormitorios: dormitorios[i],
+          area: areas[i]
+        });
+      }
+
+      /* ========= IMAGENS (FILTRADAS) ========= */
+      const images = Array.from(document.querySelectorAll("img"))
+        .filter(img => {
+          const src = img.getAttribute("src") || img.getAttribute("data-src");
+          if (!src) return false;
+          if (!src.includes("/wp-content/uploads/")) return false;
+
+          const w = img.naturalWidth || 0;
+          const h = img.naturalHeight || 0;
+
+          // remove ícones, selos e imagens pequenas
+          if (w < 300 || h < 300) return false;
+
+          const lower = src.toLowerCase();
+          if (
+            lower.includes("icon") ||
+            lower.includes("icone") ||
+            lower.includes("logo") ||
+            lower.includes("vector") ||
+            lower.includes("selo")
+          ) {
+            return false;
+          }
+
+          return true;
+        })
+        .map(img => img.getAttribute("src") || img.getAttribute("data-src"));
+
+      return {
+        status,
+        diferenciais,
+        unidades,
+        images
+      };
+    });
+
+    emp.status = data.status;
+    emp.diferenciais = data.diferenciais;
+    emp.unidades = data.unidades;
+    emp.images = [...new Set(data.images)]; // 👈 ÚNICA declaração
+  }
+
+  await browser.close();
+  return empreendimentos;
 }
