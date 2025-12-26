@@ -2,244 +2,80 @@
 <empreendimentos>
   <empreendimento>
     <id>breve-lancamento-betania</id>
-    <titulo><![CDATA[Breve Lançamento Betânia]]></titulo>
-    <cidade>Belo Horizonte</cidade>
-    <estado>MG</estado>
+    <titulo><![CDATA[undefined]]></titulo>
+    <cidade></cidade>
+    <estado></estado>
     <status>Breve Lançamento</status>
-    <diferenciais_empreendimento>
-      <item><![CDATA[Varanda]]></item>
-      <item><![CDATA[Lazer Completo]]></item>
-    </diferenciais_empreendimento>
-    <fotos>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-MG-Header-Priori-Residence-Banner-Site-Breve-Lancamento-V3_Desktop.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-MG-Header-Priori-Residence-Banner-Site-Breve-Lancamento-V3_Desktop.jpg</foto>
-    </fotos>
+    <ficha_tecnica>
+    </ficha_tecnica>
   </empreendimento>
   <empreendimento>
     <id>breve-lancamento-nova-iguacu</id>
-    <titulo><![CDATA[Breve Lançamento Nova Iguaçu]]></titulo>
-    <cidade>Nova Iguaçu</cidade>
-    <estado>RJ</estado>
+    <titulo><![CDATA[undefined]]></titulo>
+    <cidade></cidade>
+    <estado></estado>
     <status>Breve Lançamento</status>
-    <diferenciais_empreendimento>
-      <item><![CDATA[Lazer Completo]]></item>
-      <item><![CDATA[Qualidade de Vida]]></item>
-      <item><![CDATA[Portaria 24h]]></item>
-      <item><![CDATA[Opções na Planta]]></item>
-      <item><![CDATA[Piscina]]></item>
-      <item><![CDATA[Condomínio Fechado]]></item>
-    </diferenciais_empreendimento>
-    <fotos>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-RJ-Site-UNIQ-Breve-Lancamento-v2_Header-Desktop.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-RJ-Site-UNIQ-Breve-Lancamento-v2_Header-Desktop.jpg</foto>
-    </fotos>
+    <ficha_tecnica>
+    </ficha_tecnica>
   </empreendimento>
   <empreendimento>
     <id>breve-lancamento-em-sao-lourenco</id>
-    <titulo><![CDATA[Breve Lançamento em São Lourenço]]></titulo>
-    <cidade>São Lourenço da Mata</cidade>
-    <estado>PE</estado>
+    <titulo><![CDATA[undefined]]></titulo>
+    <cidade></cidade>
+    <estado></estado>
     <status>Breve Lançamento</status>
-    <diferenciais_empreendimento>
-      <item><![CDATA[Condições de Pagamento Facilitadas]]></item>
-      <item><![CDATA[Espaço Fitness]]></item>
-      <item><![CDATA[Lazer Completo]]></item>
-      <item><![CDATA[Qualidade de Vida]]></item>
-      <item><![CDATA[Portaria 24h]]></item>
-      <item><![CDATA[Segurança 24h]]></item>
-      <item><![CDATA[Espaço Kids]]></item>
-      <item><![CDATA[Estacionamento para Bicicletas]]></item>
-      <item><![CDATA[Piscina]]></item>
-      <item><![CDATA[Espaço Verde e Natureza]]></item>
-      <item><![CDATA[Condomínio Fechado]]></item>
-      <item><![CDATA[Quadra Poliesportiva]]></item>
-    </diferenciais_empreendimento>
-    <fotos>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-PE-Site-Viva-Vida-Primavera-Breve-Lancamento_Header-Desktop.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-PE-Site-Viva-Vida-Primavera-Breve-Lancamento_Header-Desktop.jpg</foto>
-    </fotos>
+    <ficha_tecnica>
+    </ficha_tecnica>
   </empreendimento>
   <empreendimento>
     <id>breve-lacamento-barra-olimpica</id>
-    <titulo><![CDATA[Breve Lançamento Barra Olímpica]]></titulo>
-    <cidade>Rio de Janeiro</cidade>
-    <estado>RJ</estado>
+    <titulo><![CDATA[undefined]]></titulo>
+    <cidade></cidade>
+    <estado></estado>
     <status>Breve Lançamento</status>
-    <diferenciais_empreendimento>
-      <item><![CDATA[Condições de Pagamento Facilitadas]]></item>
-      <item><![CDATA[Espaço Fitness]]></item>
-      <item><![CDATA[Portaria 24 Horas]]></item>
-      <item><![CDATA[Tomadas para Carros Elétricos]]></item>
-      <item><![CDATA[Qualidade de Vida]]></item>
-      <item><![CDATA[Opções na Planta]]></item>
-      <item><![CDATA[Piscina]]></item>
-      <item><![CDATA[Acabamento Diferenciado]]></item>
-      <item><![CDATA[Segurança 24 HR]]></item>
-    </diferenciais_empreendimento>
-    <fotos>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-RJ-Site-Inn-Barra-Olimpica-Headers-e-Thumbnail_v2_Header-Desktop2766183-2.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Direcional-RJ-Site-Inn-Barra-Olimpica-Headers-e-Thumbnail_v2_Header-Desktop2766183-2.jpg</foto>
-    </fotos>
+    <ficha_tecnica>
+    </ficha_tecnica>
   </empreendimento>
   <empreendimento>
     <id>total-ville-conviver-condominio-2</id>
-    <titulo><![CDATA[Total Ville Conviver – Condomínio 2]]></titulo>
-    <cidade>Santa Maria</cidade>
-    <estado>DF</estado>
+    <titulo><![CDATA[undefined]]></titulo>
+    <cidade></cidade>
+    <estado></estado>
     <status>Lançamento</status>
     <unidades>
       <unidade>
+        <area>undefined</area>
         <dormitorios>2</dormitorios>
-        <area_min>45</area_min>
-        <area_max>48</area_max>
       </unidade>
     </unidades>
-    <diferenciais_empreendimento>
-      <item><![CDATA[Lazer Completo]]></item>
-      <item><![CDATA[Condomínio Fechado]]></item>
-      <item><![CDATA[Localização Privilegiada]]></item>
-    </diferenciais_empreendimento>
-    <fotos>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/piscina.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/churrasqueira.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Fachada-Bloco-Tipo-A.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Fachada-Bloco-Tipo-B.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Guarita.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/salao-de-festas.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Fitness-descoberto.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/pet-place.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/vista-aerea.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/piscina.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/churrasqueira.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Fachada-Bloco-Tipo-A.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Fachada-Bloco-Tipo-B.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Guarita.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/salao-de-festas.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/Fitness-descoberto.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/pet-place.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/vista-aerea.jpg</foto>
-    </fotos>
+    <ficha_tecnica>
+    </ficha_tecnica>
   </empreendimento>
   <empreendimento>
     <id>arbore-residencial</id>
-    <titulo><![CDATA[Árbore Residencial]]></titulo>
-    <cidade>Contagem</cidade>
-    <estado>MG</estado>
+    <titulo><![CDATA[undefined]]></titulo>
+    <cidade></cidade>
+    <estado></estado>
     <status>Lançamento</status>
-    <diferenciais_empreendimento>
-      <item><![CDATA[Lazer Completo]]></item>
-      <item><![CDATA[Localização Privilegiada]]></item>
-      <item><![CDATA[Suíte]]></item>
-      <item><![CDATA[Varanda]]></item>
-    </diferenciais_empreendimento>
-    <fotos>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/guarita-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/fachada-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/piscina-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/quadra-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/piquenique-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/pet-place-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/parquinho-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/espaco-fitness-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/espaco-de-jogos-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/bicicletario-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/salao-de-festas-interno-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/churrasqueira-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/camarote-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/brinquedoteca-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/vista-panoramica-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/guarita-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/fachada-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/piscina-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/quadra-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/piquenique-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/pet-place-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/parquinho-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/espaco-fitness-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/espaco-de-jogos-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/bicicletario-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/salao-de-festas-interno-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/churrasqueira-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/camarote-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/brinquedoteca-arbore-residencial-direcional.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/12/vista-panoramica-arbore-residencial-direcional.jpg</foto>
-    </fotos>
+    <ficha_tecnica>
+    </ficha_tecnica>
   </empreendimento>
   <empreendimento>
     <id>breve-lancamento-em-paulista</id>
-    <titulo><![CDATA[Breve Lançamento em Paulista]]></titulo>
-    <cidade>Paulista</cidade>
-    <estado>PE</estado>
+    <titulo><![CDATA[undefined]]></titulo>
+    <cidade></cidade>
+    <estado></estado>
     <status></status>
-    <diferenciais_empreendimento>
-      <item><![CDATA[Lazer Completo]]></item>
-      <item><![CDATA[Localização Privilegiada]]></item>
-      <item><![CDATA[Portaria 24h]]></item>
-      <item><![CDATA[Espaço Fitness]]></item>
-      <item><![CDATA[Piscina]]></item>
-      <item><![CDATA[Espaço Kids]]></item>
-    </diferenciais_empreendimento>
-    <fotos>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/Direcional-PE-Site-Conquista-Paulista-Residence-Breve-Lancamento_Header-Desktop.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/IMA-DIRECIONAL_LEO_PAULISTA-FACHADA-ALTA-R052743653.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/IMA-DIRECIONAL_LEO_PAULISTA-AEREA_LAZER-ALTA-R042743650.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/IMA-DIRECIONAL_LEO_PAULISTA-FOTOMONTAGEM-ALTA-R022743652.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/Direcional-PE-Site-Conquista-Paulista-Residence-Breve-Lancamento_Header-Desktop.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/IMA-DIRECIONAL_LEO_PAULISTA-FACHADA-ALTA-R052743653.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/IMA-DIRECIONAL_LEO_PAULISTA-AEREA_LAZER-ALTA-R042743650.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/IMA-DIRECIONAL_LEO_PAULISTA-FOTOMONTAGEM-ALTA-R022743652.jpg</foto>
-    </fotos>
+    <ficha_tecnica>
+    </ficha_tecnica>
   </empreendimento>
   <empreendimento>
     <id>parque-ville-lirio-azul</id>
-    <titulo><![CDATA[Parque Ville Lírio Azul]]></titulo>
-    <cidade>Manaus</cidade>
-    <estado>AM</estado>
+    <titulo><![CDATA[undefined]]></titulo>
+    <cidade></cidade>
+    <estado></estado>
     <status>Lançamento</status>
-    <diferenciais_empreendimento>
-      <item><![CDATA[Lazer Completo]]></item>
-      <item><![CDATA[Condomínio Fechado]]></item>
-      <item><![CDATA[Localização Privilegiada]]></item>
-      <item><![CDATA[Opções na Planta]]></item>
-      <item><![CDATA[Espaço Fitness]]></item>
-    </diferenciais_empreendimento>
-    <fotos>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/guarita-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/piscina-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/fachada-noturna-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/salao-de-festas-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/salao-de-festas-inteno-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/churrasqueira-interna-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/churrasqueira-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/quadra-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/piquenique-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/petplace-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/lazer-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/jogos-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/food-truck-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/redario-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/esapco-ioga-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/carwash-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/area-lazer-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/fitness-externo-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/guarita-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/piscina-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/fachada-noturna-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/salao-de-festas-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/salao-de-festas-inteno-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/churrasqueira-interna-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/churrasqueira-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/quadra-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/piquenique-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/petplace-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/lazer-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/jogos-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/food-truck-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/redario-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/esapco-ioga-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/carwash-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/area-lazer-parque-ville-lirio-azul.jpg</foto>
-      <foto>https://www.direcional.com.br/wp-content/uploads/2025/11/fitness-externo-parque-ville-lirio-azul.jpg</foto>
-    </fotos>
+    <ficha_tecnica>
+    </ficha_tecnica>
   </empreendimento>
 </empreendimentos>
