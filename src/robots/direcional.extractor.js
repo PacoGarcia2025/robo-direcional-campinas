@@ -82,19 +82,34 @@ export async function extractDirecional(page, url) {
     ];
 
     const images = Array.from(document.querySelectorAll("img"))
-      .map(img => img.getAttribute("src") || img.getAttribute("data-src"))
-      .filter(src => {
-        if (!src) return false;
-        if (!src.startsWith("http")) return false;
-        if (!src.includes("/wp-content/uploads/")) return false;
+  .filter(img => {
+    const src = img.getAttribute("src") || img.getAttribute("data-src");
+    if (!src) return false;
+    if (!src.includes("/wp-content/uploads/")) return false;
 
-        const lower = src.toLowerCase();
+    const w = img.naturalWidth || 0;
+    const h = img.naturalHeight || 0;
 
-        if (blockedKeywords.some(k => lower.includes(k))) return false;
-        if (!allowedKeywords.some(k => lower.includes(k))) return false;
+    // elimina ícones e selos
+    if (w < 300 || h < 300) return false;
 
-        return true;
-      });
+    const lower = src.toLowerCase();
+    if (
+      lower.includes("icon") ||
+      lower.includes("icone") ||
+      lower.includes("selo") ||
+      lower.includes("logo") ||
+      lower.includes("vector")
+    ) {
+      return false;
+    }
+
+    return true;
+  })
+  .map(img => img.getAttribute("src") || img.getAttribute("data-src"));
+
+const uniqueImages = [...new Set(images)];
+
 
     const uniqueImages = [...new Set(images)];
 
