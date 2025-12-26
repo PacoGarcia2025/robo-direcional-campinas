@@ -1,6 +1,7 @@
+// src/robots/direcional.extractor.js
 import { chromium } from "playwright";
 
-export async function extractDirecional() {
+export default async function extractDirecional() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
@@ -9,20 +10,27 @@ export async function extractDirecional() {
   });
 
   const empreendimentos = await page.evaluate(() => {
-    return Array.from(
+    const links = Array.from(
       document.querySelectorAll("a[href*='/empreendimentos/']")
-    )
+    );
+
+    const vistos = new Set();
+
+    return links
       .map(link => {
         const url = link.href;
         const id = url.split("/").filter(Boolean).pop();
-        const title = link.innerText?.trim();
 
-        if (!title || title.length < 5) return null;
+        if (vistos.has(id)) return null;
+        vistos.add(id);
+
+        const titulo = link.textContent?.trim();
+        if (!titulo || titulo.length < 4) return null;
 
         return {
           id,
           url,
-          title,
+          title: titulo,
           location: {
             city: "Campinas",
             state: "SP",
