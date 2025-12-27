@@ -1,26 +1,25 @@
-// ===============================
-// ROBÔ DIRECIONAL – MULTI-REGIÃO
-// ===============================
+// ==================================================
+// ROBÔ DIRECIONAL – INTERIOR SP (VERSÃO FINAL)
+// COLETA COMPLETA + PAYLOAD RICO
+// ==================================================
 
 import { chromium } from "playwright";
 
-const REGIOES = {
-  INTERIOR_SP: {
-    nome: "interior-sp",
-    excluirCidades: [
-      // Grande SP
-      "sao paulo","guarulhos","osasco","barueri","santo andre","sao bernardo do campo",
-      "sao caetano do sul","diadema","maua","ribeirao pires","rio grande da serra",
-      "carapicuiba","itapevi","jandira","cotia","embu das artes","embu guacu",
-      "itapecerica da serra","taboao da serra","taboao","santana de parnaiba",
-      // Litoral
-      "santos","sao vicente","praia grande","guaruja","cubatão","bertioga",
-      "itanhaem","mongagua","peruibe","caraguatatuba","ubatuba","ilhabela","sao sebastiao",
-    ],
-  },
-};
-
 const START_URL = "https://www.direcional.com.br/encontre-seu-apartamento/";
+
+const REGIAO = {
+  nome: "interior-sp",
+  excluirCidades: [
+    // Grande SP
+    "sao paulo","guarulhos","osasco","barueri","santo andre","sao bernardo do campo",
+    "sao caetano do sul","diadema","maua","ribeirao pires","rio grande da serra",
+    "carapicuiba","itapevi","jandira","cotia","embu das artes","embu guacu",
+    "itapecerica da serra","taboao da serra","santana de parnaiba",
+    // Litoral
+    "santos","sao vicente","praia grande","guaruja","cubatão","bertioga",
+    "itanhaem","mongagua","peruibe","caraguatatuba","ubatuba","ilhabela","sao sebastiao",
+  ],
+};
 
 function normalize(text) {
   return text
@@ -38,6 +37,7 @@ export default async function extractDirecional() {
   console.log("🚀 Abrindo listagem Direcional");
   await page.goto(START_URL, { waitUntil: "domcontentloaded" });
 
+  // 🔹 Carregar todos os cards
   while (true) {
     const btn = await page.$('button:has-text("Carregar mais")');
     if (!btn || !(await btn.isVisible())) break;
@@ -45,6 +45,7 @@ export default async function extractDirecional() {
     await page.waitForTimeout(2500);
   }
 
+  // 🔹 Captura cards
   const cards = await page.evaluate(() =>
     Array.from(document.querySelectorAll('a[href*="/empreendimentos/"]')).map(a => {
       const card = a.closest("div");
@@ -60,37 +61,91 @@ export default async function extractDirecional() {
 
   for (const card of unique) {
     if (!card.location) continue;
+
     const n = normalize(card.location);
     if (!n.includes("sp")) continue;
+    if (REGIAO.excluirCidades.some(c => n.includes(c))) continue;
 
-    let regiao = null;
-    if (!REGIOES.INTERIOR_SP.excluirCidades.some(c => n.includes(c))) {
-      regiao = "interior-sp";
-    }
-
-    if (!regiao) continue;
+    const [cidade, estado] = card.location.split("/").map(t => t.trim());
 
     await page.goto(card.url, { waitUntil: "domcontentloaded" });
-    await page.waitForTimeout(1500);
+    await page.waitForTimeout(2000);
 
     const data = await page.evaluate(() => {
-      const nome = document.querySelector("h1")?.innerText.trim() || null;
+      const titulo = document.querySelector("h1")?.innerText.trim() || null;
 
+      // STATUS
       let status = null;
       document.querySelectorAll("li").forEach(li => {
         const t = li.innerText.trim();
         if (/lançamento|breve|obras|pronto/i.test(t)) status = t;
       });
 
-      return { nome, status };
+      // 🔹 TIPOLOGIAS
+      const tipologias = [];
+      let areas = [];
+      let dorms = [];
+
+      document.querySelectorAll("ul.pl-3 li span").forEach(el => {
+        const text = el.innerText;
+
+        if (text.includes("m²")) {
+          areas = text
+            .replace(/\s/g, "")
+            .split("|")
+            .map(a => a.replace("m²", "").replace(",", "."));
+        }
+
+        if (text.toLowerCase().includes("quarto")) {
+          dorms = text.match(/\d+/g) || [];
+        }
+      });
+
+      areas.forEach(a => {
+        dorms.forEach(d => {
+          tipologias.push({
+            dormitorios: Number(d),
+            area: Number(a),
+          });
+        });
+      });
+
+      // 🔹 IMAGENS LIMPAS
+      const imagens = Array.from(document.querySelectorAll("img"))
+        .map(img => img.src)
+        .filter(src =>
+          src &&
+          src.includes("/wp-content/uploads/") &&
+          !src.includes("icon") &&
+          !src.includes("logo") &&
+          !src.includes("sheet") &&
+          !src.includes("button")
+        );
+
+      // 🔹 FICHA TÉCNICA
+      const ficha = {};
+      document.querySelectorAll("li p").forEach(p => {
+        const strong = p.querySelector("strong");
+        if (!strong) return;
+        const chave = strong.innerText.replace(":", "").trim();
+        const valor = p.innerText.replace(strong.innerText, "").trim();
+        if (chave && valor) ficha[chave] = valor;
+      });
+
+      return { titulo, status, tipologias, imagens, ficha };
     });
 
     empreendimentos.push({
-      regiao,
+      id: card.url.split("/").filter(Boolean).pop(),
+      regiao: REGIAO.nome,
       url: card.url,
-      location: card.location,
-      nome: data.nome,
+      cidade,
+      estado,
+      titulo: data.titulo,
       status: data.status,
+      tipologias: data.tipologias,
+      imagens: [...new Set(data.imagens)],
+      ficha_tecnica: data.ficha,
     });
   }
 
