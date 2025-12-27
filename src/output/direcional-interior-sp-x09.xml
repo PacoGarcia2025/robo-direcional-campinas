@@ -1,3 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <empreendimentos>
+  <empreendimento>
+    <id>breve-lancamento-betania</id>
+    <titulo>Breve Lançamento Betânia</titulo>
+    <cidade>Belo Horizonte</cidade>
+    <estado>MG</estado>
+    <status>Breve Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-nova-iguacu</id>
+    <titulo>Breve Lançamento Nova Iguaçu</titulo>
+    <cidade>Nova Iguaçu</cidade>
+    <estado>RJ</estado>
+    <status>Breve Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-em-sao-lourenco</id>
+    <titulo>Breve Lançamento em São Lourenço</titulo>
+    <cidade>São Lourenço da Mata</cidade>
+    <estado>PE</estado>
+    <status>Breve Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lacamento-barra-olimpica</id>
+    <titulo>Breve Lançamento Barra Olímpica</titulo>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <status>Breve Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>total-ville-conviver-condominio-2</id>
+    <titulo>Total Ville Conviver – Condomínio 2</titulo>
+    <cidade>Santa Maria</cidade>
+    <estado>DF</estado>
+    <status>Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>arbore-residencial</id>
+    <titulo>Árbore Residencial</titulo>
+    <cidade>Contagem</cidade>
+    <estado>MG</estado>
+    <status>Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-em-paulista</id>
+    <titulo>Breve Lançamento em Paulista</titulo>
+    <cidade>Paulista</cidade>
+    <estado>PE</estado>
+    <status>Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>parque-ville-lirio-azul</id>
+    <titulo>Parque Ville Lírio Azul</titulo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status>Lançamento</status>
+    <fotos>
+    </fotos>
+  </empreendimento>
 </empreendimentos>
