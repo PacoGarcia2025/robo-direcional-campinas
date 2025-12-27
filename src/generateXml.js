@@ -23,7 +23,7 @@ export default function generateXml(empreendimentos) {
 
       // Tipologias
       xml += `    <tipologias>\n`;
-      emp.tipologias.forEach(t => {
+      (emp.tipologias || []).forEach(t => {
         xml += `      <tipologia>\n`;
         xml += `        <dormitorios>${t.dormitorios}</dormitorios>\n`;
         xml += `        <area>${t.area}</area>\n`;
