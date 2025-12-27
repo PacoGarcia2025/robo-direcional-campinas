@@ -5,26 +5,26 @@ export default function generateXmlX09(empreendimentos) {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<empreendimentos>\n`;
 
   empreendimentos.forEach((emp) => {
-    if (!emp.titulo || !emp.cidade || !emp.estado) return;
-    if (!emp.imagens || emp.imagens.length === 0) return;
-
-    const id = (emp.id || emp.titulo)
+    const id = (emp.id || emp.titulo || Math.random().toString(36))
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-|-$/g, "");
 
-    const cidade = emp.cidade.split("/")[0].trim();
-    const estado = emp.estado.trim();
+    const cidade = emp.cidade
+      ? emp.cidade.split("/")[0].trim()
+      : "";
+
+    const estado = emp.estado ? emp.estado.trim() : "SP";
 
     xml += `  <empreendimento>\n`;
     xml += `    <id>${id}</id>\n`;
-    xml += `    <titulo>${emp.titulo}</titulo>\n`;
+    xml += `    <titulo>${emp.titulo || "Empreendimento Direcional"}</titulo>\n`;
     xml += `    <cidade>${cidade}</cidade>\n`;
     xml += `    <estado>${estado}</estado>\n`;
     xml += `    <status>${emp.status || "Lançamento"}</status>\n`;
 
     xml += `    <fotos>\n`;
-    emp.imagens.forEach((img) => {
+    (emp.imagens || []).forEach((img) => {
       xml += `      <foto>${img}</foto>\n`;
     });
     xml += `    </fotos>\n`;
@@ -40,5 +40,7 @@ export default function generateXmlX09(empreendimentos) {
   );
 
   fs.writeFileSync(filePath, xml, "utf8");
-  console.log(`📦 XML X09 gerado com sucesso: ${filePath}`);
+  console.log(
+    `📦 XML X09 gerado com sucesso (${empreendimentos.length} itens): ${filePath}`
+  );
 }
