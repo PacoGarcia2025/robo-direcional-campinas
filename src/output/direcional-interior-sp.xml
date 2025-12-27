@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empreendimentos>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Direcional Conquista Clube Ipiranga]]></titulo>
+    <cidade><![CDATA[Ribeirão Preto / SP]]></cidade>
+    <status><![CDATA[Breve Lançamento]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/conquista-clube-ipiranga/]]></url>
+  </empreendimento>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Village Gaia]]></titulo>
+    <cidade><![CDATA[Ribeirão Preto / SP]]></cidade>
+    <status><![CDATA[Lançamento]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/village-gaia/]]></url>
+  </empreendimento>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Cores da Mata Mangará]]></titulo>
+    <cidade><![CDATA[Campinas / SP]]></cidade>
+    <status><![CDATA[Em obras]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/cores-da-mata-mangara/]]></url>
+  </empreendimento>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Conquista Vila da Mata]]></titulo>
+    <cidade><![CDATA[Sorocaba / SP]]></cidade>
+    <status><![CDATA[Em obras]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/conquista-vila-da-mata/]]></url>
+  </empreendimento>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Rise Condomínio Clube]]></titulo>
+    <cidade><![CDATA[Campinas / SP]]></cidade>
+    <status><![CDATA[Em Obras]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/rise-condominio-clube/]]></url>
+  </empreendimento>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Village Park]]></titulo>
+    <cidade><![CDATA[Ribeirão Preto / SP]]></cidade>
+    <status><![CDATA[Em Obras]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/village-park/]]></url>
+  </empreendimento>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Seleto Amoreiras: apartamento nas Amoreiras, Campinas]]></titulo>
+    <cidade><![CDATA[Campinas / SP]]></cidade>
+    <status><![CDATA[Obras avançadas]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/seleto-amoreiras/]]></url>
+  </empreendimento>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Reserva Direcional: apartamento no Jardim Botânico, em Ribeirão Preto]]></titulo>
+    <cidade><![CDATA[Ribeirão Preto / SP]]></cidade>
+    <status><![CDATA[Em Obras]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/reserva-direcional-jardim-botanico/]]></url>
+  </empreendimento>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Conquista Vila Acqua]]></titulo>
+    <cidade><![CDATA[Sorocaba / SP]]></cidade>
+    <status><![CDATA[Obras Iniciadas]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/conquista-vila-acqua/]]></url>
+  </empreendimento>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Village Novus]]></titulo>
+    <cidade><![CDATA[Ribeirão Preto / SP]]></cidade>
+    <status><![CDATA[Obras Avançadas]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/village-novus/]]></url>
+  </empreendimento>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Conquista Araraquara]]></titulo>
+    <cidade><![CDATA[Araraquara / SP]]></cidade>
+    <status><![CDATA[Pronto para morar]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/conquista-araraquara/]]></url>
+  </empreendimento>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Reserva Antonieta]]></titulo>
+    <cidade><![CDATA[Limeira / SP]]></cidade>
+    <status><![CDATA[Obras Avançadas]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/reserva-antonieta/]]></url>
+  </empreendimento>
+  <empreendimento>
+    <regiao>interior-sp</regiao>
+    <titulo><![CDATA[Dream Santo Antônio]]></titulo>
+    <cidade><![CDATA[São Carlos / SP]]></cidade>
+    <status><![CDATA[Obras Avançadas]]></status>
+    <url><![CDATA[https://www.direcional.com.br/empreendimentos/dream-santo-antonio/]]></url>
+  </empreendimento>
+</empreendimentos>
