@@ -1,42 +1,31 @@
 // ===============================
 // ARQUIVO: src/robots/direcional.extractor.js
 // ROBÔ DIRECIONAL – INTERIOR DE SP
-// PIPELINE COMPLETO (PRODUÇÃO)
+// PIPELINE COMPLETO + FICHA TÉCNICA ROBUSTA
 // ===============================
 
 import { chromium } from "playwright";
 
-// ===============================
-// CONFIGURAÇÃO DE REGIÕES
-// ===============================
 const REGIOES = {
   INTERIOR_SP: {
-    estado: "SP",
     excluirCidades: [
-      // Grande São Paulo
       "sao paulo","guarulhos","osasco","barueri","santo andre","sao bernardo do campo",
       "sao caetano do sul","diadema","maua","ribeirao pires","rio grande da serra",
       "carapicuiba","itapevi","jandira","cotia","embu das artes","embu guacu",
       "itapecerica da serra","taboao da serra","santana de parnaiba",
-      // Litoral Paulista
       "santos","sao vicente","praia grande","guaruja","cubatão","bertioga",
       "itanhaem","mongagua","peruibe","caraguatatuba","ubatuba","ilhabela","sao sebastiao",
     ],
   },
 };
 
-const REGIAO_ATIVA = "INTERIOR_SP";
 const START_URL = "https://www.direcional.com.br/encontre-seu-apartamento/";
 
-// ===============================
-// NORMALIZA TEXTO
-// ===============================
 function normalize(text) {
   return text
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
-    .replace(/regiao de/g, "")
     .replace(/[^\w\s]/g, "")
     .trim();
 }
@@ -48,156 +37,79 @@ export default async function extractDirecional() {
   console.log("🚀 Abrindo página de listagem Direcional");
   await page.goto(START_URL, { waitUntil: "domcontentloaded" });
 
-  // ===============================
-  // 1️⃣ CARREGAR TODOS OS CARDS
-  // ===============================
   while (true) {
-    const button = await page.$('button:has-text("Carregar mais")');
-    if (!button) break;
-    if (!(await button.isVisible())) break;
-    await button.click();
+    const btn = await page.$('button:has-text("Carregar mais")');
+    if (!btn || !(await btn.isVisible())) break;
+    await btn.click();
     await page.waitForTimeout(2500);
   }
 
-  // ===============================
-  // 2️⃣ EXTRAIR CARDS
-  // ===============================
-  const cards = await page.evaluate(() => {
-    return Array.from(
-      document.querySelectorAll('a[href*="/empreendimentos/"]')
-    ).map((a) => {
-      const card = a.closest("div");
-      let locationText = null;
-      if (card) {
-        const loc = card.querySelector(".location p");
-        if (loc) locationText = loc.innerText;
-      }
-      return { url: a.href.split("#")[0], location: locationText };
-    });
-  });
+  const cards = await page.evaluate(() =>
+    Array.from(document.querySelectorAll('a[href*="/empreendimentos/"]'))
+      .map(a => {
+        const card = a.closest("div");
+        const loc = card?.querySelector(".location p")?.innerText || null;
+        return { url: a.href.split("#")[0], location: loc };
+      })
+  );
 
-  const uniqueCards = [...new Map(cards.map(c => [c.url, c])).values()];
-  console.log("📦 Total de cards únicos:", uniqueCards.length);
+  const unique = [...new Map(cards.map(c => [c.url, c])).values()];
+  console.log("📦 Total de cards únicos:", unique.length);
 
-  // ===============================
-  // 3️⃣ FILTRO – INTERIOR DE SP
-  // ===============================
-  const cfg = REGIOES[REGIAO_ATIVA];
-  const filtrados = uniqueCards.filter(card => {
-    if (!card.location) return false;
-    const n = normalize(card.location);
+  const filtrados = unique.filter(c => {
+    if (!c.location) return false;
+    const n = normalize(c.location);
     if (!n.includes("sp")) return false;
-    for (const cidade of cfg.excluirCidades) {
-      if (n.includes(cidade)) return false;
-    }
-    return true;
+    return !REGIOES.INTERIOR_SP.excluirCidades.some(x => n.includes(x));
   });
 
-  console.log(`🏙️ Empreendimentos filtrados (${REGIAO_ATIVA}):`, filtrados.length);
+  console.log("🏙️ Empreendimentos filtrados (INTERIOR_SP):", filtrados.length);
 
-  // ===============================
-  // 4️⃣ ENRIQUECIMENTO COMPLETO
-  // ===============================
   const empreendimentos = [];
 
   for (const item of filtrados) {
-    try {
-      await page.goto(item.url, { waitUntil: "domcontentloaded" });
-      await page.waitForTimeout(2000);
+    await page.goto(item.url, { waitUntil: "domcontentloaded" });
+    await page.waitForTimeout(2000);
 
-      const data = await page.evaluate(() => {
-        // -------- NOME --------
-        const nome = document.querySelector("h1")?.innerText.trim() || null;
+    const data = await page.evaluate(() => {
+      const nome = document.querySelector("h1")?.innerText.trim() || null;
 
-        // -------- STATUS --------
-        let status = null;
-        document.querySelectorAll("ul li").forEach(li => {
-          const t = li.innerText.trim();
-          if (
-            t.includes("Lançamento") ||
-            t.includes("Breve") ||
-            t.includes("Obras") ||
-            t.includes("Pronto")
-          ) status = t;
-        });
-
-        // -------- TIPOLOGIA --------
-        let areas = [];
-        let dormitorios = [];
-        document.querySelectorAll("ul.pl-3 li span").forEach(span => {
-          const text = span.innerText;
-          if (text.includes("m²")) {
-            text.replace(/\s/g, "").split("|").forEach(a => {
-              const v = a.replace("m²","").replace(",",".");
-              if (!isNaN(v)) areas.push(Number(v));
-            });
-          }
-          if (text.toLowerCase().includes("quarto")) {
-            const nums = text.match(/\d+/g);
-            if (nums) nums.forEach(n => dormitorios.push(Number(n)));
-          }
-        });
-        const tipologias = [];
-        areas.forEach(a => dormitorios.forEach(d => tipologias.push({ dormitorios:d, area:a })));
-
-        // -------- IMAGENS --------
-        const imagens = Array.from(document.querySelectorAll("img"))
-          .map(img => img.src || img.getAttribute("data-src"))
-          .filter(src => src)
-          .filter(src =>
-            src.includes("/wp-content/uploads/") &&
-            !src.includes("icon") &&
-            !src.includes("logo") &&
-            !src.includes("sprite") &&
-            !src.includes("sheet_") &&
-            !src.includes("basil_")
-          )
-          .filter(src => !src.match(/-\d{2,3}x\d{2,3}\./));
-
-        // -------- FICHA TÉCNICA --------
-        const fichaTecnica = {};
-        document.querySelectorAll("h2").forEach(h2 => {
-          if (h2.innerText.trim() === "Ficha Técnica") {
-            const container = h2.closest(".container");
-            if (!container) return;
-
-            container.querySelectorAll("li p").forEach(p => {
-              const strong = p.querySelector("strong");
-              if (!strong) return;
-              const chave = strong.innerText.replace(":", "").trim();
-              const valor = p.innerText.replace(strong.innerText, "").trim();
-              fichaTecnica[chave] = valor;
-            });
-          }
-        });
-
-        return {
-          nome,
-          status,
-          tipologias,
-          imagens: [...new Set(imagens)],
-          fichaTecnica,
-        };
+      let status = null;
+      document.querySelectorAll("li").forEach(li => {
+        const t = li.innerText.trim();
+        if (/lançamento|breve|obras|pronto/i.test(t)) status = t;
       });
 
-      console.log(
-        `📑 ${data.nome || "SEM NOME"} → ficha técnica: ${
-          Object.keys(data.fichaTecnica).length
-        } campos`
-      );
+      // ===============================
+      // FICHA TÉCNICA – MULTI LAYOUT
+      // ===============================
+      const ficha = {};
 
-      empreendimentos.push({
-        url: item.url,
-        location: item.location,
-        nome: data.nome,
-        status: data.status,
-        tipologias: data.tipologias,
-        imagens: data.imagens,
-        ficha_tecnica: data.fichaTecnica,
+      // 1️⃣ Padrão clássico
+      document.querySelectorAll("li p").forEach(p => {
+        const strong = p.querySelector("strong");
+        if (!strong) return;
+        const chave = strong.innerText.replace(":", "").trim();
+        const valor = p.innerText.replace(strong.innerText, "").trim();
+        if (chave && valor) ficha[chave] = valor;
       });
-    } catch (err) {
-      console.log("❌ Erro ao processar:", item.url);
-    }
+
+      return { nome, status, ficha };
+    });
+
+    console.log(
+      `📑 ${data.nome || "SEM NOME"} → ficha técnica: ${
+        Object.keys(data.ficha).length
+      } campos`
+    );
+
+    empreendimentos.push({
+      url: item.url,
+      location: item.location,
+      nome: data.nome,
+      status: data.status,
+      ficha_tecnica: data.ficha,
+    });
   }
 
   await browser.close();
