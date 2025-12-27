@@ -100,18 +100,16 @@ export default async function extractDirecional() {
       });
 
       // ===============================
-      // DIFERENCIAIS (APENAS TEXTO DA PÁGINA)
+      // DIFERENCIAIS (APENAS TEXTO)
       // ===============================
       const diferenciais = Array.from(
-        document.querySelectorAll(
-          "ul.pt-3 li.list-inline-item"
-        )
+        document.querySelectorAll("ul.pt-3 li.list-inline-item")
       )
         .map(li => li.innerText.trim())
-        .filter(t => t.length > 0 && !/lançamento|obras/i.test(t));
+        .filter(t => t.length > 0);
 
       // ===============================
-      // FICHA TÉCNICA (TEXTO)
+      // FICHA TÉCNICA
       // ===============================
       const ficha_tecnica = {};
       document.querySelectorAll("li p").forEach(p => {
@@ -124,45 +122,28 @@ export default async function extractDirecional() {
       });
 
       // ===============================
-      // IMAGENS (SEM ÍCONES / LOGOS)
+      // IMAGENS (FAXINA REAL)
       // ===============================
       const BLOCKLIST = [
-  "icon","icone","logo","logotipo","fgts","mcmv","minha-casa",
-  "casa-verde","selo","badge","button","botao","sprite","sheet",
-  "vector","whats","simular","percent","porcent","renda",
-  "financi","parcel","beneficio","vantagem","diferencial","check","bullet"
-];
+        "icon","icone","logo","logotipo","fgts","mcmv","minha-casa",
+        "casa-verde","selo","badge","button","botao","sprite","sheet",
+        "vector","whats","simular","percent","porcent","renda",
+        "financi","parcel","beneficio","vantagem","diferencial","check","bullet"
+      ];
 
-const imagens = Array.from(document.querySelectorAll("img"))
-  .filter(img => {
-    const src = (img.src || "").toLowerCase();
-    const w = img.naturalWidth || 0;
-    const h = img.naturalHeight || 0;
+      const imagens = Array.from(document.querySelectorAll("img"))
+        .filter(img => {
+          const src = (img.src || "").toLowerCase();
+          const w = img.naturalWidth || 0;
+          const h = img.naturalHeight || 0;
 
-    if (!src.includes("/wp-content/uploads/")) return false;
-    if (w < 800 || h < 500) return false;
+          if (!src.includes("/wp-content/uploads/")) return false;
+          if (w < 800 || h < 500) return false;
+          if (BLOCKLIST.some(word => src.includes(word))) return false;
 
-    if (BLOCKLIST.some(word => src.includes(word))) return false;
-
-    return true;
-  })
-  .map(img => img.src);
-
-        .filter(src => {
-          const s = src.toLowerCase();
-          if (!s.includes("/wp-content/uploads/")) return false;
-          if (
-            s.includes("icon") ||
-            s.includes("logo") ||
-            s.includes("button") ||
-            s.includes("sheet") ||
-            s.includes("fgts") ||
-            s.includes("whats") ||
-            s.includes("vector") ||
-            s.includes("sprite")
-          ) return false;
           return true;
-        });
+        })
+        .map(img => img.src);
 
       return {
         titulo,
