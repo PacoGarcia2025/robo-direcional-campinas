@@ -5,7 +5,16 @@
     <titulo><![CDATA[undefined]]></titulo>
     <cidade></cidade>
     <estado></estado>
-    <status></status>
+    <status>Breve Lançamento</status>
+    <ficha_tecnica>
+    </ficha_tecnica>
+  </empreendimento>
+  <empreendimento>
+    <id>undefined</id>
+    <titulo><![CDATA[undefined]]></titulo>
+    <cidade></cidade>
+    <estado></estado>
+    <status>Lançamento</status>
     <ficha_tecnica>
     </ficha_tecnica>
   </empreendimento>
@@ -32,7 +41,7 @@
     <titulo><![CDATA[undefined]]></titulo>
     <cidade></cidade>
     <estado></estado>
-    <status></status>
+    <status>Em Obras</status>
     <ficha_tecnica>
     </ficha_tecnica>
   </empreendimento>
@@ -41,7 +50,7 @@
     <titulo><![CDATA[undefined]]></titulo>
     <cidade></cidade>
     <estado></estado>
-    <status></status>
+    <status>Em Obras</status>
     <ficha_tecnica>
     </ficha_tecnica>
   </empreendimento>
@@ -50,7 +59,7 @@
     <titulo><![CDATA[undefined]]></titulo>
     <cidade></cidade>
     <estado></estado>
-    <status></status>
+    <status>Obras avançadas</status>
     <ficha_tecnica>
     </ficha_tecnica>
   </empreendimento>
@@ -59,7 +68,7 @@
     <titulo><![CDATA[undefined]]></titulo>
     <cidade></cidade>
     <estado></estado>
-    <status></status>
+    <status>Em Obras</status>
     <ficha_tecnica>
     </ficha_tecnica>
   </empreendimento>
@@ -68,7 +77,7 @@
     <titulo><![CDATA[undefined]]></titulo>
     <cidade></cidade>
     <estado></estado>
-    <status></status>
+    <status>Obras Iniciadas</status>
     <ficha_tecnica>
     </ficha_tecnica>
   </empreendimento>
@@ -77,7 +86,7 @@
     <titulo><![CDATA[undefined]]></titulo>
     <cidade></cidade>
     <estado></estado>
-    <status></status>
+    <status>Obras Avançadas</status>
     <ficha_tecnica>
     </ficha_tecnica>
   </empreendimento>
@@ -86,7 +95,7 @@
     <titulo><![CDATA[undefined]]></titulo>
     <cidade></cidade>
     <estado></estado>
-    <status></status>
+    <status>Pronto para morar</status>
     <ficha_tecnica>
     </ficha_tecnica>
   </empreendimento>
@@ -95,7 +104,7 @@
     <titulo><![CDATA[undefined]]></titulo>
     <cidade></cidade>
     <estado></estado>
-    <status></status>
+    <status>Obras Avançadas</status>
     <ficha_tecnica>
     </ficha_tecnica>
   </empreendimento>
@@ -104,16 +113,7 @@
     <titulo><![CDATA[undefined]]></titulo>
     <cidade></cidade>
     <estado></estado>
-    <status></status>
-    <ficha_tecnica>
-    </ficha_tecnica>
-  </empreendimento>
-  <empreendimento>
-    <id>undefined</id>
-    <titulo><![CDATA[undefined]]></titulo>
-    <cidade></cidade>
-    <estado></estado>
-    <status></status>
+    <status>Obras Avançadas</status>
     <ficha_tecnica>
     </ficha_tecnica>
   </empreendimento>
