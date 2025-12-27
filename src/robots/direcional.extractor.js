@@ -62,11 +62,7 @@ export default async function extractDirecional() {
   for (const card of unique) {
     if (!card.location) continue;
 
-    const n = normalize(card.location);
-    if (!n.includes("sp")) continue;
-    if (REGIAO.excluirCidades.some(c => n.includes(c))) continue;
-
-    const [cidade, estado] = card.location.split("/").map(t => t.trim());
+const [cidade, estado] = card.location.split("/").map(t => t.trim());
 
     await page.goto(card.url, { waitUntil: "domcontentloaded" });
     await page.waitForTimeout(2000);
