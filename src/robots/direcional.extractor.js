@@ -1,7 +1,7 @@
 // ===============================
 // ARQUIVO: src/robots/direcional.extractor.js
-// LISTAGEM DIRECIONAL – INTERIOR SP
-// ENRIQUECIMENTO: NOME + STATUS + TIPOLOGIA + IMAGENS
+// ROBÔ DIRECIONAL – INTERIOR DE SP
+// PIPELINE COMPLETO (PRODUÇÃO)
 // ===============================
 
 import { chromium } from "playwright";
@@ -49,7 +49,7 @@ export default async function extractDirecional() {
   await page.goto(START_URL, { waitUntil: "domcontentloaded" });
 
   // ===============================
-  // 1️⃣ CLICAR EM "CARREGAR MAIS"
+  // 1️⃣ CARREGAR TODOS OS CARDS
   // ===============================
   while (true) {
     const button = await page.$('button:has-text("Carregar mais")');
@@ -96,7 +96,7 @@ export default async function extractDirecional() {
   console.log(`🏙️ Empreendimentos filtrados (${REGIAO_ATIVA}):`, filtrados.length);
 
   // ===============================
-  // 4️⃣ ENTRAR NO LINK E ENRIQUECER
+  // 4️⃣ ENRIQUECIMENTO COMPLETO
   // ===============================
   const empreendimentos = [];
 
@@ -140,7 +140,7 @@ export default async function extractDirecional() {
         const tipologias = [];
         areas.forEach(a => dormitorios.forEach(d => tipologias.push({ dormitorios:d, area:a })));
 
-        // -------- IMAGENS (LIMPAS) --------
+        // -------- IMAGENS --------
         const imagens = Array.from(document.querySelectorAll("img"))
           .map(img => img.src || img.getAttribute("data-src"))
           .filter(src => src)
@@ -152,25 +152,48 @@ export default async function extractDirecional() {
             !src.includes("sheet_") &&
             !src.includes("basil_")
           )
-          .filter(src => {
-            // evita thumbs muito pequenas (heurística por nome)
-            return !src.match(/-\d{2,3}x\d{2,3}\./);
-          });
+          .filter(src => !src.match(/-\d{2,3}x\d{2,3}\./));
 
-        return { nome, status, tipologias, imagens };
+        // -------- FICHA TÉCNICA --------
+        const fichaTecnica = {};
+        document.querySelectorAll("h2").forEach(h2 => {
+          if (h2.innerText.trim() === "Ficha Técnica") {
+            const container = h2.closest(".container");
+            if (!container) return;
+
+            container.querySelectorAll("li p").forEach(p => {
+              const strong = p.querySelector("strong");
+              if (!strong) return;
+              const chave = strong.innerText.replace(":", "").trim();
+              const valor = p.innerText.replace(strong.innerText, "").trim();
+              fichaTecnica[chave] = valor;
+            });
+          }
+        });
+
+        return {
+          nome,
+          status,
+          tipologias,
+          imagens: [...new Set(imagens)],
+          fichaTecnica,
+        };
       });
 
-      const imagensUnicas = [...new Set(data.imagens)];
-
-      console.log(`🖼️ ${data.nome || "SEM NOME"} → ${imagensUnicas.length} imagens`);
+      console.log(
+        `📑 ${data.nome || "SEM NOME"} → ficha técnica: ${
+          Object.keys(data.fichaTecnica).length
+        } campos`
+      );
 
       empreendimentos.push({
         url: item.url,
+        location: item.location,
         nome: data.nome,
         status: data.status,
-        location: item.location,
         tipologias: data.tipologias,
-        imagens: imagensUnicas,
+        imagens: data.imagens,
+        ficha_tecnica: data.fichaTecnica,
       });
     } catch (err) {
       console.log("❌ Erro ao processar:", item.url);
