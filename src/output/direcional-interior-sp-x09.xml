@@ -3,73 +3,89 @@
   <empreendimento>
     <id>breve-lancamento-betania</id>
     <titulo>Breve Lançamento Betânia</titulo>
+    <tipo>Apartamento</tipo>
     <cidade>Belo Horizonte</cidade>
     <estado>MG</estado>
     <status>Breve Lançamento</status>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/logo-direcional.svg</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>breve-lancamento-nova-iguacu</id>
     <titulo>Breve Lançamento Nova Iguaçu</titulo>
+    <tipo>Apartamento</tipo>
     <cidade>Nova Iguaçu</cidade>
     <estado>RJ</estado>
     <status>Breve Lançamento</status>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/logo-direcional.svg</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>breve-lancamento-em-sao-lourenco</id>
     <titulo>Breve Lançamento em São Lourenço</titulo>
+    <tipo>Apartamento</tipo>
     <cidade>São Lourenço da Mata</cidade>
     <estado>PE</estado>
     <status>Breve Lançamento</status>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/logo-direcional.svg</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>breve-lacamento-barra-olimpica</id>
     <titulo>Breve Lançamento Barra Olímpica</titulo>
+    <tipo>Apartamento</tipo>
     <cidade>Rio de Janeiro</cidade>
     <estado>RJ</estado>
     <status>Breve Lançamento</status>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/logo-direcional.svg</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>total-ville-conviver-condominio-2</id>
     <titulo>Total Ville Conviver – Condomínio 2</titulo>
+    <tipo>Apartamento</tipo>
     <cidade>Santa Maria</cidade>
     <estado>DF</estado>
     <status>Lançamento</status>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/logo-direcional.svg</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>arbore-residencial</id>
     <titulo>Árbore Residencial</titulo>
+    <tipo>Apartamento</tipo>
     <cidade>Contagem</cidade>
     <estado>MG</estado>
     <status>Lançamento</status>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/logo-direcional.svg</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>breve-lancamento-em-paulista</id>
     <titulo>Breve Lançamento em Paulista</titulo>
+    <tipo>Apartamento</tipo>
     <cidade>Paulista</cidade>
     <estado>PE</estado>
     <status>Lançamento</status>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/logo-direcional.svg</foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>parque-ville-lirio-azul</id>
     <titulo>Parque Ville Lírio Azul</titulo>
+    <tipo>Apartamento</tipo>
     <cidade>Manaus</cidade>
     <estado>AM</estado>
     <status>Lançamento</status>
     <fotos>
+      <foto>https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/logo-direcional.svg</foto>
     </fotos>
   </empreendimento>
 </empreendimentos>
