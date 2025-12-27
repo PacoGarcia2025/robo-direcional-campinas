@@ -1,11 +1,20 @@
 // ==================================================
-// ROBÔ DIRECIONAL – COLETA COMPLETA (FINAL)
-// Coleta BRUTA, SEM conversão de XML
+// ROBÔ DIRECIONAL – COLETA COMPLETA (FINAL E LIMPA)
+// Coleta SOMENTE dados reais da página do empreendimento
 // ==================================================
 
 import { chromium } from "playwright";
 
 const START_URL = "https://www.direcional.com.br/encontre-seu-apartamento/";
+
+function normalize(text) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^\w\s]/g, "")
+    .trim();
+}
 
 export default async function extractDirecional() {
   const browser = await chromium.launch({ headless: true });
@@ -28,7 +37,10 @@ export default async function extractDirecional() {
       .map(a => {
         const card = a.closest("div");
         const loc = card?.querySelector(".location p")?.innerText || null;
-        return { url: a.href.split("#")[0], location: loc };
+        return {
+          url: a.href.split("#")[0],
+          location: loc
+        };
       })
       .filter(c => c.url && c.location)
   );
@@ -60,33 +72,7 @@ export default async function extractDirecional() {
       });
 
       // ===============================
-      // DESCRIÇÃO
-      // ===============================
-      const descricao =
-        document.querySelector(".description p")?.innerText.trim() ||
-        document.querySelector("section p")?.innerText.trim() ||
-        null;
-
-      // ===============================
-      // VALOR / VALOR A PARTIR DE
-      // ===============================
-      let valor = null;
-      document.querySelectorAll("strong, span").forEach(el => {
-        const t = el.innerText;
-        if (/R\$\s?\d+/i.test(t)) valor = t.trim();
-      });
-
-      // ===============================
-      // PREVISÃO DE ENTREGA
-      // ===============================
-      let previsao_entrega = null;
-      document.querySelectorAll("li, p").forEach(el => {
-        const t = el.innerText;
-        if (/entrega|previsão/i.test(t)) previsao_entrega = t.trim();
-      });
-
-      // ===============================
-      // TIPOLOGIAS
+      // TIPOLOGIAS (QUARTOS + ÁREA)
       // ===============================
       const tipologias = [];
       let areas = [];
@@ -99,7 +85,9 @@ export default async function extractDirecional() {
           areas = text
             .replace(/\s/g, "")
             .split("|")
-            .map(a => Number(a.replace("m²", "").replace(",", ".")));
+            .map(a =>
+              Number(a.replace("m²", "").replace(",", "."))
+            );
         }
 
         if (text.toLowerCase().includes("quarto")) {
@@ -114,33 +102,42 @@ export default async function extractDirecional() {
       });
 
       // ===============================
-      // DIFERENCIAIS
+      // DIFERENCIAIS (APENAS DO EMPREENDIMENTO)
       // ===============================
       const diferenciais = Array.from(
-        document.querySelectorAll("ul li")
+        document.querySelectorAll(
+          "section ul li, .pt-3 li, .list-inline-item"
+        )
       )
         .map(li => li.innerText.trim())
-        .filter(t => t.length > 0 && t.length < 80);
+        .filter(t =>
+          t.length > 0 &&
+          t.length < 80 &&
+          !/menu|blog|privacidade|fornecedor|investidor|telefone|cpf|rg|portal|estado|cidade|documento|financi/i.test(t)
+        );
 
       // ===============================
-      // FICHA TÉCNICA
+      // FICHA TÉCNICA (CHAVE : VALOR)
       // ===============================
       const ficha_tecnica = {};
       document.querySelectorAll("li p").forEach(p => {
         const strong = p.querySelector("strong");
         if (!strong) return;
+
         const chave = strong.innerText.replace(":", "").trim();
         const valor = p.innerText.replace(strong.innerText, "").trim();
+
         if (chave && valor) ficha_tecnica[chave] = valor;
       });
 
       // ===============================
-      // IMAGENS (FAXINA PESADA)
+      // IMAGENS (FAXINA PESADA – SÓ IMAGEM GRANDE)
       // ===============================
       const BLOCKLIST = [
-        "icon","icone","logo","fgts","mcmv","minha-casa",
-        "selo","button","sprite","sheet","vector",
-        "whats","simular","percent","renda","financi"
+        "icon","icone","logo","logotipo","fgts","mcmv","minha-casa",
+        "casa-verde","selo","badge","button","botao","sprite","sheet",
+        "vector","whats","simular","percent","porcent","renda",
+        "financi","parcel","beneficio","vantagem","check","bullet"
       ];
 
       const imagens = Array.from(document.querySelectorAll("img"))
@@ -148,9 +145,11 @@ export default async function extractDirecional() {
           const src = (img.src || "").toLowerCase();
           const w = img.naturalWidth || 0;
           const h = img.naturalHeight || 0;
+
           if (!src.includes("/wp-content/uploads/")) return false;
           if (w < 800 || h < 500) return false;
-          if (BLOCKLIST.some(b => src.includes(b))) return false;
+          if (BLOCKLIST.some(word => src.includes(word))) return false;
+
           return true;
         })
         .map(img => img.src);
@@ -158,9 +157,6 @@ export default async function extractDirecional() {
       return {
         titulo,
         status,
-        descricao,
-        valor,
-        previsao_entrega,
         tipologias,
         diferenciais,
         ficha_tecnica,
@@ -173,11 +169,17 @@ export default async function extractDirecional() {
       url: card.url,
       cidade,
       estado,
-      ...data
+      titulo: data.titulo,
+      status: data.status,
+      tipologias: data.tipologias,
+      diferenciais: data.diferenciais,
+      ficha_tecnica: data.ficha_tecnica,
+      imagens: data.imagens
     });
   }
 
   await browser.close();
+
   console.log("✅ Empreendimentos coletados:", empreendimentos.length);
   return empreendimentos;
 }
