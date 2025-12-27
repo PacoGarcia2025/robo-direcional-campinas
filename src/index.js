@@ -1,7 +1,21 @@
-import runDirecional from "./robots/direcional.js";
+// ===============================
+// ARQUIVO: src/index.js
+// ENTRYPOINT REAL DO ROBÔ
+// ===============================
+
+import extractDirecional from "./robots/direcional.extractor.js";
 import generateXml from "./generateXml.js";
 
 (async () => {
-  const empreendimentos = await runDirecional();
-  generateXml(empreendimentos, "src/output/direcional.xml");
+  console.log("▶ Iniciando execução do robô Direcional");
+
+  const empreendimentos = await extractDirecional();
+
+  console.log(
+    `📊 Total de empreendimentos retornados: ${empreendimentos.length}`
+  );
+
+  generateXml(empreendimentos);
+
+  console.log("✅ Execução finalizada com sucesso");
 })();
