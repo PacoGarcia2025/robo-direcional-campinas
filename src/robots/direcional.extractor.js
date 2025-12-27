@@ -1,7 +1,6 @@
 // ===============================
 // ARQUIVO: src/robots/direcional.extractor.js
-// LISTAGEM DIRECIONAL + FILTRO RMC
-// ARQUITETURA PREPARADA PARA ESCALA
+// LISTAGEM DIRECIONAL + FILTRO RMC (ROBUSTO)
 // ===============================
 
 import { chromium } from "playwright";
@@ -10,31 +9,44 @@ import { chromium } from "playwright";
 // CONFIGURAÇÃO DE FILTRO (ESCALÁVEL)
 // ===============================
 const FILTRO = {
-  tipo: "RMC", // depois pode virar "ESTADO"
+  tipo: "RMC",
   estado: "SP",
   cidades: [
-    "Campinas",
-    "Sumaré",
-    "Hortolândia",
-    "Valinhos",
-    "Vinhedo",
-    "Paulínia",
-    "Indaiatuba",
-    "Itatiba",
-    "Nova Odessa",
-    "Americana",
-    "Monte Mor",
-    "Artur Nogueira",
-    "Engenheiro Coelho",
-    "Holambra",
-    "Jaguariúna",
-    "Pedreira",
-    "Santo Antônio de Posse",
+    "campinas",
+    "sumare",
+    "hortolandia",
+    "valinhos",
+    "vinhedo",
+    "paulinia",
+    "indaiatuba",
+    "itatiba",
+    "nova odessa",
+    "americana",
+    "monte mor",
+    "artur nogueira",
+    "engenheiro coelho",
+    "holambra",
+    "jaguariuna",
+    "pedreira",
+    "santo antonio de posse",
   ],
 };
 
 const START_URL =
   "https://www.direcional.com.br/encontre-seu-apartamento/";
+
+// ===============================
+// NORMALIZA TEXTO
+// ===============================
+function normalize(text) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/regiao de/g, "")
+    .replace(/[^\w\s]/g, "")
+    .trim();
+}
 
 export default async function extractDirecional() {
   const browser = await chromium.launch({ headless: true });
@@ -47,48 +59,29 @@ export default async function extractDirecional() {
   // ===============================
   // 1️⃣ CLICAR EM "CARREGAR MAIS"
   // ===============================
-  let clicks = 0;
-
   while (true) {
-    try {
-      const button = await page.$(
-        'button:has-text("Carregar mais")'
-      );
-
-      if (!button) {
-        console.log("✅ Botão 'Carregar mais' não encontrado. Fim.");
-        break;
-      }
-
-      clicks++;
-      console.log(`👉 Clicando em 'Carregar mais' (${clicks})`);
-
-      await button.click();
-      await page.waitForTimeout(3000);
-    } catch {
-      break;
-    }
+    const button = await page.$('button:has-text("Carregar mais")');
+    if (!button) break;
+    await button.click();
+    await page.waitForTimeout(2500);
   }
 
   // ===============================
-  // 2️⃣ EXTRAIR CARDS + LOCALIZAÇÃO
+  // 2️⃣ EXTRAIR CARDS
   // ===============================
   const cards = await page.evaluate(() => {
     return Array.from(
       document.querySelectorAll('a[href*="/empreendimentos/"]')
     ).map((a) => {
       const card = a.closest("div");
-
       let locationText = null;
-
       if (card) {
         const loc = card.querySelector(".location p");
-        if (loc) locationText = loc.innerText.trim();
+        if (loc) locationText = loc.innerText;
       }
-
       return {
         url: a.href.split("#")[0],
-        location: locationText, // ex: "Campinas / SP"
+        location: locationText,
       };
     });
   });
@@ -100,31 +93,26 @@ export default async function extractDirecional() {
   console.log("📦 Total de cards únicos:", uniqueCards.length);
 
   // ===============================
-  // 3️⃣ FILTRO POR RMC (ESCALÁVEL)
+  // 3️⃣ FILTRO RMC ROBUSTO
   // ===============================
   const filtrados = uniqueCards.filter((card) => {
     if (!card.location) return false;
 
-    const [cidade, estado] = card.location
-      .split("/")
-      .map((t) => t.trim());
+    const normalized = normalize(card.location);
 
-    if (FILTRO.tipo === "RMC") {
-      return (
-        estado === FILTRO.estado &&
-        FILTRO.cidades.includes(cidade)
-      );
-    }
+    const estadoOk = normalized.includes(
+      normalize(FILTRO.estado)
+    );
 
-    if (FILTRO.tipo === "ESTADO") {
-      return estado === FILTRO.estado;
-    }
+    const cidadeOk = FILTRO.cidades.some((cidade) =>
+      normalized.includes(cidade)
+    );
 
-    return false;
+    return estadoOk && cidadeOk;
   });
 
   console.log(
-    `🏙️ Empreendimentos filtrados (${FILTRO.tipo}):`,
+    `🏙️ Empreendimentos filtrados (RMC):`,
     filtrados.length
   );
 
@@ -132,14 +120,9 @@ export default async function extractDirecional() {
   // 4️⃣ NORMALIZA RESULTADO
   // ===============================
   const empreendimentos = filtrados.map((card) => {
-    const [cidade, estado] = card.location
-      .split("/")
-      .map((t) => t.trim());
-
     return {
       url: card.url,
-      cidade,
-      estado,
+      location: card.location,
     };
   });
 
