@@ -1,3 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <empreendimentos>
+  <empreendimento>
+    <id>undefined</id>
+    <titulo><![CDATA[undefined]]></titulo>
+    <cidade></cidade>
+    <estado></estado>
+    <status></status>
+    <ficha_tecnica>
+    </ficha_tecnica>
+  </empreendimento>
+  <empreendimento>
+    <id>undefined</id>
+    <titulo><![CDATA[undefined]]></titulo>
+    <cidade></cidade>
+    <estado></estado>
+    <status></status>
+    <ficha_tecnica>
+    </ficha_tecnica>
+  </empreendimento>
+  <empreendimento>
+    <id>undefined</id>
+    <titulo><![CDATA[undefined]]></titulo>
+    <cidade></cidade>
+    <estado></estado>
+    <status></status>
+    <ficha_tecnica>
+    </ficha_tecnica>
+  </empreendimento>
 </empreendimentos>
