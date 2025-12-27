@@ -126,8 +126,28 @@ export default async function extractDirecional() {
       // ===============================
       // IMAGENS (SEM ÍCONES / LOGOS)
       // ===============================
-      const imagens = Array.from(document.querySelectorAll("img"))
-        .map(img => img.src)
+      const BLOCKLIST = [
+  "icon","icone","logo","logotipo","fgts","mcmv","minha-casa",
+  "casa-verde","selo","badge","button","botao","sprite","sheet",
+  "vector","whats","simular","percent","porcent","renda",
+  "financi","parcel","beneficio","vantagem","diferencial","check","bullet"
+];
+
+const imagens = Array.from(document.querySelectorAll("img"))
+  .filter(img => {
+    const src = (img.src || "").toLowerCase();
+    const w = img.naturalWidth || 0;
+    const h = img.naturalHeight || 0;
+
+    if (!src.includes("/wp-content/uploads/")) return false;
+    if (w < 800 || h < 500) return false;
+
+    if (BLOCKLIST.some(word => src.includes(word))) return false;
+
+    return true;
+  })
+  .map(img => img.src);
+
         .filter(src => {
           const s = src.toLowerCase();
           if (!s.includes("/wp-content/uploads/")) return false;
