@@ -1,36 +1,59 @@
 // ===============================
 // ARQUIVO: src/robots/direcional.extractor.js
-// LISTAGEM DIRECIONAL + FILTRO RMC (ROBUSTO)
+// LISTAGEM DIRECIONAL – INTERIOR DE SP
+// ARQUITETURA PREPARADA PARA ESCALA
 // ===============================
 
 import { chromium } from "playwright";
 
 // ===============================
-// CONFIGURAÇÃO DE FILTRO (ESCALÁVEL)
+// CONFIGURAÇÃO DE REGIÕES
 // ===============================
-const FILTRO = {
-  tipo: "RMC",
-  estado: "SP",
-  cidades: [
-    "campinas",
-    "sumare",
-    "hortolandia",
-    "valinhos",
-    "vinhedo",
-    "paulinia",
-    "indaiatuba",
-    "itatiba",
-    "nova odessa",
-    "americana",
-    "monte mor",
-    "artur nogueira",
-    "engenheiro coelho",
-    "holambra",
-    "jaguariuna",
-    "pedreira",
-    "santo antonio de posse",
-  ],
+const REGIOES = {
+  INTERIOR_SP: {
+    estado: "SP",
+    excluirCidades: [
+      // Grande São Paulo
+      "sao paulo",
+      "guarulhos",
+      "osasco",
+      "barueri",
+      "santo andre",
+      "sao bernardo do campo",
+      "sao caetano do sul",
+      "diadema",
+      "maua",
+      "ribeirao pires",
+      "rio grande da serra",
+      "carapicuiba",
+      "itapevi",
+      "jandira",
+      "cotia",
+      "embu das artes",
+      "embu guacu",
+      "itapecerica da serra",
+      "taboao da serra",
+      "santana de parnaiba",
+
+      // Litoral Paulista
+      "santos",
+      "sao vicente",
+      "praia grande",
+      "guaruja",
+      "cubatão",
+      "bertioga",
+      "itanhaem",
+      "mongagua",
+      "peruibe",
+      "caraguatatuba",
+      "ubatuba",
+      "ilhabela",
+      "sao sebastiao",
+    ],
+  },
 };
+
+const REGIAO_ATIVA = "INTERIOR_SP";
 
 const START_URL =
   "https://www.direcional.com.br/encontre-seu-apartamento/";
@@ -57,23 +80,14 @@ export default async function extractDirecional() {
   await page.goto(START_URL, { waitUntil: "domcontentloaded" });
 
   // ===============================
-  // 1️⃣ CLICAR EM "CARREGAR MAIS" (ROBUSTO)
+  // 1️⃣ CLICAR EM "CARREGAR MAIS"
   // ===============================
   while (true) {
     const button = await page.$('button:has-text("Carregar mais")');
+    if (!button) break;
 
-    if (!button) {
-      console.log("✅ Botão não existe mais");
-      break;
-    }
-
-    const isVisible = await button.isVisible();
-    const isDisabled = await button.isDisabled().catch(() => false);
-
-    if (!isVisible || isDisabled) {
-      console.log("✅ Botão não está mais visível/clicável");
-      break;
-    }
+    const visible = await button.isVisible();
+    if (!visible) break;
 
     console.log("👉 Clicando em 'Carregar mais'");
     await button.click();
@@ -89,10 +103,12 @@ export default async function extractDirecional() {
     ).map((a) => {
       const card = a.closest("div");
       let locationText = null;
+
       if (card) {
         const loc = card.querySelector(".location p");
         if (loc) locationText = loc.innerText;
       }
+
       return {
         url: a.href.split("#")[0],
         location: locationText,
@@ -107,26 +123,30 @@ export default async function extractDirecional() {
   console.log("📦 Total de cards únicos:", uniqueCards.length);
 
   // ===============================
-  // 3️⃣ FILTRO RMC ROBUSTO
+  // 3️⃣ FILTRO – INTERIOR DE SP
   // ===============================
+  const cfg = REGIOES[REGIAO_ATIVA];
+
   const filtrados = uniqueCards.filter((card) => {
     if (!card.location) return false;
 
     const normalized = normalize(card.location);
 
-    const estadoOk = normalized.includes(
-      normalize(FILTRO.estado)
-    );
+    // precisa ser SP
+    if (!normalized.includes("sp")) return false;
 
-    const cidadeOk = FILTRO.cidades.some((cidade) =>
-      normalized.includes(cidade)
-    );
+    // excluir Grande SP e Litoral
+    for (const cidade of cfg.excluirCidades) {
+      if (normalized.includes(cidade)) {
+        return false;
+      }
+    }
 
-    return estadoOk && cidadeOk;
+    return true;
   });
 
   console.log(
-    `🏙️ Empreendimentos filtrados (RMC):`,
+    `🏙️ Empreendimentos filtrados (${REGIAO_ATIVA}):`,
     filtrados.length
   );
 
