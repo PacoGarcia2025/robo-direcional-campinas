@@ -5,62 +5,33 @@ export default function generateXmlX09(empreendimentos) {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<imoveis>\n`;
 
   empreendimentos.forEach((emp) => {
-    // 🔹 DESCRIÇÃO (texto plano – x09 entende 100%)
-    let descricao = "";
+    if (!emp.id || !emp.titulo || !emp.cidade || !emp.estado) return;
+    if (!emp.imagens || emp.imagens.length === 0) return;
 
-    if (emp.tipologias && emp.tipologias.length > 0) {
-      const dorms = [
-        ...new Set(emp.tipologias.map((t) => t.dormitorios)),
-      ].sort();
+    const id = emp.id
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
 
-      const areas = [
-        ...new Set(emp.tipologias.map((t) => t.area)),
-      ].sort((a, b) => a - b);
-
-      descricao += `Apartamentos de ${dorms.join(" e ")} dormitórios.\n`;
-      descricao += `Áreas de ${areas
-        .map((a) => `${a}m²`)
-        .join(" e ")}.\n\n`;
-    }
-
-    if (emp.ficha_tecnica && Object.keys(emp.ficha_tecnica).length > 0) {
-      descricao += "Ficha técnica:\n";
-      Object.entries(emp.ficha_tecnica).forEach(([k, v]) => {
-        descricao += `- ${k}: ${v}\n`;
-      });
-      descricao += "\n";
-    }
-
-    // fallback mínimo
-    if (!descricao) {
-      descricao = emp.titulo || "Empreendimento residencial";
-    }
+    const city = emp.cidade.split("/")[0].trim();
+    const state = emp.estado.trim();
 
     xml += `  <imovel>\n`;
-    xml += `    <id>${emp.id}</id>\n`;
-    xml += `    <title><![CDATA[${emp.titulo || ""}]]></title>\n`;
+    xml += `    <id>${id}</id>\n`;
+    xml += `    <title>${emp.titulo}</title>\n`;
 
-    // 🔹 FOTOS
     xml += `    <fotos>\n`;
-    (emp.imagens || []).forEach((img) => {
-      xml += `      <foto><![CDATA[${img}]]></foto>\n`;
+    emp.imagens.forEach((img) => {
+      xml += `      <foto>${img}</foto>\n`;
     });
     xml += `    </fotos>\n`;
 
-    // 🔹 LOCALIZAÇÃO
-    xml += `    <city><![CDATA[${emp.cidade || ""}]]></city>\n`;
-    xml += `    <state><![CDATA[${emp.estado || ""}]]></state>\n`;
-
-    // 🔹 CLASSIFICAÇÃO
+    xml += `    <city>${city}</city>\n`;
+    xml += `    <state>${state}</state>\n`;
     xml += `    <tipo>Apartamento</tipo>\n`;
-    xml += `    <status><![CDATA[${emp.status || ""}]]></status>\n`;
-
-    // 🔹 DESCRIÇÃO FINAL
-    xml += `    <descricao><![CDATA[${descricao.trim()}]]></descricao>\n`;
-
-    // 🔹 CONSTRUTORA
+    xml += `    <status>${emp.status || "Lançamento"}</status>\n`;
+    xml += `    <descricao>${emp.titulo}</descricao>\n`;
     xml += `    <construtora>Direcional Engenharia</construtora>\n`;
-
     xml += `  </imovel>\n`;
   });
 
@@ -74,4 +45,3 @@ export default function generateXmlX09(empreendimentos) {
   fs.writeFileSync(filePath, xml, "utf8");
   console.log(`📦 XML X09 gerado com sucesso: ${filePath}`);
 }
-
