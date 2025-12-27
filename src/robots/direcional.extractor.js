@@ -1,7 +1,7 @@
 // ===============================
 // ARQUIVO: src/robots/direcional.extractor.js
 // LISTAGEM DIRECIONAL – INTERIOR SP
-// ENRIQUECIMENTO: NOME + STATUS + TIPOLOGIA
+// ENRIQUECIMENTO: NOME + STATUS + TIPOLOGIA + IMAGENS
 // ===============================
 
 import { chromium } from "playwright";
@@ -14,49 +14,19 @@ const REGIOES = {
     estado: "SP",
     excluirCidades: [
       // Grande São Paulo
-      "sao paulo",
-      "guarulhos",
-      "osasco",
-      "barueri",
-      "santo andre",
-      "sao bernardo do campo",
-      "sao caetano do sul",
-      "diadema",
-      "maua",
-      "ribeirao pires",
-      "rio grande da serra",
-      "carapicuiba",
-      "itapevi",
-      "jandira",
-      "cotia",
-      "embu das artes",
-      "embu guacu",
-      "itapecerica da serra",
-      "taboao da serra",
-      "santana de parnaiba",
-
+      "sao paulo","guarulhos","osasco","barueri","santo andre","sao bernardo do campo",
+      "sao caetano do sul","diadema","maua","ribeirao pires","rio grande da serra",
+      "carapicuiba","itapevi","jandira","cotia","embu das artes","embu guacu",
+      "itapecerica da serra","taboao da serra","santana de parnaiba",
       // Litoral Paulista
-      "santos",
-      "sao vicente",
-      "praia grande",
-      "guaruja",
-      "cubatão",
-      "bertioga",
-      "itanhaem",
-      "mongagua",
-      "peruibe",
-      "caraguatatuba",
-      "ubatuba",
-      "ilhabela",
-      "sao sebastiao",
+      "santos","sao vicente","praia grande","guaruja","cubatão","bertioga",
+      "itanhaem","mongagua","peruibe","caraguatatuba","ubatuba","ilhabela","sao sebastiao",
     ],
   },
 };
 
 const REGIAO_ATIVA = "INTERIOR_SP";
-
-const START_URL =
-  "https://www.direcional.com.br/encontre-seu-apartamento/";
+const START_URL = "https://www.direcional.com.br/encontre-seu-apartamento/";
 
 // ===============================
 // NORMALIZA TEXTO
@@ -76,7 +46,6 @@ export default async function extractDirecional() {
   const page = await browser.newPage();
 
   console.log("🚀 Abrindo página de listagem Direcional");
-
   await page.goto(START_URL, { waitUntil: "domcontentloaded" });
 
   // ===============================
@@ -86,7 +55,6 @@ export default async function extractDirecional() {
     const button = await page.$('button:has-text("Carregar mais")');
     if (!button) break;
     if (!(await button.isVisible())) break;
-
     await button.click();
     await page.waitForTimeout(2500);
   }
@@ -100,53 +68,35 @@ export default async function extractDirecional() {
     ).map((a) => {
       const card = a.closest("div");
       let locationText = null;
-
       if (card) {
         const loc = card.querySelector(".location p");
         if (loc) locationText = loc.innerText;
       }
-
-      return {
-        url: a.href.split("#")[0],
-        location: locationText,
-      };
+      return { url: a.href.split("#")[0], location: locationText };
     });
   });
 
-  const uniqueCards = [
-    ...new Map(cards.map((c) => [c.url, c])).values(),
-  ];
-
+  const uniqueCards = [...new Map(cards.map(c => [c.url, c])).values()];
   console.log("📦 Total de cards únicos:", uniqueCards.length);
 
   // ===============================
   // 3️⃣ FILTRO – INTERIOR DE SP
   // ===============================
   const cfg = REGIOES[REGIAO_ATIVA];
-
-  const filtrados = uniqueCards.filter((card) => {
+  const filtrados = uniqueCards.filter(card => {
     if (!card.location) return false;
-
-    const normalized = normalize(card.location);
-
-    if (!normalized.includes("sp")) return false;
-
+    const n = normalize(card.location);
+    if (!n.includes("sp")) return false;
     for (const cidade of cfg.excluirCidades) {
-      if (normalized.includes(cidade)) {
-        return false;
-      }
+      if (n.includes(cidade)) return false;
     }
-
     return true;
   });
 
-  console.log(
-    `🏙️ Empreendimentos filtrados (${REGIAO_ATIVA}):`,
-    filtrados.length
-  );
+  console.log(`🏙️ Empreendimentos filtrados (${REGIAO_ATIVA}):`, filtrados.length);
 
   // ===============================
-  // 4️⃣ ENTRAR NO LINK E PEGAR DADOS
+  // 4️⃣ ENTRAR NO LINK E ENRIQUECER
   // ===============================
   const empreendimentos = [];
 
@@ -156,84 +106,63 @@ export default async function extractDirecional() {
       await page.waitForTimeout(2000);
 
       const data = await page.evaluate(() => {
-        // -------------------------------
-        // NOME
-        // -------------------------------
-        const nome =
-          document.querySelector("h1")?.innerText.trim() || null;
+        // -------- NOME --------
+        const nome = document.querySelector("h1")?.innerText.trim() || null;
 
-        // -------------------------------
-        // STATUS
-        // -------------------------------
+        // -------- STATUS --------
         let status = null;
-        document.querySelectorAll("ul li").forEach((li) => {
+        document.querySelectorAll("ul li").forEach(li => {
           const t = li.innerText.trim();
           if (
             t.includes("Lançamento") ||
             t.includes("Breve") ||
             t.includes("Obras") ||
             t.includes("Pronto")
-          ) {
-            status = t;
-          }
+          ) status = t;
         });
 
-        // -------------------------------
-        // TIPOLOGIA
-        // -------------------------------
+        // -------- TIPOLOGIA --------
         let areas = [];
         let dormitorios = [];
-
-        document.querySelectorAll("ul.pl-3 li span").forEach((span) => {
+        document.querySelectorAll("ul.pl-3 li span").forEach(span => {
           const text = span.innerText;
-
-          // Áreas
           if (text.includes("m²")) {
-            text
-              .replace(/\s/g, "")
-              .split("|")
-              .forEach((a) => {
-                const val = a
-                  .replace("m²", "")
-                  .replace(",", ".");
-                if (!isNaN(val)) areas.push(Number(val));
-              });
+            text.replace(/\s/g, "").split("|").forEach(a => {
+              const v = a.replace("m²","").replace(",",".");
+              if (!isNaN(v)) areas.push(Number(v));
+            });
           }
-
-          // Dormitórios
           if (text.toLowerCase().includes("quarto")) {
             const nums = text.match(/\d+/g);
-            if (nums) {
-              nums.forEach((n) => dormitorios.push(Number(n)));
-            }
+            if (nums) nums.forEach(n => dormitorios.push(Number(n)));
           }
         });
-
         const tipologias = [];
-        areas.forEach((area) => {
-          dormitorios.forEach((d) => {
-            tipologias.push({
-              dormitorios: d,
-              area,
-            });
-          });
-        });
+        areas.forEach(a => dormitorios.forEach(d => tipologias.push({ dormitorios:d, area:a })));
 
-        return { nome, status, tipologias };
+        // -------- IMAGENS (LIMPAS) --------
+        const imagens = Array.from(document.querySelectorAll("img"))
+          .map(img => img.src || img.getAttribute("data-src"))
+          .filter(src => src)
+          .filter(src =>
+            src.includes("/wp-content/uploads/") &&
+            !src.includes("icon") &&
+            !src.includes("logo") &&
+            !src.includes("sprite") &&
+            !src.includes("sheet_") &&
+            !src.includes("basil_")
+          )
+          .filter(src => {
+            // evita thumbs muito pequenas (heurística por nome)
+            return !src.match(/-\d{2,3}x\d{2,3}\./);
+          });
+
+        return { nome, status, tipologias, imagens };
       });
 
-      const resumoTipologia =
-        data.tipologias.length > 0
-          ? data.tipologias
-              .map(
-                (t) => `${t.dormitorios}Q ${t.area}m²`
-              )
-              .join(", ")
-          : "SEM TIPOLOGIA";
+      const imagensUnicas = [...new Set(data.imagens)];
 
-      console.log(
-        `🧩 ${data.nome || "SEM NOME"} → ${resumoTipologia}`
-      );
+      console.log(`🖼️ ${data.nome || "SEM NOME"} → ${imagensUnicas.length} imagens`);
 
       empreendimentos.push({
         url: item.url,
@@ -241,6 +170,7 @@ export default async function extractDirecional() {
         status: data.status,
         location: item.location,
         tipologias: data.tipologias,
+        imagens: imagensUnicas,
       });
     } catch (err) {
       console.log("❌ Erro ao processar:", item.url);
@@ -248,6 +178,5 @@ export default async function extractDirecional() {
   }
 
   await browser.close();
-
   return empreendimentos;
 }
