@@ -1,24 +1,67 @@
 // ===============================
 // ARQUIVO: src/robots/direcional.extractor.js
-// SCRAPER DIRECIONAL – ESTÁVEL (WAIT FIX)
+// TESTE DE LISTAGEM – CARREGAR MAIS
+// OBJETIVO: carregar TODOS os cards
 // ===============================
 
 import { chromium } from "playwright";
-import { processImages } from "../images/index.js";
 
 const START_URL =
-  "https://www.direcional.com.br/empreendimentos/?cidade=campinas";
+  "https://www.direcional.com.br/encontre-seu-apartamento/";
 
 export default async function extractDirecional() {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+  });
+
   const page = await browser.newPage();
 
-  console.log("🚀 Iniciando Robô Direcional");
+  console.log("🚀 Abrindo página de listagem Direcional");
 
   await page.goto(START_URL, { waitUntil: "domcontentloaded" });
 
   // ===============================
-  // 1️⃣ LINKS DOS EMPREENDIMENTOS
+  // LOOP: CLICAR EM "CARREGAR MAIS"
+  // ===============================
+  let clicks = 0;
+
+  while (true) {
+    try {
+      const button = await page.$(
+        'button:has-text("Carregar mais")'
+      );
+
+      if (!button) {
+        console.log("✅ Botão 'Carregar mais' não encontrado. Fim.");
+        break;
+      }
+
+      console.log(`👉 Clicando em 'Carregar mais' (${clicks + 1})`);
+      await button.click();
+
+      clicks++;
+
+      // espera novos cards carregarem
+      await page.waitForTimeout(3000);
+    } catch (err) {
+      console.log("⚠️ Erro ou fim do botão:", err.message);
+      break;
+    }
+  }
+
+  // ===============================
+  // CONTAR CARDS
+  // ===============================
+  const totalCards = await page.evaluate(() => {
+    return document.querySelectorAll(
+      'a[href*="/empreendimentos/"]'
+    ).length;
+  });
+
+  console.log("📦 Total de cards encontrados:", totalCards);
+
+  // ===============================
+  // EXTRAIR LINKS
   // ===============================
   const links = await page.evaluate(() => {
     return Array.from(
@@ -33,209 +76,11 @@ export default async function extractDirecional() {
   });
 
   const uniqueLinks = [...new Set(links)];
-  const empreendimentos = [];
 
-  // ===============================
-  // 2️⃣ VISITA CADA EMPREENDIMENTO
-  // ===============================
-  for (const url of uniqueLinks) {
-    try {
-      await page.goto(url, { waitUntil: "domcontentloaded" });
+  console.log("🔗 Total de links únicos:", uniqueLinks.length);
 
-      // 🔴 ESPERA EXPLÍCITA (ESSENCIAL)
-      await page.waitForSelector("h1", { timeout: 15000 });
-      await page.waitForSelector(".breadcrumbs-empreendimento", {
-        timeout: 15000,
-      });
-
-      const data = await page.evaluate(() => {
-        // ===============================
-        // TÍTULO
-        // ===============================
-        const title =
-          document.querySelector("h1")?.innerText.trim() || null;
-
-        // ===============================
-        // CIDADE / ESTADO (BREADCRUMB)
-        // ===============================
-        let city = null;
-        let state = null;
-
-        document
-          .querySelectorAll(".breadcrumbs-empreendimento a")
-          .forEach((a) => {
-            const href = a.getAttribute("href") || "";
-            const text = a.innerText.trim();
-
-            if (href.includes("estado=") && text.length === 2) {
-              state = text;
-            }
-            if (href.includes("cidade=")) {
-              city = text;
-            }
-          });
-
-        // ===============================
-        // STATUS
-        // ===============================
-        let status = null;
-        document
-          .querySelectorAll("ul.pt-3 li.list-inline-item")
-          .forEach((li) => {
-            const t = li.innerText.trim();
-            if (
-              t.includes("Lançamento") ||
-              t.includes("Breve") ||
-              t.includes("Obras") ||
-              t.includes("Pronto")
-            ) {
-              status = t;
-            }
-          });
-
-        // ===============================
-        // TIPOLOGIAS
-        // ===============================
-        const areas = [];
-        const dormitorios = [];
-
-        document
-          .querySelectorAll("ul.pl-3 li span")
-          .forEach((el) => {
-            const text = el.innerText;
-
-            if (text.includes("m²")) {
-              text
-                .replace(/\s/g, "")
-                .split("|")
-                .forEach((a) => {
-                  const val = a
-                    .replace("m²", "")
-                    .replace(",", ".");
-                  if (!isNaN(val)) areas.push(Number(val));
-                });
-            }
-
-            if (text.toLowerCase().includes("quarto")) {
-              const nums = text.match(/\d+/g);
-              if (nums) nums.forEach((n) => dormitorios.push(Number(n)));
-            }
-          });
-
-        const unidades = [];
-        areas.forEach((a) => {
-          dormitorios.forEach((d) => {
-            unidades.push({ area: a, dormitorios: d });
-          });
-        });
-
-        // ===============================
-        // DIFERENCIAIS
-        // ===============================
-        const diferenciais = Array.from(
-          document.querySelectorAll("ul.pt-3 li.list-inline-item")
-        )
-          .map((li) => li.innerText.trim())
-          .filter(
-            (t) =>
-              t &&
-              !t.toLowerCase().includes("lançamento") &&
-              !t.toLowerCase().includes("breve")
-          );
-
-        // ===============================
-        // FICHA TÉCNICA
-        // ===============================
-        const ficha_tecnica = {};
-
-        document
-          .querySelectorAll("h2")
-          .forEach((h2) => {
-            if (h2.innerText.trim() === "Ficha Técnica") {
-              const container = h2.closest(".container");
-              if (!container) return;
-
-              container
-                .querySelectorAll("li p")
-                .forEach((p) => {
-                  const strong = p.querySelector("strong");
-                  if (!strong) return;
-
-                  const key = strong.innerText
-                    .replace(":", "")
-                    .trim()
-                    .toLowerCase()
-                    .replace(/\s+/g, "_")
-                    .replace(/[^\w]/g, "");
-
-                  const value = p.innerText
-                    .replace(strong.innerText, "")
-                    .trim();
-
-                  if (key && value) {
-                    ficha_tecnica[key] = value;
-                  }
-                });
-            }
-          });
-
-        // ===============================
-        // IMAGENS
-        // ===============================
-        const imagens = Array.from(document.querySelectorAll("img")).map(
-          (img) => ({
-            src: img.src,
-            w: Number(img.getAttribute("data-eio-rwidth") || 0),
-            h: Number(img.getAttribute("data-eio-rheight") || 0),
-          })
-        );
-
-        return {
-          title,
-          city,
-          state,
-          status,
-          unidades,
-          diferenciais,
-          ficha_tecnica,
-          imagens,
-        };
-      });
-
-      if (!data.title) {
-        console.warn("⚠️ Página sem título:", url);
-        continue;
-      }
-
-      const id = url.replace(/\/$/, "").split("/").pop();
-
-      const imagensProcessadas = processImages(data.imagens, {
-        min: 3,
-        max: 10,
-      });
-
-      empreendimentos.push({
-        id,
-        url,
-        title: data.title,
-        city: data.city,
-        state: data.state,
-        status: data.status,
-        unidades: data.unidades,
-        diferenciais_empreendimento: data.diferenciais,
-        ficha_tecnica: data.ficha_tecnica,
-        imagens: imagensProcessadas,
-      });
-    } catch (err) {
-      console.error("❌ Erro ao processar:", url, err.message);
-    }
-  }
-
+  // 🔴 IMPORTANTE: por enquanto, NÃO entra nos links
   await browser.close();
 
-  console.log(
-    `✅ Robô finalizado. ${empreendimentos.length} empreendimentos capturados`
-  );
-
-  return empreendimentos;
+  return [];
 }
