@@ -1,21 +1,13 @@
-// ===============================
-// ARQUIVO: src/index.js
-// ENTRYPOINT REAL DO ROBÔ
-// ===============================
-
-import extractDirecional from "./robots/direcional.extractor.js";
+import runDirecional from "./robots/direcional.js";
 import generateXml from "./generateXml.js";
+import generateXmlX09 from "./generateXml.x09.js";
 
 (async () => {
-  console.log("▶ Iniciando execução do robô Direcional");
+  const empreendimentos = await runDirecional();
 
-  const empreendimentos = await extractDirecional();
-
-  console.log(
-    `📊 Total de empreendimentos retornados: ${empreendimentos.length}`
-  );
-
+  // XML rico (futuro / interno)
   generateXml(empreendimentos);
 
-  console.log("✅ Execução finalizada com sucesso");
+  // XML compatível com x09 (Base44)
+  generateXmlX09(empreendimentos);
 })();
