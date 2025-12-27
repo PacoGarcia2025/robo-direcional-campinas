@@ -1,7 +1,7 @@
 // ===============================
 // ARQUIVO: src/robots/direcional.extractor.js
-// LISTAGEM DIRECIONAL – INTERIOR DE SP
-// ARQUITETURA PREPARADA PARA ESCALA
+// LISTAGEM DIRECIONAL – INTERIOR SP
+// ENRIQUECIMENTO: NOME + STATUS
 // ===============================
 
 import { chromium } from "playwright";
@@ -89,7 +89,6 @@ export default async function extractDirecional() {
     const visible = await button.isVisible();
     if (!visible) break;
 
-    console.log("👉 Clicando em 'Carregar mais'");
     await button.click();
     await page.waitForTimeout(2500);
   }
@@ -132,10 +131,8 @@ export default async function extractDirecional() {
 
     const normalized = normalize(card.location);
 
-    // precisa ser SP
     if (!normalized.includes("sp")) return false;
 
-    // excluir Grande SP e Litoral
     for (const cidade of cfg.excluirCidades) {
       if (normalized.includes(cidade)) {
         return false;
@@ -151,12 +148,53 @@ export default async function extractDirecional() {
   );
 
   // ===============================
-  // 4️⃣ NORMALIZA RESULTADO
+  // 4️⃣ ENTRAR NO LINK E PEGAR NOME + STATUS
   // ===============================
-  const empreendimentos = filtrados.map((card) => ({
-    url: card.url,
-    location: card.location,
-  }));
+  const empreendimentos = [];
+
+  for (const item of filtrados) {
+    try {
+      await page.goto(item.url, { waitUntil: "domcontentloaded" });
+      await page.waitForTimeout(2000);
+
+      const data = await page.evaluate(() => {
+        const nome =
+          document.querySelector("h1")?.innerText.trim() || null;
+
+        let status = null;
+        document
+          .querySelectorAll("ul li")
+          .forEach((li) => {
+            const t = li.innerText.trim();
+            if (
+              t.includes("Lançamento") ||
+              t.includes("Breve") ||
+              t.includes("Obras") ||
+              t.includes("Pronto")
+            ) {
+              status = t;
+            }
+          });
+
+        return { nome, status };
+      });
+
+      console.log(
+        `🏗️ [OK] ${data.nome || "SEM NOME"} — ${
+          data.status || "SEM STATUS"
+        }`
+      );
+
+      empreendimentos.push({
+        url: item.url,
+        nome: data.nome,
+        status: data.status,
+        location: item.location,
+      });
+    } catch (err) {
+      console.log("❌ Erro ao processar:", item.url);
+    }
+  }
 
   await browser.close();
 
