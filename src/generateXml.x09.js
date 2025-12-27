@@ -4,33 +4,48 @@ import path from "path";
 const FOTO_FALLBACK =
   "https://www.direcional.com.br/wp-content/themes/direcional-theme/dist/images/logo-direcional.svg";
 
+// Cidades do Interior de SP (base real Direcional)
+const INTERIOR_SP = [
+  "Campinas",
+  "Ribeirão Preto",
+  "Sorocaba",
+  "Limeira",
+  "Araraquara",
+  "São Carlos",
+  "Piracicaba",
+  "Americana",
+  "Indaiatuba",
+  "Hortolândia",
+  "Sumaré",
+  "Jundiaí"
+];
+
 export default function generateXmlX09(empreendimentos) {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<empreendimentos>\n`;
   let total = 0;
 
   empreendimentos.forEach((emp) => {
-    // 🔹 FILTRO SIMPLES: APENAS SP
-    const estado = (emp.estado || "").trim().toUpperCase();
-    if (estado !== "SP") return;
+    if (!emp.cidade) return;
 
-    const cidade = emp.cidade
-      ? emp.cidade.split("/")[0].trim()
-      : "";
+    // 🔹 normaliza cidade
+    const cidade = emp.cidade.split("/")[0].trim();
 
-    const id = (emp.id || emp.titulo || Math.random().toString(36))
+    // 🔹 filtro REAL: cidade do Interior SP
+    if (!INTERIOR_SP.includes(cidade)) return;
+
+    const id = (emp.id || emp.titulo)
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-|-$/g, "");
 
     xml += `  <empreendimento>\n`;
     xml += `    <id>${id}</id>\n`;
-    xml += `    <titulo>${emp.titulo || "Empreendimento Direcional"}</titulo>\n`;
+    xml += `    <titulo>${emp.titulo}</titulo>\n`;
     xml += `    <tipo>Apartamento</tipo>\n`;
     xml += `    <cidade>${cidade}</cidade>\n`;
     xml += `    <estado>SP</estado>\n`;
     xml += `    <status>${emp.status || "Lançamento"}</status>\n`;
 
-    // 🔹 FOTOS (OBRIGATÓRIO PARA O X09)
     xml += `    <fotos>\n`;
     if (emp.imagens && emp.imagens.length > 0) {
       emp.imagens.forEach((img) => {
@@ -41,7 +56,6 @@ export default function generateXmlX09(empreendimentos) {
     }
     xml += `    </fotos>\n`;
 
-    // 🔹 URL (opcional, mas útil)
     if (emp.url) {
       xml += `    <url>${emp.url}</url>\n`;
     }
@@ -54,11 +68,9 @@ export default function generateXmlX09(empreendimentos) {
 
   const filePath = path.resolve(
     "src/output",
-    "direcional-sp-x09.xml"
+    "direcional-interior-sp-x09.xml"
   );
 
   fs.writeFileSync(filePath, xml, "utf8");
-  console.log(
-    `📦 XML X09 SP gerado com sucesso (${total} empreendimentos)`
-  );
+  console.log(`📦 XML X09 INTERIOR SP gerado: ${total} empreendimentos`);
 }
