@@ -33,14 +33,14 @@ export default function generateXml(empreendimentos) {
 
       // Imagens
       xml += `    <imagens>\n`;
-      emp.imagens.forEach(img => {
+      (emp.imagens || []).forEach(img => {
         xml += `      <imagem><![CDATA[${img}]]></imagem>\n`;
       });
       xml += `    </imagens>\n`;
 
       // Ficha técnica
       xml += `    <ficha_tecnica>\n`;
-      Object.entries(emp.ficha_tecnica).forEach(([k, v]) => {
+      Object.entries(emp.ficha_tecnica || {}).forEach(([k, v]) => {
         xml += `      <campo nome="${k}"><![CDATA[${v}]]></campo>\n`;
       });
       xml += `    </ficha_tecnica>\n`;
