@@ -28,8 +28,8 @@ export default function generateXmlX09(empreendimentos) {
     // 🔹 SHAPE REAL CONFIRMADO PELO LOG
     if (!emp.cidade || !emp.estado) return;
 
-    const cidade = emp.cidade.trim();
-    const estado = emp.estado.trim().toUpperCase();
+const cidade = emp.cidade.split("/")[0].trim();
+const estado = emp.estado.trim().toUpperCase();
 
     // 🔹 FILTRO INTERIOR SP (AGORA FUNCIONA)
     if (estado !== "SP") return;
