@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <empreendimentos>
+    <diferenciais>
+      <diferencial>Breve Lançamento</diferencial>
+      <diferencial>Breve Lançamento</diferencial>
+      <diferencial>Breve Lançamento</diferencial>
+    </diferenciais>
   <empreendimento>
     <id>conquista-clube-ipiranga</id>
     <titulo><![CDATA[Direcional Conquista Clube Ipiranga]]></titulo>
@@ -15,6 +20,11 @@
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/08/happy-hour-conquista-ipiranga.jpg]]></foto>
     </fotos>
   </empreendimento>
+    <diferenciais>
+      <diferencial>Lançamento</diferencial>
+      <diferencial>Lançamento</diferencial>
+      <diferencial>Lançamento</diferencial>
+    </diferenciais>
   <empreendimento>
     <id>village-gaia</id>
     <titulo><![CDATA[Village Gaia]]></titulo>
@@ -30,6 +40,11 @@
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/07/FyrStudio-Direcional-414Cahima-05-PracaMovimento-PosFinal.jpg]]></foto>
     </fotos>
   </empreendimento>
+    <diferenciais>
+      <diferencial>Em obras</diferencial>
+      <diferencial>Em obras</diferencial>
+      <diferencial>Em obras</diferencial>
+    </diferenciais>
   <empreendimento>
     <id>cores-da-mata-mangara</id>
     <titulo><![CDATA[Cores da Mata Mangará]]></titulo>
@@ -45,6 +60,11 @@
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/04/fachada-cores-da-mata.jpg]]></foto>
     </fotos>
   </empreendimento>
+    <diferenciais>
+      <diferencial>Em obras</diferencial>
+      <diferencial>Em obras</diferencial>
+      <diferencial>Em obras</diferencial>
+    </diferenciais>
   <empreendimento>
     <id>conquista-vila-da-mata</id>
     <titulo><![CDATA[Conquista Vila da Mata]]></titulo>
@@ -61,6 +81,11 @@
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/02/CONQUISTA-VILA-DA-MATA-VERDE-ESCURO.png]]></foto>
     </fotos>
   </empreendimento>
+    <diferenciais>
+      <diferencial>Em Obras</diferencial>
+      <diferencial>Em Obras</diferencial>
+      <diferencial>Em Obras</diferencial>
+    </diferenciais>
   <empreendimento>
     <id>rise-condominio-clube</id>
     <titulo><![CDATA[Rise Condomínio Clube]]></titulo>
@@ -76,6 +101,11 @@
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Living-RiseParquePrado.jpg]]></foto>
     </fotos>
   </empreendimento>
+    <diferenciais>
+      <diferencial>Em Obras</diferencial>
+      <diferencial>Em Obras</diferencial>
+      <diferencial>Em Obras</diferencial>
+    </diferenciais>
   <empreendimento>
     <id>village-park</id>
     <titulo><![CDATA[Village Park]]></titulo>
@@ -91,6 +121,37 @@
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/01/Perspectiva-Piscina-VillagePark.jpg]]></foto>
     </fotos>
   </empreendimento>
+    <diferenciais>
+      <diferencial>Obras avançadas</diferencial>
+      <diferencial>Obras avançadas</diferencial>
+      <diferencial>Obras avançadas</diferencial>
+    </diferenciais>
+    <ficha_tecnica>
+      <item>
+        <nome>ÁREA DO TERRENO</nome>
+        <valor>11.347,62M2</valor>
+      </item>
+      <item>
+        <nome>ENDEREÇO DO TERRENO</nome>
+        <valor>AV. PROF. MARIA JULIETA GODOI CARTEZANI, 185 – VILA PALÁCIOS – CAMPINAS/SP</valor>
+      </item>
+      <item>
+        <nome>NÚMERO DE TORRES</nome>
+        <valor>3</valor>
+      </item>
+      <item>
+        <nome>NÚMERO DE UNIDADES POR PAVIMENTO</nome>
+        <valor>8 UNIDADES</valor>
+      </item>
+      <item>
+        <nome>SISTEMA CONSTRUTIVO</nome>
+        <valor>PAREDE DE CONCRETO</valor>
+      </item>
+      <item>
+        <nome>TOTAL DE UNIDADES</nome>
+        <valor>: 296</valor>
+      </item>
+    </ficha_tecnica>
   <empreendimento>
     <id>seleto-amoreiras</id>
     <titulo><![CDATA[Seleto Amoreiras: apartamento nas Amoreiras, Campinas]]></titulo>
@@ -98,7 +159,7 @@
     <cidade>Campinas</cidade>
     <estado>SP</estado>
     <status><![CDATA[Obras avançadas]]></status>
-    <descricao><![CDATA[ÁREA DO TERRENO: 11.347,62M2. ENDEREÇO DO TERRENO: AV. PROF. MARIA JULIETA GODOI CARTEZANI, 185 – VILA PALÁCIOS – CAMPINAS/SP. NÚMERO DE TORRES: 3. NÚMERO DE UNIDADES POR PAVIMENTO: 8 UNIDADES. SISTEMA CONSTRUTIVO: PAREDE DE CONCRETO. TOTAL DE UNIDADES: : 296]]></descricao>
+    <descricao><![CDATA[]]></descricao>
     <fotos>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/07/Portaria_SeletoAmoreiras.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/07/piscina-Breve-Lancamento-Amoreira-Direcional.jpg]]></foto>
@@ -106,6 +167,14 @@
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-2-Breve-Lancamento-Amoreira-Direcional.jpg]]></foto>
     </fotos>
   </empreendimento>
+    <diferenciais>
+      <diferencial>Em Obras</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+      <diferencial>Em Obras</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+      <diferencial>Em Obras</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+    </diferenciais>
   <empreendimento>
     <id>reserva-direcional-jardim-botanico</id>
     <titulo><![CDATA[Reserva Direcional: apartamento no Jardim Botânico, em Ribeirão Preto]]></titulo>
@@ -119,6 +188,14 @@
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/03/Piscina-Reserva-Direcional-Jardim-Botanico-Direcional.jpg]]></foto>
     </fotos>
   </empreendimento>
+    <diferenciais>
+      <diferencial>Obras Iniciadas</diferencial>
+      <diferencial>2 Quartos</diferencial>
+      <diferencial>Obras Iniciadas</diferencial>
+      <diferencial>2 Quartos</diferencial>
+      <diferencial>Obras Iniciadas</diferencial>
+      <diferencial>2 Quartos</diferencial>
+    </diferenciais>
   <empreendimento>
     <id>conquista-vila-acqua</id>
     <titulo><![CDATA[Conquista Vila Acqua]]></titulo>
@@ -134,6 +211,14 @@
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/11/Salao-de-Festas-Vila-Acqua-Direcional.jpg]]></foto>
     </fotos>
   </empreendimento>
+    <diferenciais>
+      <diferencial>Obras Avançadas</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+      <diferencial>Obras Avançadas</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+      <diferencial>Obras Avançadas</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+    </diferenciais>
   <empreendimento>
     <id>village-novus</id>
     <titulo><![CDATA[Village Novus]]></titulo>
@@ -149,6 +234,10 @@
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/07/Perspectiva-Living-VillageNovus.jpg]]></foto>
     </fotos>
   </empreendimento>
+    <diferenciais>
+      <diferencial>Pronto para morar</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+    </diferenciais>
   <empreendimento>
     <id>conquista-araraquara</id>
     <titulo><![CDATA[Conquista Araraquara]]></titulo>
@@ -164,6 +253,14 @@
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/06/Perspectiva-SalaodeFestas-ConquistaAraquara.jpg]]></foto>
     </fotos>
   </empreendimento>
+    <diferenciais>
+      <diferencial>Obras Avançadas</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+      <diferencial>Obras Avançadas</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+      <diferencial>Obras Avançadas</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+    </diferenciais>
   <empreendimento>
     <id>reserva-antonieta</id>
     <titulo><![CDATA[Reserva Antonieta]]></titulo>
@@ -179,6 +276,14 @@
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/GUARITA-RESERVA-ANTONIETA-DIRECIONAL.jpg]]></foto>
     </fotos>
   </empreendimento>
+    <diferenciais>
+      <diferencial>Obras Avançadas</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+      <diferencial>Obras Avançadas</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+      <diferencial>Obras Avançadas</diferencial>
+      <diferencial>2 Dorm.</diferencial>
+    </diferenciais>
   <empreendimento>
     <id>dream-santo-antonio</id>
     <titulo><![CDATA[Dream Santo Antônio]]></titulo>
