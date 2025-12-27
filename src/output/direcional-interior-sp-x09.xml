@@ -1,3 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <empreendimentos>
+  <empreendimento>
+    <id>conquista-clube-ipiranga</id>
+    <titulo><![CDATA[Direcional Conquista Clube Ipiranga]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Ribeirão Preto</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Breve Lançamento]]></status>
+    <descricao><![CDATA[Tipologias: 1 dorm • 40.77m² | 2 dorm • 40.77m² | 1 dorm • 50.79m² | 2 dorm • 50.79m². ]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/08/piscina-conquista-ipiranga.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/08/guarita-conquista-ipiranga.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/08/fachada-conquista-ipiranga.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/08/happy-hour-conquista-ipiranga.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/01/Quartos.webp]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Condominio-Fechado-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Qualidade-de-Vida.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Localizacao-Privilegiada-1.png]]></foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>village-gaia</id>
+    <titulo><![CDATA[Village Gaia]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Ribeirão Preto</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Lançamento]]></status>
+    <descricao><![CDATA[]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/07/FyrStudio-Direcional-414Cahima-02-AcessoPortico-PosFinal.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/07/FyrStudio-Direcional-414Cahima-06-PiscinaSolarium-Final.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/07/FyrStudio-Direcional-414Cahima-04-EspacoFoodTruck-PosFinal.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/07/FyrStudio-Direcional-414Cahima-05-PracaMovimento-PosFinal.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Gourmet-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Fitness.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Tomada-Carro-Eletrico.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Localizacao-Privilegiada-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Suite.png]]></foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>cores-da-mata-mangara</id>
+    <titulo><![CDATA[Cores da Mata Mangará]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em obras]]></status>
+    <descricao><![CDATA[Tipologias: 1 dorm • 45m² | 2 dorm • 45m². ]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-Guarita-CoresdaMataMangara.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaAdulto-CoresdaMataMangara.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaKids-CoresdaMataMangara.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/04/fachada-cores-da-mata.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/01/Quartos.webp]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Gourmet-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Fitness.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Localizacao-Privilegiada-1.png]]></foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-vila-da-mata</id>
+    <titulo><![CDATA[Conquista Vila da Mata]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Sorocaba</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em obras]]></status>
+    <descricao><![CDATA[Tipologias: 1 dorm • 41.08m² | 2 dorm • 41.08m² | 1 dorm • 52.82m² | 2 dorm • 52.82m². ]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/02/Perspectiva-Guarita-ConquistaViladaMata.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/02/Perspectiva-Piscina-ConquistaViladaMata.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/02/Perspectiva-Churrasqueira-ConquistaViladaMata.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/02/Perspectiva-SalaodeFestas-ConquistaViladaMata.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/02/CONQUISTA-VILA-DA-MATA-VERDE-ESCURO.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Fitness.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Qualidade-de-Vida.png]]></foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>rise-condominio-clube</id>
+    <titulo><![CDATA[Rise Condomínio Clube]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em Obras]]></status>
+    <descricao><![CDATA[Tipologias: 2 dorm • 43.73m². ]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Guarita-RiseCondominioClube.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Piscina-RiseParquePrado.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Fachada-RiseParquePrado.webp]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Living-RiseParquePrado.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Varanda-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Condominio-Fechado-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Comercios-no-local.png]]></foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>village-park</id>
+    <titulo><![CDATA[Village Park]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Ribeirão Preto</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em Obras]]></status>
+    <descricao><![CDATA[Tipologias: 1 dorm • 58.17m² | 2 dorm • 58.17m² | 3 dorm • 58.17m² | 1 dorm • 126.88m² | 2 dorm • 126.88m² | 3 dorm • 126.88m². ]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/01/Perspectiva-AereaLazer-VillagePark.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/01/Perspectiva-Fachada-VillagePark.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/01/Perspectiva-Guarita-VillagePark.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/01/Perspectiva-Piscina-VillagePark.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Opcoes-na-Planta-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Gourmet-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Localizacao-Privilegiada-1.png]]></foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>seleto-amoreiras</id>
+    <titulo><![CDATA[Seleto Amoreiras: apartamento nas Amoreiras, Campinas]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Obras avançadas]]></status>
+    <descricao><![CDATA[ÁREA DO TERRENO: 11.347,62M2. ENDEREÇO DO TERRENO: AV. PROF. MARIA JULIETA GODOI CARTEZANI, 185 – VILA PALÁCIOS – CAMPINAS/SP. NÚMERO DE TORRES: 3. NÚMERO DE UNIDADES POR PAVIMENTO: 8 UNIDADES. SISTEMA CONSTRUTIVO: PAREDE DE CONCRETO. TOTAL DE UNIDADES: : 296]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/07/Portaria_SeletoAmoreiras.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/07/piscina-Breve-Lancamento-Amoreira-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-Breve-Lancamento-Amoreira-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-2-Breve-Lancamento-Amoreira-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/porcentagem.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/06/Renda-Familiar.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Opcoes-na-Planta-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Localizacao-Privilegiada-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Varanda-1.png]]></foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>reserva-direcional-jardim-botanico</id>
+    <titulo><![CDATA[Reserva Direcional: apartamento no Jardim Botânico, em Ribeirão Preto]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Ribeirão Preto</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em Obras]]></status>
+    <descricao><![CDATA[Tipologias: 1 dorm • 49.54m² | 2 dorm • 49.54m² | 1 dorm • 53.87m² | 2 dorm • 53.87m². ]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/03/Perspectiva-Fachada-ReservaDirecionalJardimBotanico.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/03/Piscina-Reserva-Direcional-Jardim-Botanico-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/03/Frame-2-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Opcoes-na-Planta-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Bicicleta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Gourmet-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Localizacao-Privilegiada-1.png]]></foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-vila-acqua</id>
+    <titulo><![CDATA[Conquista Vila Acqua]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Sorocaba</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Obras Iniciadas]]></status>
+    <descricao><![CDATA[Tipologias: 1 dorm • 40.86m² | 2 dorm • 40.86m² | 1 dorm • 55.6m² | 2 dorm • 55.6m². ]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/11/Piscina-Vila-Acqua-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/11/Guarita-Vila-Acqua-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/11/Churrasqueira-Vila-Acqua-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/11/Salao-de-Festas-Vila-Acqua-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/porcentagem.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/06/parcelas.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>village-novus</id>
+    <titulo><![CDATA[Village Novus]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Ribeirão Preto</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+    <descricao><![CDATA[Tipologias: 2 dorm • 47.57m² | 2 dorm • 47.72m². ]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/07/Perspectiva-Acesso-VillageNovus.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/07/Portaria-Vilage-Novus-Direcional-3.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/07/Piscina-Vilage-Novus-Direcional-3.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/07/Perspectiva-Living-VillageNovus.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/03/Frame-2-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Opcoes-na-Planta-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Localizacao-Privilegiada-1.png]]></foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-araraquara</id>
+    <titulo><![CDATA[Conquista Araraquara]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Araraquara</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Pronto para morar]]></status>
+    <descricao><![CDATA[Tipologias: 2 dorm • 41.69m² | 2 dorm • 55.82m². ]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/06/Guarita-Conquista-Araraquara-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/06/Piscina-Conquista-Araraquara-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/06/Churrasqueira-Conquista-Araraquara-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/06/Perspectiva-SalaodeFestas-ConquistaAraquara.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/porcentagem.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/03/Frame-2-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>reserva-antonieta</id>
+    <titulo><![CDATA[Reserva Antonieta]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Limeira</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+    <descricao><![CDATA[Tipologias: 1 dorm • 47.79m² | 2 dorm • 47.79m² | 1 dorm • 51.67m² | 2 dorm • 51.67m². ]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Fachada-ReservaAntonieta.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/PISCINA-ADULTO-RESERVA-ANTONIETA-DIRECIONAL.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Living-ReservaAntonieta.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/GUARITA-RESERVA-ANTONIETA-DIRECIONAL.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/06/parcelas.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Localizacao-Privilegiada-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Coworking.png]]></foto>
+    </fotos>
+  </empreendimento>
+  <empreendimento>
+    <id>dream-santo-antonio</id>
+    <titulo><![CDATA[Dream Santo Antônio]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Carlos</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+    <descricao><![CDATA[Tipologias: 2 dorm • 46m². ]]></descricao>
+    <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/07/344-PL-IMP-01-01-PREVIA-FACHADA-DA-CASAS-R02-Ana-Clara-Miranda-scaled.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/07/344-PL-IMP-01-01-PREVIA-ROTATO%CC%81RIA-COM-TO%CC%81TEN-R01-Ana-Clara-Miranda-scaled.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/07/344-PL-IMP-01-01-PREVIA-AVENIDA-CANTEIRO-CENTRAL-R04-Ana-Clara-Miranda-scaled.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/07/344-PL-IMP-01-01-PREVIA-BICICLETARIO-CANTEIRO-CENTRAL-R00-Ana-Clara-Miranda-scaled.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/07/Dream_SANTO_ANTONIO_natura.jpeg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/porcentagem.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Bicicleta.png]]></foto>
+    </fotos>
+  </empreendimento>
 </empreendimentos>
