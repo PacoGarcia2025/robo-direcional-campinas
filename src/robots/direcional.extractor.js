@@ -112,15 +112,32 @@ export default async function extractDirecional() {
 
       // 🔹 IMAGENS LIMPAS
       const imagens = Array.from(document.querySelectorAll("img"))
-        .map(img => img.src)
-        .filter(src =>
-          src &&
-          src.includes("/wp-content/uploads/") &&
-          !src.includes("icon") &&
-          !src.includes("logo") &&
-          !src.includes("sheet") &&
-          !src.includes("button")
-        );
+  .filter(img => {
+    const src = img.src || "";
+    const w = img.naturalWidth || 0;
+    const h = img.naturalHeight || 0;
+
+    // origem válida
+    if (!src.includes("/wp-content/uploads/")) return false;
+
+    // remover lixo conhecido
+    if (
+      src.includes("icon") ||
+      src.includes("logo") ||
+      src.includes("sheet") ||
+      src.includes("button") ||
+      src.includes("sprite")
+    ) {
+      return false;
+    }
+
+    // somente imagens grandes
+    if (w < 600 || h < 400) return false;
+
+    return true;
+  })
+  .map(img => img.src);
+
 
       // 🔹 FICHA TÉCNICA
       const ficha = {};
