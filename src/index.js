@@ -5,9 +5,11 @@ import generateXmlX09 from "./generateXml.x09.js";
 (async () => {
   const empreendimentos = await runDirecional();
 
-  // XML rico (futuro / interno)
-  generateXml(empreendimentos);
+  console.log(
+    "🔎 SAMPLE EMPREENDIMENTO:",
+    JSON.stringify(empreendimentos[0], null, 2)
+  );
 
-  // XML compatível com x09 (Base44)
+  generateXml(empreendimentos);
   generateXmlX09(empreendimentos);
 })();
