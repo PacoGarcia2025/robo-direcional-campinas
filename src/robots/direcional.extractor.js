@@ -57,11 +57,25 @@ export default async function extractDirecional() {
   await page.goto(START_URL, { waitUntil: "domcontentloaded" });
 
   // ===============================
-  // 1️⃣ CLICAR EM "CARREGAR MAIS"
+  // 1️⃣ CLICAR EM "CARREGAR MAIS" (ROBUSTO)
   // ===============================
   while (true) {
     const button = await page.$('button:has-text("Carregar mais")');
-    if (!button) break;
+
+    if (!button) {
+      console.log("✅ Botão não existe mais");
+      break;
+    }
+
+    const isVisible = await button.isVisible();
+    const isDisabled = await button.isDisabled().catch(() => false);
+
+    if (!isVisible || isDisabled) {
+      console.log("✅ Botão não está mais visível/clicável");
+      break;
+    }
+
+    console.log("👉 Clicando em 'Carregar mais'");
     await button.click();
     await page.waitForTimeout(2500);
   }
@@ -119,12 +133,10 @@ export default async function extractDirecional() {
   // ===============================
   // 4️⃣ NORMALIZA RESULTADO
   // ===============================
-  const empreendimentos = filtrados.map((card) => {
-    return {
-      url: card.url,
-      location: card.location,
-    };
-  });
+  const empreendimentos = filtrados.map((card) => ({
+    url: card.url,
+    location: card.location,
+  }));
 
   await browser.close();
 
