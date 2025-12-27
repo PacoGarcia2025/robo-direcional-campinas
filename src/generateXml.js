@@ -1,91 +1,37 @@
-// ===============================
-// ARQUIVO: src/generateXml.js
-// GERADOR DE XML – PADRÃO X09
-// (GRAVA EM src/output)
-// ===============================
-
 import fs from "fs";
 import path from "path";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 export default function generateXml(empreendimentos) {
-  // 👉 caminho correto: src/output
-  const outputDir = path.resolve(__dirname, "output");
-  const outputFile = path.join(outputDir, "direcional.xml");
+  const porRegiao = {};
 
-  // ===============================
-  // GARANTE QUE A PASTA EXISTE
-  // ===============================
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-  }
-
-  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<empreendimentos>\n`;
-
-  for (const emp of empreendimentos) {
-    xml += `  <empreendimento>\n`;
-    xml += `    <id>${emp.id}</id>\n`;
-    xml += `    <titulo><![CDATA[${emp.title}]]></titulo>\n`;
-    xml += `    <cidade>${emp.city || ""}</cidade>\n`;
-    xml += `    <estado>${emp.state || ""}</estado>\n`;
-    xml += `    <status>${emp.status || ""}</status>\n`;
-
-    // ===============================
-    // UNIDADES
-    // ===============================
-    if (emp.unidades?.length) {
-      xml += `    <unidades>\n`;
-      emp.unidades.forEach((u) => {
-        xml += `      <unidade>\n`;
-        xml += `        <area>${u.area}</area>\n`;
-        xml += `        <dormitorios>${u.dormitorios}</dormitorios>\n`;
-        xml += `      </unidade>\n`;
-      });
-      xml += `    </unidades>\n`;
+  empreendimentos.forEach((emp) => {
+    if (!porRegiao[emp.regiao]) {
+      porRegiao[emp.regiao] = [];
     }
+    porRegiao[emp.regiao].push(emp);
+  });
 
-    // ===============================
-    // DIFERENCIAIS
-    // ===============================
-    if (emp.diferenciais_empreendimento?.length) {
-      xml += `    <diferenciais_empreendimento>\n`;
-      emp.diferenciais_empreendimento.forEach((d) => {
-        xml += `      <item><![CDATA[${d}]]></item>\n`;
-      });
-      xml += `    </diferenciais_empreendimento>\n`;
-    }
+  Object.entries(porRegiao).forEach(([regiao, lista]) => {
+    let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<empreendimentos>\n`;
 
-    // ===============================
-    // FICHA TÉCNICA
-    // ===============================
-    xml += `    <ficha_tecnica>\n`;
-    if (emp.ficha_tecnica) {
-      for (const [key, value] of Object.entries(emp.ficha_tecnica)) {
-        xml += `      <${key}><![CDATA[${value}]]></${key}>\n`;
-      }
-    }
-    xml += `    </ficha_tecnica>\n`;
+    lista.forEach((emp) => {
+      xml += `  <empreendimento>\n`;
+      xml += `    <regiao>${regiao}</regiao>\n`;
+      xml += `    <titulo><![CDATA[${emp.nome || ""}]]></titulo>\n`;
+      xml += `    <cidade><![CDATA[${emp.location || ""}]]></cidade>\n`;
+      xml += `    <status><![CDATA[${emp.status || ""}]]></status>\n`;
+      xml += `    <url><![CDATA[${emp.url}]]></url>\n`;
+      xml += `  </empreendimento>\n`;
+    });
 
-    // ===============================
-    // FOTOS
-    // ===============================
-    if (emp.imagens?.length) {
-      xml += `    <fotos>\n`;
-      emp.imagens.forEach((img) => {
-        xml += `      <foto>${img}</foto>\n`;
-      });
-      xml += `    </fotos>\n`;
-    }
+    xml += `</empreendimentos>`;
 
-    xml += `  </empreendimento>\n`;
-  }
+    const filePath = path.resolve(
+      "src/output",
+      `direcional-${regiao}.xml`
+    );
 
-  xml += `</empreendimentos>`;
-
-  fs.writeFileSync(outputFile, xml, "utf8");
-
-  console.log("📦 XML gerado com sucesso em:", outputFile);
+    fs.writeFileSync(filePath, xml, "utf8");
+    console.log(`📦 XML gerado: ${filePath}`);
+  });
 }
