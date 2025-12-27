@@ -36,12 +36,25 @@ export default function generateXmlX09(empreendimentos) {
       descricao += `Tipologias: ${tipos}. `;
     }
 
-    if (emp.ficha_tecnica) {
-      const fichaTxt = Object.entries(emp.ficha_tecnica)
-        .map(([k, v]) => `${k}: ${v}`)
-        .join(". ");
-      descricao += fichaTxt;
-    }
+    if (emp.diferenciais && emp.diferenciais.length > 0) {
+  xml += `    <diferenciais>\n`;
+  emp.diferenciais.forEach(d => {
+    xml += `      <diferencial>${d}</diferencial>\n`;
+  });
+  xml += `    </diferenciais>\n`;
+}
+    
+    if (emp.ficha_tecnica && Object.keys(emp.ficha_tecnica).length > 0) {
+  xml += `    <ficha_tecnica>\n`;
+  Object.entries(emp.ficha_tecnica).forEach(([chave, valor]) => {
+    xml += `      <item>\n`;
+    xml += `        <nome>${chave}</nome>\n`;
+    xml += `        <valor>${valor}</valor>\n`;
+    xml += `      </item>\n`;
+  });
+  xml += `    </ficha_tecnica>\n`;
+}
+
 
     xml += `  <empreendimento>\n`;
     xml += `    <id>${id}</id>\n`;
