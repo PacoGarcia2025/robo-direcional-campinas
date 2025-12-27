@@ -1,7 +1,7 @@
 // ===============================
 // ARQUIVO: src/robots/direcional.extractor.js
 // LISTAGEM DIRECIONAL – INTERIOR SP
-// ENRIQUECIMENTO: NOME + STATUS
+// ENRIQUECIMENTO: NOME + STATUS + TIPOLOGIA
 // ===============================
 
 import { chromium } from "playwright";
@@ -85,9 +85,7 @@ export default async function extractDirecional() {
   while (true) {
     const button = await page.$('button:has-text("Carregar mais")');
     if (!button) break;
-
-    const visible = await button.isVisible();
-    if (!visible) break;
+    if (!(await button.isVisible())) break;
 
     await button.click();
     await page.waitForTimeout(2500);
@@ -148,7 +146,7 @@ export default async function extractDirecional() {
   );
 
   // ===============================
-  // 4️⃣ ENTRAR NO LINK E PEGAR NOME + STATUS
+  // 4️⃣ ENTRAR NO LINK E PEGAR DADOS
   // ===============================
   const empreendimentos = [];
 
@@ -158,31 +156,83 @@ export default async function extractDirecional() {
       await page.waitForTimeout(2000);
 
       const data = await page.evaluate(() => {
+        // -------------------------------
+        // NOME
+        // -------------------------------
         const nome =
           document.querySelector("h1")?.innerText.trim() || null;
 
+        // -------------------------------
+        // STATUS
+        // -------------------------------
         let status = null;
-        document
-          .querySelectorAll("ul li")
-          .forEach((li) => {
-            const t = li.innerText.trim();
-            if (
-              t.includes("Lançamento") ||
-              t.includes("Breve") ||
-              t.includes("Obras") ||
-              t.includes("Pronto")
-            ) {
-              status = t;
-            }
-          });
+        document.querySelectorAll("ul li").forEach((li) => {
+          const t = li.innerText.trim();
+          if (
+            t.includes("Lançamento") ||
+            t.includes("Breve") ||
+            t.includes("Obras") ||
+            t.includes("Pronto")
+          ) {
+            status = t;
+          }
+        });
 
-        return { nome, status };
+        // -------------------------------
+        // TIPOLOGIA
+        // -------------------------------
+        let areas = [];
+        let dormitorios = [];
+
+        document.querySelectorAll("ul.pl-3 li span").forEach((span) => {
+          const text = span.innerText;
+
+          // Áreas
+          if (text.includes("m²")) {
+            text
+              .replace(/\s/g, "")
+              .split("|")
+              .forEach((a) => {
+                const val = a
+                  .replace("m²", "")
+                  .replace(",", ".");
+                if (!isNaN(val)) areas.push(Number(val));
+              });
+          }
+
+          // Dormitórios
+          if (text.toLowerCase().includes("quarto")) {
+            const nums = text.match(/\d+/g);
+            if (nums) {
+              nums.forEach((n) => dormitorios.push(Number(n)));
+            }
+          }
+        });
+
+        const tipologias = [];
+        areas.forEach((area) => {
+          dormitorios.forEach((d) => {
+            tipologias.push({
+              dormitorios: d,
+              area,
+            });
+          });
+        });
+
+        return { nome, status, tipologias };
       });
 
+      const resumoTipologia =
+        data.tipologias.length > 0
+          ? data.tipologias
+              .map(
+                (t) => `${t.dormitorios}Q ${t.area}m²`
+              )
+              .join(", ")
+          : "SEM TIPOLOGIA";
+
       console.log(
-        `🏗️ [OK] ${data.nome || "SEM NOME"} — ${
-          data.status || "SEM STATUS"
-        }`
+        `🧩 ${data.nome || "SEM NOME"} → ${resumoTipologia}`
       );
 
       empreendimentos.push({
@@ -190,6 +240,7 @@ export default async function extractDirecional() {
         nome: data.nome,
         status: data.status,
         location: item.location,
+        tipologias: data.tipologias,
       });
     } catch (err) {
       console.log("❌ Erro ao processar:", item.url);
