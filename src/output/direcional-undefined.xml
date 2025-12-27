@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empreendimentos>
+  <empreendimento>
+    <id>breve-lancamento-betania</id>
+    <regiao>undefined</regiao>
+    <titulo><![CDATA[Breve Lançamento Betânia]]></titulo>
+    <cidade><![CDATA[Belo Horizonte]]></cidade>
+    <estado><![CDATA[MG]]></estado>
+    <status><![CDATA[Breve Lançamento]]></status>
+    <tipologias>
+    </tipologias>
+    <imagens>
+    </imagens>
+    <ficha_tecnica>
+    </ficha_tecnica>
+    <url><![CDATA[undefined]]></url>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-nova-iguacu</id>
+    <regiao>undefined</regiao>
+    <titulo><![CDATA[Breve Lançamento Nova Iguaçu]]></titulo>
+    <cidade><![CDATA[Nova Iguaçu]]></cidade>
+    <estado><![CDATA[RJ]]></estado>
+    <status><![CDATA[Breve Lançamento]]></status>
+    <tipologias>
+    </tipologias>
+    <imagens>
+    </imagens>
+    <ficha_tecnica>
+    </ficha_tecnica>
+    <url><![CDATA[undefined]]></url>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-em-sao-lourenco</id>
+    <regiao>undefined</regiao>
+    <titulo><![CDATA[Breve Lançamento em São Lourenço]]></titulo>
+    <cidade><![CDATA[São Lourenço da Mata]]></cidade>
+    <estado><![CDATA[PE]]></estado>
+    <status><![CDATA[Breve Lançamento]]></status>
+    <tipologias>
+    </tipologias>
+    <imagens>
+    </imagens>
+    <ficha_tecnica>
+    </ficha_tecnica>
+    <url><![CDATA[undefined]]></url>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lacamento-barra-olimpica</id>
+    <regiao>undefined</regiao>
+    <titulo><![CDATA[Breve Lançamento Barra Olímpica]]></titulo>
+    <cidade><![CDATA[Rio de Janeiro]]></cidade>
+    <estado><![CDATA[RJ]]></estado>
+    <status><![CDATA[Breve Lançamento]]></status>
+    <tipologias>
+    </tipologias>
+    <imagens>
+    </imagens>
+    <ficha_tecnica>
+    </ficha_tecnica>
+    <url><![CDATA[undefined]]></url>
+  </empreendimento>
+  <empreendimento>
+    <id>total-ville-conviver-condominio-2</id>
+    <regiao>undefined</regiao>
+    <titulo><![CDATA[Total Ville Conviver – Condomínio 2]]></titulo>
+    <cidade><![CDATA[Santa Maria]]></cidade>
+    <estado><![CDATA[DF]]></estado>
+    <status><![CDATA[Lançamento]]></status>
+    <tipologias>
+    </tipologias>
+    <imagens>
+    </imagens>
+    <ficha_tecnica>
+    </ficha_tecnica>
+    <url><![CDATA[undefined]]></url>
+  </empreendimento>
+  <empreendimento>
+    <id>arbore-residencial</id>
+    <regiao>undefined</regiao>
+    <titulo><![CDATA[Árbore Residencial]]></titulo>
+    <cidade><![CDATA[Contagem]]></cidade>
+    <estado><![CDATA[MG]]></estado>
+    <status><![CDATA[Lançamento]]></status>
+    <tipologias>
+    </tipologias>
+    <imagens>
+    </imagens>
+    <ficha_tecnica>
+    </ficha_tecnica>
+    <url><![CDATA[undefined]]></url>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-em-paulista</id>
+    <regiao>undefined</regiao>
+    <titulo><![CDATA[Breve Lançamento em Paulista]]></titulo>
+    <cidade><![CDATA[Paulista]]></cidade>
+    <estado><![CDATA[PE]]></estado>
+    <status><![CDATA[]]></status>
+    <tipologias>
+    </tipologias>
+    <imagens>
+    </imagens>
+    <ficha_tecnica>
+    </ficha_tecnica>
+    <url><![CDATA[undefined]]></url>
+  </empreendimento>
+  <empreendimento>
+    <id>parque-ville-lirio-azul</id>
+    <regiao>undefined</regiao>
+    <titulo><![CDATA[Parque Ville Lírio Azul]]></titulo>
+    <cidade><![CDATA[Manaus]]></cidade>
+    <estado><![CDATA[AM]]></estado>
+    <status><![CDATA[Lançamento]]></status>
+    <tipologias>
+    </tipologias>
+    <imagens>
+    </imagens>
+    <ficha_tecnica>
+    </ficha_tecnica>
+    <url><![CDATA[undefined]]></url>
+  </empreendimento>
+</empreendimentos>

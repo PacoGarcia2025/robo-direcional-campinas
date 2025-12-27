@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imoveis>
+  <imovel>
+    <id>breve-lancamento-betania</id>
+    <title><![CDATA[Breve Lançamento Betânia]]></title>
+    <fotos>
+    </fotos>
+    <city><![CDATA[Belo Horizonte]]></city>
+    <state><![CDATA[MG]]></state>
+    <tipo>Apartamento</tipo>
+    <status><![CDATA[Breve Lançamento]]></status>
+    <descricao><![CDATA[Breve Lançamento Betânia]]></descricao>
+    <construtora>Direcional Engenharia</construtora>
+  </imovel>
+  <imovel>
+    <id>breve-lancamento-nova-iguacu</id>
+    <title><![CDATA[Breve Lançamento Nova Iguaçu]]></title>
+    <fotos>
+    </fotos>
+    <city><![CDATA[Nova Iguaçu]]></city>
+    <state><![CDATA[RJ]]></state>
+    <tipo>Apartamento</tipo>
+    <status><![CDATA[Breve Lançamento]]></status>
+    <descricao><![CDATA[Breve Lançamento Nova Iguaçu]]></descricao>
+    <construtora>Direcional Engenharia</construtora>
+  </imovel>
+  <imovel>
+    <id>breve-lancamento-em-sao-lourenco</id>
+    <title><![CDATA[Breve Lançamento em São Lourenço]]></title>
+    <fotos>
+    </fotos>
+    <city><![CDATA[São Lourenço da Mata]]></city>
+    <state><![CDATA[PE]]></state>
+    <tipo>Apartamento</tipo>
+    <status><![CDATA[Breve Lançamento]]></status>
+    <descricao><![CDATA[Breve Lançamento em São Lourenço]]></descricao>
+    <construtora>Direcional Engenharia</construtora>
+  </imovel>
+  <imovel>
+    <id>breve-lacamento-barra-olimpica</id>
+    <title><![CDATA[Breve Lançamento Barra Olímpica]]></title>
+    <fotos>
+    </fotos>
+    <city><![CDATA[Rio de Janeiro]]></city>
+    <state><![CDATA[RJ]]></state>
+    <tipo>Apartamento</tipo>
+    <status><![CDATA[Breve Lançamento]]></status>
+    <descricao><![CDATA[Breve Lançamento Barra Olímpica]]></descricao>
+    <construtora>Direcional Engenharia</construtora>
+  </imovel>
+  <imovel>
+    <id>total-ville-conviver-condominio-2</id>
+    <title><![CDATA[Total Ville Conviver – Condomínio 2]]></title>
+    <fotos>
+    </fotos>
+    <city><![CDATA[Santa Maria]]></city>
+    <state><![CDATA[DF]]></state>
+    <tipo>Apartamento</tipo>
+    <status><![CDATA[Lançamento]]></status>
+    <descricao><![CDATA[Total Ville Conviver – Condomínio 2]]></descricao>
+    <construtora>Direcional Engenharia</construtora>
+  </imovel>
+  <imovel>
+    <id>arbore-residencial</id>
+    <title><![CDATA[Árbore Residencial]]></title>
+    <fotos>
+    </fotos>
+    <city><![CDATA[Contagem]]></city>
+    <state><![CDATA[MG]]></state>
+    <tipo>Apartamento</tipo>
+    <status><![CDATA[Lançamento]]></status>
+    <descricao><![CDATA[Árbore Residencial]]></descricao>
+    <construtora>Direcional Engenharia</construtora>
+  </imovel>
+  <imovel>
+    <id>breve-lancamento-em-paulista</id>
+    <title><![CDATA[Breve Lançamento em Paulista]]></title>
+    <fotos>
+    </fotos>
+    <city><![CDATA[Paulista]]></city>
+    <state><![CDATA[PE]]></state>
+    <tipo>Apartamento</tipo>
+    <status><![CDATA[]]></status>
+    <descricao><![CDATA[Breve Lançamento em Paulista]]></descricao>
+    <construtora>Direcional Engenharia</construtora>
+  </imovel>
+  <imovel>
+    <id>parque-ville-lirio-azul</id>
+    <title><![CDATA[Parque Ville Lírio Azul]]></title>
+    <fotos>
+    </fotos>
+    <city><![CDATA[Manaus]]></city>
+    <state><![CDATA[AM]]></state>
+    <tipo>Apartamento</tipo>
+    <status><![CDATA[Lançamento]]></status>
+    <descricao><![CDATA[Parque Ville Lírio Azul]]></descricao>
+    <construtora>Direcional Engenharia</construtora>
+  </imovel>
+</imoveis>
