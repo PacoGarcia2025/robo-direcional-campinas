@@ -1,76 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <empreendimentos>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>Ribeirão Preto</diferencial>
-      <diferencial>Direcional Conquista Clube Ipiranga</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>40,77m² | 50,79m²</diferencial>
-      <diferencial>1 e 2 Quartos</diferencial>
-      <diferencial>Breve Lançamento</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>Breve Lançamento</diferencial>
-      <diferencial>Navegação virtual</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>2 quartos</diferencial>
-      <diferencial>2 quartos</diferencial>
-      <diferencial>1 quarto</diferencial>
-      <diferencial>2 quartos</diferencial>
-      <diferencial>2 quartos</diferencial>
-      <diferencial>Breve Lançamento</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-      <diferencial>certidão de nascimento ou casamento;</diferencial>
-      <diferencial>comprovante de residência;</diferencial>
-      <diferencial>holerite mais recente;</diferencial>
-      <diferencial>carteira profissional;</diferencial>
-      <diferencial>imposto de renda;</diferencial>
-      <diferencial>extrato bancário.</diferencial>
-      <diferencial>pagamento à vista;</diferencial>
-      <diferencial>pagar parte das parcelas;</diferencial>
-      <diferencial>para amortizar o saldo devedor.</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás (e no Distrito Federal);</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>lazer completo;</diferencial>
-      <diferencial>segurança;</diferencial>
-      <diferencial>facilidade para comprar (além do subsídio, você pode usar o saldo do FGTS).</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás;</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>condições de entrada e pagamento facilitadas;</diferencial>
-      <diferencial>acesso a empreendimentos do Minha Casa, Minha Vida;</diferencial>
-      <diferencial>qualidade comprovada das construções;</diferencial>
-      <diferencial>segurança de fazer negócio com uma das maiores construtoras do Brasil.</diferencial>
-    </diferenciais>
   <empreendimento>
     <id>conquista-clube-ipiranga</id>
     <titulo><![CDATA[Direcional Conquista Clube Ipiranga]]></titulo>
@@ -84,78 +13,14 @@ Unidades entregues e/ou incorporadas</diferencial>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/08/guarita-conquista-ipiranga.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/08/fachada-conquista-ipiranga.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/08/happy-hour-conquista-ipiranga.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/08/541.8_PACK-LOGO-DIRECIONAL-CONQUISTA-CLIBE-IPIRANGA_V1F-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/01/Quartos.webp]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Condominio-Fechado-1.png]]></foto>
     </fotos>
   </empreendimento>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>Ribeirão Preto</diferencial>
-      <diferencial>Village Gaia</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Lançamento</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Lançamento</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>2 dorm</diferencial>
-      <diferencial>70m²</diferencial>
-      <diferencial>2 dorm</diferencial>
-      <diferencial>50m²</diferencial>
-      <diferencial>2 dorm</diferencial>
-      <diferencial>73m²</diferencial>
-      <diferencial>2 dorm</diferencial>
-      <diferencial>52m²</diferencial>
-      <diferencial>2 dorm</diferencial>
-      <diferencial>52m²</diferencial>
-      <diferencial>Lançamento</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-      <diferencial>certidão de nascimento ou casamento;</diferencial>
-      <diferencial>comprovante de residência;</diferencial>
-      <diferencial>holerite mais recente;</diferencial>
-      <diferencial>carteira profissional;</diferencial>
-      <diferencial>imposto de renda;</diferencial>
-      <diferencial>extrato bancário.</diferencial>
-      <diferencial>pagamento à vista;</diferencial>
-      <diferencial>pagar parte das parcelas;</diferencial>
-      <diferencial>para amortizar o saldo devedor.</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás (e no Distrito Federal);</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>lazer completo;</diferencial>
-      <diferencial>segurança;</diferencial>
-      <diferencial>facilidade para comprar (além do subsídio, você pode usar o saldo do FGTS).</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás;</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>condições de entrada e pagamento facilitadas;</diferencial>
-      <diferencial>acesso a empreendimentos do Minha Casa, Minha Vida;</diferencial>
-      <diferencial>qualidade comprovada das construções;</diferencial>
-      <diferencial>segurança de fazer negócio com uma das maiores construtoras do Brasil.</diferencial>
-    </diferenciais>
   <empreendimento>
     <id>village-gaia</id>
     <titulo><![CDATA[Village Gaia]]></titulo>
@@ -169,84 +34,14 @@ Unidades entregues e/ou incorporadas</diferencial>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/07/FyrStudio-Direcional-414Cahima-06-PiscinaSolarium-Final.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/07/FyrStudio-Direcional-414Cahima-04-EspacoFoodTruck-PosFinal.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/07/FyrStudio-Direcional-414Cahima-05-PracaMovimento-PosFinal.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Gourmet-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Fitness.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Tomada-Carro-Eletrico.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Localizacao-Privilegiada-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Suite.png]]></foto>
     </fotos>
   </empreendimento>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>Campinas</diferencial>
-      <diferencial>Cores da Mata Mangará</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>45m²</diferencial>
-      <diferencial>1 e 2 Quartos</diferencial>
-      <diferencial>Em obras</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>Em obras</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour Área Externa</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>46,69m²</diferencial>
-      <diferencial>1 Quarto</diferencial>
-      <diferencial>48,54m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>55,24m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>45,28m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>66,21m²</diferencial>
-      <diferencial>Em obras</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-      <diferencial>certidão de nascimento ou casamento;</diferencial>
-      <diferencial>comprovante de residência;</diferencial>
-      <diferencial>holerite mais recente;</diferencial>
-      <diferencial>carteira profissional;</diferencial>
-      <diferencial>imposto de renda;</diferencial>
-      <diferencial>extrato bancário.</diferencial>
-      <diferencial>pagamento à vista;</diferencial>
-      <diferencial>pagar parte das parcelas;</diferencial>
-      <diferencial>para amortizar o saldo devedor.</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás (e no Distrito Federal);</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>lazer completo;</diferencial>
-      <diferencial>segurança;</diferencial>
-      <diferencial>facilidade para comprar (além do subsídio, você pode usar o saldo do FGTS).</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás;</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>condições de entrada e pagamento facilitadas;</diferencial>
-      <diferencial>acesso a empreendimentos do Minha Casa, Minha Vida;</diferencial>
-      <diferencial>qualidade comprovada das construções;</diferencial>
-      <diferencial>segurança de fazer negócio com uma das maiores construtoras do Brasil.</diferencial>
-    </diferenciais>
   <empreendimento>
     <id>cores-da-mata-mangara</id>
     <titulo><![CDATA[Cores da Mata Mangará]]></titulo>
@@ -260,79 +55,14 @@ Unidades entregues e/ou incorporadas</diferencial>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaAdulto-CoresdaMataMangara.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/04/Perspectiva-PiscinaKids-CoresdaMataMangara.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/04/fachada-cores-da-mata.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/01/Quartos.webp]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/Vector-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Gourmet-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Fitness.png]]></foto>
     </fotos>
   </empreendimento>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>Sorocaba</diferencial>
-      <diferencial>Conquista Vila da Mata</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>41,08m² | 52,82m²</diferencial>
-      <diferencial>1 e 2 Quartos</diferencial>
-      <diferencial>Em obras</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Em obras</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>41,35m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>41,08m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>55,62m²</diferencial>
-      <diferencial>1 Quarto</diferencial>
-      <diferencial>55,62m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>52,82m²</diferencial>
-      <diferencial>Em obras</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-      <diferencial>certidão de nascimento ou casamento;</diferencial>
-      <diferencial>comprovante de residência;</diferencial>
-      <diferencial>holerite mais recente;</diferencial>
-      <diferencial>carteira profissional;</diferencial>
-      <diferencial>imposto de renda;</diferencial>
-      <diferencial>extrato bancário.</diferencial>
-      <diferencial>pagamento à vista;</diferencial>
-      <diferencial>pagar parte das parcelas;</diferencial>
-      <diferencial>para amortizar o saldo devedor.</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás (e no Distrito Federal);</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>lazer completo;</diferencial>
-      <diferencial>segurança;</diferencial>
-      <diferencial>facilidade para comprar (além do subsídio, você pode usar o saldo do FGTS).</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás;</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>condições de entrada e pagamento facilitadas;</diferencial>
-      <diferencial>acesso a empreendimentos do Minha Casa, Minha Vida;</diferencial>
-      <diferencial>qualidade comprovada das construções;</diferencial>
-      <diferencial>segurança de fazer negócio com uma das maiores construtoras do Brasil.</diferencial>
-    </diferenciais>
   <empreendimento>
     <id>conquista-vila-da-mata</id>
     <titulo><![CDATA[Conquista Vila da Mata]]></titulo>
@@ -347,76 +77,13 @@ Unidades entregues e/ou incorporadas</diferencial>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/02/Perspectiva-Churrasqueira-ConquistaViladaMata.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/02/Perspectiva-SalaodeFestas-ConquistaViladaMata.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2025/02/CONQUISTA-VILA-DA-MATA-VERDE-ESCURO.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Espaco-Fitness.png]]></foto>
     </fotos>
   </empreendimento>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>Campinas</diferencial>
-      <diferencial>Rise Condomínio Clube</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>43,73m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>Em Obras</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Em Obras</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>1 Quarto</diferencial>
-      <diferencial>43,73m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>43,73m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>43,73m²</diferencial>
-      <diferencial>Em Obras</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-      <diferencial>certidão de nascimento ou casamento;</diferencial>
-      <diferencial>comprovante de residência;</diferencial>
-      <diferencial>holerite mais recente;</diferencial>
-      <diferencial>carteira profissional;</diferencial>
-      <diferencial>imposto de renda;</diferencial>
-      <diferencial>extrato bancário.</diferencial>
-      <diferencial>pagamento à vista;</diferencial>
-      <diferencial>pagar parte das parcelas;</diferencial>
-      <diferencial>para amortizar o saldo devedor.</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás (e no Distrito Federal);</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>lazer completo;</diferencial>
-      <diferencial>segurança;</diferencial>
-      <diferencial>facilidade para comprar (além do subsídio, você pode usar o saldo do FGTS).</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás;</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>condições de entrada e pagamento facilitadas;</diferencial>
-      <diferencial>acesso a empreendimentos do Minha Casa, Minha Vida;</diferencial>
-      <diferencial>qualidade comprovada das construções;</diferencial>
-      <diferencial>segurança de fazer negócio com uma das maiores construtoras do Brasil.</diferencial>
-    </diferenciais>
   <empreendimento>
     <id>rise-condominio-clube</id>
     <titulo><![CDATA[Rise Condomínio Clube]]></titulo>
@@ -430,93 +97,14 @@ Unidades entregues e/ou incorporadas</diferencial>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Piscina-RiseParquePrado.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Fachada-RiseParquePrado.webp]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/08/Perspectiva-Living-RiseParquePrado.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/08/391.36_LOGO_V1C.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Varanda-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Condominio-Fechado-1.png]]></foto>
     </fotos>
   </empreendimento>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>Ribeirão Preto</diferencial>
-      <diferencial>Village Park</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>58,17m² | 126,88m²</diferencial>
-      <diferencial>1, 2 e 3 Quartos</diferencial>
-      <diferencial>Em Obras</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>Em Obras</diferencial>
-      <diferencial>Tour Virtual</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>92,38m²</diferencial>
-      <diferencial>1 Quartos</diferencial>
-      <diferencial>69,37m²</diferencial>
-      <diferencial>3 Quartos</diferencial>
-      <diferencial>126,88m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>53,60m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>58,17m²</diferencial>
-      <diferencial>3 Quartos</diferencial>
-      <diferencial>63,65m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>63,65m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>63,65m²</diferencial>
-      <diferencial>Em Obras</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-      <diferencial>certidão de nascimento ou casamento;</diferencial>
-      <diferencial>comprovante de residência;</diferencial>
-      <diferencial>holerite mais recente;</diferencial>
-      <diferencial>carteira profissional;</diferencial>
-      <diferencial>imposto de renda;</diferencial>
-      <diferencial>extrato bancário.</diferencial>
-      <diferencial>pagamento à vista;</diferencial>
-      <diferencial>pagar parte das parcelas;</diferencial>
-      <diferencial>para amortizar o saldo devedor.</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás (e no Distrito Federal);</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>lazer completo;</diferencial>
-      <diferencial>segurança;</diferencial>
-      <diferencial>facilidade para comprar (além do subsídio, você pode usar o saldo do FGTS).</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás;</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>condições de entrada e pagamento facilitadas;</diferencial>
-      <diferencial>acesso a empreendimentos do Minha Casa, Minha Vida;</diferencial>
-      <diferencial>qualidade comprovada das construções;</diferencial>
-      <diferencial>segurança de fazer negócio com uma das maiores construtoras do Brasil.</diferencial>
-    </diferenciais>
   <empreendimento>
     <id>village-park</id>
     <titulo><![CDATA[Village Park]]></titulo>
@@ -530,77 +118,14 @@ Unidades entregues e/ou incorporadas</diferencial>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/01/Perspectiva-Fachada-VillagePark.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/01/Perspectiva-Guarita-VillagePark.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/01/Perspectiva-Piscina-VillagePark.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2024/01/LOGO_VILLAGE-PARK_APROVADA-01.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/Vector-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Opcoes-na-Planta-1.png]]></foto>
     </fotos>
   </empreendimento>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>Campinas</diferencial>
-      <diferencial>Seleto Amoreiras: apartamento nas Amoreiras, Campinas</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>Obras avançadas</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>Obras avançadas</diferencial>
-      <diferencial>ÁREA DO TERRENO: 11.347,62M2</diferencial>
-      <diferencial>NÚMERO DE TORRES: 3</diferencial>
-      <diferencial>NÚMERO DE PAVIMENTOS:
-
-TORRE 1: TÉRREO + 12
-
-TORRE 2 E 3: TÉRREO + 11</diferencial>
-      <diferencial>NÚMERO DE UNIDADES POR PAVIMENTO: 8 UNIDADES</diferencial>
-      <diferencial>SISTEMA CONSTRUTIVO: PAREDE DE CONCRETO</diferencial>
-      <diferencial>TOTAL DE UNIDADES: 296</diferencial>
-      <diferencial>GARDEN MEIO – FINAIS: 03 E 06 – 2 DORMITÓRIOS, COM GARDEN – 64,86M2</diferencial>
-      <diferencial>GARDEN MEIO – FINAL: 4 – 1 DORMITÓRIOS, COM GARDEN – 40,58M2</diferencial>
-      <diferencial>GARDEN MEIO – FINAL: 5 – 1 DORMITÓRIO, COM GARDEN – 46,04M2</diferencial>
-      <diferencial>GARDEN PONTA: FINAIS: 01, 02, 07 E 08, COM 57,69M2</diferencial>
-      <diferencial>MEIO – FINAIS 03 A 06: 44,33M2</diferencial>
-      <diferencial>PONTA – FINAIS 01, 02, 07 E 08: 44,57M2</diferencial>
-      <diferencial>Obras avançadas</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-    </diferenciais>
-    <ficha_tecnica>
-      <item>
-        <nome>ÁREA DO TERRENO</nome>
-        <valor>11.347,62M2</valor>
-      </item>
-      <item>
-        <nome>ENDEREÇO DO TERRENO</nome>
-        <valor>AV. PROF. MARIA JULIETA GODOI CARTEZANI, 185 – VILA PALÁCIOS – CAMPINAS/SP</valor>
-      </item>
-      <item>
-        <nome>NÚMERO DE TORRES</nome>
-        <valor>3</valor>
-      </item>
-      <item>
-        <nome>NÚMERO DE UNIDADES POR PAVIMENTO</nome>
-        <valor>8 UNIDADES</valor>
-      </item>
-      <item>
-        <nome>SISTEMA CONSTRUTIVO</nome>
-        <valor>PAREDE DE CONCRETO</valor>
-      </item>
-      <item>
-        <nome>TOTAL DE UNIDADES</nome>
-        <valor>: 296</valor>
-      </item>
-    </ficha_tecnica>
   <empreendimento>
     <id>seleto-amoreiras</id>
     <titulo><![CDATA[Seleto Amoreiras: apartamento nas Amoreiras, Campinas]]></titulo>
@@ -614,93 +139,14 @@ Unidades entregues e/ou incorporadas</diferencial>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/07/piscina-Breve-Lancamento-Amoreira-Direcional.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-Breve-Lancamento-Amoreira-Direcional.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/07/gourmet-2-Breve-Lancamento-Amoreira-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/07/LOGO-SELETO_COR-BORDO-002.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/Vector-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/porcentagem.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/06/Renda-Familiar.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
     </fotos>
   </empreendimento>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>Ribeirão Preto</diferencial>
-      <diferencial>Reserva Direcional Jardim Botânico</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Vídeo</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>49,54m² | 53,87m²</diferencial>
-      <diferencial>1 e 2 Quartos</diferencial>
-      <diferencial>Em Obras</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Vídeo</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>Em Obras</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Vista dos Andares</diferencial>
-      <diferencial>Tour Externo</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>40,52m² | 53,87m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>40,52m² | 53,87m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>40,52m² | 53,87m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>40,52m² | 53,87m²</diferencial>
-      <diferencial>1 Quarto</diferencial>
-      <diferencial>40,52m² | 53,87m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>40,52m² | 53,87m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>40,52m² | 53,87m²</diferencial>
-      <diferencial>1 Quarto</diferencial>
-      <diferencial>40,52m² | 53,87m²</diferencial>
-      <diferencial>ÁREA DO TERRENO:
-
-14.444,69m²</diferencial>
-      <diferencial>TIPO DE EMPREENDIMENTO:
-vertical com elevador</diferencial>
-      <diferencial>NÚMERO DE TORRES: 3</diferencial>
-      <diferencial>NÚMERO DE PAVIMENTOS:
-– Torres 1 e 2 com T+15
-– Torre 3 com T+16</diferencial>
-      <diferencial>SISTEMA CONSTRUTIVO:
-parede de concreto</diferencial>
-      <diferencial>TOTAL DE UNIDADES: 389</diferencial>
-      <diferencial>ÁREA DOS APARTAMENTOS:
-49m2 a 53m²</diferencial>
-      <diferencial>VAGAS:
-377 vagas + 12 vagas PcD + 39 vagas de moto</diferencial>
-      <diferencial>Em Obras</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Vídeo</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-      <diferencial>certidão de nascimento ou casamento;</diferencial>
-      <diferencial>comprovante de residência;</diferencial>
-      <diferencial>holerite mais recente;</diferencial>
-      <diferencial>carteira profissional;</diferencial>
-      <diferencial>imposto de renda;</diferencial>
-      <diferencial>extrato bancário.</diferencial>
-      <diferencial>pagamento à vista;</diferencial>
-      <diferencial>pagar parte das parcelas;</diferencial>
-      <diferencial>para amortizar o saldo devedor.</diferencial>
-    </diferenciais>
   <empreendimento>
     <id>reserva-direcional-jardim-botanico</id>
     <titulo><![CDATA[Reserva Direcional: apartamento no Jardim Botânico, em Ribeirão Preto]]></titulo>
@@ -712,80 +158,16 @@ Unidades entregues e/ou incorporadas</diferencial>
     <fotos>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/03/Perspectiva-Fachada-ReservaDirecionalJardimBotanico.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/03/Piscina-Reserva-Direcional-Jardim-Botanico-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/Vector-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/03/Frame-2-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Opcoes-na-Planta-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Bicicleta.png]]></foto>
     </fotos>
   </empreendimento>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>Sorocaba</diferencial>
-      <diferencial>Conquista Vila Acqua</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>40,86m² | 55,6m²</diferencial>
-      <diferencial>1 e 2 Quartos</diferencial>
-      <diferencial>Obras Iniciadas</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Obras Iniciadas</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>40,86m² | 55,6m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>40,86m² | 55,6m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>40,86m² | 55,6m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>40,86m² | 55,6m²</diferencial>
-      <diferencial>Obras Iniciadas</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-      <diferencial>certidão de nascimento ou casamento;</diferencial>
-      <diferencial>comprovante de residência;</diferencial>
-      <diferencial>holerite mais recente;</diferencial>
-      <diferencial>carteira profissional;</diferencial>
-      <diferencial>imposto de renda;</diferencial>
-      <diferencial>extrato bancário.</diferencial>
-      <diferencial>pagamento à vista;</diferencial>
-      <diferencial>pagar parte das parcelas;</diferencial>
-      <diferencial>para amortizar o saldo devedor.</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás (e no Distrito Federal);</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>lazer completo;</diferencial>
-      <diferencial>segurança;</diferencial>
-      <diferencial>facilidade para comprar (além do subsídio, você pode usar o saldo do FGTS).</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás;</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>condições de entrada e pagamento facilitadas;</diferencial>
-      <diferencial>acesso a empreendimentos do Minha Casa, Minha Vida;</diferencial>
-      <diferencial>qualidade comprovada das construções;</diferencial>
-      <diferencial>segurança de fazer negócio com uma das maiores construtoras do Brasil.</diferencial>
-    </diferenciais>
   <empreendimento>
     <id>conquista-vila-acqua</id>
     <titulo><![CDATA[Conquista Vila Acqua]]></titulo>
@@ -795,101 +177,18 @@ Unidades entregues e/ou incorporadas</diferencial>
     <status><![CDATA[Obras Iniciadas]]></status>
     <descricao><![CDATA[Tipologias: 1 dorm • 40.86m² | 2 dorm • 40.86m² | 1 dorm • 55.6m² | 2 dorm • 55.6m². ]]></descricao>
     <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/11/Piscina-Vila-Acqua-Direcional.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/11/Guarita-Vila-Acqua-Direcional.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/11/Churrasqueira-Vila-Acqua-Direcional.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/11/Salao-de-Festas-Vila-Acqua-Direcional.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/Vector-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/porcentagem.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png]]></foto>
     </fotos>
   </empreendimento>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>Ribeirão Preto</diferencial>
-      <diferencial>Village Novus</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>47,57m² | 47,72m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>Obras Avançadas</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>Obras Avançadas</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Tour decorado</diferencial>
-      <diferencial>Tour externo</diferencial>
-      <diferencial>Tour Complexo</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>47,57m² | 47,72m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>47,57m² | 47,72m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>47,57m² | 47,72m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>47,57m² | 47,72m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>47,57m² | 47,72m²</diferencial>
-      <diferencial>Quantidade de torres: 8 torres</diferencial>
-      <diferencial>Número de pavimentos: térreo + 4 pavimentos</diferencial>
-      <diferencial>Número de unidades: 480 unidades totais</diferencial>
-      <diferencial>Número de unidades com Garden: 88 unidades</diferencial>
-      <diferencial>Unidades por andar: 12 unidades</diferencial>
-      <diferencial>Metragem das plantas: ponta 47,72m² e meio 47,57m²</diferencial>
-      <diferencial>Obras Avançadas</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-      <diferencial>certidão de nascimento ou casamento;</diferencial>
-      <diferencial>comprovante de residência;</diferencial>
-      <diferencial>holerite mais recente;</diferencial>
-      <diferencial>carteira profissional;</diferencial>
-      <diferencial>imposto de renda;</diferencial>
-      <diferencial>extrato bancário.</diferencial>
-      <diferencial>pagamento à vista;</diferencial>
-      <diferencial>pagar parte das parcelas;</diferencial>
-      <diferencial>para amortizar o saldo devedor.</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás (e no Distrito Federal);</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>lazer completo;</diferencial>
-      <diferencial>segurança;</diferencial>
-      <diferencial>facilidade para comprar (além do subsídio, você pode usar o saldo do FGTS).</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás;</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>condições de entrada e pagamento facilitadas;</diferencial>
-      <diferencial>acesso a empreendimentos do Minha Casa, Minha Vida;</diferencial>
-      <diferencial>qualidade comprovada das construções;</diferencial>
-      <diferencial>segurança de fazer negócio com uma das maiores construtoras do Brasil.</diferencial>
-    </diferenciais>
   <empreendimento>
     <id>village-novus</id>
     <titulo><![CDATA[Village Novus]]></titulo>
@@ -903,94 +202,14 @@ Unidades entregues e/ou incorporadas</diferencial>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/07/Portaria-Vilage-Novus-Direcional-3.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/07/Piscina-Vilage-Novus-Direcional-3.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/07/Perspectiva-Living-VillageNovus.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/Vector-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/03/Frame-2-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/06/FGTS.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/02/Lazer-Completo-1.png]]></foto>
     </fotos>
   </empreendimento>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>Araraquara</diferencial>
-      <diferencial>Conquista Araraquara</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Vídeo</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>41,69m² | 55,82m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>Pronto para morar</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Vídeo</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>41,69m2 | 55,82m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>41,69m2 | 55,82m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>41,69m2 | 55,82m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>41,69m2 | 55,82m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>41,69m2 | 55,82m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>41,69m2 | 55,82m²</diferencial>
-      <diferencial>Produto: Conqusita Araraquara</diferencial>
-      <diferencial>Endereço: Avenida Capitão Noray de Paula e Silva, nº 1287, Jardim das Gaivotas</diferencial>
-      <diferencial>ÁREA TOTAL DO TERRENO: 33.259,43m²</diferencial>
-      <diferencial>TORRES: 12 unidades</diferencial>
-      <diferencial>PAVIMENTOS: T + 3</diferencial>
-      <diferencial>QUANTIDADE DE UNIDADES: 576 unidades, sendo 144 Garden</diferencial>
-      <diferencial>TIPOLOGIA: apartamentos de 2 dorms., com lazer completo e vaga.</diferencial>
-      <diferencial>VAGAS: 558 para carros + 116 para motos (100% de vagas) + 18 vagas para PCD</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Vídeo</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-      <diferencial>certidão de nascimento ou casamento;</diferencial>
-      <diferencial>comprovante de residência;</diferencial>
-      <diferencial>holerite mais recente;</diferencial>
-      <diferencial>carteira profissional;</diferencial>
-      <diferencial>imposto de renda;</diferencial>
-      <diferencial>extrato bancário.</diferencial>
-      <diferencial>pagamento à vista;</diferencial>
-      <diferencial>pagar parte das parcelas;</diferencial>
-      <diferencial>para amortizar o saldo devedor.</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás (e no Distrito Federal);</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>lazer completo;</diferencial>
-      <diferencial>segurança;</diferencial>
-      <diferencial>facilidade para comprar (além do subsídio, você pode usar o saldo do FGTS).</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás;</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>condições de entrada e pagamento facilitadas;</diferencial>
-      <diferencial>acesso a empreendimentos do Minha Casa, Minha Vida;</diferencial>
-      <diferencial>qualidade comprovada das construções;</diferencial>
-      <diferencial>segurança de fazer negócio com uma das maiores construtoras do Brasil.</diferencial>
-    </diferenciais>
   <empreendimento>
     <id>conquista-araraquara</id>
     <titulo><![CDATA[Conquista Araraquara]]></titulo>
@@ -1000,110 +219,18 @@ Unidades entregues e/ou incorporadas</diferencial>
     <status><![CDATA[Pronto para morar]]></status>
     <descricao><![CDATA[Tipologias: 2 dorm • 41.69m² | 2 dorm • 55.82m². ]]></descricao>
     <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/06/Guarita-Conquista-Araraquara-Direcional.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/06/Piscina-Conquista-Araraquara-Direcional.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/06/Churrasqueira-Conquista-Araraquara-Direcional.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/06/Perspectiva-SalaodeFestas-ConquistaAraquara.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2022/06/LOGO-ARARAQUARA-2-Ana-Clara-Miranda.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/Vector-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/porcentagem.png]]></foto>
     </fotos>
   </empreendimento>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>Limeira</diferencial>
-      <diferencial>Reserva Antonieta</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Vídeo</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>1 e 2 Quartos</diferencial>
-      <diferencial>47,79m² | 51,67m²</diferencial>
-      <diferencial>Obras Avançadas</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Vídeo</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>Obras Avançadas</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Área externa</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>51,67 m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>50,69 m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>75,66 m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>50,79 m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>50,69 m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>47,79 m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>81,90 m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>76,01 m²</diferencial>
-      <diferencial>ÁREA DO TERRENO: 6.246,21M²</diferencial>
-      <diferencial>CONSTRUÇÃO E INCORPORAÇÃO: Direcional Engenharia</diferencial>
-      <diferencial>ENDEREÇO: Av. Cônego Manoel Alves, 1.791, Chácara Antonieta</diferencial>
-      <diferencial>NÚMERO DE TORRES: 2</diferencial>
-      <diferencial>NÚMERO DE PAVIMENTOS: T+12 (Torre A); T+11 (Torre B)</diferencial>
-      <diferencial>NÚMERO DE UNIDADES POR PAVIMENTO: 8 (Tipo A E B); 6 (Térreo A); 7 (Térreo B)</diferencial>
-      <diferencial>SISTEMA CONSTRUTIVO: Parede de concreto</diferencial>
-      <diferencial>TOTAL DE UNIDADES: 197</diferencial>
-      <diferencial>ÁREA DOS APARTAMENTOS: 47,79m² (ponta); 51,67m² e 50,59m² (meio)</diferencial>
-      <diferencial>VAGAS: 1 vaga por apartamento</diferencial>
-      <diferencial>Obras Avançadas</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Vídeo</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-      <diferencial>certidão de nascimento ou casamento;</diferencial>
-      <diferencial>comprovante de residência;</diferencial>
-      <diferencial>holerite mais recente;</diferencial>
-      <diferencial>carteira profissional;</diferencial>
-      <diferencial>imposto de renda;</diferencial>
-      <diferencial>extrato bancário.</diferencial>
-      <diferencial>pagamento à vista;</diferencial>
-      <diferencial>pagar parte das parcelas;</diferencial>
-      <diferencial>para amortizar o saldo devedor.</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás (e no Distrito Federal);</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>lazer completo;</diferencial>
-      <diferencial>segurança;</diferencial>
-      <diferencial>facilidade para comprar (além do subsídio, você pode usar o saldo do FGTS).</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás;</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>condições de entrada e pagamento facilitadas;</diferencial>
-      <diferencial>acesso a empreendimentos do Minha Casa, Minha Vida;</diferencial>
-      <diferencial>qualidade comprovada das construções;</diferencial>
-      <diferencial>segurança de fazer negócio com uma das maiores construtoras do Brasil.</diferencial>
-    </diferenciais>
   <empreendimento>
     <id>reserva-antonieta</id>
     <titulo><![CDATA[Reserva Antonieta]]></titulo>
@@ -1113,102 +240,18 @@ Unidades entregues e/ou incorporadas</diferencial>
     <status><![CDATA[Obras Avançadas]]></status>
     <descricao><![CDATA[Tipologias: 1 dorm • 47.79m² | 2 dorm • 47.79m² | 1 dorm • 51.67m² | 2 dorm • 51.67m². ]]></descricao>
     <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Fachada-ReservaAntonieta.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/PISCINA-ADULTO-RESERVA-ANTONIETA-DIRECIONAL.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/Perspectiva-Living-ReservaAntonieta.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/GUARITA-RESERVA-ANTONIETA-DIRECIONAL.jpg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/LOGO-ANTONIETA-01-Ana-Clara-Miranda.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/Vector-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/06/parcelas.png]]></foto>
     </fotos>
   </empreendimento>
-    <diferenciais>
-      <diferencial>Direcional</diferencial>
-      <diferencial>SP</diferencial>
-      <diferencial>São Carlos</diferencial>
-      <diferencial>Dream Santo Antônio</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Vídeo</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Street View</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>46m²</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>Obras Avançadas</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Vídeo</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Street View</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>Obras Avançadas</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Decorado 2</diferencial>
-      <diferencial>Área externa</diferencial>
-      <diferencial>2 Quartos</diferencial>
-      <diferencial>46m²</diferencial>
-      <diferencial>TIPO DE LOTEAMENTO: Bairro aberto</diferencial>
-      <diferencial>ÁREA TOTAL DO BAIRRO: 508.407,00m²</diferencial>
-      <diferencial>SISTEMA VIÁRIO: 167.456,53m²</diferencial>
-      <diferencial>SISTEMA CONSTRUTIVO DAS CASAS: Parede de concreto</diferencial>
-      <diferencial>TOTAL DE UNIDADES: 905 casas</diferencial>
-      <diferencial>LOTES COM ÁREA MÍNIMA: 160m²</diferencial>
-      <diferencial>TIPOLOGIA: Casa térrea com 2 dormitórios</diferencial>
-      <diferencial>ÁREA DAS CASAS: 46m², com possibilidade de ampliação</diferencial>
-      <diferencial>PROXIMIDADES: ufscar, Jockey Clube, Rodovia Washington Luiz, Graal São Carlos</diferencial>
-      <diferencial>Obras Avançadas</diferencial>
-      <diferencial>2 Dorm.</diferencial>
-      <diferencial>Imagens</diferencial>
-      <diferencial>Decorado</diferencial>
-      <diferencial>Plantas</diferencial>
-      <diferencial>Mapa</diferencial>
-      <diferencial>Vídeo</diferencial>
-      <diferencial>Tour Decorado</diferencial>
-      <diferencial>Street View</diferencial>
-      <diferencial>Tour área externa</diferencial>
-      <diferencial>+40
-Anos de Mercado</diferencial>
-      <diferencial>+ 10 mil
-Colaboradores</diferencial>
-      <diferencial>+ 220 mil
-Unidades entregues e/ou incorporadas</diferencial>
-      <diferencial>certidão de nascimento ou casamento;</diferencial>
-      <diferencial>comprovante de residência;</diferencial>
-      <diferencial>holerite mais recente;</diferencial>
-      <diferencial>carteira profissional;</diferencial>
-      <diferencial>imposto de renda;</diferencial>
-      <diferencial>extrato bancário.</diferencial>
-      <diferencial>pagamento à vista;</diferencial>
-      <diferencial>pagar parte das parcelas;</diferencial>
-      <diferencial>para amortizar o saldo devedor.</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás (e no Distrito Federal);</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>lazer completo;</diferencial>
-      <diferencial>segurança;</diferencial>
-      <diferencial>facilidade para comprar (além do subsídio, você pode usar o saldo do FGTS).</diferencial>
-      <diferencial>Amazonas;</diferencial>
-      <diferencial>Bahia;</diferencial>
-      <diferencial>Ceará;</diferencial>
-      <diferencial>Goiás;</diferencial>
-      <diferencial>Minas Gerais;</diferencial>
-      <diferencial>Pernambuco;</diferencial>
-      <diferencial>Rio de Janeiro;</diferencial>
-      <diferencial>São Paulo.</diferencial>
-      <diferencial>condições de entrada e pagamento facilitadas;</diferencial>
-      <diferencial>acesso a empreendimentos do Minha Casa, Minha Vida;</diferencial>
-      <diferencial>qualidade comprovada das construções;</diferencial>
-      <diferencial>segurança de fazer negócio com uma das maiores construtoras do Brasil.</diferencial>
-    </diferenciais>
   <empreendimento>
     <id>dream-santo-antonio</id>
     <titulo><![CDATA[Dream Santo Antônio]]></titulo>
@@ -1218,11 +261,16 @@ Unidades entregues e/ou incorporadas</diferencial>
     <status><![CDATA[Obras Avançadas]]></status>
     <descricao><![CDATA[Tipologias: 2 dorm • 46m². ]]></descricao>
     <fotos>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/SELO-CVA-1.png]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/07/344-PL-IMP-01-01-PREVIA-FACHADA-DA-CASAS-R02-Ana-Clara-Miranda-scaled.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/07/344-PL-IMP-01-01-PREVIA-ROTATO%CC%81RIA-COM-TO%CC%81TEN-R01-Ana-Clara-Miranda-scaled.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/07/344-PL-IMP-01-01-PREVIA-AVENIDA-CANTEIRO-CENTRAL-R04-Ana-Clara-Miranda-scaled.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/07/344-PL-IMP-01-01-PREVIA-BICICLETARIO-CANTEIRO-CENTRAL-R00-Ana-Clara-Miranda-scaled.jpg]]></foto>
       <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/07/Dream_SANTO_ANTONIO_natura.jpeg]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Opcoes-na-Planta.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/01/Quartos.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2023/11/Vector-1.png]]></foto>
+      <foto><![CDATA[https://www.direcional.com.br/wp-content/uploads/2021/09/porcentagem.png]]></foto>
     </fotos>
   </empreendimento>
 </empreendimentos>
