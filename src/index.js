@@ -1,4 +1,4 @@
-import extractDirecional from "./robots/direcional.extractor.js";
+import extractDirecional from "./robots/direcional.extractor.FINAL.js";
 import generateBaseJson from "./generateBaseJson.js";
 import generateXml from "./generateXml.js";
 import generateXmlX09 from "./generateXml.x09.js";
