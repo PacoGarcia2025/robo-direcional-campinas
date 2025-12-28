@@ -1,6 +1,6 @@
 // ==================================================
-// ROBÔ DIRECIONAL – COLETA ESTRUTURAL (VERSÃO ESTÁVEL)
-// SEM ENRIQUECIMENTO, SEM IA, SEM INVENTAR DADOS
+// ROBÔ DIRECIONAL – COLETA ESTRUTURAL
+// FILTRO DE IMAGENS LIMPO (SEM LIXO)
 // ==================================================
 
 import { chromium } from "playwright";
@@ -22,7 +22,7 @@ export default async function extractDirecional() {
     await page.waitForTimeout(2500);
   }
 
-  // 🔹 Capturar links + localização do card
+  // 🔹 Capturar links + localização
   const cards = await page.evaluate(() =>
     Array.from(document.querySelectorAll('a[href*="/empreendimentos/"]'))
       .map(a => {
@@ -99,19 +99,47 @@ export default async function extractDirecional() {
       });
 
       // ===============================
-      // IMAGENS (SEM EXAGEROS)
+      // IMAGENS – FILTRO PROFISSIONAL
       // ===============================
-      const imagens = Array.from(document.querySelectorAll("img"))
-        .map(img => img.src)
-        .filter(src =>
-          src &&
-          src.includes("/wp-content/uploads/") &&
-          !src.includes("icon") &&
-          !src.includes("logo") &&
-          !src.includes("button") &&
-          !src.includes("sprite") &&
-          !src.includes("sheet")
-        );
+      const imagens = Array.from(document.images)
+        .map(img => ({
+          src: img.src,
+          width: img.naturalWidth,
+          height: img.naturalHeight
+        }))
+        .filter(img => {
+          if (!img.src) return false;
+
+          const src = img.src.toLowerCase();
+
+          // ❌ formatos inválidos
+          if (src.endsWith(".svg")) return false;
+
+          // ❌ lixo comum
+          if (
+            src.includes("logo") ||
+            src.includes("icon") ||
+            src.includes("icone") ||
+            src.includes("sprite") ||
+            src.includes("sheet") ||
+            src.includes("button") ||
+            src.includes("mcmv") ||
+            src.includes("minha-casa") ||
+            src.includes("selo") ||
+            src.includes("badge")
+          ) {
+            return false;
+          }
+
+          // ❌ imagens pequenas (UI / thumb)
+          if (img.width < 600 || img.height < 400) return false;
+
+          // ✅ apenas uploads reais
+          if (!src.includes("/wp-content/uploads/")) return false;
+
+          return true;
+        })
+        .map(img => img.src);
 
       return {
         titulo,
