@@ -1,39 +1,37 @@
-name: Robo Direcional Campinas
+name: Robô Direcional
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron: "0 */6 * * *" # a cada 6 horas
 
 jobs:
-  run-robo:
+  run:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout do repositório
+      - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      - name: 🟢 Configurar Node.js
+      - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: 📦 Instalar dependências
+      - name: Instalar dependências
         run: npm install
 
-      - name: 🌐 Instalar navegadores do Playwright
+      - name: Instalar navegadores do Playwright
         run: npx playwright install --with-deps
 
-      - name: 🤖 Rodar robô
+      - name: Rodar robô
         run: node src/index.js
 
-        - name: Commitar arquivos gerados
-          run: |
+      - name: Commitar arquivos gerados
+        run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git pull --rebase origin main || true
           git add .
           git commit -m "Atualização automática robô" || echo "Nada para commitar"
           git push origin main
-
-
