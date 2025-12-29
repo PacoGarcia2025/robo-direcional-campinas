@@ -1,13 +1,13 @@
 import fs from "fs";
 import path from "path";
 
-export default function generateXml(empreendimentos) {
+export default function generateXml(empreendimentos, prefix = "direcional") {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<empreendimentos>\n`;
 
   empreendimentos.forEach((emp) => {
     xml += `  <empreendimento>\n`;
     xml += `    <id>${emp.id}</id>\n`;
-    xml += `    <regiao>${emp.regiao}</regiao>\n`;
+    xml += `    <regiao>${emp.regiao || ""}</regiao>\n`;
     xml += `    <titulo><![CDATA[${emp.titulo || ""}]]></titulo>\n`;
     xml += `    <cidade><![CDATA[${emp.cidade || ""}]]></cidade>\n`;
     xml += `    <estado><![CDATA[${emp.estado || ""}]]></estado>\n`;
@@ -46,8 +46,10 @@ export default function generateXml(empreendimentos) {
 
   xml += `</empreendimentos>`;
 
-  const filePath = path.resolve("src/output", "direcional.xml");
+  const filePath = path.resolve("src/output", `${prefix}.xml`);
   fs.writeFileSync(filePath, xml, "utf8");
 
-  console.log(`📦 XML RICO gerado: ${empreendimentos.length} empreendimentos`);
+  console.log(
+    `📦 XML RICO gerado (${prefix}): ${empreendimentos.length} empreendimentos`
+  );
 }
