@@ -2,7 +2,7 @@
 <empreendimentos>
   <empreendimento>
     <id>apartamentos-residencial-ares</id>
-    <titulo><![CDATA[Residencial Ares]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região da Vila Xavier]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Araraquara</cidade>
     <estado>SP</estado>
@@ -13,17 +13,17 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Pomar.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Redutordevaz%C3%A3oarejador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sistemadedescarga%C3%A9adualflush.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Dispositivoseconomizadoresdeenergia.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4313/ARES_PH_APTO_104_BL_03.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4313/ARES_PH_APTO_101_BL_06.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4313/ARES_PH_APTO_202_BL_09.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4313/ARES_PH_APTO_203_BL_14.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4313/ARES_PH_IMPLANTA%C3%87O.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4313/20220105080232_AQ002420I_MARCACAO_FOTO_AEREA_RES.webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-city-galleria</id>
-    <titulo><![CDATA[City Galleria]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região do Galleria]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Campinas</cidade>
     <estado>SP</estado>
@@ -34,17 +34,17 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7okids.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Quadradeareia.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Gazebopergolado.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4734/CITY-GALLERIA-APARTAMENTO-004-TRREO33dffd26-df04-4fc4-a12a-ac3771501872.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4734/CITY-GALLERIA-APARTAMENTO-008-TRREO-(1)22acf478-0e77-48d9-a2cc-c97c207bc78f.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4734/CITY-GALLERIA-APARTAMENTO-1003-TIPO4389322b-f994-4257-aa75-2229380f560d.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4734/CITYGALLERIA-APARTAMENTO1007b4f98fbf-ffa9-4f30-93e4-675f001f3918.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4734/CITY-GALLERIA-IMPLANTA%C3%87Oeebc35ee-af92-4d02-b023-8f83af79c26c.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4734/1033-13_city_galleria_imagem_aerea_1920x1080px-MacBookProdeacc.local.machine7295c7f5-885b-438f-8a5e-25830b7eb676.jpeg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-colina-do-sol</id>
-    <titulo><![CDATA[Colina do Sol]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região de Campo Grande]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Campinas</cidade>
     <estado>SP</estado>
@@ -55,17 +55,16 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Quadra.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Elevador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Pomar.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4391/MRV_COLINADOSOL_PH_TERREO104_FINAL_2024-10-25f44cf75f-3646-4300-8343-27d7f56d0d7f.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4391/MRV_COLINADOSOL_PH_TERREO108_FINAL_2024-10-25b924996b-676b-44de-b336-c15bafc666d1.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4391/MRV_COLINADOSOL_PH_TIPO506_FINAL_2024-10-251734a509-a44a-40e9-99d2-dddf450f39fd.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4391/MRV_COLINADOSOL_PH_IMPLANTA%C3%87O_FINAL_2024-10-256472663d-57d3-4284-8ac0-bf93b30e8ed6.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4391/MRV_COLINA_DO_SOL_INSER%C3%87O_3D_FI239c58f7-dd15-4ee4-bbda-decda72e6999.jpeg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-cores-da-ilha</id>
-    <titulo><![CDATA[Cores da Ilha]]></titulo>
+    <titulo><![CDATA[Apartamentos | Loteamento Parque das Cores]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Campinas</cidade>
     <estado>SP</estado>
@@ -75,18 +74,12 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Redutordevaz%C3%A3oarejador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sistemadedescarga%C3%A9adualflush.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Dispositivoseconomizadoresdeenergia.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Cer%C3%A2micacozinhaebanheiro.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4783/1119-10_css_dunlop_cores_da_ilha_imagem_aerea_V21b4e7f330-2bdf-4048-a780-ad7f6126b73d.jpeg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-cores-do-mirante</id>
-    <titulo><![CDATA[Cores do Mirante]]></titulo>
+    <titulo><![CDATA[Apartamentos | Residencial Parque das Cores]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Campinas</cidade>
     <estado>SP</estado>
@@ -94,7 +87,7 @@
     <descricao><![CDATA[]]></descricao>
   <empreendimento>
     <id>apartamentos-cores-do-poente</id>
-    <titulo><![CDATA[Cores do Poente]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região de Campo Grande]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Campinas</cidade>
     <estado>SP</estado>
@@ -105,17 +98,15 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Cancelanaguarita.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Cer%C3%A2micacozinhaebanheiro.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Medidorde%C3%A1gua.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4538/MRV_CORES-DO-POENTE_PH_APTO-03_DIAGRAMADO.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4538/MRV_CORES-DO-POENTE_PH_APTO-202_DIAGRAMADO.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4538/MRV_CORES-DO-POENTE_IMPLANTA%C3%87O_DIAGRAMADA.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4538/RESIDENCIAL-CORES-DO-POENTE-FOTO-AEREA.webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-luggo-parque-industrial</id>
-    <titulo><![CDATA[LUGGO Parque Industrial]]></titulo>
+    <titulo><![CDATA[Apartamentos | Parque Industrial]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Campinas</cidade>
     <estado>SP</estado>
@@ -131,7 +122,7 @@
   </empreendimento>
   <empreendimento>
     <id>apartamentos-residencial-canoas</id>
-    <titulo><![CDATA[Residencial Canoas]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região do Jardim Morumbi]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Campinas</cidade>
     <estado>SP</estado>
@@ -142,17 +133,17 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Elevador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sistemadeseguran%C3%A7a.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4621/MRV_CANOAS_PH_TIPOF207_FINAL_2024.07.181c52c263-e213-40ad-a3e9-6563b03a3261.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4621/MRV_CANOAS_PH_TIPOF205_FINAL_2024.07.18777f2554-788a-4005-a4b6-bb5a84d830af.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4621/MRV_CANOAS_PH_TERREOF04_FINAL_2024.07.18bd3e7187-aa03-4a95-9f61-00445ef99cc2.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4621/MRV_CANOAS_PH_TERREOF02_FINAL_2024.07.188b2fc111-6f5c-4ae4-a07b-ed75d9b7f2f7.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4621/MRV_CANOAS_PH_IMPLANTA%C3%87O_FINAL_2024.07.187ceb31c8-1c13-4c93-aced-9ae8bcaf3949.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4621/797-3_res_canoas_ima_aer_insercao_ALTA(1)_compressedf504a421-3917-4100-bbb7-bd7691bc7948.jpeg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-residencial-canto-da-mata</id>
-    <titulo><![CDATA[Residencial Canto da Mata]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região do Matão]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Campinas</cidade>
     <estado>SP</estado>
@@ -163,17 +154,25 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4484/CANTODAMATA_PHAPTO05TORRE01_IMPRESSO_12-07-2023.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4484/CANTODAMATA_PHAPTO07TORRE01_IMPRESSO_12-07-2023.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4484/CANTODAMATA_PHAPTO201TORRE01_IMPRESSO_150DPI.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4484/CANTODAMATA_PHAPTO203TORRE01_IMPRESSO_150DPI.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4484/CANTO-DA-MATA_IMPLANTA%C3%87O_IMPRESSO_150-DPI.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4484/MARCACAO_AEREA_CANTO_DA_MATA_V02(2).webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
+    <id>apartamentos-vem-viver-ares</id>
+    <titulo><![CDATA[Apartamentos | Região de Campo Grande]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Breve Lançamento]]></status>
+    <descricao><![CDATA[]]></descricao>
+  <empreendimento>
     <id>apartamentos-reserva-di-medeiros</id>
-    <titulo><![CDATA[Reserva Di Medeiros]]></titulo>
+    <titulo><![CDATA[Apartamentos | Medeiros]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Jundiaí</cidade>
     <estado>SP</estado>
@@ -184,17 +183,17 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Vesti%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4740/RESERVADEMEDEIROS_PH_TORRE01_A(4)ff0f5e15-df08-49a9-ace3-fbb20a49957d.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4740/RESERVADEMEDEIROS_PH_TORRE01_A(3)4892e630-576e-4c83-9d91-425cdf57cdc1.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4740/RESERVADEMEDEIROS_PH_TORRE01_A(2)296bbfc5-6812-4b6e-b2d2-2fbf218031b7.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4740/RESERVADEMEDEIROS_PH_TORRE01_A(1)e751a7d2-06ae-407c-8add-e5466145007a.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4740/RESERVADEMEDEIROS_PH_TORRE01_Af4a979a8-e329-49df-aea2-1c7137405d2b.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4740/RESERVADEMEDEIROS_PH_TORRE01_A(4)243040e7-5803-4fd1-a272-9fe9d37df364.jpeg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-residencial-laranjeiras</id>
-    <titulo><![CDATA[Residencial Laranjeiras]]></titulo>
+    <titulo><![CDATA[Apartamentos | Jardim Manacá]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Limeira</cidade>
     <estado>SP</estado>
@@ -205,17 +204,15 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Elevador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Redutordevaz%C3%A3oarejador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sistemadedescarga%C3%A9adualflush.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4519/RESIDENCIALLARANJEIRAS_PH_APTO205TORRE01_V03.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4519/RESIDENCIALLARANJEIRAS_PH_APTO107TORRE01_V03.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4519/RESIDENCIALLARANJEIRAS_PH_IMPLANTACAO-EDIFICIOGARAGEM_V03.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4519/50411-ImagemArea-ResidencialLaranjeiras.webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-residencial-lunare</id>
-    <titulo><![CDATA[Residencial Lunare]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região de Lauro Corrêa]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Limeira</cidade>
     <estado>SP</estado>
@@ -226,17 +223,15 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Vesti%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4775/MRV_RESIDENCIAL_LUNARE_PH_APTO_101_EFacba44eb-a3a1-4751-abef-92e94191fb33.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4775/MRV_RESIDENCIAL_LUNARE_PH_APTO_104_EF5429f79e-3082-4f7d-9964-f9931ef34d17.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4775/MRV_RESIDENCIAL_LUNARE_PH_APTO_202_EF56f7d02a-18f6-45cb-85fa-2d49e845d864.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4775/MRV_RESIDENCIAL_LUNARE_PH_APTO_2(1)2e8874ea-4b85-4d2a-9a27-7d6a93089fd7.jpeg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-residencial-luz-da-aurora</id>
-    <titulo><![CDATA[Residencial Luz da Aurora]]></titulo>
+    <titulo><![CDATA[Apartamentos | Vila do Sol]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Limeira</cidade>
     <estado>SP</estado>
@@ -247,17 +242,14 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/%C3%81readeconviv%C3%AAncia.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Redutordevaz%C3%A3oarejador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sistemadedescarga%C3%A9adualflush.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4648/PH_LUZDAAURORA_UN-003_RF_2024-10-0722f19a97-0d69-455c-be83-0e73f4083bcc.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4648/PH_LUZDAAURORA_UN-304_RF_2024-10-075e6e964d-05fc-4388-83a3-b5c55d0d00eb.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4648/PH_LUZ_DA_AURORA_IMPLANTACAO-RF_2024-10-076cb4ea00-70fc-4a93-a1af-a6ba6711c0c3.jpeg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-piazza-sirena</id>
-    <titulo><![CDATA[Piazza Sirena]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região do Santa Terezinha]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Piracicaba</cidade>
     <estado>SP</estado>
@@ -268,17 +260,14 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Redutordevaz%C3%A3oarejador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sistemadedescarga%C3%A9adualflush.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Dispositivoseconomizadoresdeenergia.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Cer%C3%A2micacozinhaebanheiro.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4595/PIAZZA-SIRENA_PH_BL12_APTO103_2023-08-30.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4595/PIAZZA-SIRENA_PH_BL12_APTO202_2023-08-30.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4595/PIAZZA-SIRENA_PH_IMPLANTACAO_2023-08-30.jpg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-residencial-piazza-di-milano</id>
-    <titulo><![CDATA[Residencial Piazza di Milano]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região do Vila Industrial]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Piracicaba</cidade>
     <estado>SP</estado>
@@ -289,17 +278,17 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7okids.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Saladejogos.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Elevador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Pomar.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4302/PIAZZA_DI_MILANO_BL_04_AP_101_R0F.JPG]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4302/PIAZZA_DI_MILANO_BL_03_AP_104_RAF2.JPG]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4302/PIAZZA_DI_MILANO_BL_03_AP_201_RAF.JPG]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4302/PIAZZA_DI_MILANO_BL_03_AP_203_RAF.JPG]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4302/PIAZZA_DI_MILANO_IMPLANTA%C3%87O_RAF.JPG]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4302/20220401023523_PI000921N_MARCA%C3%87%C3%83O_FOTO_INSER%C3%87%C3%83O_PIAZZA_DI_MILANO.webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-residencial-piazza-ravena</id>
-    <titulo><![CDATA[Residencial Piazza Ravena]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região do Piracicamirim]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Piracicaba</cidade>
     <estado>SP</estado>
@@ -310,17 +299,17 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Saladejogos.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Elevador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Pomar.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4218/RESIDENCIAL-PIAZZA-RAVENA_PL_T03-APTO105_2022_04_06.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4218/RESIDENCIAL-PIAZZA-RAVENA_PL_PNE-APTO1407_2022_04_06.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4218/RESIDENCIAL-PIAZZA-RAVENA_PL_T03-APTO107__2022_04_06.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4218/RESIDENCIAL-PIAZZA-RAVENA_PL_T03-APTO205_2022_04_06.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4218/RESIDENCIAL-PIAZZA-RAVENA_PL_T03-APTO207_2022_04_06.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4218/RESIDENCIAL-PIAZZA-RAVENA_PL_IMPLANTACAO_2022_04_06.jpg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-gran-primavera</id>
-    <titulo><![CDATA[Gran Primavera]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região dos Olhos d´Água]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Ribeirão Preto</cidade>
     <estado>SP</estado>
@@ -330,18 +319,11 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7okids.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Quadra.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Saladejogos.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Redutordevaz%C3%A3oarejador.webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-palacio-de-estocolmo</id>
-    <titulo><![CDATA[Palácio de Estocolmo]]></titulo>
+    <titulo><![CDATA[Apartamentos | Reserva Real]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Ribeirão Preto</cidade>
     <estado>SP</estado>
@@ -352,17 +334,15 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Saladejogos.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4605/PALCIO-DE-ESTOCOLMO_PH-APTO-101-BLOCO-02_IMPRESSO_150-DPI.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4605/PALCIO-DE-ESTOCOLMO_PH-APTO-201-BLOCO-02_IMPRESSO_150-DPI.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4605/PALCIO-DE-ESTOCOLMO_PH-APTO-202-BLOCO-02_IMPRESSO_150-DPI.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4605/PALCIO-DE-ESTOCOLMO_IMPLANTA%C3%87O_IMPRESSO_150-DPI.jpg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-reserva-dos-lirios</id>
-    <titulo><![CDATA[Reserva Dos Lírios]]></titulo>
+    <titulo><![CDATA[Apartamentos | Recreio das Acácias]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Ribeirão Preto</cidade>
     <estado>SP</estado>
@@ -373,17 +353,16 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7okids.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Quadra.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Saladejogos.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Gazebopergolado.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4555/RESERVA-DOS-LIRIOS_PH_BLOCO-02-APTO-103__FINAL_01_2024_03_07.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4555/RESERVA-DOS-LIRIOS_PH_BLOCO-02-APTO-202_FINAL_01_2024_03_07.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4555/RESERVA-DOS-LIRIOS_PH_BLOCO-02-APTO-203_FINAL_2024_03_07.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4555/RESERVA-DOS-LIRIOS_PH_BLOCO-01-APTO-104_FINAL_2024_04_30.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4555/RESERVA-DOS-LIRIOS_PH_IMPLANTA%C3%87O_FINAL_2024_03_07.jpg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-reserva-sao-jose---reserva-das-amarilis</id>
-    <titulo><![CDATA[Reserva São José - Reserva das Amarílis]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região do Recreio das Acácias]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Ribeirão Preto</cidade>
     <estado>SP</estado>
@@ -394,17 +373,16 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7okids.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Saladejogos.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Elevador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Gazebopergolado.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4320/RESERVADASAMARILIS_PHAPTO108TORRE02_IMPRESSO_26-01-2023.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4320/RESERVADASAMARILIS_PHAPTO202TORRE02_IMPRESSO_26-01-2023.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4320/RESERVADASAMARILIS_PHAPTO204TORRE02_IMPRESSO_26-01-2023.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4320/RESERVA-DAS-AMARILIS_IMPLANTA%C3%87O_IMPRESSO_26-01-2023.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4320/RP003521L_FOTOINSER%C3%87ORESERVADASAMARLIS.webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-residencial-riviera</id>
-    <titulo><![CDATA[Residencial Riviera]]></titulo>
+    <titulo><![CDATA[Apartamentos | JD. Eugenio Mendes Lopes]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Ribeirão Preto</cidade>
     <estado>SP</estado>
@@ -415,17 +393,14 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7okids.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Garraf%C3%A3odebasquete.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Saladejogos.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Pomar.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4571/RESIDENCIAL-RIVIERA_PH_APTO101_2023_12_22.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4571/RESIDENCIAL-RIVIERA_PH_APTO204_2023_12_22.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4571/RESIDENCIAL-RIVIERA_PH_IMPLANTACAO_2023_12_22.jpg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-monte-dos-cedros</id>
-    <titulo><![CDATA[Monte dos Cedros]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região Parque Faber]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>São Carlos</cidade>
     <estado>SP</estado>
@@ -436,17 +411,16 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7okids.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Quadra.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Elevador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Gazebopergolado.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4408/MONTEDOSCEDROS202_PHAPTO202TORRE01_10-11-2022.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4408/MONTEDOSCEDROS_PHAPTO102TORRE01_IMPRESSO_13-12-2022.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4408/MONTEDOSCEDROS_PHAPTO104TORRE01_IMPRESSO_10-11-2022.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4408/MONTE-DOS-CEDROS_IMPLANTA%C3%87O_IMPRESSO_16-11-2022.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4408/SC000222N_FOTOINSER%C3%87OMONTEDOSCEDROS.webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-residencial-monte-das-colinas</id>
-    <titulo><![CDATA[Residencial Monte das Colinas]]></titulo>
+    <titulo><![CDATA[Apartamentos | Região do Jardim Botafogo]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>São Carlos</cidade>
     <estado>SP</estado>
@@ -457,17 +431,15 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Ar-condicionado.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Medidorde%C3%A1gua.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4485/CVR-MONTE-DAS-COLINAS_PH_APTO-101-TRREO_TIROFINAL_2024.03.01.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4485/CVR-MONTE-DAS-COLINAS_PH_APTO-202-COM-VARANDA_TIROFINAL_2024.03.01.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4485/CVR-MONTE-DAS-COLINAS_PH_APTO-203-TIPO_TIROFINAL_2024.03.01.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4485/CVR-MONTE-DAS-COLINAS_PH_IMPLANTA%C3%87O_50X50_TIRO-FINAL_2024.04.12.jpg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-gran-campolim</id>
-    <titulo><![CDATA[Gran Campolim]]></titulo>
+    <titulo><![CDATA[Apartamentos | Parque Campolim]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Sorocaba</cidade>
     <estado>SP</estado>
@@ -477,18 +449,18 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7okids.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Elevador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Garagemcoberta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Vesti%C3%A1rio.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4479/GRAN-CAMPOLIM-APTO-05-RF.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4479/GRAN-CAMPOLIM-APTO-07-RF.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4479/GRAN-CAMPOLIM-APTO-202-RF.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4479/GRAN-CAMPOLIM-APTO-204RF.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4479/GRAN-CAMPOLIM-APTO-205-RF_20240304.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4479/GRAN-CAMPOLIM-IMPLANTACAO-RF.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4479/22518-Imagemarea01-GranCampolim-V02(3).webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-residencial-don-pagliato</id>
-    <titulo><![CDATA[Residencial Don Pagliato]]></titulo>
+    <titulo><![CDATA[Apartamentos | Jardim Pagliato]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Sorocaba</cidade>
     <estado>SP</estado>
@@ -499,17 +471,16 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7okids.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Elevador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4604/RESIDENCIALDONPAGLIATO_PHTORRE1APTO.108_18-03-2024c1766fd6-8f6e-4376-8007-25797740ecf5.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4604/RESIDENCIALDONPAGLIATO_PHTORRE1APTO.201_18-03-2024ef1ea501-b0be-4f1c-9959-eec732a90221.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4604/RESIDENCIALDONPAGLIATO_PHTORRE1APTO.206_18-03-2024acd668d4-dce8-4f56-94f2-d56e19168431.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4604/RESIDENCIALDONPAGLIATO_PHIMPLANTA%C3%87O_IMPRESSO_18-03-20247a1d7b0e-438e-46a8-aa1b-888cc366a30f.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4604/780-2_res_don_pagliato_ima_aer_0115e986c2e-78f8-4255-b73b-50f17fbb94b4.jpeg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-residencial-scarpone</id>
-    <titulo><![CDATA[Residencial Scarpone]]></titulo>
+    <titulo><![CDATA[Apartamentos | Jardim Iguatemi]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Sorocaba</cidade>
     <estado>SP</estado>
@@ -520,17 +491,16 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Elevador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4625/MRV_RES_SCARPONE_APTO004_HRc296e9a9-3c77-40a5-a60d-6e8901230257.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4625/MRV_RES_SCARPONE_APTO102_HRed948037-bebd-4692-8249-e9e51f703719.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4625/MRV_RES_SCARPONE_APTO207_HR970d0bab-3d60-43e6-bd58-94a5b0269c83.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4625/MRV_RES_SCARPONE_APTO_205_HRb487fc28-fa39-419e-a5c9-cec53b08f0d7.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4625/MRV_RES_SCARPONE_PH_IMPLANTACAO_HRb6902e76-81b5-47cf-9c97-d1a53133e72a.jpg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-residencial-solar-dos-eucaliptos</id>
-    <titulo><![CDATA[Residencial Solar dos Eucaliptos]]></titulo>
+    <titulo><![CDATA[Apartamentos | Jardim Eucaliptos]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Sorocaba</cidade>
     <estado>SP</estado>
@@ -541,17 +511,14 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Pomar.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Redutordevaz%C3%A3oarejador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sistemadedescarga%C3%A9adualflush.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Dispositivoseconomizadoresdeenergia.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Cer%C3%A2micacozinhaebanheiro.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Ar-condicionado.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/imoveis/upload/Solar%20dos%20Eucaliptos/PH_SOLAR-DOS-EUCALIPTOS_IMPLANTACAO_RF_2025-09-12.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/imoveis/upload/Solar%20dos%20Eucaliptos/PH_SOLAR-DOS-EUCALIPTOS_UN-001_RF_2025-09-12.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/imoveis/upload/Solar%20dos%20Eucaliptos/PH_SOLAR-DOS-EUCALIPTOS_UN-103_RF_2025-09-12.jpg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-vale-do-sereno---residencial-campos-dourados</id>
-    <titulo><![CDATA[Vale Do Sereno - Residencial Campos Dourados]]></titulo>
+    <titulo><![CDATA[Apartamentos | Jardim Vale do Sereno]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Sorocaba</cidade>
     <estado>SP</estado>
@@ -562,17 +529,16 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Gazebopergolado.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Vesti%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4755/PH_CAMPOS-DOURADOS_UN-102_RF1017fe752-efc7-4ffa-946b-a388d8067a61.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4755/PH_CAMPOS-DOURADOS_UN-201_RF141ed06c0-5ea5-4a6e-96ff-eecdb88edf90.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4755/PH_CAMPOS-DOURADOS_UN-204_RF1d633c7ab-b493-4bca-a7c0-61ec08654c94.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4755/PH_CAMPOS-DOURADOS_IMPLANTACAO_RF_2025-05-27dc70dff0-84f1-4f8b-9535-ae9462a15a40.jpeg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4755/1071-18_imagem_aerea75abb3bf-2887-487f-a500-71beca2dd69e.jpeg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>apartamentos-vale-do-sereno---residencial-veredas</id>
-    <titulo><![CDATA[Vale do Sereno - Residencial Veredas]]></titulo>
+    <titulo><![CDATA[Apartamentos | Vale do Sereno]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Sorocaba</cidade>
     <estado>SP</estado>
@@ -583,17 +549,17 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Garraf%C3%A3odebasquete.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Elevador.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Vesti%C3%A1rio.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4440/RESIDENCIAL-VEREDAS_PH_T01-APTO105_2023_01_24.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4440/RESIDENCIAL-VEREDAS_PH_T01-APTO107_2023_01_24.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4440/RESIDENCIAL-VEREDAS_PH_T01-APTO202_2023_01_24.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4440/RESIDENCIAL-VEREDAS_PH_T01-APTO204_2023_01_24.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4440/RESIDENCIAL-VEREDAS_PH_IMPLANTACAO_2023_01_24.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4440/Fotoaerea_376x199cm.webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>casas-caminhos-dos-ypes</id>
-    <titulo><![CDATA[Caminhos dos Ypês]]></titulo>
+    <titulo><![CDATA[Casas | Região do Iguatemi]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Araraquara</cidade>
     <estado>SP</estado>
@@ -604,17 +570,14 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Pomar.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Biciclet%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Vesti%C3%A1rio.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4427/CAMINHOS-DOS-YPES-CASA-03_RF.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4427/CAMINHOS-DOS-YPES-IMPLANTACAO_RF.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4427/AQ000522C_FOTO_AREA_MARCA%C3%87O_CAMINHOS_DOS_YP%C3%8AS_V2.webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>casas-jardim-morada-do-verde</id>
-    <titulo><![CDATA[Jardim Morada do Verde]]></titulo>
+    <titulo><![CDATA[Casas | Região do Ribeirão Verde]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Ribeirão Preto</cidade>
     <estado>SP</estado>
@@ -625,7 +588,6 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Cer%C3%A2micacozinhaebanheiro.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Medidorde%C3%A1gua.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4710/JARDIM-MORADA-VERDE_PH_UNIDADE-HABITACIONAL_29.04555a0ec8-1d88-485a-ba7e-55177c9c5e9c.jpeg]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4710/JARDIM-MORADA-VERDE_PH_IMPLANTA%C3%87O_30.043c453546-9892-458b-946c-55789623db28.jpeg]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4710/JARDIM-MORADA-VERDE_PH_IMPLANTA%C3%87O_MICRO_01.05dd55cfde-890c-44b9-823d-728effb8f79c.jpeg]]></foto>
@@ -633,7 +595,7 @@
   </empreendimento>
   <empreendimento>
     <id>casas-reserva-real---palacio-de-turim</id>
-    <titulo><![CDATA[Reserva Real - Palácio de Turim]]></titulo>
+    <titulo><![CDATA[Casas | Reserva Real]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Ribeirão Preto</cidade>
     <estado>SP</estado>
@@ -644,17 +606,15 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7okids.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Piscina.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sal%C3%A3odefesta.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Saladejogos.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Gazebopergolado.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Pomar.webp]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4312/PALCIO_DE_TURIM_PH_CASA_01.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4312/PALCIO_DE_TURIM_PH_CASA_02.jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4312/PALCIO_DE_TURIM_PH_IMPLANTA%C3%87O-(8).jpg]]></foto>
+      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4312/RP021416M_FotoAerea_ReservaReal5f0422f1-f199-4612-b69f-9e9bdf3f5445.jpg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>casas-residencial-canto-das-andorinhas</id>
-    <titulo><![CDATA[Residencial Canto das Andorinhas]]></titulo>
+    <titulo><![CDATA[Casas | Região do Jardim Regatas]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Ribeirão Preto</cidade>
     <estado>SP</estado>
@@ -662,7 +622,7 @@
     <descricao><![CDATA[]]></descricao>
   <empreendimento>
     <id>lotes-residencial-vila-america</id>
-    <titulo><![CDATA[Residencial Vila América]]></titulo>
+    <titulo><![CDATA[Lotes | Parque Vila América (Nova Odessa)]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Campinas</cidade>
     <estado>SP</estado>
@@ -673,14 +633,11 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/loteamento-planejado.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Localiza%C3%A7o.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/lotes.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Lazerequipado.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Qualidadeambiental.webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>lotes-smart-urba-dunlop</id>
-    <titulo><![CDATA[Smart Urba Dunlop]]></titulo>
+    <titulo><![CDATA[Lotes | Jardim Novo Maracanã]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Campinas</cidade>
     <estado>SP</estado>
@@ -691,7 +648,6 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/loteamento-planejado.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Localiza%C3%A7o.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Qualidadeambiental.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4583/SMARTURBA-DUNLOP-PH-PAVIMENTO01.jpg]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4583/SMARTURBA-DUNLOP-PH-PAVIMENTO02.jpg]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4583/1119-10_css_dunlop_cores_da_ilha77f222f5-6d3f-41e7-95f3-57e5a7b48edf.jpeg]]></foto>
@@ -699,7 +655,7 @@
   </empreendimento>
   <empreendimento>
     <id>lotes-smart-urba-vila-profeta</id>
-    <titulo><![CDATA[Smart Urba Vila Profeta]]></titulo>
+    <titulo><![CDATA[Lotes | Região de Sumaré]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Campinas</cidade>
     <estado>SP</estado>
@@ -716,7 +672,7 @@
   </empreendimento>
   <empreendimento>
     <id>lotes-reserva-monte-mor</id>
-    <titulo><![CDATA[Reserva Monte Mor]]></titulo>
+    <titulo><![CDATA[Lotes | Nova Campinas]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Hortolândia</cidade>
     <estado>SP</estado>
@@ -727,15 +683,11 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/loteamento-planejado.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Qualidadeambiental.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Localiza%C3%A7o.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Pistadecaminhada.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Gazebopergolado.webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>lotes-reserva-regatas</id>
-    <titulo><![CDATA[Reserva Regatas]]></titulo>
+    <titulo><![CDATA[Lotes | Jardim das Palmeiras]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Ribeirão Preto</cidade>
     <estado>SP</estado>
@@ -746,15 +698,13 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/loteamento-planejado.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/readelazerparatodasasidades.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Qualidadeambiental.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Localiza%C3%A7o.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4586/URBAMAIS_REGATAS_LOTE2_PH_IMPLANTACAO.jpg]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4586/URBAMAIS_REGATAS_LOTE2_PPC_IMAGEMAEREA.jpg]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>lotes-smart-urba-ribeirao</id>
-    <titulo><![CDATA[Smart Urba Ribeirão]]></titulo>
+    <titulo><![CDATA[Lotes | Jardim das Palmeiras]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Ribeirão Preto</cidade>
     <estado>SP</estado>
@@ -765,15 +715,11 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/readelazerparatodasasidades.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Play.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Ciclovia.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Playground.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiadescoberta.webp]]></foto>
     </fotos>
   </empreendimento>
   <empreendimento>
     <id>lotes-residencial-progresso</id>
-    <titulo><![CDATA[Residencial Progresso]]></titulo>
+    <titulo><![CDATA[Lotes | Jardim Cruzeiro do Sul]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>São Carlos</cidade>
     <estado>SP</estado>
@@ -784,8 +730,6 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/loteamento-planejado.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/readelazerparatodasasidades.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Qualidadeambiental.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Localiza%C3%A7o.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4580/URBA_SALVA_IMPLANTACAO-06.jpg]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4580/URBA_SALVA_IMPLANTACAO-06_GOOGLE.jpg]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4580/UF000222B_MAPA_FOTO_AEREA_PROGRESSO.jpg]]></foto>
@@ -793,7 +737,7 @@
   </empreendimento>
   <empreendimento>
     <id>lotes-jardim-sao-roque</id>
-    <titulo><![CDATA[Jardim São Roque]]></titulo>
+    <titulo><![CDATA[Lotes | Região Água Branca (Boituva)]]></titulo>
     <tipo>Apartamento</tipo>
     <cidade>Sorocaba</cidade>
     <estado>SP</estado>
@@ -804,7 +748,6 @@
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/loteamento-planejado.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Localiza%C3%A7o.webp]]></foto>
-      <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Qualidadeambiental.webp]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4576/URBA-SAO-ROOUE-IMPLANTACAO-06.jpg]]></foto>
       <foto><![CDATA[https://cdn.mrv.com.br/imoveis/upload/imagens/4576/URBA-SAO-ROOUE-IMPLANTACAO_GOGGLE.jpg]]></foto>
     </fotos>
