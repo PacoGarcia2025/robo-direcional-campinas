@@ -6,9 +6,15 @@
     "cidade": "Araçatuba",
     "estado": "SP",
     "status": "Prontos",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4112/RESIDENCIALAMARANTO_PPCFACHADAPORTARIANOTURNA_20-08-2020.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -28,9 +34,15 @@
     "cidade": "Araçatuba",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto",
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4564/ATLANTA_GUARITA_RFA1A1_20240223a98d9f37-1b26-4cf9-b63a-6079679a4650.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -48,9 +60,15 @@
     "cidade": "Araraquara",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Playground",
+      "Pomar",
+      "Churrasqueira",
+      "Playground",
+      "Pomar"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4313/ARES_PPC_VARANDA_DIURNA.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -71,9 +89,15 @@
     "cidade": "Araras",
     "estado": "SP",
     "status": "Prontos",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Pet Place",
+      "Playground",
+      "Espaço Gourmet",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/3868/RESIDENCIALALARITA_GOURMET_V02.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -92,9 +116,15 @@
     "cidade": "Bauru",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4651/PPC_GUARITA_ENTARDECER_BENISSA_RESIDENCIAL_2024-09-1925ce2f32-0c33-41cc-b3ec-896c37efa778.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -112,9 +142,15 @@
     "cidade": "Bauru",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto",
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4723/PPC_MIRANTEDASBRISAS_PISCINA_RF_2025-03-204e202a46-2c6c-4ef8-93ca-0c8907ab6f59.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -132,9 +168,15 @@
     "cidade": "Bauru",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Pet Place",
+      "Piscina Adulto",
+      "Piscina Infantil",
+      "Pet Place",
+      "Piscina Adulto",
+      "Piscina Infantil"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4650/PPC_MIRANTE_DO_VALE_PISCINA_RF_2024-09-18804eaf65-4612-4480-a1de-97c936e8245d.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp",
@@ -150,9 +192,15 @@
     "cidade": "Bauru",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Garrafão de Basquete",
+      "Pet Place",
+      "Churrasqueira",
+      "Garrafão de Basquete",
+      "Pet Place"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4429/RESIDENCIAL_BELGRANO_PPC_VARANDA.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -173,9 +221,15 @@
     "cidade": "Botucatu",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4534/BELLASUCIA_PPCSALA-COZINHA_14-12-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -194,9 +248,15 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4734/CITYGALLERIA03_GUARITA_04_20254541b277-6f61-49e3-8789-bc297e2004a4.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -217,9 +277,15 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4391/MRV_COLINA_DO_SOL_PPC_TORRE_FINAL_2024-10-25c853cbc1-e5c3-43ba-a52d-d5dfdaba6c27.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -239,9 +305,15 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp",
@@ -256,9 +328,8 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Breve Lançamento",
-    "tipologias": [],
     "diferenciais": [],
-    "ficha_tecnica": {},
+    "tipologias": [],
     "imagens": []
   },
   {
@@ -268,9 +339,15 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4538/MRV_CORES-DO-POENTE_GUARITA-ENTARDECER_FINAL.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -289,9 +366,8 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Aluguel",
-    "tipologias": [],
     "diferenciais": [],
-    "ficha_tecnica": {},
+    "tipologias": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4472/0005_Luggo_Drone_04.05.23.webp",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4472/LUGGO-FLORENCA_PE_T02-APTO02_2021_10_27.webp",
@@ -307,9 +383,15 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto",
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4621/MRV_CANOAS_PPC_GUARITA_FINAL_2024.07.1852171823-5c8a-4a46-bac4-edb4eaddf21a.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -330,9 +412,15 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Pet Place",
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Pet Place"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4484/MRV_CANTODAMATA-PISCINA_IMPRESSAO_150DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -353,9 +441,15 @@
     "cidade": "Catanduva",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Piscina Adulto",
+      "Piscina Infantil",
+      "Espaço Gourmet",
+      "Piscina Adulto",
+      "Piscina Infantil"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4333/CASA_DE_ATENAS_PPC_VARANDA_EXTERNA.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -374,9 +468,15 @@
     "cidade": "Franca",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Piscina Adulto",
+      "Piscina Infantil",
+      "Churrasqueira",
+      "Piscina Adulto",
+      "Piscina Infantil"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4298/FIORENTINNORESIDENCE_PPCVARANDA_16-02-2022.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -395,9 +495,15 @@
     "cidade": "Guarulhos",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Academia Coberta",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Academia Coberta",
+      "Espaço Gourmet",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4274/TERRAZO-VILA-AUGUSTA_PE_PISCINA-DIURNA_2022_06_15.JPG",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp",
@@ -427,9 +533,15 @@
     "cidade": "Itaquaquecetuba",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4654/MIRANTEDACOLINA_PPC_GUARITA_FI10cdad2a-e6cf-4bbf-9712-9a6855557b0d.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -449,9 +561,15 @@
     "cidade": "Itu",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4551/ILHA-DE-MALTA_SALA-E-COZINHA_FINAL_20240123.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -470,9 +588,15 @@
     "cidade": "Jundiaí",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto",
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4740/RESERVA-DI-MEDEIROS_PPC_PISCINA_1_FINAL2b46a932-0d17-4bbb-a1df-8d7c455e3c31.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -498,9 +622,15 @@
     "cidade": "Limeira",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4519/RESIDENCIALLARANJEIRAS_PPC_FACHADAAMANHECER_2024_02_01.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -519,9 +649,15 @@
     "cidade": "Limeira",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto",
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4775/MRV_LUNARE_PPC_PISCINA_EF7c57b65c-aba4-440c-af38-bb6af3cf0d48.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -540,9 +676,15 @@
     "cidade": "Limeira",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto",
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4648/PPC_LUZDAAURORA_PORTARIA_RF_2024-10-0845f6ad7e-2f13-485c-ac16-ad6b0b489858.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -560,9 +702,15 @@
     "cidade": "Marília",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Playground",
+      "Bicicletário Descoberto",
+      "Churrasqueira",
+      "Playground",
+      "Bicicletário Descoberto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4465/RESIDENCIAL-MORUMBI_PE_GUARITA_2023-05-16.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -582,9 +730,15 @@
     "cidade": "Mogi das Cruzes",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Pet Place",
+      "Playground",
+      "Espaço Gourmet",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4598/RESIDENCIAL-MAZARELLO_PPC_GUARITA_FINAL_2024.06.03690e2043-00b9-44b0-a407-75131da8b89d.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -604,9 +758,15 @@
     "cidade": "Osasco",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4436/QUARTO_HR.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -625,9 +785,15 @@
     "cidade": "Piracicaba",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Pet Place",
+      "Playground",
+      "Bicicletário Descoberto",
+      "Pet Place",
+      "Playground",
+      "Bicicletário Descoberto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4595/PIAZZA-SIRENA_PE_GUARITA_2023-08-30.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp",
@@ -645,9 +811,15 @@
     "cidade": "Piracicaba",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Piscina Adulto",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4302/PIAZZA_DI_MILANO_RF2_PORTARIA_NOITE.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -668,9 +840,15 @@
     "cidade": "Piracicaba",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto",
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4334/MRV_PRNCIPE-DE-ATENAS_VARANDA_IMPRESSO_150DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -692,9 +870,15 @@
     "cidade": "Presidente Prudente",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto",
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4334/MRV_PRNCIPE-DE-ATENAS-GUARITA_IMPRESSO_150DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -715,9 +899,15 @@
     "cidade": "Ribeirão Preto",
     "estado": "SP",
     "status": "Pré-Lançamento",
+    "diferenciais": [
+      "Academia Coberta",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Academia Coberta",
+      "Espaço Gourmet",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -731,9 +921,15 @@
     "cidade": "Ribeirão Preto",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto",
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4605/PALCIO-DE-ESTOCOLMO-FACHADA_TARDE.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -752,9 +948,15 @@
     "cidade": "Ribeirão Preto",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Espaço Kids",
+      "Pet Place",
+      "Churrasqueira",
+      "Espaço Kids",
+      "Pet Place"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4555/RESERVA-DOS-LIRIOS_PCC_SALA_FINAL_2024-003-08.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -774,9 +976,15 @@
     "cidade": "Ribeirão Preto",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Pet Place",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Pet Place"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4320/MRV_AMARILIS_VARANDA_DENTRO_HR.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -796,9 +1004,15 @@
     "cidade": "Ribeirão Preto",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Espaço Kids",
+      "Garrafão de Basquete",
+      "Churrasqueira",
+      "Espaço Kids",
+      "Garrafão de Basquete"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4571/RESIDENCIAL-RIVIERA_PE_PISCINA_2023_12_22.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -816,9 +1030,15 @@
     "cidade": "São Carlos",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Pet Place",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Pet Place"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4408/MONTEDOSCEDROS_PPCVARANDA_10-11-2022.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -838,9 +1058,15 @@
     "cidade": "São Carlos",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto",
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4485/CVA_MONTE-DAS-COLINAS_PPC_PISCINA_TIROFINAL_24.05.11.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -859,9 +1085,15 @@
     "cidade": "São José do Rio Preto",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto",
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4417/PARQUERIODEPORTUGAL_INTERNAS_VARANDAEXTERNA_V02.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -881,9 +1113,15 @@
     "cidade": "São José do Rio Preto",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Pet Place",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Pet Place"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4526/PARQUESORRENTO_PPCVARANDA_17-10-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -904,9 +1142,15 @@
     "cidade": "São José do Rio Preto",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Pista de Caminhada",
+      "Churrasqueira",
+      "Pet Place",
+      "Pista de Caminhada"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4514/RESIDENCIAL-GRANDENA_PE_GUARITA-ENTARDECER_2023_05_31.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -927,9 +1171,15 @@
     "cidade": "São José do Rio Preto",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4764/RESIDENCIALJARDIMOLIVEIRAS_PPCb8ef5d66-ba29-4de5-b6e0-c0da00733b4e.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -947,9 +1197,15 @@
     "cidade": "São José do Rio Preto",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto",
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4365/RESIDENCIALJARDIMVERONA_PISCINAENTARDECER_V02.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -970,9 +1226,8 @@
     "cidade": "São José dos Campos",
     "estado": "SP",
     "status": "Breve Lançamento",
-    "tipologias": [],
     "diferenciais": [],
-    "ficha_tecnica": {},
+    "tipologias": [],
     "imagens": []
   },
   {
@@ -982,9 +1237,15 @@
     "cidade": "São José dos Campos",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Academia Coberta",
+      "Churrasqueira",
+      "Espaço Kids",
+      "Academia Coberta",
+      "Churrasqueira",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4800/16_MRV_CC_PISCINA_EF0fda96bf-3f5e-483a-905f-459effb0dc3a.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp",
@@ -1002,9 +1263,15 @@
     "cidade": "São José dos Campos",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4774/10_MRV_CJ_FACHADA_GERAL_EF757c90b0-546d-4a30-ab8e-3bd87a15e950.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1019,9 +1286,15 @@
     "cidade": "São José dos Campos",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Garrafão de Basquete",
+      "Pet Place",
+      "Espaço Gourmet",
+      "Garrafão de Basquete",
+      "Pet Place"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4713/PPC_CAMPODIESPANHA_PISCINA_RF_2025-02-04d9d51cc2-6894-4400-a0f6-5af023b458bc.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -1039,9 +1312,15 @@
     "cidade": "São José dos Campos",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Academia Coberta",
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Academia Coberta",
+      "Churrasqueira",
+      "Espaço Gourmet"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4367/TERRAZODIDANTE_PPCVARANDA_02-08-2022.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp",
@@ -1062,9 +1341,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4615/GRAN-ARENA-ITAQUERA_PPC-INSER%C3%87O_2024-06-28-(1)-16912e7f-0b28-466f-9335-15ab708b9bf5.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1085,9 +1370,8 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Aluguel",
-    "tipologias": [],
     "diferenciais": [],
-    "ficha_tecnica": {},
+    "tipologias": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4359/20220520083757_LuggoPiqueri_1.jpg"
     ]
@@ -1099,9 +1383,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Academia Descoberta",
+      "Churrasqueira",
+      "Espaço Kids",
+      "Academia Descoberta",
+      "Churrasqueira",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4760/PARQUE-HOLANDES_INTERNA_VARANDA-APTO-60322e4bb65-12b0-430c-8c63-bea158d1b31c.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiadescoberta.webp",
@@ -1120,9 +1410,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Kids",
+      "Playground",
+      "Salão de Jogos",
+      "Espaço Kids",
+      "Playground",
+      "Salão de Jogos"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4563/CVARECANTODAMATA_PPC_TORRE_FI06152990-b674-48bb-b601-89845ddf1b69.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7okids.webp",
@@ -1143,9 +1439,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Academia Coberta",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Academia Coberta",
+      "Espaço Gourmet",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4781/MRV_RECANTO-LIMOEIRO_PPC_FACHADA_FINAL_2025.0609ba07f3-20d5-4773-8e30-090df776d8a7.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp",
@@ -1166,9 +1468,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Academia Coberta",
+      "Churrasqueira",
+      "Pet Place",
+      "Academia Coberta",
+      "Churrasqueira",
+      "Pet Place"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4656/PPC_ESTORIL_GUARITA_2024.10.08a194a9c2-2693-4ea8-af27-7dd67f339ae7.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp",
@@ -1189,9 +1497,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Playground",
+      "Quadra Gramada",
+      "Espaço Gourmet",
+      "Playground",
+      "Quadra Gramada"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4678/MRV_RESIDENCIAL_IPES_PPC_GUARITA_2025.02.26c45ab324-3147-4a43-81a0-4cce96210fad.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -1212,9 +1526,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Playground",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4567/RESIDENCIAL-LIVIERO_PPC-GUARITA_VF_2024-05-16.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -1234,9 +1554,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4665/NASCENTE_DO_JEQUITIBA_FACHADA_GUARITA_EF7cb20cb1-d726-488f-b9ee-47753fd6fa0a.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1255,13 +1581,8 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Breve Lançamento",
-    "tipologias": [],
     "diferenciais": [],
-    "ficha_tecnica": {
-      "Produto": "Apartamentos No São Paulo/SP",
-      "Endereço": "Rua Igarapé Abelhas, s/n - Quadra U - Lote 1 (Região de Pirituba - São Paulo/SP)",
-      "Realização": "MRV ENGENHARIA E PARTICIPAÇÕES"
-    },
+    "tipologias": [],
     "imagens": []
   },
   {
@@ -1271,9 +1592,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Academia Coberta",
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Academia Coberta",
+      "Churrasqueira",
+      "Espaço Gourmet"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4702/POENTE_DAS_BROMELIAS_GUARITA_EF245caecd-70fe-4191-bfef-a96d1d765614.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp",
@@ -1291,9 +1618,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto",
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4569/POENTE-DAS-ORQUIDEAS_PISCINA_EF_2024_03_19.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -1312,9 +1645,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Espaço Kids",
+      "Playground",
+      "Churrasqueira",
+      "Espaço Kids",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4558/POENTE-DO-BURITI_GUARITA_EF_2024_03_25.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1334,9 +1673,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4535/MRV_SS_C10_FACHADA_GUARITA_EFa4c80cea-39e1-426f-82ad-9157b57fffaf.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1354,9 +1699,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Academia Coberta",
+      "Academia Descoberta",
+      "Espaço Gourmet",
+      "Academia Coberta",
+      "Academia Descoberta",
+      "Espaço Gourmet"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4468/RITMOS-DA-BARRA_PE_VARANDA_2023_07_05.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp",
@@ -1376,9 +1727,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Playground",
+      "Salão de festas",
+      "Espaço Gourmet",
+      "Playground",
+      "Salão de festas"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4627/SAINT_ROSE_FACHADA_T0415d9c4dd0-13fa-4214-a7a2-a56cf51356ee.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -1399,9 +1756,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Playground",
+      "Salão de Festas com Copa",
+      "Churrasqueira",
+      "Playground",
+      "Salão de Festas com Copa"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4759/SAINT-VIRGINIA_PE_GUARITA-ENTARDECER_2025_06_1883efc26c-5baa-4486-a56c-cf86f35bb7c4.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1419,9 +1782,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4607/SM_PPC_PORTARIA_FINAL1255b47b6-f3b9-40ae-827e-59fb534bb425.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1441,9 +1810,8 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Breve Lançamento",
-    "tipologias": [],
     "diferenciais": [],
-    "ficha_tecnica": {},
+    "tipologias": [],
     "imagens": []
   },
   {
@@ -1453,9 +1821,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Prontos",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Piscina Adulto",
+      "Piscina Infantil",
+      "Espaço Gourmet",
+      "Piscina Adulto",
+      "Piscina Infantil"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4227/TERRAZO-IPIRANGA_PE_GUARITA-DIURNA_2022_02_04.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -1473,9 +1847,15 @@
     "cidade": "São Paulo",
     "estado": "SP",
     "status": "Prontos",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Piscina Adulto",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4176/TERRAZOMORUMBI_SALA.JPG",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -1492,9 +1872,15 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Academia Coberta",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Academia Coberta",
+      "Espaço Gourmet",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -1515,9 +1901,15 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Academia Coberta",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Academia Coberta",
+      "Espaço Gourmet",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4604/RESIDENCIALDONPAGLIATO_PPCPORTARIA_2024-07-053ebe8217-3514-4ae7-bd48-ede6bc0bd3c1.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp",
@@ -1537,9 +1929,15 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto",
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4625/MRV_RES_SCARPONE_GUARITA_HR3638755e-3eda-48b8-b6cf-815cc7483aee.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -1559,9 +1957,15 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Playground",
+      "Churrasqueira",
+      "Pet Place",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/imoveis/upload/Solar%20dos%20Eucaliptos/S-EUCALIPTOS_LIVING_RF_2025-09-12.JPG",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1579,9 +1983,15 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto",
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4755/PPC_CAMPOS-DOURADOS_PISCINA1_RF2_2025-07-08c3fcf4bd-c827-4511-b340-cd237a43be51.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1601,9 +2011,15 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Garrafão de Basquete",
+      "Pet Place",
+      "Espaço Gourmet",
+      "Garrafão de Basquete",
+      "Pet Place"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4440/RESIDENCIAL-VEREDAS_PE_VARANDA02_2023_01_27.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -1624,9 +2040,15 @@
     "cidade": "Sta Bárbara do Oeste",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto",
+      "Espaço Gourmet",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4382/ALAMEDA-DAS-ANDORINHAS_VARANDA-EXTERNA_hr.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -1647,9 +2069,15 @@
     "cidade": "Sta Bárbara do Oeste",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Piscina Adulto",
+      "Piscina Infantil",
+      "Churrasqueira",
+      "Piscina Adulto",
+      "Piscina Infantil"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4637/RESIDENCIALAUTENTICITA_PCC_GUARITA_FINAL_2024_08_2654d6680a-256e-451b-8666-c3c02ce4d1b7.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1669,9 +2097,15 @@
     "cidade": "Suzano",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Espaço Kids",
+      "Pet Place",
+      "Churrasqueira",
+      "Espaço Kids",
+      "Pet Place"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7okids.webp",
@@ -1685,9 +2119,15 @@
     "cidade": "Taubaté",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Piscina Adulto",
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4618/PPC_RESIDENCIALTIBRE_PISCINA_FI2a932ac1-5134-4c08-b3fd-61a6fc439806.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1708,13 +2148,8 @@
     "cidade": "Taubaté",
     "estado": "SP",
     "status": "Breve Lançamento",
-    "tipologias": [],
     "diferenciais": [],
-    "ficha_tecnica": {
-      "Produto": "Apartamentos No Taubaté/SP",
-      "Endereço": "Avenida Cristino Dias da Cunha, s/n (Jardim Santa Tereza - Taubaté/SP)",
-      "Realização": "MRV ENGENHARIA E PARTICIPAÇÕES"
-    },
+    "tipologias": [],
     "imagens": []
   },
   {
@@ -1724,9 +2159,15 @@
     "cidade": "Tremembé",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Churrasqueira",
+      "Piscina Adulto",
+      "Piscina Infantil",
+      "Churrasqueira",
+      "Piscina Adulto",
+      "Piscina Infantil"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4502/RESIDENCIALTERENCE_PPCSALAAPARTAMENTOTIPO_03-08-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1744,9 +2185,15 @@
     "cidade": "Vargem Grande Paulista",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Churrasqueira",
+      "Espaço Gourmet",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4787/VISTABELA-RESIDENCE_NOVA-FACHADA_PPC_GUARITA_2025.08.05f1afb269-145f-440e-bd77-648895995cf0.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1764,9 +2211,15 @@
     "cidade": "Votorantim",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Pet Place",
+      "Playground",
+      "Gazebo",
+      "Pet Place",
+      "Playground",
+      "Gazebo"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4550/SOLAR-DA-ILHA_PCC_INTERNA_SALA_FINAL-2024-01-31.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Petplace.webp",
@@ -1783,9 +2236,15 @@
     "cidade": "Araraquara",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto",
+      "Churrasqueira",
+      "Pet Place",
+      "Piscina Adulto"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4427/CAMINHAO_DOS_YPES_FACHADA_NOITE_RFA1.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sacadacomchurrasqueira.webp",
@@ -1803,9 +2262,15 @@
     "cidade": "Botucatu",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "Dispositivos Economizadores (Sistem...",
+      "Previsão para ar condicionado",
+      "Previsão para medição de água indiv...",
+      "Dispositivos Economizadores (Sistem...",
+      "Previsão para ar condicionado",
+      "Previsão para medição de água indiv..."
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4669/PPC_RESIDENCIALGREENPARK_VIA_F21e6f1a4-2d97-432b-b24a-910e59b35ce8.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Sistemadedescarga%C3%A9adualflush.webp",
@@ -1821,9 +2286,15 @@
     "cidade": "Ribeirão Preto",
     "estado": "SP",
     "status": "Lançamento",
+    "diferenciais": [
+      "ACABAMENTOS EXCLUSIVITÁ",
+      "PARCERIAS",
+      "Cerâmica Cozinha e Banheiro",
+      "ACABAMENTOS EXCLUSIVITÁ",
+      "PARCERIAS",
+      "Cerâmica Cozinha e Banheiro"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4710/JARDIM-MORADA-VERDE_PPC_UNIDADE-HABITACIONAL_30.04af1751e0-ea48-4215-b5e5-6d53ea9826ae.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Revestimento.webp",
@@ -1841,9 +2312,15 @@
     "cidade": "Ribeirão Preto",
     "estado": "SP",
     "status": "Prontos",
+    "diferenciais": [
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Pet Place",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Pet Place"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4312/PALCIO_DE_TURIM_PPC_REA_PRIVATIVA_01.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Espa%C3%A7ogourmet.webp",
@@ -1862,13 +2339,8 @@
     "cidade": "Ribeirão Preto",
     "estado": "SP",
     "status": "Breve Lançamento",
-    "tipologias": [],
     "diferenciais": [],
-    "ficha_tecnica": {
-      "Produto": "Casas Na Ribeirão Preto/SP",
-      "Endereço": "Rua Arnaldo Ponton, nº 175 (Região do Jardim Regatas - Ribeirão Preto/SP)",
-      "Realização": "MRV ENGENHARIA E PARTICIPAÇÕES"
-    },
+    "tipologias": [],
     "imagens": []
   },
   {
@@ -1878,9 +2350,15 @@
     "cidade": "São José do Rio Preto",
     "estado": "SP",
     "status": "Em Construção",
+    "diferenciais": [
+      "Academia Descoberta",
+      "Pista de Caminhada",
+      "Playground",
+      "Academia Descoberta",
+      "Pista de Caminhada",
+      "Playground"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4561/EPARQUE-RIO-PRETO-LESTE_PPC-FACHADA-ENTARDECER-02_04-09-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiadescoberta.webp",
@@ -1898,9 +2376,15 @@
     "cidade": "São José do Rio Preto",
     "estado": "SP",
     "status": "Pré-Lançamento",
+    "diferenciais": [
+      "Academia Descoberta",
+      "Playground",
+      "Quadra Poliesportiva",
+      "Academia Descoberta",
+      "Playground",
+      "Quadra Poliesportiva"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4744/PPC_EPARQUE-FACHADA-CASAS_2025-08-2938f7d769-93f3-4217-a2a3-0dbc2a3047b4.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiadescoberta.webp",
@@ -1919,9 +2403,15 @@
     "cidade": "São José do Rio Preto",
     "estado": "SP",
     "status": "Prontos",
+    "diferenciais": [
+      "Academia Coberta",
+      "Espaço Gourmet",
+      "Espaço Kids",
+      "Academia Coberta",
+      "Espaço Gourmet",
+      "Espaço Kids"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4149/FACHADA_PQ-LOMBARDIA_RF1.JPG",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/Academiacoberta.webp",
@@ -1938,9 +2428,15 @@
     "cidade": "Bauru",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Infraestrutura completa",
+      "Área de lazer para todas as idades",
+      "Ótima Localização",
+      "Infraestrutura completa",
+      "Área de lazer para todas as idades",
+      "Ótima Localização"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4645/FLO_IMG_LT_EXE_IM_F002_IMPLANTACAO3D-DRONEe6ab5709-2144-4fce-a425-24c6a474cfab.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp",
@@ -1956,9 +2452,15 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Ótima Localização",
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Ótima Localização"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4585/SQUAD_URBA_NOVA-ODESSA_PLAYGROUND.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp",
@@ -1973,9 +2475,15 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Ótima Localização",
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Ótima Localização"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4583/SMARTURBA-DUNLOP-PPC-INSERCAO3f43a111-561a-43ff-8aad-ba9d72f60aa3.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp",
@@ -1993,9 +2501,15 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Infraestrutura completa",
+      "Área de lazer para todas as idades",
+      "Área verde preservada",
+      "Infraestrutura completa",
+      "Área de lazer para todas as idades",
+      "Área verde preservada"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4582/URBAMAIS-VILAPROFETA-PPC-PISTADESKATE.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp",
@@ -2012,9 +2526,15 @@
     "cidade": "Hortolândia",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Loteamento planejado",
+      "Qualidade Ambiental",
+      "Ótima Localização",
+      "Loteamento planejado",
+      "Qualidade Ambiental",
+      "Ótima Localização"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4643/URBA_RESERVA_MONTE_MOR_ACESSOS_A22d77db4a-3140-4c6c-91a4-c7fb2001608f.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/loteamento-planejado.webp",
@@ -2029,9 +2549,15 @@
     "cidade": "Marília",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Área de lazer para todas as idades",
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Área de lazer para todas as idades"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4753/MDA_IMG_LT_LEG_IM_F010_RESIDENCIAL193a2056-034d-47b6-9333-3d7e2d0e562a.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp",
@@ -2048,9 +2574,15 @@
     "cidade": "Paulínia",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Ótima Localização",
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Ótima Localização"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4581/URBAMAIS-EXTERNA-FACHADALOJAS.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp",
@@ -2065,9 +2597,15 @@
     "cidade": "Presidente Prudente",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Área de lazer para todas as idades",
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Área de lazer para todas as idades"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4644/MINERVA-II_PE_PRACA02_2024_07_30b5c39449-34b8-47f5-ba97-130d02e8a6f1.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp",
@@ -2083,9 +2621,15 @@
     "cidade": "Ribeir&atilde;o Preto",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Área de lazer para todas as idades",
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Área de lazer para todas as idades"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4587/RESERVA-MACAUBA_PE_PRACA01_2018_05_24.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp",
@@ -2100,9 +2644,15 @@
     "cidade": "Ribeirão Preto",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Área de lazer para todas as idades",
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Área de lazer para todas as idades"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4586/URBAMAIS_REGATAS_LOTE2_PPC_PLAYGROUND.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp",
@@ -2119,9 +2669,15 @@
     "cidade": "Ribeirão Preto",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Infraestrutura completa",
+      "Área de lazer para todas as idades",
+      "Teatro Multiuso (ar livre)",
+      "Infraestrutura completa",
+      "Área de lazer para todas as idades",
+      "Teatro Multiuso (ar livre)"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4763/DJI_20250421111039_0006_D620d4e5b-a361-4263-b97f-4311d9826730.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp",
@@ -2136,9 +2692,15 @@
     "cidade": "São Carlos",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Área de lazer para todas as idades",
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Área de lazer para todas as idades"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4580/URBA_SALVA_IMAGEM_AEREA.png",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp",
@@ -2156,9 +2718,15 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Ótima Localização",
+      "Infraestrutura completa",
+      "Loteamento planejado",
+      "Ótima Localização"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4576/URBA_AREAS_COMUNS_QUADRA_AREIA.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/infraestrutura-completa.webp",
@@ -2175,9 +2743,15 @@
     "cidade": "Votorantim",
     "estado": "SP",
     "status": "Lotes",
+    "diferenciais": [
+      "PARCERIAS",
+      "SERVIÇOS",
+      "Infraestrutura completa",
+      "PARCERIAS",
+      "SERVIÇOS",
+      "Infraestrutura completa"
+    ],
     "tipologias": [],
-    "diferenciais": [],
-    "ficha_tecnica": {},
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4613/URBA_SMARTURBARESERVA_PPC-AEREA.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/LinhaProduto/",
@@ -2193,9 +2767,8 @@
     "cidade": null,
     "estado": "SP",
     "status": null,
-    "tipologias": [],
     "diferenciais": [],
-    "ficha_tecnica": {},
+    "tipologias": [],
     "imagens": []
   },
   {
@@ -2205,9 +2778,8 @@
     "cidade": null,
     "estado": "SP",
     "status": null,
-    "tipologias": [],
     "diferenciais": [],
-    "ficha_tecnica": {},
+    "tipologias": [],
     "imagens": []
   }
 ]
