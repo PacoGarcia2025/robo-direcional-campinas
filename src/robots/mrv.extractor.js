@@ -1,7 +1,10 @@
 /**
  * ==================================================
- * ROBÔ MRV – VERSÃO FINAL ACERTIVA
- * BASEADO EM HTML REAL INSPECIONADO
+ * ROBÔ MRV – VERSÃO FINAL CONGELADA
+ * NÃO ALTERAR
+ *
+ * Extração baseada em inspeção REAL do HTML da MRV
+ * Tipologia, diferenciais e fotos separados corretamente
  * ==================================================
  */
 
@@ -15,58 +18,54 @@ export default async function extractMRV() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  await page.goto(START_URL, { waitUntil: "domcontentloaded" });
+  await page.goto(START_URL, { waitUntil: "networkidle" });
   await page.waitForTimeout(3000);
 
   // ==================================================
   // 🔹 CARREGAR TODOS OS IMÓVEIS (SEM LOOP INFINITO)
   // ==================================================
   let lastCount = 0;
-  let sameCountTimes = 0;
+  let stableRounds = 0;
 
-  while (true) {
+  while (stableRounds < 3) {
     const { count, hasButton } = await page.evaluate(() => {
       const cards = document.querySelectorAll('a[href*="/imoveis/"]');
       const btn = Array.from(document.querySelectorAll("button"))
         .find(b => b.innerText?.toLowerCase().includes("carregar"));
+
       return { count: cards.length, hasButton: !!btn };
     });
 
     if (!hasButton || count === lastCount) {
-      sameCountTimes++;
+      stableRounds++;
     } else {
-      sameCountTimes = 0;
+      stableRounds = 0;
+      lastCount = count;
+
+      console.log("🔄 Carregando mais imóveis MRV...");
+      await page.evaluate(() => {
+        const btn = Array.from(document.querySelectorAll("button"))
+          .find(b => b.innerText?.toLowerCase().includes("carregar"));
+        if (btn) btn.click();
+      });
+
+      await page.waitForTimeout(3000);
     }
-
-    if (sameCountTimes >= 2) break;
-
-    lastCount = count;
-
-    console.log("🔄 Carregando mais imóveis MRV...");
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll("button"))
-        .find(b => b.innerText?.toLowerCase().includes("carregar"));
-      if (btn) btn.click();
-    });
-
-    await page.waitForTimeout(3000);
   }
 
   // ==================================================
-  // 🔹 CAPTURAR LINKS DOS EMPREENDIMENTOS
+  // 🔹 CAPTURAR LINKS ÚNICOS DOS EMPREENDIMENTOS
   // ==================================================
   const urls = await page.evaluate(() => {
-    return Array.from(
-      new Set(
-        Array.from(document.querySelectorAll("a"))
-          .map(a => a.href)
-          .filter(h =>
-            h &&
-            h.includes("/imoveis/") &&
-            !h.endsWith("/sao-paulo")
-          )
-      )
-    );
+    const links = new Set();
+
+    document.querySelectorAll("a[href*='/imoveis/']").forEach(a => {
+      if (!a.href.endsWith("/sao-paulo")) {
+        links.add(a.href.split("?")[0]);
+      }
+    });
+
+    return Array.from(links);
   });
 
   console.log("📦 Empreendimentos MRV encontrados:", urls.length);
@@ -74,91 +73,68 @@ export default async function extractMRV() {
   const empreendimentos = [];
 
   // ==================================================
-  // 🔹 LOOP DOS EMPREENDIMENTOS
+  // 🔹 LOOP NOS EMPREENDIMENTOS
   // ==================================================
   for (const url of urls) {
-    await page.goto(url, { waitUntil: "domcontentloaded" });
-
-    // força render do React
-    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-    await page.waitForTimeout(2000);
-
-    // abre ficha técnica
-    await page.evaluate(() => {
-      const btn = document.querySelector('#fichatecnica [role="button"]');
-      if (btn && btn.getAttribute("aria-expanded") !== "true") btn.click();
-    });
-
-    // abre diferenciais
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll("button"))
-        .find(b => b.innerText?.toLowerCase().includes("ver todos"));
-      if (btn) btn.click();
-    });
-
-    await page.waitForTimeout(1500);
+    await page.goto(url, { waitUntil: "networkidle" });
+    await page.waitForTimeout(2500);
 
     const data = await page.evaluate(() => {
       // ===============================
-      // TÍTULO / STATUS
+      // TÍTULO
       // ===============================
-      const titulo =
-        document.querySelector("#header-imovel .highlight-title")
-          ?.innerText.trim() || null;
-
-      const status =
-        document.querySelector("#header-imovel .highlight-label")
-          ?.innerText.trim() || null;
+      const titulo = document.querySelector("h1")?.innerText.trim() || null;
 
       // ===============================
-      // CIDADE / ESTADO
+      // STATUS
+      // ===============================
+      let status = null;
+      document.querySelectorAll("span").forEach(el => {
+        const t = el.innerText?.toLowerCase();
+        if (
+          t &&
+          (t.includes("lançamento") ||
+            t.includes("em construção") ||
+            t.includes("pronto") ||
+            t.includes("pré-lançamento") ||
+            t.includes("breve"))
+        ) {
+          status = el.innerText.trim();
+        }
+      });
+
+      // ===============================
+      // CIDADE / ESTADO (FICHA TÉCNICA)
       // ===============================
       let cidade = null;
       let estado = "SP";
 
-      const loc = Array.from(
-        document.querySelectorAll(".property-details-text")
-      ).find(el => el.innerText.includes("-"));
-
-      if (loc) {
-        cidade = loc.innerText.split("-")[0].trim();
-      }
+      document.querySelectorAll("#fichatecnica p").forEach(p => {
+        const txt = p.innerText;
+        if (txt.includes("/SP")) {
+          cidade = txt.split("/SP")[0].replace("Apartamentos em", "").trim();
+        }
+      });
 
       // ===============================
-      // DIFERENCIAIS
+      // DIFERENCIAIS (LinhaProduto)
       // ===============================
       const diferenciais = Array.from(
-        document.querySelectorAll("#diferenciais ul li span")
+        document.querySelectorAll("img[src*='/LinhaProduto/']")
       )
-        .map(el => el.innerText.trim())
+        .map(img => img.alt?.trim())
         .filter(Boolean);
 
       // ===============================
-      // FICHA TÉCNICA
-      // ===============================
-      const ficha_tecnica = {};
-
-      document
-        .querySelectorAll("#fichatecnica .accordion-subtitle")
-        .forEach(sub => {
-          const key = sub.innerText.replace(":", "").trim();
-          const valueEl = sub.nextElementSibling;
-          if (valueEl && valueEl.tagName === "P") {
-            ficha_tecnica[key] = valueEl.innerText.trim();
-          }
-        });
-
-      // ===============================
-      // TIPOLOGIAS
+      // TIPOLOGIAS (FICHA TÉCNICA)
       // ===============================
       const tipologias = [];
 
-      const tipologiaList =
-        document.querySelector("#fichatecnica ul");
-
-      if (tipologiaList) {
-        tipologiaList.querySelectorAll("li").forEach(li => {
+      document
+        .querySelectorAll("#fichatecnica ul li")
+        .forEach(li => {
           const text = li.innerText;
+
           const dorm = text.match(/(\d+)\s*Quartos?/i)?.[1];
           const area = text.match(/([\d.,]+)\s*m²/i)?.[1];
 
@@ -169,20 +145,15 @@ export default async function extractMRV() {
             });
           }
         });
-      }
 
       // ===============================
-      // IMAGENS (LIMPO)
+      // FOTOS REAIS (IMAGENS)
       // ===============================
-      const imagens = Array.from(document.images)
+      const fotos = Array.from(
+        document.querySelectorAll("img[src*='/imoveis/upload/imagens/']")
+      )
         .map(img => img.src)
-        .filter(src =>
-          src &&
-          src.includes("/imoveis/upload/") &&
-          !src.endsWith(".svg") &&
-          !src.toLowerCase().includes("logo") &&
-          !src.toLowerCase().includes("icon")
-        );
+        .filter(Boolean);
 
       return {
         titulo,
@@ -191,8 +162,7 @@ export default async function extractMRV() {
         status,
         tipologias,
         diferenciais,
-        ficha_tecnica,
-        imagens: [...new Set(imagens)]
+        fotos: [...new Set(fotos)]
       };
     });
 
