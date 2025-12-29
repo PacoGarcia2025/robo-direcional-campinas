@@ -16,7 +16,10 @@ const INTERIOR_SP = [
   "Jundiaí",
 ];
 
-export default function generateXmlX09(empreendimentos) {
+export default function generateXmlX09(
+  empreendimentos,
+  prefix = "direcional"
+) {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<empreendimentos>\n`;
   let total = 0;
 
@@ -24,9 +27,10 @@ export default function generateXmlX09(empreendimentos) {
     if (emp.estado !== "SP") return;
     if (!INTERIOR_SP.includes(emp.cidade)) return;
 
-    const id = emp.id || emp.titulo.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+    const id =
+      emp.id || emp.titulo?.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
-    // 🔹 DESCRIÇÃO CONSOLIDADA (X09 AMA ISSO)
+    // 🔹 DESCRIÇÃO CONSOLIDADA
     let descricao = "";
 
     if (emp.tipologias?.length) {
@@ -36,41 +40,20 @@ export default function generateXmlX09(empreendimentos) {
       descricao += `Tipologias: ${tipos}. `;
     }
 
-    if (emp.diferenciais && emp.diferenciais.length > 0) {
-  xml += `    <diferenciais>\n`;
-  emp.diferenciais.forEach(d => {
-    xml += `      <diferencial>${d}</diferencial>\n`;
-  });
-  xml += `    </diferenciais>\n`;
-}
-    
-    if (emp.ficha_tecnica && Object.keys(emp.ficha_tecnica).length > 0) {
-  xml += `    <ficha_tecnica>\n`;
-  Object.entries(emp.ficha_tecnica).forEach(([chave, valor]) => {
-    xml += `      <item>\n`;
-    xml += `        <nome>${chave}</nome>\n`;
-    xml += `        <valor>${valor}</valor>\n`;
-    xml += `      </item>\n`;
-  });
-  xml += `    </ficha_tecnica>\n`;
-}
-
-
     xml += `  <empreendimento>\n`;
     xml += `    <id>${id}</id>\n`;
-    xml += `    <titulo><![CDATA[${emp.titulo}]]></titulo>\n`;
+    xml += `    <titulo><![CDATA[${emp.titulo || ""}]]></titulo>\n`;
     xml += `    <tipo>Apartamento</tipo>\n`;
     xml += `    <cidade>${emp.cidade}</cidade>\n`;
     xml += `    <estado>SP</estado>\n`;
     xml += `    <status><![CDATA[${emp.status || "Lançamento"}]]></status>\n`;
     xml += `    <descricao><![CDATA[${descricao}]]></descricao>\n`;
 
-    // 🔹 FOTOS (OBRIGATÓRIO PELO X09)
-    xml += `    <fotos>\n`;
+    // 🔹 FOTOS (obrigatório X09)
     const imagensValidas = (emp.imagens || []).slice(0, 10);
-
     if (imagensValidas.length === 0) return;
 
+    xml += `    <fotos>\n`;
     imagensValidas.forEach((img) => {
       xml += `      <foto><![CDATA[${img}]]></foto>\n`;
     });
@@ -84,9 +67,11 @@ export default function generateXmlX09(empreendimentos) {
 
   const filePath = path.resolve(
     "src/output",
-    "direcional-interior-sp-x09.xml"
+    `${prefix}-interior-sp-x09.xml`
   );
 
   fs.writeFileSync(filePath, xml, "utf8");
-  console.log(`📦 XML X09 INTERIOR SP gerado: ${total} empreendimentos`);
+  console.log(
+    `📦 XML X09 INTERIOR SP gerado (${prefix}): ${total} empreendimentos`
+  );
 }
