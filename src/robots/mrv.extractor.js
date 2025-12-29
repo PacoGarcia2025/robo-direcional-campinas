@@ -58,17 +58,39 @@ while (true) {
 
   // 🔹 Capturar cards reais
   const urls = await page.evaluate(() => {
-    const links = [];
+  const links = new Set();
 
-    document.querySelectorAll("[data-testid], article, section").forEach(el => {
-      const a = el.querySelector('a[href*="/imoveis/"]');
-      if (a && a.href && !a.href.endsWith("/sao-paulo")) {
-        links.push(a.href.split("?")[0]);
+  // cards reais da MRV
+  document.querySelectorAll("article, div").forEach(card => {
+    // caso 1: link interno
+    const a = card.querySelector("a");
+    if (a && a.href && a.href.includes("/imoveis/") && !a.href.endsWith("/sao-paulo")) {
+      links.add(a.href.split("?")[0]);
+    }
+
+    // caso 2: data-href
+    const dataHref = card.getAttribute("data-href");
+    if (dataHref && dataHref.includes("/imoveis/")) {
+      links.add(
+        dataHref.startsWith("http")
+          ? dataHref
+          : `https://www.mrv.com.br${dataHref}`
+      );
+    }
+
+    // caso 3: onclick
+    const onclick = card.getAttribute("onclick");
+    if (onclick && onclick.includes("/imoveis/")) {
+      const match = onclick.match(/\/imoveis\/[a-z0-9\-]+/i);
+      if (match) {
+        links.add(`https://www.mrv.com.br${match[0]}`);
       }
-    });
-
-    return [...new Set(links)];
+    }
   });
+
+  return Array.from(links);
+});
+
 
   console.log("📦 Empreendimentos MRV encontrados:", urls.length);
 
