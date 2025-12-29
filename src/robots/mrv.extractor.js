@@ -1,22 +1,38 @@
 /**
  * ==================================================
- * ROBÔ MRV – VERSÃO CORRETA (API)
+ * ROBÔ MRV – VERSÃO FINAL (API VIA PLAYWRIGHT)
  * ==================================================
  */
 
+import { chromium } from "playwright";
 
 const API_URL =
   "https://www.mrv.com.br/api/portal-imoveis/v1/imoveis?pagina=1&tamanhoPagina=500";
 
 export default async function extractMRV() {
-  console.log("🚀 Abrindo listagem MRV (API)");
+  console.log("🚀 Abrindo listagem MRV (API via browser)");
 
-  const res = await fetch(API_URL);
-  const json = await res.json();
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage();
+
+  await page.goto("https://www.mrv.com.br", {
+    waitUntil: "domcontentloaded",
+  });
+
+  // Chamada da API DENTRO do contexto do navegador
+  const data = await page.evaluate(async (url) => {
+    const res = await fetch(url, {
+      headers: {
+        "accept": "application/json",
+        "content-type": "application/json",
+      },
+    });
+    return res.json();
+  }, API_URL);
 
   const empreendimentos = [];
 
-  for (const item of json?.conteudo || []) {
+  for (const item of data?.conteudo || []) {
     empreendimentos.push({
       id: item.slug || item.id,
       url: `https://www.mrv.com.br/imoveis/${item.slug}`,
@@ -35,6 +51,8 @@ export default async function extractMRV() {
         .filter(Boolean)
     });
   }
+
+  await browser.close();
 
   console.log(
     "✅ Empreendimentos MRV coletados:",
