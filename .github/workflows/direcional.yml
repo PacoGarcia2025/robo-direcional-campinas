@@ -28,9 +28,12 @@ jobs:
         run: node src/index.js
 
       - name: 📤 Commitar arquivos gerados
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add src/output/*.json src/output/*.xml
-          git commit -m "Atualização automática Direcional Campinas" || echo "Nada para commitar"
-          git push
+        - run: |
+    git config user.name "github-actions"
+    git config user.email "github-actions@github.com"
+
+    git pull --rebase origin main || true
+    git add .
+    git commit -m "Atualização automática robô" || echo "Nada para commitar"
+    git push origin main
+
