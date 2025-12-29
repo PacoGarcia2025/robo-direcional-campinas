@@ -1,7 +1,6 @@
 /**
  * ==================================================
- * ROBÔ MRV – LISTAGEM POR ESTADO (SP)
- * PADRÃO IGUAL À DIRECIONAL
+ * ROBÔ MRV – SP (CARREGAR MAIS FUNCIONAL)
  * ==================================================
  */
 
@@ -15,34 +14,50 @@ export default async function extractMRV() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  await page.goto(START_URL, { waitUntil: "domcontentloaded" });
+  await page.goto(START_URL, { waitUntil: "networkidle" });
+  await page.waitForTimeout(3000);
 
-  // 🔹 Clicar em "Carregar mais imóveis" até sumir
+  // 🔹 Clicar em "Carregar mais" enquanto existir QUALQUER botão clicável
   while (true) {
-    const btn = await page.$('button:has-text("Carregar mais")');
-    if (!btn || !(await btn.isVisible())) break;
+    const clicked = await page.evaluate(() => {
+      const btn = Array.from(document.querySelectorAll("button, a, div"))
+        .find(el =>
+          el.innerText &&
+          el.innerText.toLowerCase().includes("carregar")
+        );
+
+      if (btn) {
+        btn.click();
+        return true;
+      }
+      return false;
+    });
+
+    if (!clicked) break;
 
     console.log("🔄 Carregando mais imóveis MRV...");
-    await btn.click();
     await page.waitForTimeout(3000);
   }
 
-  // 🔹 Coletar cards da listagem
-  const cards = await page.evaluate(() =>
-    Array.from(document.querySelectorAll('a[href*="/imoveis/"]'))
-      .map(a => a.href.split("?")[0])
-      .filter(href =>
-        href.includes("/imoveis/") &&
-        !href.endsWith("/sao-paulo")
-      )
-  );
+  // 🔹 Capturar cards reais
+  const urls = await page.evaluate(() => {
+    const links = [];
 
-  const uniqueUrls = [...new Set(cards)];
-  console.log("📦 Empreendimentos MRV encontrados:", uniqueUrls.length);
+    document.querySelectorAll("[data-testid], article, section").forEach(el => {
+      const a = el.querySelector('a[href*="/imoveis/"]');
+      if (a && a.href && !a.href.endsWith("/sao-paulo")) {
+        links.push(a.href.split("?")[0]);
+      }
+    });
+
+    return [...new Set(links)];
+  });
+
+  console.log("📦 Empreendimentos MRV encontrados:", urls.length);
 
   const empreendimentos = [];
 
-  for (const url of uniqueUrls) {
+  for (const url of urls) {
     await page.goto(url, { waitUntil: "domcontentloaded" });
     await page.waitForTimeout(2500);
 
@@ -62,42 +77,31 @@ export default async function extractMRV() {
       let status = null;
       document.querySelectorAll("span, li").forEach(el => {
         const t = el.innerText?.toLowerCase();
-        if (
-          t?.includes("lançamento") ||
-          t?.includes("em obras") ||
-          t?.includes("pronto")
-        ) {
+        if (t?.includes("lançamento") || t?.includes("obras") || t?.includes("pronto")) {
           status = el.innerText.trim();
         }
       });
 
-      // Tipologias
       const tipologias = [];
       let areas = [];
       let dorms = [];
 
       document.querySelectorAll("li, span").forEach(el => {
         const text = el.innerText || "";
-
         if (text.includes("m²")) {
-          areas =
-            text.match(/\d+[,\.]?\d*/g)?.map(n =>
-              Number(n.replace(",", "."))
-            ) || [];
+          areas = text.match(/\d+[,\.]?\d*/g)?.map(n =>
+            Number(n.replace(",", "."))
+          ) || [];
         }
-
         if (text.toLowerCase().includes("quarto")) {
           dorms = text.match(/\d+/g)?.map(Number) || [];
         }
       });
 
       areas.forEach(area => {
-        dorms.forEach(d => {
-          tipologias.push({ dormitorios: d, area });
-        });
+        dorms.forEach(d => tipologias.push({ dormitorios: d, area }));
       });
 
-      // Imagens
       const imagens = Array.from(document.images)
         .map(img => img.src)
         .filter(src =>
