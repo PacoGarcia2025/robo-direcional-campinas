@@ -28,12 +28,13 @@ jobs:
         run: node src/index.js
 
       - name: 📤 Commitar arquivos gerados
-        - run: |
-    git config user.name "github-actions"
-    git config user.email "github-actions@github.com"
+        - name: Commitar arquivos gerados
+          run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git pull --rebase origin main || true
+          git add .
+          git commit -m "Atualização automática robô" || echo "Nada para commitar"
+          git push origin main
 
-    git pull --rebase origin main || true
-    git add .
-    git commit -m "Atualização automática robô" || echo "Nada para commitar"
-    git push origin main
 
