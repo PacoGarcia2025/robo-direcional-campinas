@@ -1,13 +1,7 @@
 /**
  * ==================================================
- * ROBÔ MRV – VERSÃO FINAL ESTÁVEL (CI + LOCAL)
- * NÃO USAR networkidle
- *
- * ✔ Funciona no GitHub Actions
- * ✔ Coleta cidade / estado
- * ✔ Coleta tipologias (dormitórios + área)
- * ✔ Coleta diferenciais do condomínio
- * ✔ Ignora páginas inválidas (ex: /lojas)
+ * ROBÔ MRV – VERSÃO FINAL CONGELADA
+ * FOCO: EXTRAÇÃO + REFINO DE IMAGENS
  * ==================================================
  */
 
@@ -18,30 +12,35 @@ const START_URL = "https://www.mrv.com.br/imoveis/sao-paulo";
 export default async function extractMRV() {
   console.log("🚀 Abrindo listagem MRV SP");
 
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
+
   const page = await browser.newPage();
 
   await page.goto(START_URL, {
     waitUntil: "domcontentloaded",
-    timeout: 60000
+    timeout: 60000,
   });
 
   await page.waitForTimeout(3000);
 
   // ==================================================
-  // 🔹 CARREGAR TODOS OS CARDS
+  // 🔹 CARREGAR TODOS OS IMÓVEIS
   // ==================================================
   let lastCount = 0;
 
   while (true) {
     const { count, hasButton } = await page.evaluate(() => {
       const cards = document.querySelectorAll('a[href*="/imoveis/"]');
-      const btn = Array.from(document.querySelectorAll("button, a"))
-        .find(el => el.innerText?.toLowerCase().includes("carregar"));
+      const btn = Array.from(document.querySelectorAll("button, a")).find(
+        el => el.innerText?.toLowerCase().includes("carregar")
+      );
 
       return {
         count: cards.length,
-        hasButton: !!btn
+        hasButton: !!btn,
       };
     });
 
@@ -50,8 +49,9 @@ export default async function extractMRV() {
 
     console.log("🔄 Carregando mais imóveis MRV...");
     await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll("button, a"))
-        .find(el => el.innerText?.toLowerCase().includes("carregar"));
+      const btn = Array.from(document.querySelectorAll("button, a")).find(
+        el => el.innerText?.toLowerCase().includes("carregar")
+      );
       if (btn) btn.click();
     });
 
@@ -59,19 +59,18 @@ export default async function extractMRV() {
   }
 
   // ==================================================
-  // 🔹 COLETAR LINKS DOS EMPREENDIMENTOS
+  // 🔹 CAPTURAR LINKS DOS EMPREENDIMENTOS
   // ==================================================
   const urls = await page.evaluate(() => {
     const links = new Set();
 
-    document.querySelectorAll("a[href]").forEach(a => {
-      const href = a.href.split("?")[0];
+    document.querySelectorAll("a").forEach(a => {
       if (
-        href.includes("/imoveis/") &&
-        !href.endsWith("/sao-paulo") &&
-        !href.includes("/lojas")
+        a.href &&
+        a.href.includes("/imoveis/") &&
+        !a.href.endsWith("/sao-paulo")
       ) {
-        links.add(href);
+        links.add(a.href.split("?")[0]);
       }
     });
 
@@ -86,113 +85,125 @@ export default async function extractMRV() {
   // 🔹 LOOP DOS EMPREENDIMENTOS
   // ==================================================
   for (const url of urls) {
-    console.log("➡️ Visitando:", url);
+    console.log("➡️ Coletando:", url);
 
     try {
       await page.goto(url, {
         waitUntil: "domcontentloaded",
-        timeout: 60000
+        timeout: 60000,
       });
 
       await page.waitForTimeout(2500);
 
       const data = await page.evaluate(() => {
-        // -------------------------------
+        // ===============================
         // TÍTULO
-        // -------------------------------
+        // ===============================
         const titulo =
-          document.querySelector("#header-imovel h1")
-            ?.innerText.trim() ||
-          document.querySelector("h1")
-            ?.innerText.trim() ||
-          null;
+          document.querySelector("h1, h2")?.innerText.trim() || null;
 
-        // -------------------------------
+        // ===============================
         // STATUS
-        // -------------------------------
+        // ===============================
         const status =
-          document.querySelector("#header-imovel .highlight-label")
-            ?.innerText.trim() ||
-          document.querySelector('[class*="label"]')
-            ?.innerText.trim() ||
-          null;
+          document.querySelector("[class*=label], [class*=status]")
+            ?.innerText.trim() || null;
 
-        // -------------------------------
-        // CIDADE / ESTADO
-        // -------------------------------
+        // ===============================
+        // CIDADE / ESTADO (fallback seguro)
+        // ===============================
         let cidade = null;
         let estado = "SP";
 
-        const breadcrumb = Array.from(
-          document.querySelectorAll("nav a, .breadcrumb a")
-        ).map(el => el.innerText.trim());
+        const textoPagina = document.body.innerText;
 
-        if (breadcrumb.length >= 2) {
-          cidade = breadcrumb[breadcrumb.length - 1];
+        const matchCidade = textoPagina.match(
+          /Apartamentos em ([A-Za-zÀ-ú\s]+)\/SP/i
+        );
+
+        if (matchCidade) {
+          cidade = matchCidade[1].trim();
         }
 
-        // -------------------------------
-        // DIFERENCIAIS DO CONDOMÍNIO
-        // -------------------------------
+        // ===============================
+        // DIFERENCIAIS (texto)
+        // ===============================
         const diferenciais = Array.from(
-          document.querySelectorAll(
-            'section ul li, .diferenciais li, [class*="benefit"] li'
-          )
+          document.querySelectorAll(".sc-jQybuE li span")
         )
           .map(el => el.innerText.trim())
-          .filter(t => t.length > 2);
+          .filter(Boolean);
 
-        // -------------------------------
-        // TIPOLOGIAS (DORMITÓRIOS + ÁREA)
-        // -------------------------------
+        // ===============================
+        // TIPOLOGIAS
+        // ===============================
         const tipologias = [];
 
-        Array.from(document.querySelectorAll("li")).forEach(li => {
-          const text = li.innerText;
+        const tipologiaList = document.querySelector("#fichatecnica ul");
 
-          const dorm = text.match(/(\d+)\s*quartos?/i)?.[1];
-          const area = text.match(/([\d.,]+)\s*m²/i)?.[1];
+        if (tipologiaList) {
+          tipologiaList.querySelectorAll("li").forEach(li => {
+            const text = li.innerText;
 
-          if (dorm && area) {
-            tipologias.push({
-              dormitorios: Number(dorm),
-              area: Number(area.replace(",", "."))
-            });
-          }
-        });
+            const dorm = text.match(/(\d+)\s*Quartos?/i)?.[1];
+            const area = text.match(/([\d.,]+)\s*m²/i)?.[1];
 
-        // -------------------------------
-        // IMAGENS (LIMPO)
-        // -------------------------------
+            if (dorm && area) {
+              tipologias.push({
+                dormitorios: Number(dorm),
+                area: Number(area.replace(",", ".")),
+              });
+            }
+          });
+        }
+
+        // ===============================
+        // 🔥 IMAGENS – FILTRO PROFISSIONAL
+        // ===============================
         const imagens = Array.from(document.images)
           .map(img => img.src)
-          .filter(src =>
-            src &&
-            src.includes("/imoveis/upload/") &&
-            !src.endsWith(".svg") &&
-            !src.toLowerCase().includes("logo")
-          );
+          .filter(src => {
+            if (!src) return false;
+
+            const s = src.toLowerCase();
+
+            // ✅ somente imagens reais
+            if (!s.includes("/imoveis/upload/imagens/")) return false;
+
+            // ❌ lixo conhecido
+            if (s.includes("/linhaproduto/")) return false;
+            if (s.includes("/infraestrutura")) return false;
+            if (s.includes("icone")) return false;
+            if (s.includes("icon")) return false;
+            if (s.includes("logo")) return false;
+            if (s.includes("svg")) return false;
+            if (s.includes("placeholder")) return false;
+
+            // ❌ extensão inválida
+            if (!s.match(/\.(jpg|jpeg|png|webp)$/)) return false;
+
+            return true;
+          });
 
         return {
           titulo,
           cidade,
           estado,
           status,
-          diferenciais: [...new Set(diferenciais)],
           tipologias,
-          imagens: [...new Set(imagens)]
+          diferenciais,
+          imagens: [...new Set(imagens)],
         };
       });
 
       empreendimentos.push({
         id: url.split("/").filter(Boolean).pop(),
         url,
-        ...data
+        ...data,
       });
-
     } catch (err) {
-      console.log("❌ Erro ao processar:", url);
-      console.log(err.message);
+      console.error("❌ Erro ao processar:", url);
+      console.error(err.message);
     }
   }
 
