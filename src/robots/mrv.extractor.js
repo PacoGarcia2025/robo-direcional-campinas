@@ -18,26 +18,43 @@ export default async function extractMRV() {
   await page.waitForTimeout(3000);
 
   // 🔹 Clicar em "Carregar mais" enquanto existir QUALQUER botão clicável
-  while (true) {
-    const clicked = await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll("button, a, div"))
-        .find(el =>
-          el.innerText &&
-          el.innerText.toLowerCase().includes("carregar")
-        );
+  // 🔹 Clicar em "Carregar mais imóveis" até NÃO surgirem novos cards
+let lastCount = 0;
 
-      if (btn) {
-        btn.click();
-        return true;
-      }
-      return false;
-    });
+while (true) {
+  const result = await page.evaluate(() => {
+    const cards = document.querySelectorAll('a[href*="/imoveis/"]');
+    const btn = Array.from(document.querySelectorAll("button, a"))
+      .find(el =>
+        el.innerText &&
+        el.innerText.toLowerCase().includes("carregar")
+      );
 
-    if (!clicked) break;
+    return {
+      count: cards.length,
+      hasButton: !!btn
+    };
+  });
 
-    console.log("🔄 Carregando mais imóveis MRV...");
-    await page.waitForTimeout(3000);
+  if (!result.hasButton || result.count === lastCount) {
+    break;
   }
+
+  lastCount = result.count;
+
+  console.log("🔄 Carregando mais imóveis MRV...");
+  await page.evaluate(() => {
+    const btn = Array.from(document.querySelectorAll("button, a"))
+      .find(el =>
+        el.innerText &&
+        el.innerText.toLowerCase().includes("carregar")
+      );
+    if (btn) btn.click();
+  });
+
+  await page.waitForTimeout(3000);
+}
+
 
   // 🔹 Capturar cards reais
   const urls = await page.evaluate(() => {
