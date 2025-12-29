@@ -1,262 +1,99 @@
 /**
  * ==================================================
- * ROBÔ MRV – EXTRAÇÃO INTERIOR DE SÃO PAULO
+ * GERADOR XML X09 – MRV (INTERIOR SP)
+ * CORRIGE:
+ * - <titulo> vazio
+ * - <status> inválido ("Estado")
+ * - tags XML quebradas
+ * - empreendimentos sem fotos
+ * - tipos incorretos (Apartamento / Casa / Lote)
  * ==================================================
  */
 
-import { chromium } from "playwright";
+import fs from "fs";
+import path from "path";
 
-const START_URL = "https://www.mrv.com.br/imoveis/sao-paulo";
+const OUTPUT_DIR = "output/xml-x09";
+const OUTPUT_FILE = "mrv-interior-sp.xml";
 
 // ===============================
-// REGIÕES DO ESTADO DE SÃO PAULO
+// HELPERS
 // ===============================
-
-const GRANDE_SP = new Set([
-  "São Paulo",
-  "Guarulhos",
-  "Osasco",
-  "Santo André",
-  "São Bernardo Do Campo",
-  "São Caetano Do Sul",
-  "Diadema",
-  "Mauá",
-  "Ribeirão Pires",
-  "Rio Grande Da Serra",
-  "Barueri",
-  "Carapicuíba",
-  "Cotia",
-  "Itapevi",
-  "Jandira",
-  "Santana De Parnaíba",
-  "Taboão Da Serra",
-  "Embu Das Artes",
-  "Itapecerica Da Serra",
-  "Poá",
-  "Suzano",
-  "Ferraz De Vasconcelos",
-  "Itaquaquecetuba",
-  "Arujá",
-  "Mogi Das Cruzes",
-  "Caieiras",
-  "Francisco Morato",
-  "Franco Da Rocha"
-]);
-
-const LITORAL_SP = new Set([
-  "Santos",
-  "São Vicente",
-  "Guarujá",
-  "Praia Grande",
-  "Cubatão",
-  "Bertioga",
-  "Mongaguá",
-  "Itanhaém",
-  "Peruíbe",
-  "Caraguatatuba",
-  "São Sebastião",
-  "Ubatuba",
-  "Ilhabela"
-]);
-
-function normalizarCidade(cidade) {
-  return cidade
-    ?.normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .trim();
+function escapeXml(value = "") {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
 }
 
-function ehInteriorSP(cidade) {
-  const c = normalizarCidade(cidade);
-  if (!c) return false;
-  if ([...GRANDE_SP].some(x => normalizarCidade(x) === c)) return false;
-  if ([...LITORAL_SP].some(x => normalizarCidade(x) === c)) return false;
+function inferirTipo(id) {
+  if (id.startsWith("casas-")) return "Casa";
+  if (id.startsWith("lotes-")) return "Lote";
+  return "Apartamento";
+}
+
+function validar(e) {
+  if (!e.id) return false;
+  if (!e.titulo) return false;
+  if (!e.cidade) return false;
+  if (!e.imagens || !e.imagens.length) return false;
   return true;
 }
 
 // ===============================
-// ROBÔ PRINCIPAL
+// GERADOR
 // ===============================
-
-export default async function extractMRV() {
-  console.log("🚀 Abrindo listagem MRV SP (INTERIOR)");
-
-  const browser = await chromium.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
-  });
-
-  const page = await browser.newPage();
-
-  await page.goto(START_URL, {
-    waitUntil: "domcontentloaded",
-    timeout: 60000,
-  });
-
-  await page.waitForTimeout(3000);
-
-  // ===============================
-  // CARREGAR TODOS OS IMÓVEIS
-  // ===============================
-  let lastCount = 0;
-
-  while (true) {
-    const { count, hasButton } = await page.evaluate(() => {
-      const cards = document.querySelectorAll('a[href*="/imoveis/"]');
-      const btn = Array.from(document.querySelectorAll("button, a")).find(
-        el => el.innerText?.toLowerCase().includes("carregar")
-      );
-      return { count: cards.length, hasButton: !!btn };
-    });
-
-    if (!hasButton || count === lastCount) break;
-    lastCount = count;
-
-    console.log("🔄 Carregando mais imóveis MRV...");
-    await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll("button, a")).find(
-        el => el.innerText?.toLowerCase().includes("carregar")
-      );
-      if (btn) btn.click();
-    });
-
-    await page.waitForTimeout(3000);
+export function gerarXmlX09MRVInterior(empreendimentos = []) {
+  if (!fs.existsSync(OUTPUT_DIR)) {
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   }
 
-  // ===============================
-  // CAPTURAR LINKS
-  // ===============================
-  const urls = await page.evaluate(() => {
-    const links = new Set();
-    document.querySelectorAll("a").forEach(a => {
-      if (
-        a.href &&
-        a.href.includes("/imoveis/") &&
-        !a.href.endsWith("/sao-paulo")
-      ) {
-        links.add(a.href.split("?")[0]);
-      }
-    });
-    return Array.from(links);
-  });
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  xml += `<empreendimentos>\n`;
 
-  console.log("📦 Empreendimentos encontrados:", urls.length);
+  let total = 0;
 
-  const empreendimentos = [];
+  for (const e of empreendimentos) {
+    if (!validar(e)) continue;
 
-  // ===============================
-  // LOOP DOS EMPREENDIMENTOS
-  // ===============================
-  for (const url of urls) {
-    console.log("➡️ Coletando:", url);
+    const tipo = inferirTipo(e.id);
+    const status = e.status && e.status !== "Estado" ? e.status : "Disponível";
 
-    try {
-      await page.goto(url, {
-        waitUntil: "domcontentloaded",
-        timeout: 60000,
-      });
+    xml += `  <empreendimento>\n`;
+    xml += `    <id>${escapeXml(e.id)}</id>\n`;
+    xml += `    <titulo><![CDATA[${e.titulo}]]></titulo>\n`;
+    xml += `    <tipo>${tipo}</tipo>\n`;
+    xml += `    <cidade>${escapeXml(e.cidade)}</cidade>\n`;
+    xml += `    <estado>SP</estado>\n`;
+    xml += `    <status><![CDATA[${status}]]></status>\n`;
 
-      await page.waitForTimeout(2500);
-
-      const data = await page.evaluate(() => {
-        const titulo =
-          document.querySelector("h1, h2")?.innerText.trim() || null;
-
-        const status =
-          document.querySelector("[class*=label], [class*=status]")
-            ?.innerText.trim() || null;
-
-        const diferenciais = Array.from(
-          document.querySelectorAll(".sc-jQybuE li span")
-        )
-          .map(el => el.innerText.trim())
-          .filter(Boolean);
-
-        const tipologias = [];
-        const tipologiaList = document.querySelector("#fichatecnica ul");
-
-        if (tipologiaList) {
-          tipologiaList.querySelectorAll("li").forEach(li => {
-            const text = li.innerText;
-            const dorm = text.match(/(\d+)\s*Quartos?/i)?.[1];
-            const area = text.match(/([\d.,]+)\s*m²/i)?.[1];
-            if (dorm && area) {
-              tipologias.push({
-                dormitorios: Number(dorm),
-                area: Number(area.replace(",", ".")),
-              });
-            }
-          });
-        }
-
-        const imagens = Array.from(document.images)
-          .map(img => img.src)
-          .filter(src => {
-            if (!src) return false;
-            const s = src.toLowerCase();
-            if (!s.includes("/imoveis/upload/imagens/")) return false;
-            if (
-              s.includes("logo") ||
-              s.includes("icone") ||
-              s.includes("icon") ||
-              s.includes("svg") ||
-              s.includes("placeholder")
-            )
-              return false;
-            if (!s.match(/\.(jpg|jpeg|png|webp)$/)) return false;
-            return true;
-          });
-
-        return {
-          titulo,
-          status,
-          tipologias,
-          diferenciais,
-          imagens: [...new Set(imagens)],
-        };
-      });
-
-      // ===============================
-      // CIDADE PELO URL
-      // ===============================
-      let cidade = null;
-      const partes = new URL(url).pathname.split("/").filter(Boolean);
-      if (partes.length >= 3) {
-        cidade = partes[2]
-          .replace(/-/g, " ")
-          .replace(/\b\w/g, l => l.toUpperCase());
-      }
-
-      if (!ehInteriorSP(cidade)) {
-        console.log(`⛔ Ignorado (não é interior): ${data.titulo} - ${cidade}`);
-        continue;
-      }
-
-      const id = url.split("/").filter(Boolean).pop();
-
-      empreendimentos.push({
-        id,
-        url,
-        titulo: data.titulo,
-        cidade,
-        estado: "SP",
-        status: data.status,
-        tipologias: data.tipologias,
-        diferenciais: data.diferenciais,
-        imagens: data.imagens,
-        fonte: "MRV",
-        coletado_em: new Date().toISOString(),
-      });
-
-    } catch (err) {
-      console.error("❌ Erro ao processar:", url);
-      console.error(err.message);
+    const descricao = [];
+    if (e.tipologias?.length) {
+      const dorms = [...new Set(e.tipologias.map(t => t.dormitorios))].sort();
+      descricao.push(`${dorms.join(" e ")} dormitórios`);
     }
+    if (e.diferenciais?.length) {
+      descricao.push(e.diferenciais.slice(0, 5).join(", "));
+    }
+
+    xml += `    <descricao><![CDATA[${descricao.join(" | ")}]]></descricao>\n`;
+    xml += `    <fotos>\n`;
+
+    for (const img of e.imagens) {
+      xml += `      <foto><![CDATA[${img}]]></foto>\n`;
+    }
+
+    xml += `    </fotos>\n`;
+    xml += `  </empreendimento>\n`;
+
+    total++;
   }
 
-  await browser.close();
+  xml += `</empreendimentos>\n`;
 
-  console.log("✅ Empreendimentos MRV (INTERIOR SP):", empreendimentos.length);
-  return empreendimentos;
+  const filePath = path.join(OUTPUT_DIR, OUTPUT_FILE);
+  fs.writeFileSync(filePath, xml, "utf8");
+
+  console.log(`📦 XML X09 MRV INTERIOR gerado: ${total} empreendimentos`);
+  return filePath;
 }
