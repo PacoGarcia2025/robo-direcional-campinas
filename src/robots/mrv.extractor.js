@@ -1,10 +1,12 @@
 /**
  * ==================================================
- * ROBÔ MRV – VERSÃO FINAL CONGELADA
+ * ROBÔ MRV – VERSÃO FINAL CONGELADA (CORRIGIDA)
  * NÃO ALTERAR
  *
- * Baseado em inspeção real do HTML da MRV
- * Compatível com Base JSON, XML rico e XML X09
+ * Correções:
+ * - Removido networkidle (travava na MRV)
+ * - Logs de progresso
+ * - Timeout de segurança
  * ==================================================
  */
 
@@ -18,30 +20,38 @@ export default async function extractMRV() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  await page.goto(START_URL, { waitUntil: "networkidle" });
+  // ⛔ NÃO usar networkidle aqui
+  await page.goto(START_URL, {
+    waitUntil: "domcontentloaded",
+    timeout: 60000
+  });
   await page.waitForTimeout(3000);
 
   // ==================================================
-  // 🔹 CARREGAR TODOS OS IMÓVEIS
+  // 🔹 CARREGAR TODOS OS IMÓVEIS (SEGURO)
   // ==================================================
   let lastCount = 0;
+  let stableTries = 0;
 
   while (true) {
-    const { count, hasButton } = await page.evaluate(() => {
-      const cards = document.querySelectorAll('a[href*="/imoveis/"]');
-      const btn = Array.from(document.querySelectorAll("button, a"))
-        .find(el => el.innerText?.toLowerCase().includes("carregar"));
+    const count = await page.evaluate(() =>
+      document.querySelectorAll('a[href*="/imoveis/"]').length
+    );
 
-      return {
-        count: cards.length,
-        hasButton: !!btn
-      };
-    });
+    if (count === lastCount) {
+      stableTries++;
+    } else {
+      stableTries = 0;
+      lastCount = count;
+    }
 
-    if (!hasButton || count === lastCount) break;
-    lastCount = count;
+    if (stableTries >= 3) {
+      console.log("🛑 Nenhum novo imóvel carregado. Parando.");
+      break;
+    }
 
     console.log("🔄 Carregando mais imóveis MRV...");
+
     await page.evaluate(() => {
       const btn = Array.from(document.querySelectorAll("button, a"))
         .find(el => el.innerText?.toLowerCase().includes("carregar"));
@@ -77,9 +87,17 @@ export default async function extractMRV() {
   // ==================================================
   // 🔹 LOOP NOS EMPREENDIMENTOS
   // ==================================================
+  let index = 0;
+
   for (const url of urls) {
-    await page.goto(url, { waitUntil: "networkidle" });
-    await page.waitForTimeout(2500);
+    index++;
+    console.log(`➡️ (${index}/${urls.length}) Abrindo imóvel:` , url);
+
+    await page.goto(url, {
+      waitUntil: "domcontentloaded",
+      timeout: 60000
+    });
+    await page.waitForTimeout(2000);
 
     const data = await page.evaluate(() => {
       // ===============================
@@ -147,7 +165,7 @@ export default async function extractMRV() {
 
       if (tipologiaList) {
         tipologiaList.querySelectorAll("li").forEach(li => {
-          const text = li.innerText; // "2 Quartos: 39.3m²"
+          const text = li.innerText;
 
           const dorm = text.match(/(\d+)\s*Quartos?/i)?.[1];
           const area = text.match(/([\d.,]+)\s*m²/i)?.[1];
