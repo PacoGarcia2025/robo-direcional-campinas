@@ -4,7 +4,6 @@
  * ==================================================
  */
 
-import fetch from "node-fetch";
 
 const API_URL =
   "https://www.mrv.com.br/api/portal-imoveis/v1/imoveis?pagina=1&tamanhoPagina=500";
