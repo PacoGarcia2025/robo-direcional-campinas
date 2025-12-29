@@ -1,12 +1,10 @@
 /**
  * ==================================================
- * ROBÔ MRV – VERSÃO FINAL CONGELADA (CORRIGIDA)
+ * ROBÔ MRV – VERSÃO FINAL CONGELADA
  * NÃO ALTERAR
  *
- * Correções:
- * - Removido networkidle (travava na MRV)
- * - Logs de progresso
- * - Timeout de segurança
+ * Baseado em inspeção REAL do HTML da MRV
+ * Dados confiáveis para JSON + XML (RICO / X09)
  * ==================================================
  */
 
@@ -15,43 +13,44 @@ import { chromium } from "playwright";
 const START_URL = "https://www.mrv.com.br/imoveis/sao-paulo";
 
 export default async function extractMRV() {
+  console.log("===== INICIANDO MRV =====");
   console.log("🚀 Abrindo listagem MRV SP");
 
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  // ⛔ NÃO usar networkidle aqui
-  await page.goto(START_URL, {
-    waitUntil: "domcontentloaded",
-    timeout: 60000
-  });
+  await page.goto(START_URL, { waitUntil: "networkidle" });
   await page.waitForTimeout(3000);
 
   // ==================================================
-  // 🔹 CARREGAR TODOS OS IMÓVEIS (SEGURO)
+  // 🔹 CARREGAR TODOS OS IMÓVEIS (COM TRAVA)
   // ==================================================
   let lastCount = 0;
-  let stableTries = 0;
+  let sameCountTimes = 0;
 
   while (true) {
-    const count = await page.evaluate(() =>
-      document.querySelectorAll('a[href*="/imoveis/"]').length
-    );
+    const { count, hasButton } = await page.evaluate(() => {
+      const cards = document.querySelectorAll('a[href*="/imoveis/"]');
+      const btn = Array.from(document.querySelectorAll("button, a"))
+        .find(el => el.innerText?.toLowerCase().includes("carregar"));
 
-    if (count === lastCount) {
-      stableTries++;
+      return {
+        count: cards.length,
+        hasButton: !!btn
+      };
+    });
+
+    if (!hasButton || count === lastCount) {
+      sameCountTimes++;
     } else {
-      stableTries = 0;
-      lastCount = count;
+      sameCountTimes = 0;
     }
 
-    if (stableTries >= 3) {
-      console.log("🛑 Nenhum novo imóvel carregado. Parando.");
-      break;
-    }
+    if (!hasButton || sameCountTimes >= 2) break;
+
+    lastCount = count;
 
     console.log("🔄 Carregando mais imóveis MRV...");
-
     await page.evaluate(() => {
       const btn = Array.from(document.querySelectorAll("button, a"))
         .find(el => el.innerText?.toLowerCase().includes("carregar"));
@@ -62,16 +61,16 @@ export default async function extractMRV() {
   }
 
   // ==================================================
-  // 🔹 CAPTURAR LINKS DOS EMPREENDIMENTOS
+  // 🔹 CAPTURAR LINKS ÚNICOS
   // ==================================================
   const urls = await page.evaluate(() => {
     const links = new Set();
 
-    document.querySelectorAll("a").forEach(a => {
+    document.querySelectorAll("a[href*='/imoveis/']").forEach(a => {
       if (
         a.href &&
-        a.href.includes("/imoveis/") &&
-        !a.href.endsWith("/sao-paulo")
+        !a.href.endsWith("/sao-paulo") &&
+        !a.href.includes("/busca/")
       ) {
         links.add(a.href.split("?")[0]);
       }
@@ -85,19 +84,11 @@ export default async function extractMRV() {
   const empreendimentos = [];
 
   // ==================================================
-  // 🔹 LOOP NOS EMPREENDIMENTOS
+  // 🔹 LOOP DOS EMPREENDIMENTOS
   // ==================================================
-  let index = 0;
-
   for (const url of urls) {
-    index++;
-    console.log(`➡️ (${index}/${urls.length}) Abrindo imóvel:` , url);
-
-    await page.goto(url, {
-      waitUntil: "domcontentloaded",
-      timeout: 60000
-    });
-    await page.waitForTimeout(2000);
+    await page.goto(url, { waitUntil: "domcontentloaded" });
+    await page.waitForTimeout(2500);
 
     const data = await page.evaluate(() => {
       // ===============================
@@ -130,41 +121,22 @@ export default async function extractMRV() {
       }
 
       // ===============================
-      // DIFERENCIAIS
+      // DIFERENCIAIS (DOM REAL – SEM MODAL)
       // ===============================
       const diferenciais = Array.from(
-        document.querySelectorAll(".sc-jQybuE ul li span")
+        document.querySelectorAll("#diferenciais ul li span")
       )
         .map(el => el.innerText.trim())
         .filter(Boolean);
 
       // ===============================
-      // FICHA TÉCNICA
-      // ===============================
-      const ficha_tecnica = {};
-
-      const subtitles = Array.from(
-        document.querySelectorAll("#fichatecnica .accordion-subtitle")
-      );
-
-      subtitles.forEach(sub => {
-        const key = sub.innerText.replace(":", "").trim();
-        const valueEl = sub.nextElementSibling;
-
-        if (valueEl && valueEl.tagName === "P") {
-          ficha_tecnica[key] = valueEl.innerText.trim();
-        }
-      });
-
-      // ===============================
-      // TIPOLOGIAS (COM ÁREA REAL)
+      // TIPOLOGIAS (DORM + ÁREA)
       // ===============================
       const tipologias = [];
 
-      const tipologiaList = document.querySelector("#fichatecnica ul");
-
-      if (tipologiaList) {
-        tipologiaList.querySelectorAll("li").forEach(li => {
+      const ficha = document.querySelector("#fichatecnica");
+      if (ficha) {
+        ficha.querySelectorAll("ul li").forEach(li => {
           const text = li.innerText;
 
           const dorm = text.match(/(\d+)\s*Quartos?/i)?.[1];
@@ -180,7 +152,7 @@ export default async function extractMRV() {
       }
 
       // ===============================
-      // IMAGENS (LIMPO)
+      // IMAGENS (LIMPAS)
       // ===============================
       const imagens = Array.from(document.images)
         .map(img => img.src)
@@ -196,9 +168,8 @@ export default async function extractMRV() {
         cidade,
         estado,
         status,
-        tipologias,
         diferenciais,
-        ficha_tecnica,
+        tipologias,
         imagens: [...new Set(imagens)]
       };
     });
