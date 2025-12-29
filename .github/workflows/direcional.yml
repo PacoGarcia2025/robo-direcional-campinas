@@ -27,7 +27,6 @@ jobs:
       - name: 🤖 Rodar robô
         run: node src/index.js
 
-      - name: 📤 Commitar arquivos gerados
         - name: Commitar arquivos gerados
           run: |
           git config user.name "github-actions"
