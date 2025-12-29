@@ -17,30 +17,30 @@ const GRANDE_SP = new Set([
   "Guarulhos",
   "Osasco",
   "Santo André",
-  "São Bernardo do Campo",
-  "São Caetano do Sul",
+  "São Bernardo Do Campo",
+  "São Caetano Do Sul",
   "Diadema",
   "Mauá",
   "Ribeirão Pires",
-  "Rio Grande da Serra",
+  "Rio Grande Da Serra",
   "Barueri",
   "Carapicuíba",
   "Cotia",
   "Itapevi",
   "Jandira",
-  "Santana de Parnaíba",
-  "Taboão da Serra",
-  "Embu das Artes",
-  "Itapecerica da Serra",
+  "Santana De Parnaíba",
+  "Taboão Da Serra",
+  "Embu Das Artes",
+  "Itapecerica Da Serra",
   "Poá",
   "Suzano",
-  "Ferraz de Vasconcelos",
+  "Ferraz De Vasconcelos",
   "Itaquaquecetuba",
   "Arujá",
-  "Mogi das Cruzes",
+  "Mogi Das Cruzes",
   "Caieiras",
   "Francisco Morato",
-  "Franco da Rocha"
+  "Franco Da Rocha"
 ]);
 
 const LITORAL_SP = new Set([
@@ -151,137 +151,4 @@ export default async function extractMRV() {
 
   console.log("📦 Empreendimentos encontrados:", urls.length);
 
-  const empreendimentos = [];
-
-  // ===============================
-  // 🔹 LOOP DOS EMPREENDIMENTOS
-  // ===============================
-  for (const url of urls) {
-    console.log("➡️ Coletando:", url);
-
-    try {
-      await page.goto(url, {
-        waitUntil: "domcontentloaded",
-        timeout: 60000,
-      });
-
-      await page.waitForTimeout(2500);
-
-      const data = await page.evaluate(() => {
-        const textoPagina = document.body.innerText;
-
-        // TÍTULO
-        const titulo =
-          document.querySelector("h1, h2")?.innerText.trim() || null;
-
-        // STATUS
-        const status =
-          document.querySelector("[class*=label], [class*=status]")
-            ?.innerText.trim() || null;
-
-        // CIDADE / ESTADO
-        let cidade = null;
-        const estado = "SP";
-
-        const matchCidade = textoPagina.match(
-          /Apartamentos em\s+([A-Za-zÀ-ú\s]+)\s*\/\s*SP/i
-        );
-
-        if (matchCidade && matchCidade[1]) {
-          cidade = matchCidade[1]
-            .replace(/\s+/g, " ")
-            .trim();
-        }
-
-        // DIFERENCIAIS
-        const diferenciais = Array.from(
-          document.querySelectorAll(".sc-jQybuE li span")
-        )
-          .map(el => el.innerText.trim())
-          .filter(Boolean);
-
-        // TIPOLOGIAS
-        const tipologias = [];
-        const tipologiaList = document.querySelector("#fichatecnica ul");
-
-        if (tipologiaList) {
-          tipologiaList.querySelectorAll("li").forEach(li => {
-            const text = li.innerText;
-            const dorm = text.match(/(\d+)\s*Quartos?/i)?.[1];
-            const area = text.match(/([\d.,]+)\s*m²/i)?.[1];
-
-            if (dorm && area) {
-              tipologias.push({
-                dormitorios: Number(dorm),
-                area: Number(area.replace(",", ".")),
-              });
-            }
-          });
-        }
-
-        // IMAGENS (REFINO PROFISSIONAL)
-        const imagens = Array.from(document.images)
-          .map(img => img.src)
-          .filter(src => {
-            if (!src) return false;
-            const s = src.toLowerCase();
-
-            if (!s.includes("/imoveis/upload/imagens/")) return false;
-            if (s.includes("logo")) return false;
-            if (s.includes("icone")) return false;
-            if (s.includes("icon")) return false;
-            if (s.includes("svg")) return false;
-            if (s.includes("placeholder")) return false;
-            if (!s.match(/\.(jpg|jpeg|png|webp)$/)) return false;
-
-            return true;
-          });
-
-        return {
-          titulo,
-          cidade,
-          estado,
-          status,
-          tipologias,
-          diferenciais,
-          imagens: [...new Set(imagens)],
-        };
-      });
-
-      // ===============================
-      // 🔥 FILTRO INTERIOR DE SP
-      // ===============================
-      if (!ehInteriorSP(data.cidade)) {
-        console.log(
-          `⛔ Ignorado (não é interior): ${data.titulo} - ${data.cidade}`
-        );
-        continue;
-      }
-
-      const id = url.split("/").filter(Boolean).pop();
-
-      empreendimentos.push({
-        id,
-        url,
-        titulo: data.titulo,
-        cidade: data.cidade,
-        estado: data.estado,
-        status: data.status,
-        tipologias: data.tipologias,
-        diferenciais: data.diferenciais,
-        imagens: data.imagens,
-        fonte: "MRV",
-        coletado_em: new Date().toISOString(),
-      });
-
-    } catch (err) {
-      console.error("❌ Erro ao processar:", url);
-      console.error(err.message);
-    }
-  }
-
-  await browser.close();
-
-  console.log("✅ Empreendimentos MRV (INTERIOR SP):", empreendimentos.length);
-  return empreendimentos;
-}
+  const empreendime
