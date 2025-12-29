@@ -6,8 +6,6 @@
     "cidade": "Aracatuba",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4112/RESIDENCIALAMARANTO_PPCFACHADAPORTARIANOTURNA_20-08-2020.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4112/RESIDENCIALAMARANTO_PHAPTO201BL10__09-12-2020.jpg",
@@ -15,9 +13,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4112/RESIDENCIALAMARANTO_PHAPTO102BL10_24-08-2020.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4112/RESIDENCIAL-AMARANTO_IMPLANTA%C3%87O_07-12-2020.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4112/20201119090927_AR004819F_MRV_FOTOAEREA_RESIDENCIALAMARANTO_300DPIs_CMYK.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:07.712Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-atlanta",
@@ -26,16 +22,12 @@
     "cidade": "Aracatuba",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4564/ATLANTA_GUARITA_RFA1A1_20240223a98d9f37-1b26-4cf9-b63a-6079679a4650.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4564/ATLANTA_PH-101_RF_202401258d22a471-1f85-4f1f-8149-d8df8f4523b1.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4564/ATLANTA_PH-201_RF_202401244b4c3c93-f558-4e06-b816-d43df852a7b6.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4564/ATLANTA_IMPLANTACAO-RFA1_20240201967d0936-147c-4374-a9b7-7ef0b31d2151.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:10.471Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-ares",
@@ -44,8 +36,6 @@
     "cidade": "Araraquara",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4313/ARES_PPC_VARANDA_DIURNA.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4313/ARES_PH_APTO_104_BL_03.jpg",
@@ -54,9 +44,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4313/ARES_PH_APTO_203_BL_14.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4313/ARES_PH_IMPLANTA%C3%87O.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4313/20220105080232_AQ002420I_MARCACAO_FOTO_AEREA_RES.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:13.224Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-arita",
@@ -65,17 +53,13 @@
     "cidade": "Araras",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/3868/RESIDENCIALALARITA_FESTAS_V02.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/3868/RESIDENCIALARITA_PH_APTO101BLOCO05_V03.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/3868/RESIDENCIALARITA_PH_APTO202BLOCO05_V03.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/3868/RESIDENCIALARITA_PH_IMPLANTACAO_V02.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/3868/20201119091058_MN007820_Foto-A%C3%A9rea_Arit%C3%A1-Residencial-.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:15.961Z"
+    ]
   },
   {
     "id": "apartamentos-benissa-residencial",
@@ -84,16 +68,12 @@
     "cidade": "Bauru",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4651/PPC_GUARITA_ENTARDECER_BENISSA_RESIDENCIAL_2024-09-1925ce2f32-0c33-41cc-b3ec-896c37efa778.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4651/PH_BLOCO01_APTO03_BENISSARESIDENCIAL_2024-09-19d0dc527a-0d49-454a-a6a4-c460bc13fe48.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4651/PHBLOCO04_APTO402_BENISSARES596cbcab-6190-4bc5-97c8-c75d0aa760f2.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4651/PH_IMPL_BENISSA_RESIDENCIAL_19-09-20249a68f1b7-46f3-42ba-b2c3-98f3c0548f8b.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:18.701Z"
+    ]
   },
   {
     "id": "apartamentos-mirantes-do-sul---residencial-mirante-das-brisas",
@@ -102,16 +82,12 @@
     "cidade": "Bauru",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4723/PPC_MIRANTEDASBRISAS_PISCINA_RF_2025-03-204e202a46-2c6c-4ef8-93ca-0c8907ab6f59.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4723/PH_MIRANTEDASBRISAS_TERREO05_RF_2025-03-11be88e1ef-99e2-40d1-b864-d86a2a412e0b.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4723/PH_MIRANTEDASBRISAS_TIPO02_RF_2025-03-11d7b764ff-4c7c-48c7-aa43-19753c089808.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4723/PH-IMP_MIRANTEDASBRISAS_RF__2025-03-117b29c83b-fb63-490c-a90e-cc2d563fb12d.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:21.448Z"
+    ]
   },
   {
     "id": "apartamentos-mirantes-do-sul---residencial-mirante-do-vale",
@@ -120,15 +96,11 @@
     "cidade": "Bauru",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4650/PPC_MIRANTE_DO_VALE_PISCINA_RF_2024-09-18804eaf65-4612-4480-a1de-97c936e8245d.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4650/PH_MIRANTEDOVALE_003_RF_2024-09-20072001f1-7f16-4efc-8b87-b4ad932aaa0a.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4650/PH_MIRANTEDOVALE_202_RF_2024-09-208f876d22-9ccf-48bb-a32c-9e1f5880510c.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:24.194Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-belgrano",
@@ -137,8 +109,6 @@
     "cidade": "Bauru",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4429/RESIDENCIAL_BELGRANO_PPC_VARANDA.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4429/RESIDENCIAL_BELGRANO_PH_APTO_101.jpg",
@@ -147,9 +117,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4429/RESIDENCIAL_BELGRANO_PH_APTO_203.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4429/RESIDENCIAL_BELGRANO_PH_IMPLANTA%C3%87O.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4429/BU002120M_FOTOAREAMARCACAO_RESIDENCIALBELGRANO_V2(1).webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:26.900Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-bella-suecia",
@@ -158,17 +126,13 @@
     "cidade": "Botucatu",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4534/BELLASUCIA_PPCSALA-COZINHA_14-12-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4534/BELLASUCIA_PHISOMETRICAAPTO201_18-12-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4534/BELLASUCIA_PHISOMETRICAAPTO101_14-12-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4534/BELLA-SUCIA_PH-IMPLANTA%C3%87O_IMPRESSO_18-12-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4534/593.10_bella_suecia_foto_aerea(2).webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:29.656Z"
+    ]
   },
   {
     "id": "apartamentos-city-galleria",
@@ -177,8 +141,6 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4734/CITYGALLERIA03_GUARITA_04_20254541b277-6f61-49e3-8789-bc297e2004a4.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4734/CITY-GALLERIA-APARTAMENTO-004-TRREO33dffd26-df04-4fc4-a12a-ac3771501872.jpeg",
@@ -187,9 +149,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4734/CITYGALLERIA-APARTAMENTO1007b4f98fbf-ffa9-4f30-93e4-675f001f3918.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4734/CITY-GALLERIA-IMPLANTA%C3%87Oeebc35ee-af92-4d02-b023-8f83af79c26c.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4734/1033-13_city_galleria_imagem_aerea_1920x1080px-MacBookProdeacc.local.machine7295c7f5-885b-438f-8a5e-25830b7eb676.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:32.394Z"
+    ]
   },
   {
     "id": "apartamentos-colina-do-sol",
@@ -198,8 +158,6 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4391/MRV_COLINA_DO_SOL_PPC_TORRE_FINAL_2024-10-25c853cbc1-e5c3-43ba-a52d-d5dfdaba6c27.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4391/MRV_COLINADOSOL_PH_TERREO104_FINAL_2024-10-25f44cf75f-3646-4300-8343-27d7f56d0d7f.jpeg",
@@ -207,9 +165,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4391/MRV_COLINADOSOL_PH_TIPO506_FINAL_2024-10-251734a509-a44a-40e9-99d2-dddf450f39fd.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4391/MRV_COLINADOSOL_PH_IMPLANTA%C3%87O_FINAL_2024-10-256472663d-57d3-4284-8ac0-bf93b30e8ed6.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4391/MRV_COLINA_DO_SOL_INSER%C3%87O_3D_FI239c58f7-dd15-4ee4-bbda-decda72e6999.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:35.108Z"
+    ]
   },
   {
     "id": "apartamentos-cores-da-ilha",
@@ -218,13 +174,9 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4783/1119-10_css_dunlop_cores_da_ilha_imagem_aerea_V21b4e7f330-2bdf-4048-a780-ad7f6126b73d.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:37.812Z"
+    ]
   },
   {
     "id": "apartamentos-cores-do-mirante",
@@ -233,11 +185,7 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
-    "imagens": [],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:40.545Z"
+    "imagens": []
   },
   {
     "id": "apartamentos-cores-do-poente",
@@ -246,17 +194,13 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4538/MRV_CORES-DO-POENTE_GUARITA-ENTARDECER_FINAL.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4538/MRV_CORES-DO-POENTE_PH_APTO-03_DIAGRAMADO.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4538/MRV_CORES-DO-POENTE_PH_APTO-202_DIAGRAMADO.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4538/MRV_CORES-DO-POENTE_IMPLANTA%C3%87O_DIAGRAMADA.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4538/RESIDENCIAL-CORES-DO-POENTE-FOTO-AEREA.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:43.278Z"
+    ]
   },
   {
     "id": "apartamentos-luggo-parque-industrial",
@@ -265,17 +209,13 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4472/0005_Luggo_Drone_04.05.23.webp",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4472/LUGGO-FLORENCA_PE_T02-APTO02_2021_10_27.webp",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4472/LUGGO-FLORENCA_PE_T02-APTO07_2021_10_27.webp",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4472/LUGGO-FLORENCA_PE_T02-APTO04_2021_10_27.webp",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4472/LUGGO-FLORENCA_PE_T02-APTO01_2021_10_27.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:45.953Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-canoas",
@@ -284,8 +224,6 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4621/MRV_CANOAS_PPC_GUARITA_FINAL_2024.07.1852171823-5c8a-4a46-bac4-edb4eaddf21a.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4621/MRV_CANOAS_PH_TIPOF207_FINAL_2024.07.181c52c263-e213-40ad-a3e9-6563b03a3261.jpeg",
@@ -294,9 +232,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4621/MRV_CANOAS_PH_TERREOF02_FINAL_2024.07.188b2fc111-6f5c-4ae4-a07b-ed75d9b7f2f7.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4621/MRV_CANOAS_PH_IMPLANTA%C3%87O_FINAL_2024.07.187ceb31c8-1c13-4c93-aced-9ae8bcaf3949.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4621/797-3_res_canoas_ima_aer_insercao_ALTA(1)_compressedf504a421-3917-4100-bbb7-bd7691bc7948.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:48.689Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-canto-da-mata",
@@ -305,8 +241,6 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4484/MRV_CANTODAMATA-PISCINA_IMPRESSAO_150DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4484/CANTODAMATA_PHAPTO05TORRE01_IMPRESSO_12-07-2023.jpg",
@@ -315,9 +249,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4484/CANTODAMATA_PHAPTO203TORRE01_IMPRESSO_150DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4484/CANTO-DA-MATA_IMPLANTA%C3%87O_IMPRESSO_150-DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4484/MARCACAO_AEREA_CANTO_DA_MATA_V02(2).webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:51.233Z"
+    ]
   },
   {
     "id": "apartamentos-vem-viver-ares",
@@ -326,11 +258,7 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
-    "imagens": [],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:54.014Z"
+    "imagens": []
   },
   {
     "id": "apartamentos-residencial-casa-de-atenas",
@@ -339,8 +267,6 @@
     "cidade": "Catanduva",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4333/CASA_DE_ATENAS_PPC_VARANDA_EXTERNA.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4333/CASA_DE_ATENAS_PH_APTO_101_BL_02.jpg",
@@ -348,9 +274,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4333/CASA_DE_ATENAS_PH_APTO_102_BL_01.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4333/CASA_DE_ATENAS_PH_IMPLANTA%C3%87O.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4333/RP000322G-Foto-INSERCAO-Casa-de-Atenas_V5.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:56.695Z"
+    ]
   },
   {
     "id": "apartamentos-fiorenttino-residence",
@@ -359,8 +283,6 @@
     "cidade": "Franca",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4298/FIORENTINNORESIDENCE_PPCVARANDA_16-02-2022.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4298/FIORENTINNORESIDENCE_PHAPTO102TORRE01_IMPRESSO_16-02-2022.jpg",
@@ -368,9 +290,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4298/FIORENTINNORESIDENCE_PHAPTO204TORRE01_IMPRESSO_16-02-2022.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4298/FIORENTINNO-RESIDENCE_IMPLANTA%C3%87O_IMPRESSO_16-02-2022.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4298/20211105032109_FC000321G_Foto-A%C3%A9rea_FIORENTTINO-RESIDENCE.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:03:59.438Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-ilha-de-malta",
@@ -379,17 +299,13 @@
     "cidade": "Itu",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4551/ILHA-DE-MALTA_SALA-E-COZINHA_FINAL_20240123.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4551/ILHA-DE-MALTA_APTO101_FINAL_20240123.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4551/ILHA-DE-MALTA_APTO204_FINAL_20240123.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4551/ILHADEMALTA_MASTERPLAN_FINAL_2a6bc811b-94b5-4a9c-be71-163226a17c5f.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4551/664-1_res_ilha_malta_foto-aerea_V1_ALTA.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:07.495Z"
+    ]
   },
   {
     "id": "apartamentos-reserva-di-medeiros",
@@ -398,8 +314,6 @@
     "cidade": "Jundiai",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4740/RESERVA-DI-MEDEIROS_PPC_PISCINA_1_FINAL2b46a932-0d17-4bbb-a1df-8d7c455e3c31.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4740/RESERVADEMEDEIROS_PH_TORRE01_A(4)ff0f5e15-df08-49a9-ace3-fbb20a49957d.jpeg",
@@ -413,9 +327,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4740/RESERVADEMEDEIROS_PH_TORRE01_A(1)393a6443-ca7a-4be3-a982-cb2ee3a41e83.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4740/RESERVADEMEDEIROS_PH_TORRE01_Acebedf80-248f-495d-b24d-41b119e4d330.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4740/RESERVADEMEDEIROS_PH_IMPLANTACe4a1817e-26ea-421d-bae8-9f281771c17f.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:10.246Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-laranjeiras",
@@ -424,17 +336,13 @@
     "cidade": "Limeira",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4519/RESIDENCIALLARANJEIRAS_PPC_FACHADAAMANHECER_2024_02_01.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4519/RESIDENCIALLARANJEIRAS_PH_APTO205TORRE01_V03.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4519/RESIDENCIALLARANJEIRAS_PH_APTO107TORRE01_V03.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4519/RESIDENCIALLARANJEIRAS_PH_IMPLANTACAO-EDIFICIOGARAGEM_V03.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4519/50411-ImagemArea-ResidencialLaranjeiras.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:13.020Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-lunare",
@@ -443,17 +351,13 @@
     "cidade": "Limeira",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4775/MRV_LUNARE_PPC_PISCINA_EF7c57b65c-aba4-440c-af38-bb6af3cf0d48.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4775/MRV_RESIDENCIAL_LUNARE_PH_APTO_101_EFacba44eb-a3a1-4751-abef-92e94191fb33.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4775/MRV_RESIDENCIAL_LUNARE_PH_APTO_104_EF5429f79e-3082-4f7d-9964-f9931ef34d17.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4775/MRV_RESIDENCIAL_LUNARE_PH_APTO_202_EF56f7d02a-18f6-45cb-85fa-2d49e845d864.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4775/MRV_RESIDENCIAL_LUNARE_PH_APTO_2(1)2e8874ea-4b85-4d2a-9a27-7d6a93089fd7.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:15.806Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-luz-da-aurora",
@@ -462,16 +366,12 @@
     "cidade": "Limeira",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4648/PPC_LUZDAAURORA_PORTARIA_RF_2024-10-0845f6ad7e-2f13-485c-ac16-ad6b0b489858.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4648/PH_LUZDAAURORA_UN-003_RF_2024-10-0722f19a97-0d69-455c-be83-0e73f4083bcc.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4648/PH_LUZDAAURORA_UN-304_RF_2024-10-075e6e964d-05fc-4388-83a3-b5c55d0d00eb.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4648/PH_LUZ_DA_AURORA_IMPLANTACAO-RF_2024-10-076cb4ea00-70fc-4a93-a1af-a6ba6711c0c3.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:18.550Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-morumbi",
@@ -480,8 +380,6 @@
     "cidade": "Marilia",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4465/RESIDENCIAL-MORUMBI_PE_GUARITA_2023-05-16.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4465/RESIDENCIAL-MORUMBI_PH_BL01_APTO202_2023-05-16.jpg",
@@ -489,9 +387,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4465/RESIDENCIAL-MORUMBI_PH_BL01_APTO102_2023-05-16.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4465/RESIDENCIAL-MORUMBI_PH_BL01_APTO101_2023-05-16.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4465/RESIDENCIAL-MORUMBI_PH_IMPLANTACAO_2023-05-16.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:21.102Z"
+    ]
   },
   {
     "id": "apartamentos-piazza-sirena",
@@ -500,16 +396,12 @@
     "cidade": "Piracicaba",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4595/PIAZZA-SIRENA_PE_GUARITA_2023-08-30.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4595/PIAZZA-SIRENA_PH_BL12_APTO103_2023-08-30.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4595/PIAZZA-SIRENA_PH_BL12_APTO202_2023-08-30.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4595/PIAZZA-SIRENA_PH_IMPLANTACAO_2023-08-30.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:29.309Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-piazza-di-milano",
@@ -518,8 +410,6 @@
     "cidade": "Piracicaba",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4302/PIAZZA_DI_MILANO_RF2_PORTARIA_NOITE.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4302/PIAZZA_DI_MILANO_BL_04_AP_101_R0F.JPG",
@@ -528,9 +418,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4302/PIAZZA_DI_MILANO_BL_03_AP_203_RAF.JPG",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4302/PIAZZA_DI_MILANO_IMPLANTA%C3%87O_RAF.JPG",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4302/20220401023523_PI000921N_MARCA%C3%87%C3%83O_FOTO_INSER%C3%87%C3%83O_PIAZZA_DI_MILANO.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:32.055Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-piazza-ravena",
@@ -539,8 +427,6 @@
     "cidade": "Piracicaba",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4334/MRV_PRNCIPE-DE-ATENAS_VARANDA_IMPRESSO_150DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4218/RESIDENCIAL-PIAZZA-RAVENA_PL_T03-APTO105_2022_04_06.jpg",
@@ -550,9 +436,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4218/RESIDENCIAL-PIAZZA-RAVENA_PL_T03-APTO207_2022_04_06.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4218/RESIDENCIAL-PIAZZA-RAVENA_PL_IMPLANTACAO_2022_04_06.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4218/20220412093454_PI000321E_MARCACAO_Foto_aerea_Piazza_Ravena_V3.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:34.790Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-principe-de-atenas",
@@ -561,8 +445,6 @@
     "cidade": "Presidente Prudente",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4334/MRV_PRNCIPE-DE-ATENAS-GUARITA_IMPRESSO_150DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4334/RESIDENCIAL-PRNCIPE-DE-ATENAS_PH-APTO-101_IMPRESSO_150-DPI.jpg",
@@ -571,9 +453,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4334/RESIDENCIAL-PRNCIPE-DE-ATENAS_PH-APTO-202_IMPRESSO_150-DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4334/RESIDENCIAL-PRNCIPE-DE-ATENAS_IMPLANTA%C3%87O_IMPRESSO_150-DPI-(1).jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4334/AR000722E_FOTO-AREA-PRNCIPE-DE-ATENAS.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:37.468Z"
+    ]
   },
   {
     "id": "apartamentos-gran-primavera",
@@ -582,11 +462,7 @@
     "cidade": "Ribeirao Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
-    "imagens": [],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:40.014Z"
+    "imagens": []
   },
   {
     "id": "apartamentos-palacio-de-estocolmo",
@@ -595,17 +471,13 @@
     "cidade": "Ribeirao Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4605/PALCIO-DE-ESTOCOLMO-FACHADA_TARDE.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4605/PALCIO-DE-ESTOCOLMO_PH-APTO-101-BLOCO-02_IMPRESSO_150-DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4605/PALCIO-DE-ESTOCOLMO_PH-APTO-201-BLOCO-02_IMPRESSO_150-DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4605/PALCIO-DE-ESTOCOLMO_PH-APTO-202-BLOCO-02_IMPRESSO_150-DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4605/PALCIO-DE-ESTOCOLMO_IMPLANTA%C3%87O_IMPRESSO_150-DPI.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:42.678Z"
+    ]
   },
   {
     "id": "apartamentos-reserva-dos-lirios",
@@ -614,8 +486,6 @@
     "cidade": "Ribeirao Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4555/RESERVA-DOS-LIRIOS_PCC_SALA_FINAL_2024-003-08.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4555/RESERVA-DOS-LIRIOS_PH_BLOCO-02-APTO-103__FINAL_01_2024_03_07.jpg",
@@ -623,9 +493,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4555/RESERVA-DOS-LIRIOS_PH_BLOCO-02-APTO-203_FINAL_2024_03_07.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4555/RESERVA-DOS-LIRIOS_PH_BLOCO-01-APTO-104_FINAL_2024_04_30.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4555/RESERVA-DOS-LIRIOS_PH_IMPLANTA%C3%87O_FINAL_2024_03_07.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:45.420Z"
+    ]
   },
   {
     "id": "apartamentos-reserva-sao-jose---reserva-das-amarilis",
@@ -634,8 +502,6 @@
     "cidade": "Ribeirao Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4320/MRV_AMARILIS_VARANDA_DENTRO_HR.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4320/RESERVADASAMARILIS_PHAPTO108TORRE02_IMPRESSO_26-01-2023.jpg",
@@ -643,9 +509,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4320/RESERVADASAMARILIS_PHAPTO204TORRE02_IMPRESSO_26-01-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4320/RESERVA-DAS-AMARILIS_IMPLANTA%C3%87O_IMPRESSO_26-01-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4320/RP003521L_FOTOINSER%C3%87ORESERVADASAMARLIS.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:48.170Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-riviera",
@@ -654,16 +518,12 @@
     "cidade": "Ribeirao Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4571/RESIDENCIAL-RIVIERA_PE_PISCINA_2023_12_22.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4571/RESIDENCIAL-RIVIERA_PH_APTO101_2023_12_22.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4571/RESIDENCIAL-RIVIERA_PH_APTO204_2023_12_22.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4571/RESIDENCIAL-RIVIERA_PH_IMPLANTACAO_2023_12_22.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:50.918Z"
+    ]
   },
   {
     "id": "apartamentos-monte-dos-cedros",
@@ -672,8 +532,6 @@
     "cidade": "Sao Carlos",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4408/MONTEDOSCEDROS_PPCVARANDA_10-11-2022.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4408/MONTEDOSCEDROS202_PHAPTO202TORRE01_10-11-2022.jpg",
@@ -681,9 +539,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4408/MONTEDOSCEDROS_PHAPTO104TORRE01_IMPRESSO_10-11-2022.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4408/MONTE-DOS-CEDROS_IMPLANTA%C3%87O_IMPRESSO_16-11-2022.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4408/SC000222N_FOTOINSER%C3%87OMONTEDOSCEDROS.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:53.678Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-monte-das-colinas",
@@ -692,17 +548,13 @@
     "cidade": "Sao Carlos",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4485/CVA_MONTE-DAS-COLINAS_PPC_PISCINA_TIROFINAL_24.05.11.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4485/CVR-MONTE-DAS-COLINAS_PH_APTO-101-TRREO_TIROFINAL_2024.03.01.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4485/CVR-MONTE-DAS-COLINAS_PH_APTO-202-COM-VARANDA_TIROFINAL_2024.03.01.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4485/CVR-MONTE-DAS-COLINAS_PH_APTO-203-TIPO_TIROFINAL_2024.03.01.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4485/CVR-MONTE-DAS-COLINAS_PH_IMPLANTA%C3%87O_50X50_TIRO-FINAL_2024.04.12.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:56.435Z"
+    ]
   },
   {
     "id": "apartamentos-parque-rio-de-portugal",
@@ -711,8 +563,6 @@
     "cidade": "Sao Jose Do Rio Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4417/PARQUERIODEPORTUGAL_INTERNAS_VARANDAEXTERNA_V02.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4417/PARQUERIODEPORTUGAL_PH_APTO202BLOCO01_V03.jpg",
@@ -720,9 +570,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4417/PARQUERIODEPORTUGAL_PH_APTO102BLOCO01_V03.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4417/PARQUERIODEPORTUGAL_PH_IMPLANTACAO_V03.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4417/SR001222J-FOTO-AREA-PARQUE-RIO-DE-PORTUGAL.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:04:59.170Z"
+    ]
   },
   {
     "id": "apartamentos-parque-sorrento",
@@ -731,8 +579,6 @@
     "cidade": "Sao Jose Do Rio Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4526/PARQUESORRENTO_PPCVARANDA_17-10-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4526/PARQUESORRENTO_PHISOMETRICAPLANTABLOCO12-APTO101_19-10-2023.jpg",
@@ -741,9 +587,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4526/PARQUESORRENTO_PHISOMETRICAPLANTABLOCO12-APTO202_19-10-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4526/PARQUE-SORRENTO_PH-IMPLANTA%C3%87O_IMPRESSO_05-12-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4526/25116-Imagenarea-ParqueSorrento-V02(2).webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:05:01.925Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-grandena",
@@ -752,8 +596,6 @@
     "cidade": "Sao Jose Do Rio Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4514/RESIDENCIAL-GRANDENA_PE_GUARITA-ENTARDECER_2023_05_31.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4514/RESIDENCIAL-GRANDENA_PH_BL09_APTO101_2023_05_25.jpg",
@@ -762,9 +604,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4514/RESIDENCIAL-GRANDENA_PH_BL09_APTO201_2023_05_25.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4514/RESIDENCIAL-GRANDENA_PH_IMPLANTACAO_2023_05_25.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4514/316.14ImagemArea_residencialGrandena_com_insercao.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:05:04.623Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-jardim-oliveiras",
@@ -773,16 +613,12 @@
     "cidade": "Sao Jose Do Rio Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4764/RESIDENCIALJARDIMOLIVEIRAS_PPCb8ef5d66-ba29-4de5-b6e0-c0da00733b4e.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4764/RESIDENCIAL-JARDIM-OLIVEIRAS_PH_APTO-103-TERREO_2025.054c629769-43ab-4045-9316-96aaee68a416.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4764/RESIDENCIAL-JARDIM-OLIVEIRAS_PH_APTO-201-TIPO_2025.05e1b1539c-e1c7-4cf9-835b-5b3465797325.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4764/RESIDENCIAL-JARDIM-OLIVEIRAS_PH_IMPLANTA%C3%87O_2025.057b59e4c7-fdd0-441b-a216-5c7a1a0e3328.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:05:07.381Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-jardim-verona",
@@ -791,8 +627,6 @@
     "cidade": "Sao Jose Do Rio Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4365/RESIDENCIALJARDIMVERONA_PISCINAENTARDECER_V02.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4365/JARDIMDEVERONA_PH_APTO102TORRE01_V03.jpg",
@@ -801,9 +635,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4365/JARDIMDEVERONA_PH_APTO104TORRE01_V03.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4365/JARDIMDEVERONA_PH_IMPLANTA%C3%87O_V03.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4365/SR000722G-FotoaereaJardimVerona.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:05:09.929Z"
+    ]
   },
   {
     "id": "apartamentos-campo-do-cerrado",
@@ -812,11 +644,7 @@
     "cidade": "Sao Jose Dos Campos",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
-    "imagens": [],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:05:12.667Z"
+    "imagens": []
   },
   {
     "id": "apartamentos-residencial-caminho-das-cerejeiras",
@@ -825,16 +653,12 @@
     "cidade": "Sao Jose Dos Campos",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4800/16_MRV_CC_PISCINA_EF0fda96bf-3f5e-483a-905f-459effb0dc3a.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4800/02_MRV_CC_PH_APTO_MEIO_TERREO_FINAL_10_EF4dedf64b-06b5-4066-976b-04bd2f733841.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4800/03_MRV_CC_PH_APTO_PONTA_TIPO_FINAL_01_EFa7ab080c-f28c-4fe8-a555-c760a0c8815d.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4800/04_MRV_CC_PH_MEIO_TIPO_FINAL_03_EFe08dccd9-13b9-43a5-865f-9e46f5cf4bb0.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:05:15.219Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-caminho-dos-jerivas",
@@ -843,13 +667,9 @@
     "cidade": "Sao Jose Dos Campos",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4774/10_MRV_CJ_FACHADA_GERAL_EF757c90b0-546d-4a30-ab8e-3bd87a15e950.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:05:17.895Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-campo-di-espanha",
@@ -858,16 +678,12 @@
     "cidade": "Sao Jose Dos Campos",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4713/PPC_CAMPODIESPANHA_PISCINA_RF_2025-02-04d9d51cc2-6894-4400-a0f6-5af023b458bc.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4713/PH_CAMPODIESPANHA_TIPOF10_RFA1_2025-02-179f74242a-f28d-4a7e-b4b4-20a7a06055a5.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4713/PH_CAMPODIESPANHA_TIPOF12_RFA1_2025-02-17893c9b58-e9e5-4bad-a8a9-80eeae851120.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4713/PH_CAMPODIESPANHA_IMPLANTACAO_RF_2025-02-04a1151953-091c-4a3f-ba6b-bf9fb78bb5bd.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:05:20.656Z"
+    ]
   },
   {
     "id": "apartamentos-terrazo-di-dante",
@@ -876,8 +692,6 @@
     "cidade": "Sao Jose Dos Campos",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4367/TERRAZODIDANTE_PPCVARANDA_02-08-2022.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4367/TERRAZODIDANTE_PHAPTO102-TORRE01_15-07-2022.jpg",
@@ -886,9 +700,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4367/TERRAZODIDANTE_PHAPTO307-TORRE1_15-07-2022.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4367/TERRAZO-DI-DANTE_LAZER_IMPRESSO_15-07-2022.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4367/TERRAZO-DI-DANTE_IMPLANTA%C3%87O_IMPRESSO_02-08-2022.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:05:23.334Z"
+    ]
   },
   {
     "id": "apartamentos-gran-campolim",
@@ -897,8 +709,6 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4479/GRAN-CAMPOLIM-APTO-05-RF.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4479/GRAN-CAMPOLIM-APTO-07-RF.jpg",
@@ -907,9 +717,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4479/GRAN-CAMPOLIM-APTO-205-RF_20240304.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4479/GRAN-CAMPOLIM-IMPLANTACAO-RF.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4479/22518-Imagemarea01-GranCampolim-V02(3).webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:06:25.633Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-don-pagliato",
@@ -918,8 +726,6 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4604/RESIDENCIALDONPAGLIATO_PPCPORTARIA_2024-07-053ebe8217-3514-4ae7-bd48-ede6bc0bd3c1.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4604/RESIDENCIALDONPAGLIATO_PHTORRE1APTO.108_18-03-2024c1766fd6-8f6e-4376-8007-25797740ecf5.jpg",
@@ -927,9 +733,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4604/RESIDENCIALDONPAGLIATO_PHTORRE1APTO.206_18-03-2024acd668d4-dce8-4f56-94f2-d56e19168431.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4604/RESIDENCIALDONPAGLIATO_PHIMPLANTA%C3%87O_IMPRESSO_18-03-20247a1d7b0e-438e-46a8-aa1b-888cc366a30f.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4604/780-2_res_don_pagliato_ima_aer_0115e986c2e-78f8-4255-b73b-50f17fbb94b4.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:06:28.370Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-scarpone",
@@ -938,8 +742,6 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4625/MRV_RES_SCARPONE_GUARITA_HR3638755e-3eda-48b8-b6cf-815cc7483aee.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4625/MRV_RES_SCARPONE_APTO004_HRc296e9a9-3c77-40a5-a60d-6e8901230257.jpeg",
@@ -947,9 +749,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4625/MRV_RES_SCARPONE_APTO207_HR970d0bab-3d60-43e6-bd58-94a5b0269c83.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4625/MRV_RES_SCARPONE_APTO_205_HRb487fc28-fa39-419e-a5c9-cec53b08f0d7.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4625/MRV_RES_SCARPONE_PH_IMPLANTACAO_HRb6902e76-81b5-47cf-9c97-d1a53133e72a.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:06:31.032Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-solar-dos-eucaliptos",
@@ -958,11 +758,7 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
-    "imagens": [],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:06:33.774Z"
+    "imagens": []
   },
   {
     "id": "apartamentos-vale-do-sereno---residencial-campos-dourados",
@@ -971,8 +767,6 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4755/PPC_CAMPOS-DOURADOS_PISCINA1_RF2_2025-07-08c3fcf4bd-c827-4511-b340-cd237a43be51.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4755/PH_CAMPOS-DOURADOS_UN-102_RF1017fe752-efc7-4ffa-946b-a388d8067a61.jpeg",
@@ -980,9 +774,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4755/PH_CAMPOS-DOURADOS_UN-204_RF1d633c7ab-b493-4bca-a7c0-61ec08654c94.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4755/PH_CAMPOS-DOURADOS_IMPLANTACAO_RF_2025-05-27dc70dff0-84f1-4f8b-9535-ae9462a15a40.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4755/1071-18_imagem_aerea75abb3bf-2887-487f-a500-71beca2dd69e.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:06:36.355Z"
+    ]
   },
   {
     "id": "apartamentos-vale-do-sereno---residencial-veredas",
@@ -991,8 +783,6 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4440/RESIDENCIAL-VEREDAS_PE_VARANDA02_2023_01_27.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4440/RESIDENCIAL-VEREDAS_PH_T01-APTO105_2023_01_24.jpg",
@@ -1001,9 +791,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4440/RESIDENCIAL-VEREDAS_PH_T01-APTO204_2023_01_24.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4440/RESIDENCIAL-VEREDAS_PH_IMPLANTACAO_2023_01_24.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4440/Fotoaerea_376x199cm.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:06:39.104Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-alameda-das-andorinhas",
@@ -1012,8 +800,6 @@
     "cidade": "Sta Barbara Do Oeste",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4382/ALAMEDA-DAS-ANDORINHAS_VARANDA-EXTERNA_hr.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4382/ALAMEDA-DAS-ANDORINHAS_PH-APTO-101-TORRE-02_IMPRESSO_150-DPI.jpg",
@@ -1022,9 +808,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4382/ALAMEDA-DAS-ANDORINHAS_PH-APTO-204-TORRE-02_IMPRESSO_150-DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4382/ALAMEDA-DAS-ANDORINHAS_IMPLANTA%C3%87O_IMPRESSO_150-DPI.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4382/MN004221E_FOTO_INSER%C3%87O2_RESIDENCIAL_ALAMEDADASANDORINHAS.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:06:41.845Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-autenticita",
@@ -1033,8 +817,6 @@
     "cidade": "Sta Barbara Do Oeste",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4637/RESIDENCIALAUTENTICITA_PCC_GUARITA_FINAL_2024_08_2654d6680a-256e-451b-8666-c3c02ce4d1b7.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4637/RESIDENCIALAUTENTICITA_PH_APTO001_FINAL_2024_08_26b0f37681-39fc-411e-94b4-603e2adc9a56.jpeg",
@@ -1043,9 +825,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4637/RESIDENCIALAUTENTICITA_PH_APTO005_FINAL_2024_08_26bf25b8aa-e185-4823-aa81-08cfe84b426e.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4637/RESIDENCIALAUTENTICITA_PH_IMPLANTA%C3%87AO_FINAL_2024_07_2785897c1d-ecfd-4d0a-b6c1-a9c44cddec15.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4637/832-11_res_autenticita_img_aerea5ac4ac40-d026-452e-8a60-b9fd18a14bb5.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:06:44.537Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-tibre",
@@ -1054,8 +834,6 @@
     "cidade": "Taubate",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4618/PPC_RESIDENCIALTIBRE_PISCINA_FI2a932ac1-5134-4c08-b3fd-61a6fc439806.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4618/PH_RESIDENCIALTIBRE_TORRE01APTO007_FINAL_2024.11.1966627ef3-1611-4b13-bfea-1582dfcdeb19.jpeg",
@@ -1064,9 +842,7 @@
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4618/PH_RESIDENCIALTIBRE_TORRE01APTO606_FINAL_2024.11.192d22cb2b-592a-4dba-8b9f-04ad7b52efd4.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4618/PH_RESIDENCIALTIBRE_IMPLANTACAO_FINAL_2024.11.19074ec830-2bf2-4d9c-8190-6f1ea3a50f6e.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4618/770-6_res_tibre_imagem_aerea_ins2ea65654-11f3-40f0-8885-dc238638f921.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:06:49.954Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-tulle",
@@ -1075,11 +851,7 @@
     "cidade": "Taubate",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
-    "imagens": [],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:06:52.624Z"
+    "imagens": []
   },
   {
     "id": "apartamentos-residencial-terence",
@@ -1088,17 +860,13 @@
     "cidade": "Tremembe",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4502/RESIDENCIALTERENCE_PPCSALAAPARTAMENTOTIPO_03-08-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4502/RESIDENCIALTERENCE_PHAPTO103BLOCO11_IMPRESSO_04-09-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4502/RESIDENCIALTERENCE_PHAPTO204BLOCO11_IMPRESSO_04-09-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4502/RESIDENCIAL-TERENCE_PH-IMPLANTA%C3%87O_IMPRESSO_08-11-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4502/RESID-TERENCE-FOTO-AEREA.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:06:55.322Z"
+    ]
   },
   {
     "id": "apartamentos-vistabela-residence",
@@ -1107,13 +875,9 @@
     "cidade": "Vargem Grande Paulista",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4787/VISTABELA-RESIDENCE_NOVA-FACHADA_PPC_GUARITA_2025.08.05f1afb269-145f-440e-bd77-648895995cf0.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:06:58.066Z"
+    ]
   },
   {
     "id": "apartamentos-residencial-solar-da-ilha",
@@ -1122,15 +886,11 @@
     "cidade": "Votorantim",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4550/SOLAR-DA-ILHA_PCC_INTERNA_SALA_FINAL-2024-01-31.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4550/SOLAR-DA-ILHA_PH_APTO-204_VER-FINAL_2024_06_274c9690be-d198-4b3e-8918-a1b1b49e1c26.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4550/SOLAR-DA-ILHA_PH_APTO101_VER-FINAL_2024_06_275b81636d-e7ad-4f92-87f8-feece5558b0f.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:00.740Z"
+    ]
   },
   {
     "id": "casas-caminhos-dos-ypes",
@@ -1139,16 +899,12 @@
     "cidade": "Araraquara",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4427/CAMINHAO_DOS_YPES_FACHADA_NOITE_RFA1.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4427/CAMINHOS-DOS-YPES-CASA-03_RF.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4427/CAMINHOS-DOS-YPES-IMPLANTACAO_RF.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4427/AQ000522C_FOTO_AREA_MARCA%C3%87O_CAMINHOS_DOS_YP%C3%8AS_V2.webp"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:03.491Z"
+    ]
   },
   {
     "id": "casas-residencial-green-park",
@@ -1157,14 +913,10 @@
     "cidade": "Botucatu",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4669/PPC_RESIDENCIALGREENPARK_VIA_F21e6f1a4-2d97-432b-b24a-910e59b35ce8.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4669/FOTOINSERCAO_RESIDENCIALGREENf9cf5daf-2c5d-4028-b4ec-512c3660bf5d.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:06.161Z"
+    ]
   },
   {
     "id": "casas-jardim-morada-do-verde",
@@ -1173,16 +925,12 @@
     "cidade": "Ribeirao Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4710/JARDIM-MORADA-VERDE_PPC_UNIDADE-HABITACIONAL_30.04af1751e0-ea48-4215-b5e5-6d53ea9826ae.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4710/JARDIM-MORADA-VERDE_PH_UNIDADE-HABITACIONAL_29.04555a0ec8-1d88-485a-ba7e-55177c9c5e9c.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4710/JARDIM-MORADA-VERDE_PH_IMPLANTA%C3%87O_30.043c453546-9892-458b-946c-55789623db28.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4710/JARDIM-MORADA-VERDE_PH_IMPLANTA%C3%87O_MICRO_01.05dd55cfde-890c-44b9-823d-728effb8f79c.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:08.908Z"
+    ]
   },
   {
     "id": "casas-reserva-real---palacio-de-turim",
@@ -1191,17 +939,13 @@
     "cidade": "Ribeirao Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4312/PALCIO_DE_TURIM_PPC_REA_PRIVATIVA_01.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4312/PALCIO_DE_TURIM_PH_CASA_01.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4312/PALCIO_DE_TURIM_PH_CASA_02.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4312/PALCIO_DE_TURIM_PH_IMPLANTA%C3%87O-(8).jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4312/RP021416M_FotoAerea_ReservaReal5f0422f1-f199-4612-b69f-9e9bdf3f5445.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:11.591Z"
+    ]
   },
   {
     "id": "casas-residencial-canto-das-andorinhas",
@@ -1210,11 +954,7 @@
     "cidade": "Ribeirao Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
-    "imagens": [],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:14.264Z"
+    "imagens": []
   },
   {
     "id": "casas-eparque-rio-preto-leste-2",
@@ -1223,16 +963,12 @@
     "cidade": "Sao Jose Do Rio Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4561/EPARQUE-RIO-PRETO-LESTE_PPC-FACHADA-ENTARDECER-02_04-09-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4561/EPARQUE-RIO-PRETO_IMPLANTA%C3%87O-(MODULOS)_IMPRESSO_05-09-2023.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4561/EPARQUERIOPRETO_CASA02QUADRA08_IMPRESSO_28-02-2024.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4561/SR000223C_E-PARQUE_FOTO-AEREA_v2.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:17.002Z"
+    ]
   },
   {
     "id": "casas-eparque-rio-preto-leste-modulo-3",
@@ -1241,17 +977,13 @@
     "cidade": "Sao Jose Do Rio Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4744/PPC_EPARQUE-FACHADA-CASAS_2025-08-2938f7d769-93f3-4217-a2a3-0dbc2a3047b4.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4744/1001.19_ph_casa_tipo_A_taluded31ebef2-1047-49a4-870f-312efa302ce2.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4744/1002.19_ph_casa_alteracao_talude6c8433ee-be9d-49f7-a07f-7596bb0a64d3.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4744/1002.19_ppc_alteracao_taludeec1d8532-45cb-437b-ad72-5f1c5fd87be9.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4744/SR000223C_E-PARQUE_FOTO-AEREA_v2ece5ff6a-79eb-4f88-93fa-fb9c2d1baae2.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:19.558Z"
+    ]
   },
   {
     "id": "casas-parque-lombardia",
@@ -1260,15 +992,11 @@
     "cidade": "Sao Jose Do Rio Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4149/FACHADA_PQ-LOMBARDIA_RF1.JPG",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4149/PH_SUP_PQ-LOMBARDIA_62_RF.JPG",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4149/IMPLANTACAO_PQ-LOMBARDIA_RF.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:22.337Z"
+    ]
   },
   {
     "id": "lotes-reserva-floratta",
@@ -1277,14 +1005,10 @@
     "cidade": "Bauru",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4645/FLO_IMG_LT_EXE_IM_F002_IMPLANTACAO3D-DRONEe6ab5709-2144-4fce-a425-24c6a474cfab.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4645/FOTO-MARCA%C3%87O__compressed7612f3ad-80c3-4a9a-b272-c22219b945c7.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:25.019Z"
+    ]
   },
   {
     "id": "lotes-residencial-vila-america",
@@ -1293,13 +1017,9 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4585/SQUAD_URBA_NOVA-ODESSA_PLAYGROUND.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:27.706Z"
+    ]
   },
   {
     "id": "lotes-smart-urba-dunlop",
@@ -1308,16 +1028,12 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4583/SMARTURBA-DUNLOP-PPC-INSERCAO3f43a111-561a-43ff-8aad-ba9d72f60aa3.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4583/SMARTURBA-DUNLOP-PH-PAVIMENTO01.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4583/SMARTURBA-DUNLOP-PH-PAVIMENTO02.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4583/1119-10_css_dunlop_cores_da_ilha77f222f5-6d3f-41e7-95f3-57e5a7b48edf.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:30.374Z"
+    ]
   },
   {
     "id": "lotes-smart-urba-vila-profeta",
@@ -1326,15 +1042,11 @@
     "cidade": "Campinas",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4582/URBAMAIS-VILAPROFETA-PPC-PISTADESKATE.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4582/URBAMAIS-VILAPROFETA-PH-PAVIMENTO01.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4582/URBAMAIS-VILAPROFETA-PH-PAVIMENTO02.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:33.104Z"
+    ]
   },
   {
     "id": "lotes-reserva-monte-mor",
@@ -1343,13 +1055,9 @@
     "cidade": "Hortolandia",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4643/URBA_RESERVA_MONTE_MOR_ACESSOS_A22d77db4a-3140-4c6c-91a4-c7fb2001608f.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:35.836Z"
+    ]
   },
   {
     "id": "lotes-smart-urba-esmeraldas",
@@ -1358,15 +1066,11 @@
     "cidade": "Marilia",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4753/MDA_IMG_LT_LEG_IM_F010_RESIDENCIAL193a2056-034d-47b6-9333-3d7e2d0e562a.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4753/MDA_IMG_LT_LEG_IM_F002_IMPLANTACAO7e818ce7-73b2-49bc-8572-3945b480041b.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4753/MDA_IMG_LT_LEG_IM_F001_IMPLANTACAO-GOOGLE67d9ae8a-fa5b-48e3-b2a5-15a587842e50.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:38.512Z"
+    ]
   },
   {
     "id": "lotes-alto-sao-fernando",
@@ -1375,13 +1079,9 @@
     "cidade": "Paulinia",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4581/URBAMAIS-EXTERNA-FACHADALOJAS.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:41.185Z"
+    ]
   },
   {
     "id": "lotes-bem-viver-prudente",
@@ -1390,14 +1090,10 @@
     "cidade": "Presidente Prudente",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4644/MINERVA-II_PE_PRACA02_2024_07_30b5c39449-34b8-47f5-ba97-130d02e8a6f1.jpeg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4644/MARCA%C3%87O-PRUDENTE1205c0c0-023d-40e3-9220-93d1284db288.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:43.972Z"
+    ]
   },
   {
     "id": "lotes-reserva-macauba",
@@ -1406,13 +1102,9 @@
     "cidade": "Ribeirao Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4587/RESERVA-MACAUBA_PE_PRACA01_2018_05_24.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:46.686Z"
+    ]
   },
   {
     "id": "lotes-reserva-regatas",
@@ -1421,15 +1113,11 @@
     "cidade": "Ribeirao Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4586/URBAMAIS_REGATAS_LOTE2_PPC_PLAYGROUND.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4586/URBAMAIS_REGATAS_LOTE2_PH_IMPLANTACAO.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4586/URBAMAIS_REGATAS_LOTE2_PPC_IMAGEMAEREA.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:49.373Z"
+    ]
   },
   {
     "id": "lotes-smart-urba-ribeirao",
@@ -1438,13 +1126,9 @@
     "cidade": "Ribeirao Preto",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4763/DJI_20250421111039_0006_D620d4e5b-a361-4263-b97f-4311d9826730.jpeg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:52.129Z"
+    ]
   },
   {
     "id": "lotes-residencial-progresso",
@@ -1453,16 +1137,12 @@
     "cidade": "Sao Carlos",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4580/URBA_SALVA_IMAGEM_AEREA.png",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4580/URBA_SALVA_IMPLANTACAO-06.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4580/URBA_SALVA_IMPLANTACAO-06_GOOGLE.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4580/UF000222B_MAPA_FOTO_AEREA_PROGRESSO.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:54.879Z"
+    ]
   },
   {
     "id": "lotes-jardim-sao-roque",
@@ -1471,15 +1151,11 @@
     "cidade": "Sorocaba",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4576/URBA_AREAS_COMUNS_QUADRA_AREIA.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4576/URBA-SAO-ROOUE-IMPLANTACAO-06.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4576/URBA-SAO-ROOUE-IMPLANTACAO_GOGGLE.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:07:57.602Z"
+    ]
   },
   {
     "id": "lotes-smart-urba-reserva",
@@ -1488,14 +1164,10 @@
     "cidade": "Votorantim",
     "estado": "SP",
     "status": "Estado",
-    "tipologias": [],
-    "diferenciais": [],
     "imagens": [
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4613/URBA_SMARTURBARESERVA_PPC-AEREA.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4613/URBA_SMARTURBARESERVA_CASA-MODELO-PLANTA-HUMANIZADA.jpg",
       "https://cdn.mrv.com.br/imoveis/upload/imagens/4613/URBA_SMARTURBARESERVA_AEREA-CRECHE-USF.jpg"
-    ],
-    "fonte": "MRV",
-    "coletado_em": "2025-12-29T23:08:00.155Z"
+    ]
   }
 ]
