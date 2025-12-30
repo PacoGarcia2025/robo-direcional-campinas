@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empreendimentos>
+
+  <empreendimento>
+    <id>breve-lancamento-betania</id>
+    <titulo><![CDATA[Breve Lançamento Betânia]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Belo Horizonte</cidade>
+    <estado>MG</estado>
+    <status><![CDATA[Breve Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-nova-iguacu</id>
+    <titulo><![CDATA[Breve Lançamento Nova Iguaçu]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Nova Iguaçu</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Breve Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-em-sao-lourenco</id>
+    <titulo><![CDATA[Breve Lançamento em São Lourenço]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Lourenço da Mata</cidade>
+    <estado>PE</estado>
+    <status><![CDATA[Breve Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lacamento-barra-olimpica</id>
+    <titulo><![CDATA[Breve Lançamento Barra Olímpica]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Breve Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>total-ville-conviver-condominio-2</id>
+    <titulo><![CDATA[Total Ville Conviver – Condomínio 2]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Santa Maria</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>arbore-residencial</id>
+    <titulo><![CDATA[Árbore Residencial]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Contagem</cidade>
+    <estado>MG</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-em-paulista</id>
+    <titulo><![CDATA[Breve Lançamento em Paulista]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Paulista</cidade>
+    <estado>PE</estado>
+    <status><![CDATA[Breve Lançamento em Paulista]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>parque-ville-lirio-azul</id>
+    <titulo><![CDATA[Parque Ville Lírio Azul]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-lauro-de-freitas</id>
+    <titulo><![CDATA[Conquista Lauro de Freitas]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Lauro de Freitas</cidade>
+    <estado>BA</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-vila-liviero</id>
+    <titulo><![CDATA[Breve Lançamento Vila Liviero]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Breve Lançamento Vila Liviero]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>wave-boa-viagem</id>
+    <titulo><![CDATA[Wave Boa Viagem]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Recife</cidade>
+    <estado>PE</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>breve-lancamento-jardim-das-esmeraldas</id>
+    <titulo><![CDATA[Breve lançamento Jardim das Esmeraldas]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Breve Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>bosque-das-torres</id>
+    <titulo><![CDATA[Bosque das Torres]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>total-ville-planaltina-condominio-12</id>
+    <titulo><![CDATA[Total Ville Planaltina Condomínio 12]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Planaltina</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>nature-arbo</id>
+    <titulo><![CDATA[Nature Arbo]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Fortaleza</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-clube-ipiranga</id>
+    <titulo><![CDATA[Direcional Conquista Clube Ipiranga]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Ribeirão Preto</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Breve Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>recanto-dos-colibris</id>
+    <titulo><![CDATA[Recanto dos Colibris]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Recanto das Emas</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-clube-sacoma</id>
+    <titulo><![CDATA[Direcional Conquista Clube Sacomã]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>village-gaia</id>
+    <titulo><![CDATA[Village Gaia]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Ribeirão Preto</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-sul</id>
+    <titulo><![CDATA[Viva Vida Sul]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Fortaleza</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-coqueiros</id>
+    <titulo><![CDATA[Viva Vida Coqueiros]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Fortaleza</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>nova-caxias-up</id>
+    <titulo><![CDATA[Nova Caxias UP]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Duque de Caxias</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>brisas-do-horizonte</id>
+    <titulo><![CDATA[Apartamento no Coroado, em Manaus: Brisas do Horizonte]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>total-ville-planaltina-condominio-16</id>
+    <titulo><![CDATA[Total Ville Planaltina Condomínio 16]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Planaltina</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-boulevard-park</id>
+    <titulo><![CDATA[Conquista Boulevard Park]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Camaçari</cidade>
+    <estado>Bahia</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-coral</id>
+    <titulo><![CDATA[Viva Vida Coral]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>celebre-residence</id>
+    <titulo><![CDATA[Celebre Residence]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Contagem</cidade>
+    <estado>MG</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>cores-da-mata-mangara</id>
+    <titulo><![CDATA[Cores da Mata Mangará]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-rio-tapajos</id>
+    <titulo><![CDATA[Viva Vida Rio Tapajós]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>raiz-home-clube</id>
+    <titulo><![CDATA[Raiz Home Clube]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>recanto-dos-canarios-etapa-3</id>
+    <titulo><![CDATA[Recanto dos Canários Etapa 3]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Recanto das Emas</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>patio-central-galeria</id>
+    <titulo><![CDATA[Pátio Central Galeria]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-vila-verde</id>
+    <titulo><![CDATA[Apartamento em Abrantes, Camaçari: Conquista Vila Verde]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Camaçari</cidade>
+    <estado>BA</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-vila-da-mata</id>
+    <titulo><![CDATA[Conquista Vila da Mata]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Sorocaba</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>direcional-soul-samba</id>
+    <titulo><![CDATA[Direcional Soul Samba]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-residence</id>
+    <titulo><![CDATA[Viva Residence]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Contagem</cidade>
+    <estado>MG</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-jardim-norte</id>
+    <titulo><![CDATA[Conquista Jardim Norte]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>direcional-conquista-jaboatao</id>
+    <titulo><![CDATA[Direcional Conquista Jaboatão]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Jaboatão dos Guararapes</cidade>
+    <estado>PE</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>total-ville-planaltina-condominio-2</id>
+    <titulo><![CDATA[Total Ville Planaltina – Condomínio 2]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Brasília</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>recanto-das-aguias</id>
+    <titulo><![CDATA[Recanto das Águias]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Brasília</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-clube-itaim-paulista</id>
+    <titulo><![CDATA[Conquista Clube Itaim Paulista]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>total-ville-ikeda-condominio-2</id>
+    <titulo><![CDATA[Total Ville Ikeda Condomínio 2]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Ceilândia</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>village-torres</id>
+    <titulo><![CDATA[Village Torres]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>direcional-vert-alcantara</id>
+    <titulo><![CDATA[Direcional Vert Alcântara]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Gonçalo</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-max-norte</id>
+    <titulo><![CDATA[Conquista Max Norte]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-jardim-botanico</id>
+    <titulo><![CDATA[Viva Vida Jardim Botânico]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Jaboatão dos Guararapes</cidade>
+    <estado>PE</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>reserva-parque-clube-torres-obras-avancadas</id>
+    <titulo><![CDATA[Reserva Parque Clube - Torres 6]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Águas Claras</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>reserva-parque-clube-torres-pronto-para-morar</id>
+    <titulo><![CDATA[Reserva Parque Clube - Torres 1, 2, 3 e 4]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Águas Claras</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Pronto pra Morar]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>rise-condominio-clube</id>
+    <titulo><![CDATA[Rise Condomínio Clube]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>vida-nova-caucaia</id>
+    <titulo><![CDATA[Vida Nova Caucaia: seu apartamento em Caucaia, Ceará]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Caucaia</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-maracanau</id>
+    <titulo><![CDATA[Viva Vida Maracanaú]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Maracanaú</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-clube-butanta</id>
+    <titulo><![CDATA[Conquista Clube Butantã]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-siqueira</id>
+    <titulo><![CDATA[Viva Vida Siqueira]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Fortaleza</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>residencial-laranjeiras</id>
+    <titulo><![CDATA[Residencial Laranjeiras]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Em obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-brisas-de-igarassu</id>
+    <titulo><![CDATA[Viva Vida Brisas de Igarassu]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Igarassu</cidade>
+    <estado>PE</estado>
+    <status><![CDATA[Obras avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-maraponga</id>
+    <titulo><![CDATA[Conquista Maraponga]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Fortaleza</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viv-rio-vermelho</id>
+    <titulo><![CDATA[Viv Rio Vermelho]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Salvador</cidade>
+    <estado>BA</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>recanto-das-garcas</id>
+    <titulo><![CDATA[Recanto das Garças]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Recanto das Emas</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>solo-residencial</id>
+    <titulo><![CDATA[Solo Residencial]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Belo Horizonte</cidade>
+    <estado>MG</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>parque-ville-orquidea</id>
+    <titulo><![CDATA[Parque Ville Orquídea]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-jardim-botanico</id>
+    <titulo><![CDATA[Conquista Jardim Botânico]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-norte-clube</id>
+    <titulo><![CDATA[Conquista Norte Clube]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>village-park</id>
+    <titulo><![CDATA[Village Park]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Ribeirão Preto</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-sao-lourenco</id>
+    <titulo><![CDATA[Viva Vida São Lourenço]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Lourenço da Mata</cidade>
+    <estado>PE</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>total-ville-conviver</id>
+    <titulo><![CDATA[Total Ville Conviver]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Santa Maria</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-florianopolis</id>
+    <titulo><![CDATA[Conquista Florianópolis]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>estilo-passare</id>
+    <titulo><![CDATA[Estilo Passaré]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Fortaleza</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>estilo-fatima</id>
+    <titulo><![CDATA[Estilo Fátima]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Fortaleza</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>direcional-praia</id>
+    <titulo><![CDATA[Direcional Praia]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Jaboatão dos Guararapes</cidade>
+    <estado>PE</estado>
+    <status><![CDATA[Pronto para morar]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>itanhanga-bosque</id>
+    <titulo><![CDATA[Itanhangá Bosque]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>recanto-das-andorinhas</id>
+    <titulo><![CDATA[Recanto das Andorinhas]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Recanto das Emas</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-tropical</id>
+    <titulo><![CDATA[Viva Vida Tropical]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Caucaia</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>floratta-condominio-clube</id>
+    <titulo><![CDATA[Floratta Condomínio Clube]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Contagem</cidade>
+    <estado>MG</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>condominios-nascente-parque-sapopemba</id>
+    <titulo><![CDATA[Condomínios Nascente Parque Sapopemba]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-recanto-clube</id>
+    <titulo><![CDATA[Viva Vida Recanto Clube]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>seleto-amoreiras</id>
+    <titulo><![CDATA[Seleto Amoreiras: apartamento nas Amoreiras, Campinas]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Campinas</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Obras avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-rio-amazonas</id>
+    <titulo><![CDATA[Viva Vida Rio Amazonas]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>holistic-residence</id>
+    <titulo><![CDATA[Holistic Residence]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>solar-das-torres</id>
+    <titulo><![CDATA[Solar das Torres]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>morada-vistas-do-horizonte</id>
+    <titulo><![CDATA[Morada Vistas do Horizonte]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Belo Horizonte</cidade>
+    <estado>MG</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-realengo</id>
+    <titulo><![CDATA[Viva Vida Realengo]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>estilo-boa-viagem</id>
+    <titulo><![CDATA[Estilo Boa Viagem]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Recife</cidade>
+    <estado>PE</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-oceanica</id>
+    <titulo><![CDATA[Conquista Oceânica]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Gonçalo</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-topazio</id>
+    <titulo><![CDATA[Conquista Topázio]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>nova-caxias-fun</id>
+    <titulo><![CDATA[Nova Caxias Fun]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Duque de Caxias</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>total-ville-ikeda</id>
+    <titulo><![CDATA[Total Ville Ikeda]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Brasília</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>reserva-direcional-jardim-botanico</id>
+    <titulo><![CDATA[Reserva Direcional: apartamento no Jardim Botânico, em Ribeirão Preto]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Ribeirão Preto</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>estilo-praia</id>
+    <titulo><![CDATA[Estilo Praia]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Fortaleza</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Lançamento]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-via-norte</id>
+    <titulo><![CDATA[Conquista Via Norte]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>reserva-flora</id>
+    <titulo><![CDATA[Reserva Flora]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Fortaleza</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Pronto para morar]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-rio-negro</id>
+    <titulo><![CDATA[Conquista Rio Negro]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>recanto-dos-sabias</id>
+    <titulo><![CDATA[Recanto dos Sabiás]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Recanto das Emas</cidade>
+    <estado>DF</estado>
+    <status><![CDATA[Pronto para morar]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>total-ville-ipes</id>
+    <titulo><![CDATA[Total Ville Ipês]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Valparaíso de Goiás</cidade>
+    <estado>GO</estado>
+    <status><![CDATA[Em Obras]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-vila-acqua</id>
+    <titulo><![CDATA[Conquista Vila Acqua]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Sorocaba</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Obras Iniciadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-jardins</id>
+    <titulo><![CDATA[Viva Vida Jardins]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Valparaíso de Goiás</cidade>
+    <estado>GO</estado>
+    <status><![CDATA[Pronto para Morar]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>myplace-benfica</id>
+    <titulo><![CDATA[MyPlace Benfica]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Fortaleza</cidade>
+    <estado>CE</estado>
+    <status><![CDATA[Pronto para morar]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-parque-iguacu</id>
+    <titulo><![CDATA[Conquista Parque Iguaçu]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Nova Iguaçu</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Pronto para morar]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>village-novus</id>
+    <titulo><![CDATA[Village Novus]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Ribeirão Preto</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>conquista-araraquara</id>
+    <titulo><![CDATA[Conquista Araraquara]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Araraquara</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Pronto para morar]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>parque-ville-violeta</id>
+    <titulo><![CDATA[Parque Ville Violeta]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Manaus</cidade>
+    <estado>AM</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>reserva-direcional-limao</id>
+    <titulo><![CDATA[Reserva Direcional Limão]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>viva-vida-igarassu</id>
+    <titulo><![CDATA[Viva Vida Igarassu]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Igarassu</cidade>
+    <estado>PE</estado>
+    <status><![CDATA[Pronto para morar]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>reserva-antonieta</id>
+    <titulo><![CDATA[Reserva Antonieta]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Limeira</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>reserva-jardim-sapopemba</id>
+    <titulo><![CDATA[Reserva Jardim Sapopemba]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>dream-santo-antonio</id>
+    <titulo><![CDATA[Dream Santo Antônio]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>São Carlos</cidade>
+    <estado>SP</estado>
+    <status><![CDATA[Obras Avançadas]]></status>
+  </empreendimento>
+  <empreendimento>
+    <id>residencial-jeriva</id>
+    <titulo><![CDATA[Residencial Jerivá]]></titulo>
+    <tipo>Apartamento</tipo>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <status><![CDATA[Obras]]></status>
+  </empreendimento>
+</empreendimentos>
