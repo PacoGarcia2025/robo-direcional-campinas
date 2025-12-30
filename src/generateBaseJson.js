@@ -1,18 +1,18 @@
 import fs from "fs";
-import path from "path";
 
-export default function generateBaseJson(data, prefix = "direcional") {
-  const filePath = path.resolve(`src/output/${prefix}.base.json`);
+export default function generateBaseJson(data) {
+  if (!data) {
+    console.log("ℹ️ Nenhum JSON base para gerar (MRV gera XML direto)");
+    return;
+  }
+
+  const output = "base.json";
 
   fs.writeFileSync(
-    filePath,
+    output,
     JSON.stringify(data, null, 2),
-    "utf8"
+    "utf-8"
   );
 
-  console.log(
-    `✅ Base JSON gerada (${prefix}):`,
-    data.length,
-    "empreendimentos"
-  );
+  console.log("📦 Base JSON gerado com sucesso");
 }
